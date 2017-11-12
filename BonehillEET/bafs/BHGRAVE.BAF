@@ -1,0 +1,42 @@
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,9)
+  Global("GraveClose","BH0600",0)
+  Global("BHHandGrave","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@700)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,9)
+  Global("GraveClose","BH0600",0)
+  Global("BHHandGrave","GLOBAL",4)
+  Global("BHHandGraveOpen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@701)
+    FadeToColor([15.0],0)
+    FadeFromColor([15.0],0)
+    SetGlobal("GraveClose","BH0600",2)
+    SetGlobal("BHHandGrave","GLOBAL",5)
+END
+
+IF
+  Clicked([ANYONE])
+  Range(LastTrigger,9)
+  Global("GraveClose","BH0600",2)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@702)
+END
+
+IF
+  Clicked([ANYONE])
+  !Range(LastTrigger,9)
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@703)
+END
+

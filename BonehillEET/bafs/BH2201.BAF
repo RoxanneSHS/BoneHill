@@ -1,0 +1,20 @@
+IF
+  Global("BHPrisonerSpawn","BH2201",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHCOMM07",[229.367],0)
+    CreateCreature("BHCOMM07",[391.346],0)
+    CreateCreature("BHCOMM07",[2992.676],13)
+    CreateCreature("BHCOMM07",[224.1047],12)
+    SetGlobal("BHPrisonerSpawn","BH2201",1)
+END
+
+IF
+  Global("BHMetLocinda","GLOBAL",2)
+  Global("BHLocindaSpawn","BH2201",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHLOCIDA",[3551.1243],7)
+    SetGlobal("BHLocindaSpawn","BH2201",1)
+END
+

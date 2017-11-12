@@ -1,0 +1,60 @@
+@1   = ~Benvenuti, viaggiatori. Io sono Almax, il druido di Restenford e il protettore di queste terre. C'è qualcosa in cui posso aiutarvi?~
+@2   = ~Un druido?  Hai qualche incantesimo o pozione da poter vendere?~
+@3   = ~Per ora no, grazie.~
+@4   = ~Per ora no, grazie. Vorrei farti delle domande, se non ti dispiace.~
+@5   = ~Abbiamo incontrato Martin. Ci ha dato questo messaggio per te.~
+@6   = ~Abbiamo incontrato Martin. E' abbastanza nervoso ma a parte questo, sta nel bosco e sta andando tutto bene.~
+@7   = ~Martin ci ha attaccato. Noi ci siamo difesi, mi dispiace dovertelo dire ma è morto.~
+@8   = ~Ho qualche oggetto della mia famiglia e qualcosa che ho creato io. Posso anche offrirti qualcosa per guarire, se ne hai bisogno.~
+@9   = ~Chiedi pure.~
+@10  = ~Visto che conosci bene la zona, cosa puoi dirmi delle terre qui intorno a Restenford?~
+@11  = ~Niente per ora, grazie.~
+@12  = ~A quale zona in particolare sei interessato?~
+@13  = ~Della zona a sud di Restenford.~
+@14  = ~Della zona a ovest di Restenford.~
+@15  = ~Della zona a nord di Restenford.~
+@16  = ~C'è qualche altra zona che tu pensi sia il caso di esaminare con cura?~
+@17  = ~Ripensandoci credo che abbiamo abbastanza cose su cui investigare per ora. Grazie.~
+@18  = ~(Sorride) A sud c'è il mare. Penso che volevi dire le zone a sud ovest vicino la casa della vecchia guardia, giusto?~
+@19  = ~Si, quell'area lì.~
+@20  = ~Non c'è molto da dire, in verità. La casa della vecchia guardia è andata a fuoco molti anni fa a causa di un fuoco spento male nel camino. Fu costruita un'altra baracca nei pressi della parte ovest. La casa bruciata non è stata mai demolita. Ho sentito voci che parlavano di topi nella zona ma non infastidiscono nessuno credo.~
+@21  = ~Avrei altre domande.~
+@22  = ~In verità, stiamo indagando su questa storia. Abbiamo incontrato diversi Topi Giganti ed alcuni Non Morti in una caverna sotto la baracca della vecchia casa di guardia.~
+@23  = ~Se segui la strada e passi l'abbazia, arriverai ad ovest e poi a sud di Garrotten. Una ripugnante e sgradevole città che tollera ladri, prostitute, ed altre dissolutezze.~
+@24  = ~Ad ovest troverai il Bosco Kelman e poi la Foresta della Morte. Non c'è niente di particolare lì. A Nord Ovest andrai verso le Colline di Ciottoli e Tri-Top. Queste zone sembrano essere popolate da parecchi gnoll. Normalmente non danno problemi ma ultimamente alcuni di loro hanno fatto alcune incursioni a Restenford.  E per questo che abbiamo costruito un muro lungo quel lato della città.~
+@25  = ~Tri-Top? Si, ci siamo stati là. Sembra che un orco magi comandava gli gnoll. Passerà un altro inverno o due prima che tornino di nuovo a creare problemi alla città.~
+@26  = ~Ci sono due Fiumi, West Restin e East Restin che scendono in direzione sud e si uniscono appena sotto la Foresta Dweomer e la Montagne Xerbal, per poi raggiungere il mare nel punto in cui fu edificata Restenford. C'è un'area appena a nord di qui, chiamata Collina Spoglia. Abbiamo dei problemi con i banditi che si nascondono nelle colline lungo quella zona. Normalmente, Sir BillyBob prende alcuni dei soldati più giovani e li addestra a dare la caccia a questi banditi.~
+@27  = ~Chi è Sir BillyBob?~
+@28  = ~E' un vecchio mezzelfo che vive lì vicino e che lavora nella sua fattoria.~
+@29  = ~Perché prende i giovani soldati per dare la caccia ai banditi? Perché non prende qualcuno che abbia più esperienza?~
+@30  = ~Perché poi non rimarrebbe nessuno a proteggere il barone! Inoltre, lui lancia sempre degli incantesimi sulle guardie per proteggerle dai danni. I soldati così imparano a combattere e si rendono conto se sono veramente tagliati o meno per la battaglia, inoltre i banditi ricevono quello che si meritano e le strade diventano sicure per qualsiasi viaggiatore.
+
+Tuttavia, ultimamente è stato molto occupato ed ho sentito voci dire che sono scomparse diverse merci che ormai sarebbero dovute arrivare. Anche alcuni dei miei rifornimenti si stanno esaurendo. Forse dovresti parlarci, lui potrebbe dirti di più sui banditi.~
+@31  = ~Si, dovrei farlo.~
+@32  = ~Ci occuperemo noi dei banditi.~
+@33  = ~Bene.~
+@34  = ~Eccellente!~
+@35  = ~Ci sarebbe, la Foresta Rossa, appena a nord della Collina Ossea, ed a ovest di Tri-Top.~
+@36  = ~Ho sentito Pelltar parlare della Collina Ossea. Cosa sai di questa zona?~
+@37  = ~La Foresta Rossa?~
+@38  = ~Ma ci hai già parlato di quelle zone così indagheremo ed esamineremo quelle zone con te più tardi.~
+@39  = ~Si, non c'è molto lì. Potrebbe essere un buon posto per stare tranquillo dalle vostre avventure. Un altro gruppo di druidi ci stava edificando un luogo sacro ma non so se ci stanno ancora lavorando o no. I problemi con gli gnoll hanno bloccato tutte le mie comunicazioni con quei druidi.
+
+Se vai in quel luogo, ora che ci penso, per favore verifica come stanno andando le cose là. Dovresti incontrarti con Martin, lui è un ranger.  E' giovane e inesperto, è un po' avventato, ma questo è un buon addestramento per lui.~
+@40  = ~Martin? Martin... Si, penso che fosse il nome dello strano individuo che ci ha attaccato. Lavorava per te? Mi dispiace ma deve essere impazzito rimanendo lì da solo per lungo tempo. E' rimasto ucciso.~
+@41  = ~La Collina Ossea è il nome dato alla cima di una collina che si trova appena fuori della Foresta della Morte. Molto, molto tempo fa, era una roccaforte che proteggeva tutta questa zona. Le molte battaglie durante gli anni l'hanno rovinata facendola ora diventare una vecchia rovina. Sono sicuro che ogni sorta di anima vaga nelle sale di quel posto.
+
+Storie provenienti da viaggiatori che ci sono stati narrano di morti che ancora camminano là fuori. I Non Morti scombussolano l'equilibrio della natura. Per favore fai quello che puoi per ripristinare il tutto.~
+@42  = ~eramente? Non sapevo che ci fossero delle caverne. Hai distrutto anche i Non Morti? Meraviglioso.~
+@43  = ~Eccellente! Grazie per averlo rintracciato. Mi procurerò dei rifornimenti e li invierò ad Amos per farglieli poi pervenire. Se tu lo vedi di nuovo, per favore fagli sapere che Amos dovrebbe arrivare tra qualche giorno.~
+@44  = ~Ok, glielo diremo.~
+@45  = ~Ok, ma potremmo non tornare subito da quelle parti.~
+@46  = ~*Sigh.* Questa è una brutta notizia. Sapevo che era un po' esagerato nel proteggere il boschetto ma non mi sarei mai aspettato che vi avesse attaccato. Questo mi dispiace. Dovrò mandare Amos lì a prendersi cura di tutto.~
+@47  = ~E ti ha dato qualcosa? Mi aspettavo tipo una lista di rifornimenti da lui.~
+@48  = ~Si, ma l'abbiamo persa.~
+@49  = ~Lista? No. Era preoccupato dei problemi degli gnoll.~
+@50  = ~Ah si, quasi dimenticavo, eccola.~
+@51  = ~Credo che dovremmo aver turbato Martin. Lui se ne è andato nel bosco senza darci nulla.~
+@52  = ~*Sigh.* Dovrò inviare Amos al boschetto del druido per farsi fare un'altra lista da Martin. In ogni caso ti ringrazio per il tuo aiuto.~
+@53  = ~Bene allora, potresti per favore scoprire qual'è la causa degli attacchi di questi gnolls? Finché continuano ad attaccare, non posso ricevere ed inviare messaggeri a Martin. Fammi sapere una volta che avrai finito.~
+@54  = ~Sembra un posto spregevole. Questo è il genere di cose che vengono naturali con la civilizzazione, sembra.~

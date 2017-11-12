@@ -1,0 +1,9 @@
+
+IF
+	HPPercentLT(Myself,60)
+	Global("BH_Help","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BH_Help","LOCALS",1)
+		Shout(82)
+END

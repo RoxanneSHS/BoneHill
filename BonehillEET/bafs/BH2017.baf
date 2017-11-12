@@ -1,0 +1,8 @@
+IF
+  Global("BHMarvinSpawn","BH2017",0)
+THEN
+  RESPONSE #100
+    Createcreature("BHMARVIN",[594.594],2)
+    Setglobal("BHMarvinSpawn","BH2017",1)
+END
+

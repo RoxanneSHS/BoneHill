@@ -1,0 +1,51 @@
+IF
+  Global("BHBasilGetsLothar","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Wait(10)
+    CreateCreature("BHBASIL",[507.619],13)
+    SetGlobal("BHBasilGetsLothar","GLOBAL",2)
+    ActionOverride("BHBASIL",Dialog([PC]))
+END
+
+IF
+  GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
+  Global("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreatureObjectDoor("BHOGUARD",Player1,0,0,0)
+    CreateCreatureObjectDoor("BHASCUE",Player1,0,0,0)
+    Wait(5)
+    SetGlobal("BHEscortSpawn","GLOBAL",1)
+    ActionOverride("BHAscue",StartDialog("BHAscue",[PC]))
+END
+
+IF
+  Global("BHEscortedParty","GLOBAL",2)
+  GlobalGT("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHASCUE",DestroySelf())
+    ActionOverride("BHOGUARD",DestroySelf())
+    SetGlobal("BHEscortSpawn","GLOBAL",3)
+END
+
+IF
+  Global("BHMayorStopsParty","GLOBAL",1)
+  Global("BHHarperGone","BH2002",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHHARPER",DestroySelf())
+    SetGlobal("BHHarperGone","BH2002",1)
+END
+
+IF
+  Global("BHHarperFree","GLOBAL",1)
+  Global("BHHarperGone","BH2002",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHHARPER",[758.273],3)
+    SetGlobal("BHHarperGone","BH2002",2)
+    SetGlobal("BHHarpCrazy","BH2002",2)
+END
+

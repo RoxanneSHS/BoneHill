@@ -1,0 +1,22 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("BHTelli1")
+    MoveViewPoint([1600.400],INSTANT)
+    Wait(1)
+    DisplayStringWait("BHGRELU1",@600)
+    DisplayStringWait("BHGRELU1",@601)
+    ActionOverride("BHGRELU1",Kill("BHGRELU1"))
+    DisplayStringWait(Myself,@602)
+    Wait(1)
+    StartCutScene("BHCUTBA2")
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("BHGrelu1")
+END
+

@@ -1,0 +1,34 @@
+@1    = ~¡No habrá ninguna pelea o robo dentro de los límites de Restenford! ¡Los infractores serán castigados con todo el poder de la ley!~
+@2    = ~¡Pelltar! Menos mal que os he encontrado. Hay bandidos justo al norte de la ciudad. Un mercader logró llegar a nuestro cuartel poco antes de morir. Sus últimas palabras fueron que había sido atacado en el camino por bandidos. Decían estar buscando algo y pensaron que él lo tenía. Debo informar a Felpas, me dijeron que estaba aquí.~
+@3    = ~Estáis investigando los robos, ¿verdad?~
+@4    = ~Sí, así es. ¿Qué nos podéis decir?~
+@5    = ~Vos debéis ser el inteligente del grupo. ¿Qué nos podéis decir?~
+@6    = ~No, ahora mismo no.~
+@7    = ~Nada. Hacemos guardia en las puertas de la ciudad. A ninguno de nosotros se nos ha encomendado investigar los robos.~
+@8    = ~Bueno, eso no es de gran ayuda. Gracias de todos modos.~
+@9    = ~Gracias de todos modos. ¿Así que sólo vigiláis las puertas?~
+@10   = ~Sí. Bueno, también ese árbol de allí.~
+@11   = ~¿Vigiláis el árbol?~
+@12   = ~No, sólo los cadáveres de los ahorcados.~
+@13   = ~Ehm, ¿os importaría explicármelo?~
+@14   = ~Digamos que velamos por los muertos. Nos aseguramos de que no les pase nada. A la gente le gusta tirar piedras a quien no les cae en gracia.
+
+(Se os acerca y susurra) A las brujas les gusta robar partes de cuerpos para crear zombis y otros monstruos horribles.~
+@15   = ~Sois bastante raro. Además, en esta ciudad no hay brujas.~
+@16   = ~Pero no tenéis brujas en esta ciudad.~
+@17   = ~¿Eh? Oh, sí. Supongo que no.~
+@18   = ~Parece ser que una de las cuerdas es nueva. ¿Habéis colgado a alguien hace poco?~
+@19   = ~Oh, sí. Reynard. (Escupe en el suelo) Era un maldito bastardo. Un asaltador de caminos. Atracó a muchos que llegaban o salían de la ciudad. Incluso alguna vez llegó más allá. Quería que las señoritas nunca se olvidaran de él, ¿entendéis? Mató a algunos de mis amigos antes de atraparlo. Aunque yo diría que colgarlo fue demasiado benévolo. Si por mí fuera, hubiera dejado que se lo comieran las ratas.~
+@20   = ~Qué bonito. ¿Así que era un ladrón?~
+@21   = ~Uno de los mejores o de los peores, según cómo lo miréis.~
+@22   = ~¿Al colgarlo pasó algo fuera de lo común? ¿Hubo algún fisgón?~
+@23   = ~Vale, gracias. Supongo que esto no me lleva a ninguna parte.~
+@24   = ~No, que yo sepa. Ravella fue la última que hizo guardia, y ella es quien lo enterró. Tendréis que hablar con ella.~
+@25   = ~No, creo que tenemos todo lo que necesitamos. Gracias.~
+@26   = ~¿Dónde podría encontrar a Ravella?~
+@27   = ~Hoy se ha tomado el día libre. Debería estar aquí mañana.~
+@28   = ~Gracias. Nos habéis sido de gran ayuda.~
+@29   = ~Vamos, ¿acaso no véis que estoy trabajando?~
+@30   = ~Ravella aún no ha regresado. Debería estar de vuelta pronto.~
+@31   = ~Veo que hay una cuerda nueva en ese árbol. ¿Habéis colgado a alguien hace poco?~
+@32   = ~Minsc y Bubú ven que allí hay una cuerda nueva. ¿Algún malvado recibió una patada en el trasero?~

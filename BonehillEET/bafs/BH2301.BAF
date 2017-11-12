@@ -1,0 +1,16 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH2301",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH2301",1)
+    CreateCreature("ORC02",[1350.600],0)
+    CreateCreature("ORC02",[1420.835],0)
+    CreateCreature("ORC02",[1540.1420],0)
+    CreateCreature("ORC02",[1023.2004],0)
+    CreateCreature("ORC02",[500.590],0)
+    CreateCreature("ORC02",[490.350],0)
+    CreateCreature("ORC02",[630.350],0)
+END
+

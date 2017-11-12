@@ -1,0 +1,38 @@
+IF
+  Global("BHHandGrave","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreature("BHRAVELA",[541.222],0)  // ~Ravella~
+    SetGlobal("BHHandGrave","GLOBAL",3)
+END
+
+IF
+  Global("BHHandSewerOpen","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0700",FALSE)
+    TriggerActivation("CaveInfo1",FALSE)
+END
+
+IF
+  Global("BHHandSewerOpen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0700",TRUE)
+    TriggerActivation("CaveInfo1",TRUE)
+END
+
+IF
+  Global("BHHandGraveOpen","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("NewGrave2",FALSE)
+END
+
+IF
+  Global("BHHandGraveOpen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("NewGrave2",TRUE)
+END
+

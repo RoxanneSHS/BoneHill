@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    FadeToColor([30.0],0)
+    Wait(1)
+    LeaveAreaLUA("BG2626","",[4461.3080],14)
+    MultiPlayerSync()
+    FadeFromColor([30.0],0)
+    SetGlobal("BHToldOfDeath","GLOBAL",3)
+    EndCutSceneMode()
+END
+

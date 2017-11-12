@@ -1,0 +1,35 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH1004",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1004",1)
+    CreateCreature("SKELFIRE",[281.1124],6)  // ~Skeleton~
+    CreateCreature("SKELFIRE",[2213.1169],8)  // ~Skeleton~
+END
+
+IF
+  Dead("BHTELV")  // ~Telvar~
+  !Dead("BHWRAITH")  // ~Wraith~
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",1)
+END
+
+IF
+  !Dead("BHTELV")  // ~Telvar~
+  Dead("BHWRAITH")  // ~Wraith~
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",1)
+END
+
+IF
+  Dead("BHTELV")  // ~Telvar~
+  Dead("BHWRAITH")  // ~Wraith~
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",2)
+END
+

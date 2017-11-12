@@ -1,0 +1,28 @@
+IF
+  Global("BHPrisonerSpawn","BH2103",0)
+  OR(4)
+    Global("BHEscortSpawn","GLOBAL",3)
+    Global("BHAbrahamArrested","GLOBAL",1)
+    Global("BHHarperArrested","GLOBAL",1)
+    Global("BHBardArrested","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHBALMOR",[653.1059],12)
+    CreateCreature("BHHARPER",[1150.515],3)
+    CreateCreature("BHPRISKA",[255.541],12)
+    CreateCreature("BHABRAHA",[972.262],3)
+    SetGlobal("BHPrisonerSpawn","BH2103",1)
+END
+
+IF
+  Global("BHPrisonerSpawn","BH2103",1)
+  Global("BHAbrahamGuilty","GLOBAL",1)
+  GlobalTimerExpired("BHExecuteTime","GLOBAL")
+  Exists("BHAbraha")
+  !Dead("BHAbraha")
+THEN
+  RESPONSE #100
+    ActionOverride("BHAbraha",Kill("BHAbraha"))
+    SetGlobal("BHAbrahamGuilty","GLOBAL",2)
+END
+

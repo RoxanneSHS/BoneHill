@@ -1,0 +1,17 @@
+BEGIN ~BHST0103~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+  IF ~~ THEN REPLY @2 GOTO 2
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END

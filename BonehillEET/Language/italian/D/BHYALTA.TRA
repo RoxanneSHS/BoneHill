@@ -1,0 +1,67 @@
+@1    = ~Salve, io sono Yalta. Cosa posso fare per te?~
+@2    = ~Salve Yalta. Sono del gruppo di <CHARNAME>. Stiamo aiutando Pelltar con diversi problemi che affliggono Restenford.~
+@3    = ~Attacchi Gnoll
+
+Ho detto a Yalta che un Orco Magi era a capo degli gnoll, e che abbiamo ucciso l'Orco e tutti gli Gnoll che abbiamo incontrato. Speriamo che questo problema sia risolto.~
+@4    = ~Attacchi Gnoll
+
+Yalta ci ha detto che gli gnoll delle parti di Tri-Top attaccano la città. Sembrano più organizzati che in passato e sono diventati un vero problema per le guardie adesso. Lì sta accadendo qualcosa e noi dovremo scoprire cosa sta succedendo.~
+@5    = ~Gli gnoll di Tri-Top erano capeggiati da un Orco Magi. Noi abbiamo ucciso l'Orco Magi e cacciato tutti gli gnoll che abbiamo potuto trovare. Credo che per un po' di tempo non daranno più fastidio alla città.~
+@6    = ~Sembra che ci sia un vecchio sistema di caverne sotto la vecchia casa di guardia e che dei topi avevano un nido lì. Noi ci abbiamo trovato anche alcuni Non Morti e abbiamo eliminato anche loro.~
+@7    = ~Eh, si. Anche noi ne abbiamo, purtroppo. C'è qualcosa in particolare a cui siete interessati? Forse posso aiutare.~
+@8    = ~Presumo che tu sia un sacerdote, giusto?~
+@9    = ~Sembra che una banda di gnoll abbia attaccato la città, ho capito bene?~
+@10   = ~Hai sentito qualcosa sulla vecchia casa di guardia abbandonata?~
+@11   = ~Grazie. Noi non siamo qui da molto tempo. Quindi stiamo ancora cercando di capire quali siano i problemi. Ti viene in mente qualcosa che possiamo fare per aiutare?~
+@12   = ~Credo che abbiamo risolto tutti i problemi. Se non c'è nient'altro, andremo da Pelltar.~
+@13   = ~Grazie per l'offerta. Credo che tu ti sia occupato di tutto fino a questo punto. Continuerò a cercare finché non troveremo delle risposte.~
+@14   = ~Si, sono il consigliere spirituale della baronessa, la Signora Fairwind.~
+@15   = ~Consigliere?~
+@16   = ~Certo, non hai ancora incontrato la Signora Fairwind? Lei è anche una sacerdotessa.~
+@17   = ~Con tutti gli obblighi e i doveri che deve svolgere come baronessa, non è sempre in grado di aggiornare le conoscenze spirituali. Io sono il suo precettore, anche se ultimamente sono più un ascoltatore dei suoi problemi.~
+@18   = ~Perché, la baronessa è nei guai?~
+@19   = ~No, no, niente affatto. Ma per lei i problemi della sua terra diventano anche i suoi (e di suo marito, naturalmente). Lei non vuole che la sua gente soffra.~
+@20   = ~E' una vergogna che gli altri governatori non abbiano la stessa sensibilità.~
+@21   = ~Hmm? Si, si, certo, è vero. Allora cosa stavo dicendo?~
+@22   = ~Ci accennavi che anche in queste zone ci sono alcuni problemi?~
+@23   = ~Ci stavi raccontando dei problemi della zona. Credo che ti sia occupato di tutto.~
+@24   = ~*Sigh.*  Si, ci sono dei problemi a Restenford. Per le colline e i territori selvaggi qui intorno, ci sono diverse bande gnoll, orchi, goblin, e così via.~
+@25   = ~Si. Una ragazzina è stata morsa da un topo gigante nei pressi della vecchia casa di guardia abbandonata. Normalmente questo non sarebbe un problema, ma ho sentito anche altre persone che si lamentano di questi topi. Per favore, dovresti esaminare la zona ed assicurarti se succede qualcosa di insolito. Parla con Zahrdahl, è un mercante che vive vicino alla casa di guardia. Dovrebbe fornirti più notizie da dove vengono questi topi.~
+@26   = ~Yalta mi ha detto di ripulire e controllare una casa di guardia abbandonata piena di topi. Sembra un lavoro abbastanza facile. Ci ha consigliato di parlare anche con il venditore di oggetti per la pesca che vive nei pressi dalle casa di guardia.~
+@27   = ~Ti saremo grati se volessi andare a dare un'occhiata.~
+@28   = ~In verità, di quella bambina non mi interessa nulla. Se muore è perché non doveva essere lì. Se lo sarà meritato.~
+@29   = ~Oltre ai topi ci sono altri problemi?~
+@30   = ~Ci stiamo già occupando del problema dei topi.~
+@31   = ~Beh, mi deludi sentendoti dire questo. Se questo è il tuo modo di aiutare, puoi dire a Pelltar di farti tornare indietro. Ora, per favore, vai via da qui.~
+@32   = ~Ci sono altri problemi a Restenford. Vieni a trovarmi quando ne hai la possibilità.~
+@33   = ~La maggior parte del tempo ci lasciano in pace. Solo durante gli inverni rigidi cercano di assalire la città. E' sempre per scarsità di cibo durante l'inverno. L'inverno di solito riduce il loro numero ma poi sembra che si riproducano come conigli.~
+@34   = ~Gli ultimi attacchi non sembravano fatti con il loro solito modo disorganizzato. Non siamo in inverno, e dovrebbe essere piena di cibo la zona fuori di qui. Non capisco perché ci attaccano. Credo che ci sia qualcosa o qualcuno che li stia guidando.~
+@35   = ~Cosa ne pensi di tutto ciò?~
+@36   = ~Si, si! Ci hai gia dato le tue informazioni sugli gnoll. Continuerò a dara un'occhiata.~
+@37   = ~Penso che gli attacchi sono pianificati. Vengono dalle parti di Tri-Top. Sono in gruppo ed attaccano il muro qua fuori in punti differenti durante i loro assalti, così le nostre guardie hanno più difficoltà a proteggere tutte le zone attaccate. In passato gli gnoll si limitavano a lanciare qualcuno di loro attraverso il muro. Ora loro combattono a fianco di lupi ed attaccano i viaggiatori o colpiscono qualsiasi guardia all'esterno del muro. E inoltre, ci attaccano in qualsiasi ora del giorno. Prima gli attacchi avvenivano solo di notte.~
+@38   = ~Saremo grati di verificare il problema per voi.~
+@39   = ~Hmm, più in là potremmo darci un'occhiata. Pelltar ha immediato bisogno di noi adesso.~
+@40   = ~Si, bande di gnoll stanno attaccando la città da ovest.~
+@41   = ~Parla ad Almax o a Sir BillyBob. Sono entrambi dall'altro lato della città. Loro forse possono dirvi se c'è qualcos'altro. Va in pace <BROTHERSISTER>.~
+@42   = ~Davvero? Bene. Sono felice che tu stia qui. Pelltar ha preso un'eccellente decisione ad assumerti.~
+@43   = ~Ti ringrazio. Aiutiamo dove possiamo.~
+@44   = ~Non Morti? Qui? In città? Oh accidenti. Questi SONO periodi di guai. Grazie per essertene preso cura. A proposito, la ragazzina guarirà presto.~
+@45   = ~Ne sono lieto.~
+@46   = ~Vai in pace, <BROTHERSISTER>.~
+@47   = ~Bentornato <CHARNAME>, a che punto sono le tue investigazioni?~
+@48   = ~Fino ad adesso abbastanza bene. Sembra che più cerco e più ci siano problemi.~
+@49   = ~Attacchi Gnoll
+
+Ho detto a Yalta che un Orco Magi era a capo degli gnoll, e che abbiamo ucciso l'Orco e tutti gli Gnoll che abbiamo incontrato. Speriamo che questo problema sia risolto.~
+@50   = ~Attacchi Gnoll
+
+Yalta ci ha detto che gli gnoll delle parti di Tri-Top attaccano la città. Sembrano più organizzati che in passato e sono diventati un vero problema per le guardie adesso. Lì sta accadendo qualcosa e noi dovremo scoprire cosa sta succedendo.~
+@51   = ~Gli gnoll di Tri-Top erano capeggiati da un Orco Magi. Noi abbiamo ucciso l'Orco Magi e cacciato tutti gli gnoll che abbiamo potuto trovare. Credo che per un po' di tempo non daranno più fastidio alla città.~
+@52   = ~Per ora abbastanza bene. Sto facendo del nostro meglio per risolvere i problemi che inconto.~
+@53   = ~Per favore lasciami stare! Non voglio più avere a che fare con te!~
+@54   = ~Davvero?! Ti prego raccontami.~
+@55   = ~Bah, nani ed elfi potrebbero dire lo stesso dei sanguinari umani.~
+@56   = ~Cosa! Per favore ignora <CHARNAME>. Noi saremo grati di ripulire la città dai malvagi topi. Boo odia i topi.~
+@57   = ~S-sembra un buon capo per questa città. Molti governanti dovrebbero essere come lei.~
+@58   = ~Bah! Non ci credo. Scommetto che in realtà tutte le notti si siede a contare i soldi delle tasse, in verità piacerebbe anche a me.~
+@59   = ~Scusate, ignoratelo. Tornando a noi, é un peccato che gli altri governatori non abbiano la stessa sensibilità del vostro.~

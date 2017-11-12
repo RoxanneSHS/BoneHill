@@ -1,0 +1,14 @@
+IF
+  Global("BHHandSewerOpen","GLOBAL",0)
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0403",FALSE)
+END
+
+IF
+  Global("BHHandSewerOpen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0403",TRUE)
+END
+

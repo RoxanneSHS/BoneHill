@@ -1,0 +1,13 @@
+@0    = ~Saludos, querido cliente. Perk te da la bienvenida a su tienda y os desea buena suerte en los negocios.~
+~Saludos, querida cliente. Perk te da la bienvenida a su tienda y os desea buena suerte en los negocios.~
+@1    = ~¿Qué vendéis aquí?~
+@2    = ~Dejadme ver lo que tenéis en venta.~
+@3    = ~En realidad no quiero comprar nada. Buenos días.~
+@4    = ~Ah, una verdadera lástima. Hasta la próxima, Perk os dice adiós.~
+@5    = ~Se me conoce por mi habilidad para la elaboración de flechas, al igual que por mi talento con el arco. ¿Deseáis examinar mi inventario de selectas armas de proyectil?~
+@6    = ~Claro. Veamos qué tenéis.~
+@7    = ~No, no me interesa.~
+@8    = ~¡Excelente! Perk os aconseja que observéis detenidamente su selección de selectas flechas emplumadas de esa pared. Venid, os las enseñaré.~
+@9    = ~El sol luce sobre mi rostro al veros de nuevo, querido cliente. ¿Deseáis ver mi selección de nuevo?~
+~El sol luce sobre mi rostro al veros de nuevo, querida cliente. ¿Deseáis ver mi selección de nuevo?~
+@10   = ~Sí, enseñadme lo que tenéis en venta.~

@@ -1,0 +1,66 @@
+@1   = ~Saludos, soy Sir BillyBob, aventurero, soldado, y protector de los reinos. Vos debéis ser <CHARNAME>.~
+@2   = ~Ehm, sí, exacto. ¿Cómo lo sabéis?~
+@3   = ~Bueno, además del hecho de que es obvio que sois el nuevo grupo del que todo el mundo habla, estaba con Pelltar cuando aconsejó al barón que os contratara.~
+@4   = ~Pensaba que buscaba cualquier aventurero cuando nos detuvimos en el templo en el que estaba. No sabía que me buscaba a mí concretamente.~
+@5   = ~Pelltar quería contratar a otro grupo en vez del vuestro, creo que se llaman los Agresores. Pero yo os recomendé, ya que Elminster dijo que vos os podríais encargar del asunto.~
+@6   = ~¿Elminster dijo eso?~
+@7   = ~Sí, parece estar muy interesado en vos. En realidad, como muchos de nosotros. Pero esa es otra cuestión de la que nos ocuparemos más tarde.~
+@8   = ~¿En qué puedo ayudaros?~
+@9   = ~En primer lugar ¿podríais explicarme por qué hay orcos muertos en vuestras tierras?~
+@10  = ~Ah sí, cada día que pasa un nuevo grupo de bandidos orcos intenta entrar en mi granja. Podríais pensar que al final se darán cuenta de que es inútil intentar robarme. Si los lobos no se atreven a entrar en mi granja, ¿por qué creerán los orcos que pueden hacerlo?~
+@11  = ~Hablando de eso, ¿habéiss oído algo sobre los bandidos que rondan por aquí?~
+@12  = ~Sí, oí algo así en la ciudad.~
+@13  = ~No, es la primera noticia que tengo de bandidos.~
+@14  = ~Bueno, no he oído nada. Pero fui a explorar y fuimos atacados por unos orcos en Colinas Calvas. Maté a su líder. Era un clérigo y parecía un semiorco.~
+@15  = ~Bien, me alegra oír que os estás ocupando de los problemas locales.~
+@16  = ~Salen muchos caminos de Restenford en esta parte de la ciudad. El que veis al sur de nosotros y el que hay al norte de mi granja y los manzanares. El camino del norte pasa entre el río Restin Este y Colinas Calvas. Es un lugar ideal para que los bandidos ataquen a los viajeros por las colinas.~
+@17  = ~Normalmente, los guardias locales y yo recorremos ese camino para limpiarlo de peligros y hacer que sea seguro para los mercaderes. Por desgracia, como dentro de poco empezará la cosecha, ahora mismo se necesita mucha gente en los campos. Como podéis ver, mi cosecha aún no se puede recoger, pero estoy ocupado con los nacimientos en el ganado y no tengo tiempo para despejar Colinas Calvas.~
+@18  = ~Por supuesto, aquí es donde entráis vosotros. Necesito que vayáis al norte de aquí y cacéis a orcos, bandidos, o cualquier cosa que veáis que ataca a los mercaderes. Allí debe haber algo. Han desaparecido algunos carros y no he visto a algunos de los mercaderes que se suelen pasar por aquí esta época del año.~
+@19  = ~Bandidos en Colinas Calvas
+
+Sir BillyBob me pidió que detuviera a los bandidos que se ocultan en Colinas Calvas. Impiden que lleguen las caravanas por las zonas norte y este de la ciudad.~
+@20  = ~Claro, dadlo por hecho.~
+@21  = ~No, primero nos tenemos que encargar de la petición de Pelltar.~
+@22  = ~En ese caso, supongo que tendré que esperar hasta que podáis encargaros del problema. Por favor, venid a verme tras ayudar a Pelltar.~
+@23  = ~El río Restin Este fluye bajo las montañas Xerbal y cerca de Colinas Calvas, donde se une con el río Restin Oeste antes de llegar al mar en Restenford.~
+@24  = ~<CHARNAME>, dichosos los ojos. ¿En qué puedo ayudaros?~
+@25  = ~Encontramos los carros desaparecidos.~
+@26  = ~Viajamos a Colinas Calvas y fuimos atacados por orcos. Nos ofrecieron una buena pelea, pero creo que acabamos con todos. También nos ocupamos de su líder.~
+@27  = ~No vimos nada sospechoso en Colinas Calvas.~
+@28  = ~Encontramos los carros desaparecidos y luchamos con los bandidos. Creo que acabamos con todos.~
+@29  = ~Aún no hemos ido a Colinas Calvas.~
+@30  = ~En realidad nada, sólo pasaba por aquí.~
+@31  = ~¿Qué me podéis decir de la muerte del barón?~
+@32  = ~¿Qué era lo que queríais que mirásemos?~
+@33  = ~¿Puedo haceros una pregunta?~
+@34  = ~Buen trabajo.~
+@35  = ~Bandidos en Colinas Calvas
+
+Expliqué a Sir BillyBob lo que descubrimos en Colinas Calvas. Parece pensar que el problema de los bandidos ya está resuelto para la ciudad. Eso espero.~
+@36  = ~¿Puedo pregutnaros algo?~
+@37  = ~Gracias.~
+@38  = ~¿De veras? Qué extraño. Bueno, quizás se escondieron de vosotros. No importa, si hay orcos iré a por ellos más tarde.~
+@39  = ~Muy bien, adelante, pregutnad.~
+@40  = ~¿Cuántos años tenéis? Toda la ciudad parece pensar que sois anciano, pero al ser un semielfo supongo que sois más viejo de lo que aparentáis.~
+@41  = ~¿Por qué no sois el líder de Restenford?~
+@42  = ~(sonríe) No soy tan viejo como Elminster, pero he vivido muchos años, más de los que muchos elfos de pura sangre podrían esperar vivir. No soy el Elegido de una deidad, pero algunas me han encomendado que ayude a entregar el poder y la autoridad de una facción a otra.
+
+Por cierto, ¿quién está ahora al cargo de Candelero? Hace mucho que no voy por allí.~
+@43  = ~Tethtoril.~
+@44  = ~¡¿Qué?! Hmm, creo recordar a un mozo de cuadra con ese nombre. Supongo que hace mucho tiempo desde la última vez que estuve allí.
+
+Bueno, en cualquier caso debo volver a mis tareas. Buena suerte, <CHARNAME>.~
+@45  = ~Pensaba que habrían más bandidos. Y supongo que no habréis encontrado la caravana desaparecida. Aunque es probable que eso no importe ahora. Imagino que encontrasteis a los culpables.~
+@46  = ~No creo que vuelvan a molestar a más gente.~
+@47  = ~¿Esta vez es una mera visita social? Bien, por favor, investigad Colinas Calvas cuando podáis.~
+@48  = ~Ah, ese debe ser Krellus. Ha sido como una espina clavada hasta ahora. Buen trabajo, joven <SIRMAAM>. Por favor, si podéis, seguid buscando más orcos en la zona. Además, me interesaría saber que pasó con una caravana que desapareció. Sospecho que Krellus tuvo algo que ver con eso.~
+@49  = ~Probablemente, poco más de lo que ya os ha dicho Pelltar. No creo que hubiera tres asesinos. Yo diría que sólo hubo uno, y que ése dejó pruebas para incriminar a los otros dos. Al hacerlo, esa persona se olvidó algo suyo también.~
+@50  = ~O también podría ser que los tres fueran inocentes y el asesino dejara pruebas para incriminarlos. Os sugiero que habléis con los tres y descubráis cómo llegaron los tres objetos a la escena del crimen. Cada objeto habrá llegado allí de algún modo. Quizás si seguís los rastros, uno de ellos os lleve hasta el verdadero asesino.~
+@51  = ~También os puedo decir que aunque no soy un clérigo, hay algo extraño en que Qualton no sea capaz de resucitar al barón. La respuesta también debe encontrarse en Garrotten.~
+@52  = ~¿Así que todos los caminos llevan a Garrotten?~
+@53  = ~Eso es. Por cierto, en las afueras de Garrotten hay un viejo castillo que era de mi propiedad. Hace muchos años se lo vendí a un aventurero que murió poco después de comprarlo. Parece ser que un viejo enemigo suyo finalmente dio con él. El castillo se deterioró con el paso de los años. A lo que iba, tengo entendido que la actual alcaldesa está restaurándolo. Estoy seguro de que las obras han perturbado a los muertos al igual que a cualquier cosa que se trasladara a vivir en el castillo durante los últimos cien años o más.~
+@54  = ~¿Por qué me explicáis esto?~
+@55  = ~Porque sospecho que sus guardias estarán alerta. Puede que ataquen en cuanto vean a alguien o algo extraño. Tened mucho cuidado en el castillo.~
+@56  = ~Vale, gracias por el consejo.~
+@57  = ~Fantástico, una buena excusa para matar a sus guardias, gracias.~
+@58  = ~¿Por qué querría serlo? A veces uno tiene más poder cuando está tras el trono que cuando está en él. Pero incluso esos días han acabado para mí. Ahora sólo aconsejo al barón cuando me lo pide. Soy más feliz en mi granja de lo que podría llegar a ser en la casa señorial.~

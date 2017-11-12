@@ -1,0 +1,32 @@
+@1    = ~¡No habrá ningún robo en estos almacenes! ¡Los infractores serán castigados con todo el poder de la ley!~
+@2    = ~¿Qué queréis?~
+@3    = ~Gelpas nos dijo que habláramos con vos sobre el robo del almacén.~
+@4    = ~Encontramos los objetos robados. Aquí tenéis.~
+@5    = ~Encontramos al ladrón y la perla negra. Tomad, cogedla.~
+@6    = ~Encontramos esta nota. No estamos seguros de qué quiere decir. ¿Podríais echarle un vistazo?~
+@7    = ~Encontramos esta nota. Creemos que es un mapa. ¿Estos dos recuadros son los almacenes en los que robó el ladrón?~
+@8    = ~Nada.~
+@9    = ~Sí. No entiendo cómo pudo pasar por delante de mí y de los perros. Además, suele haber un guardia en cada edificio. Sucedió anoche. Calculo que se ha llevado algo de comida, un par de espadas y un poco de seda. Y por si fuera no fuera suficiente, en otro edificio alguien robó una perla negra que el barón guardaba allí. Se va a cabrear cuando se entere.~
+@10   = ~¿Así que robaron dos edificios en una noche? ¿No oisteis nada?~
+@11   = ~Ni un ruido. Supongo que fue una única persona.~
+@12   = ~¿Eh? ¿Por qué sólo una?~
+@13   = ~Porque el ladrón se llevó todo lo que una persona puede llevar encima. Si hubieran habido más, ¿no creeís que se hubieran llevado más cosas?~
+@14   = ~El Robo de los Almacenes
+
+Welcar cree que sólo hay un ladrón involucrado en los robos. ¿Fue una única persona quien cometió los robos? ¿Y los asesinatos? ¿Cómo?~
+@15   = ~Buena deducción. Pensaremos en ello. Gracias.~
+@16   = ~¿De veras? ¡Magnífico! ¿Pero dónde está la perla negra?~
+@17   = ~Aquí está. Cogedla.~
+@18   = ~No pudimos encontrarla.~
+@19   = ~Temía que el barón quisiera mi cabeza por haberla perdido. Gracias.~
+@20   = ~El Robo de los Almacenes
+
+He devuelto todos los objetos robados a Welcar. Quizás ahora Gelpas deje que Pelltar nos devuelva a casa.~
+@21   = ~Oh, eso no es bueno. El barón querrá mi cabeza, y puede que las vuestras también. Debéis seguir buscando. El ladrón debe haberla escondido en algún lugar.~
+@22   = ~¡Esto es un mapa de Restenford! Mirad, aquí aparecen los tres almacenes justo al lado de esta línea que es el río. Hey, los dos en los que robaron son los mismos que tienen marcas justo al lado. Y esto, esto debe ser el Viento Oeste. Zelmar me dijo ayer que alguien robó todo su dinero la semana pasada. Deberíais hablar con Zelmar del robo.~
+@23   = ~Sí, sin duda esto es un mapa de Restenford. Esos recuadros se corresponden con los almacenes. Mirad esto, eso debe ser el Viento Oeste. Zelmar me dijo que alguien robó todo su dinero la semana pasada. Hay una marca cerca de ese edificio. Deberíais hablar con Zelmar de esto.~
+@24   = ~Sabéis, hace muchos años había muchos robos. Resultó que unos ladrones de Garrotten habían venido a la ciudad y se habían establecido en las alcantarillas. El barón tuvo que contratar a unos mercenarios para acabar con ellos. Gelpas era el líder de la banda que luchó con los ladrones. Perdió a casi todo su equipo. Supongo que por eso se retiró de la aventura. Al menos al final atrapó a esos bastardos y los colgó del "Árbol de los colgados". Es todo un espectáculo si le echáis un vistazo. Está delante del templo cerca de la puerta oeste, en el camino a Garrotten. Apuesto a que los guardias podrían contaros algunas historias que os pondrían los pelos de punta... ¡Brrr!~
+@25   = ~¿Alcantarillas? No hemos encontrado alcantarillas en esta ciudad.~
+@26   = ~Oh, están ahí. No son verdaderas alcantarillas, se supone que drenan el agua del río cuando se desborda. Las más antiguas están en el lado oeste, cerca del cuartel quemado. Si mal no recuerdo, ahí es donde Gelpas y su banda encontraron a los ladrones. De hecho, también había otra entrada en el cementerio al norte del templo.~
+@27   = ~Welcar dijo que hay unas antiguas alcantarillas bajo Restenford. Los ladrones las usaban para esconderse. Me pregunto si el ladrón las estará usando ahora.~
+@28   = ~Gracias por encontrarlo todo.~

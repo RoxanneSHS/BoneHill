@@ -1,0 +1,42 @@
+IF
+  !Global("BHFabioSpawn","GLOBAL",1)
+  Global("BHFabJoinedOnce","GLOBAL",0)
+  Level(Player1,6)
+THEN
+  RESPONSE #100
+    ActionOverride("Fabio",DestroySelf())
+    CreateCreature("BHFabio",[744.428],4)  // ~Fabio~
+    SetGlobal("BHFabioSpawn","GLOBAL",1)
+END
+
+IF
+  !Global("BHFabioSpawn","GLOBAL",2)
+  Global("BHFabJoinedOnce","GLOBAL",0)
+  Level(Player1,8)
+THEN
+  RESPONSE #100
+    ActionOverride("Fabio",DestroySelf())
+    CreateCreature("BHFabio",[744.428],4)  // ~Fabio~
+    SetGlobal("BHFabioSpawn","GLOBAL",2)
+END
+
+IF
+  !Global("BHFabioSpawn","GLOBAL",3)
+  Global("BHFabJoinedOnce","GLOBAL",0)
+  Level(Player1,10)
+THEN
+  RESPONSE #100
+    ActionOverride("Fabio",DestroySelf())
+    CreateCreature("BHFabio",[744.428],6)  // ~Fabio~
+    SetGlobal("BHFabioSpawn","GLOBAL",3)
+END
+
+IF
+  GlobalGT("BHToldOfDeath","GLOBAL",0)
+  Exists("Fabio")  // Fabio
+  !InParty("Fabio")  // Fabio
+THEN
+  RESPONSE #100
+    ActionOverride("Fabio",DestroySelf())
+END
+

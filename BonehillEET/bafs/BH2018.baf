@@ -1,0 +1,82 @@
+IF
+  Global("BHBardAskLeave","BH2018",1)
+THEN
+  RESPONSE #100
+    ActionOverride("BHWillis",MoveToPoint([166.1221]))
+    ActionOverride("BHArthur",MoveToPoint([184.1249]))
+    ActionOverride("BHPhylli",MoveToPoint([207.1282]))
+    SetGlobal("BHBardAskLeave","BH2018",2)
+    Wait(10)
+    ActionOverride("BHBalmor",StartDialogue("BHBALMOR",[PC]))
+END
+
+IF
+  Global("BHBardAsksWilbur","BH2018",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHWILBUR",[374.1126],11)
+    ActionOverride("BHWilbur",MoveToPoint([560.940]))
+    SetGlobal("BHBardAsksWilbur","BH2018",2)
+    Wait(2)
+    ActionOverride("BHWilbur",Dialog([PC]))
+END
+
+IF
+  Global("BHBardAsksWilbur","BH2018",3)
+THEN
+  RESPONSE #100
+    ActionOverride("BHWilbur",MoveToPoint([374.1126]))
+    SetGlobal("BHBardAsksWilbur","BH2018",4)
+    ActionOverride("BHWilbur",EscapeArea())
+    ActionOverride("BHBalmor",Dialog([PC]))
+END
+
+IF
+  Global("BHWilburTells","GLOBAL",2)
+  !Global("BHStupidTalk","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("BHStupidTalkTime","GLOBAL",3600)
+    SetGlobal("BHStupidTalk","GLOBAL",1)
+END
+
+IF
+  GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
+  Global("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreatureObjectDoor("BHOGUARD",Player1,0,0,0)
+    CreateCreatureObjectDoor("BHASCUE",Player1,0,0,0)
+    Wait(5)
+    SetGlobal("BHEscortSpawn","GLOBAL",1)
+    ActionOverride("BHAscue",StartDialog("BHAscue",[PC]))
+END
+
+IF
+  Global("BHEscortedParty","GLOBAL",2)
+  GlobalGT("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHASCUE",DestroySelf())
+    ActionOverride("BHOGUARD",DestroySelf())
+    SetGlobal("BHEscortSpawn","GLOBAL",3)
+END
+
+IF
+  Global("BHMayorStopsParty","GLOBAL",1)
+  Global("BHBardGone","BH2018",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHBALMOR",DestroySelf())
+    SetGlobal("BHBardGone","BH2018",1)
+END
+
+IF
+  Global("BHBardFree","GLOBAL",1)
+  Global("BHBardGone","BH2018",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHBalmor",[560.940],4)
+    SetGlobal("BHBardGone","BH2018",2)
+END
+

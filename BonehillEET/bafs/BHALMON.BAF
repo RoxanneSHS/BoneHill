@@ -1,0 +1,35 @@
+IF
+  OpenState("Altar01",TRUE)
+  See([GOODCUTOFF])
+  !StateCheck(LastTrigger,STATE_INVISIBLE)
+  !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+  Global("BHAlmonAltarFind","GLOBAL",0)
+  !Dead("BHQUAL")
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@450)
+    DisplayStringHead(LastSeenBy(Myself),@451)
+    Wait(3)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    Shout(125)
+    Enemy()
+    SetGlobal("BHAlmonAltarFind","GLOBAL",1)
+END
+
+IF
+  Global("BHAlmonCheckQual","Global",1)
+THEN
+  RESPONSE #100
+    MoveToPoint([394.182])
+    SetGlobal("BHAlmonCheckQual","Global",2)
+    MoveBetweenAreas("BH0310",[597.308],6)
+    SetMasterArea("BH0310")
+    MoveToPoint([354.300])
+    Wait(5)
+    MoveToPoint([597.308])
+    MoveBetweenAreas("BH0302",[394.182],15)
+    MoveToPoint([568.330])
+END
+

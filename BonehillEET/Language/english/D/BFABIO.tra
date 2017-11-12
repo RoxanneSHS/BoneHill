@@ -1,0 +1,42 @@
+@1   = ~You're the life of the party, aren't you?~ [FABIONZ]
+@2   = ~You dumbass, you can't let Imoen die!~ [FABIONI]
+@3   = ~Wow, a drow!  And a hottie ta boot!~ [FABIONV]
+@4   = ~You know?  Tough girls like you, they actually turn me on.~ [FABIONSH]
+@5   = ~Hey, <CHARNAME>.  There is a song about something similar to this.~
+@6   = ~And I assume you know that song?~
+@7   = ~Well, yeah.  I don't interrupt you with stupid stuff like the boy over there does.~
+@8   = ~Kind of, yes.  Let me think.  (clears throat)
+
+dum de dum, don't understand
+tallow drips on withered hand
+'neath shadow of a gallows' pole
+I took (something, something),
+fingers dance and I stretch and yawn
+Hand of Glory.~
+@9   = ~I don't remember that middle part.  The song is about making a magical item called the Hand of Glory.  That is all I can remember though. We should probably check with Pelltar about this.~
+// Shall remain identical to @865 in baf.tra and @91 in BHFABIO.tra, otherwise there will be a journal issue
+@10  = ~Fabio thinks the paper is referring to a magical item called the Hand of Glory.  I wonder what that is, and why did the thieves think I had it? We will need to check with Pelltar about this as soon as we can get back to Restenford.~
+@11  = ~Those boxes on that map, they are in the same positions as some of the buildings here in town.  But it isn't all of them.  Some of them have a checkmark next to them, which is kind of strange.~
+@12  = ~A map?  Yes, it is possible, isn't it?  There are three bigger boxes near the line which could represent the river.  Two of those boxes have checkmarks.  There are three large warehouses near the river.  So why are only two of the three marked?~
+@13  = ~Well, maybe because two of the three warehouses had items stolen from them?~
+@14  = ~Maybe.  Perhaps we should talk to Welcar to see if he agrees with you.~
+@15  = ~Hey now!  You guys are leaving this lovely town?  I'm sorry but I need to stick around.  The Baroness may not like me but her daughter sure does.  I just have to keep working on her.  After all we just did, I should be a hero to the Baroness!  Maybe I'll see you on the coast someday.  Goodbye.~
+@16  = ~Leaving us again?  Okay.  I hope everything works out well for you.~
+@17  = ~Balmorrow you are the worst bard the realms ever farted into existence.~
+@18  = ~It would still feel better than watching you "act" as you call it.~
+@19  = ~We need to talk.  Away from other ears.  This is <CHARNAME>.  A friend of mine.~
+@20  = ~Greetings to you Balmorrow.  Quite the theater setup you have here.~
+@21  = ~Greetings.~
+@22  = ~(points to the lute)  Maybe they did.~
+@23  = ~Oh, she is quite the lady now.~
+@24  = ~<CHARNAME>, there is no way that Balmorrow is involved in some sort of assassin's guild.  I have traveled with him for years.  I know him well.  Perhaps we should look around the castle here for clues?~
+@25  = ~Hey Willard, you should feel right at home here.~ [FABIONM1]
+@26   = ~Boo wants to know who this "Willard" person is.  I don't see anyone here but us.~
+@27  = ~I was calling you Willard.  He was the name of a character in a movie.  He loved rats and lived with a huge swarm of them.~
+@28   = ~Oh!  Okay.  Boo doesn't like being called a rat, music man.  But uhm, what is a movie?~
+@29  = ~(rolls his eyes upward)  Why me, Helm?  A movie is like a play.  Only instead of watching the play live, they record it so you can watch it later.  Before you ask!  Think of a story in a book.  The story is written down so you can read it later when you have time, or if you want to read it several times.~
+@30   = ~Well why didn't you say so?  Boo loves books, he makes little beds out of them.  I only like the ones with big pictures.~
+@31  = ~Somehow, I just knew you were going to say that.~
+@32   = ~Oh, and I suppose Mister "know it all" knows a song that this scribble is talking about?~
+@33   = ~Yes, that makes perfect sense to me.  This is a check list.  I bet these other boxes are the other places that the thief went to.  We should check this out.~
+@34   = ~Yeah, that makes perfect sense to me.  This is some kinda check list.  I bet these other boxes are the other places that the thief went to.  We should check this out.~

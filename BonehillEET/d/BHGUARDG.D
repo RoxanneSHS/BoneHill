@@ -1,0 +1,10 @@
+BEGIN ~BHGUARDG~
+
+IF ~OR(4)
+AreaCheck("BH2000")
+AreaCheck("BH2100")
+AreaCheck("BH2101")
+AreaCheck("BH2102")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,51 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH2100",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH2100",1)
+    CreateCreature("BHOGUARD",[1957.280],9)
+    CreateCreature("BHOGUARD",[2040.356],14)
+    CreateCreature("BHOGUARD",[1747.356],2)
+    CreateCreature("BHOGUARD",[2087.1126],5)
+    CreateCreature("BHOGUARD",[1251.1464],9)
+    CreateCreature("BHOGUARD",[516.845],14)
+    CreateCreature("BHOGUARD",[300.944],5)
+    CreateCreature("BHOGUARD",[1022.410],1)
+    CreateCreature("BHOGUARD",[1429.398],1)
+END
+
+IF
+  Dead("BHTELLIS")
+  !Dead("BHARRNES")
+  Global("BHAssassinGuild","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHOLIEUT",[908.908],6)
+    CreateCreature("BHOLIEUT",[1661.590],4)
+    SetGlobal("BHAssassinGuild","GLOBAL",1)
+END
+
+IF
+  !Dead("BHTELLIS")
+  Dead("BHARRNES")
+  Global("BHAssassinGuild","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHOLIEUT",[908.908],6)
+    CreateCreature("BHOLIEUT",[1661.590],4)
+    SetGlobal("BHAssassinGuild","GLOBAL",1)
+END
+
+IF
+  Dead("BHTELLIS")
+  Dead("BHARRNES")
+  GlobalLT("BHAssassinGuild","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreature("BHOLIEUT",[908.908],6)
+    CreateCreature("BHOLIEUT",[1661.590],4)
+    SetGlobal("BHAssassinGuild","GLOBAL",2)
+END
+

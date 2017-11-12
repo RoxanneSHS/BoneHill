@@ -1,0 +1,41 @@
+@1  = ~Sei l'anima del gruppo, non è vero?~ [FABIONZ]
+@2  = ~Sei uno stupido, non puoi lasciare che Imoen muoia!~ [FABIONI]
+@3  = ~Oh, una drow! Ed è anche attraente!~ [FABIONV]
+@4  = ~Lo sai? Penso che le ragazze come te, mi accendono notevolmente.~ [FABIONSH]
+@5  = ~Ehi, <CHARNAME>. In quel pezzo di carta si parla di un oggetto magico che si adatta ad una canzone.~
+@6  = ~E presumo che tu la conosca tutta questa canzone, vero?~
+@7  = ~Certo. Io non ti interrompo per cose stupide, come fa il ragazzo là.~
+@8  = ~Un po' si. Lasciami pensare. (si schiarisce la gola)
+
+dum de dum, non capisco
+il sego gocciola sulla mano inaridita
+sotto l'ombra di un patibolo
+Ho preso (qualcosa, qualcosa),
+le dita danzano e io stiro ed apro
+la Mano della Gloria.~
+@9  = ~Non ricordo la parte centrale. La canzone parla di un oggetto magico chiamato la Mano della Gloria. Tuttavia, questo è tutto quello che mi ricordo. Probabilmente dovremo parlare a Pelltar di questo.~
+@10 = ~Fabio pensa che il pezzo di carta si riferisce ad un oggetto magico chiamato la Mano della Gloria. Credo che sia vero, ma allora perché i ladri pensavano che ce l'avessi io? Dobbiamo parlare con Pelltar di tutto questo e tornare a Restenford il prima possibile.~
+@11 = ~Questa nota sembrerebbe una mappa di una città, ci sono dei riquadri che sono disegnati in posizioni simili alle costruzioni di Restenford. Ma non è tutto. Alcuni riquadri hanno un simbolo vicino, che è molto strano.~
+@12 = ~Una mappa? Si è possibile. Ci sono tre grandi riquadri vicino ad una linea che dovrebbe rappresentare il fiume. Due di questi riquadri hanno un simbolo. Pensandoci bene ci sono tre grandi magazzini vicino al fiume. Allora perché solo due su tre sono evidenziati?~
+@13 = ~Beh, forse perché gli oggetti che sono stati rubati erano in due dei tre magazzini.~
+@14 = ~Potrebbe essere. Forse dovremmo parlare con Welcar per vedere se lui è d'accordo con te.~
+@15 = ~Ehi! Stai lasciando questa incantevole città? Mi dispiace ma io devo rimanere in zona. La madre di Andrella potrebbe non piacermi ma sua figlia sicuramente si. Sto cercando di far colpo su di lei. Dopo tutto quello che abbiamo fatto, potrei diventare un eroe agli occhi della Baronessa! Forse un giorno ci incontreremo sulla Costa. Ci vediamo. Buona fortuna.~
+@16 = ~Ci lasci di nuovo? Ok. Ti auguro che ti vada tutto bene.~
+@17 = ~Balmorrow sei il peggior bardo che i reami abbiano mai potuto partorire.~
+@18 = ~Sarebbe molto meglio che guardarti "recitare" se così si può dire.~
+@19 = ~Abbiamo bisogno di parlarti. Lontano da orecchie indiscrete. Questo è <CHARNAME>. Un mio amico.~
+@20 = ~Salute a voi Balmorrow. Ti sei costruito un discreto teatro qui.~
+@21 = ~Salve.~
+@22 = ~(indicando il liuto) O forse lo hanno già fatto.~
+@23 = ~Oh si, lei è una signorina adesso.~
+@24 = ~<CHARNAME>, non credo assolutamente che Balmorrow sia in qualche modo coinvolto con la Gilda degli Assassini. Ho viaggiato con lui per anni. Lo conosco bene. Forse dovremmo dare un'occhiata intorno al castello qui, per avere degli indizi, che ne pensi?~
+@25 = ~Ehi Willard, qui dovresti sentirti come a casa tua.~ [FABIONM1]
+@26 = ~Boo vuole sapere chi é questo "Willard". Io non vedo nessuno qui, solo noi.~
+@27 = ~Ti stavo chiamando Willard perché era il nome di un personaggio di un film. Lui amava i topi e viveva insieme a molti di loro.~
+@28 = ~Ah! Ok. Ma a Boo non piace essere chiamato topo, musicante. Ma uhm, cos'è un film?~
+@29 = ~(ruota gli occhi verso l'alto) Perché io, Helm? Perché? Un film è come una recita. Solo che invece di guardare la recita dal vivo, si registra, così la si può guardare anche in un altro momento. Prima che tu me lo chieda! Pensa ad una storia di un libro. La storia è scritta subito cosicché tu possa puoi leggerla in un secondo momento, quando avrai più tempo, o se vuoi potrai anche rileggerla altre volte.~
+@30 = ~Beh, perché non l'hai detto subito? A Boo piacciono i libri, lui ci si fa dei giacigli. A me piacciono quelli con i disegni grandi.~
+@31 = ~In qualche modo, lo immaginavo che mi avresti risposto in questo modo.~
+@32 = ~Oh, e io immagino che il Signor "conosco tutto io" conosca la canzone di cui si parla in questi scarabocchi?~
+@33 = ~Si, tutto ciò ha un senso preciso per me. Si tratta di un memorandum. Scommetto che questi altri riquadri sono gli altri posti dove i ladri sono andati. Dovremmo esaminare e indagare bene sulla cosa.~
+@34 = ~Si, tutto ciò ha un senso per me. Sembra un memorandum. Scommetto che questi altri riquadri sono gli altri posti dove i ladri sono andati. Dovremmo esaminare e indagare bene sulla cosa.~

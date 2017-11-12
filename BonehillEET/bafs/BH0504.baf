@@ -1,0 +1,17 @@
+IF
+  Global("BHHandSearch","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SmallWait(2)
+    StartCutSceneMode()
+    SetGlobal("BHHandSearch","GLOBAL",2)
+    SetGlobal("BHHandSewerOpen","GLOBAL",1)
+    RestParty()
+    AddJournalEntry(@150,USER)
+    DisplayStringHead(Player1,@151)  // 
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    EndCutSceneMode()
+END
+

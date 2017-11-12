@@ -1,0 +1,9 @@
+IF
+  Entered([ANYONE])
+  GlobalLT("BHGuardQuest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DisplayString(Myself, @50)
+    SetGlobal("BHGuardQuest","GLOBAL",2)
+END
+

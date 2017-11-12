@@ -1,0 +1,56 @@
+IF
+  GlobalLT("BHGuardWarning","BH2101",3)
+  See([GOODCUTOFF])
+  !StateCheck(LastTrigger,STATE_INVISIBLE)
+  !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    SetGlobal("BHGuardWarning","BH2101",2)
+    StartDialogue("bhascue",[PC])
+END
+
+IF
+  Global("BHEscortSpawn","GLOBAL",1)
+  See([GOODCUTOFF])
+  !StateCheck(LastTrigger,STATE_INVISIBLE)
+  !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    SetGlobal("BHEscortSpawn","GLOBAL",2)
+    StartDialogue("bhascue",[PC])
+END
+
+IF
+  Global("BHEscortSpawn","GLOBAL",2)
+  See([GOODCUTOFF])
+  !StateCheck(LastTrigger,STATE_INVISIBLE)
+  !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+THEN
+  RESPONSE #100
+    SetGlobal("BHEscortSpawn","GLOBAL",3)
+    StartDialogue("bhascue",[PC])
+END
+
+IF
+  Global("BHEscortedParty","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SaveGame(0)
+    SmallWait(2)
+    StartCutSceneMode()
+    SetGlobal("BHEscortedParty","GLOBAL",2)
+    FadeToColor([30.0],0)
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUA("BH2101","",[866.506],6))
+    ActionOverride(Player2,LeaveAreaLUA("BH2101","",[940.492],5))
+    ActionOverride(Player3,LeaveAreaLUA("BH2101","",[1016.443],5))
+    ActionOverride(Player4,LeaveAreaLUA("BH2101","",[865.559],6))
+    ActionOverride(Player5,LeaveAreaLUA("BH2101","",[983.532],5))
+    ActionOverride(Player6,LeaveAreaLUA("BH2101","",[1079.483],5))
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    SetGlobal("BHEscortedParty","GLOBAL",2)
+    EndCutSceneMode()
+END
+

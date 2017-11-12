@@ -1,0 +1,31 @@
+IF
+  OnCreation()
+  GlobalLT("BHPellSpawn1","BH0100",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHPell",[3905.3429],0)
+    SetGlobal("BHPellSpawn1","BH0100",1)
+    Wait(1)
+END
+
+IF
+  GlobalGT("BHQuestAccept","GLOBAL",1)
+  OpenState("Door12",TRUE)
+  Global("BHLightHouseDoor","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CloseDoor("Door12")
+    Lock("Door12")
+    TriggerActivation("Tran0125",FALSE)
+    SetGlobal("BHLightHouseDoor","GLOBAL",1)
+END
+
+IF
+  Global("BHHandLightHouseOpen","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Unlock("Door12")
+    TriggerActivation("Tran0125",TRUE)
+    SetGlobal("BHLightHouseDoor","GLOBAL",1)
+END
+

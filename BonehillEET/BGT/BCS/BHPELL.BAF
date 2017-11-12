@@ -1,0 +1,206 @@
+IF
+   Global("BHQuestAccept","GLOBAL",2)
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SaveGame(0)
+     SmallWait(2)
+     StartCutSceneMode()
+     SetGlobal("BHQuestAccept","GLOBAL",3)
+     FadeToColor([30.0],0)
+     Wait(2)
+     ActionOverride(Player1,LeaveAreaLUA("BH0100","",[3865.3629],4))
+     ActionOverride(Player1,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player2,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player3,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player4,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player5,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player6,LeaveAreaLUA("BH0100","",[3865.3629],0))
+     ActionOverride(Player1,Wait(2))
+     ActionOverride(Player1,MultiPlayerSync())
+     SetGlobal("BHQuestAccept","GLOBAL",3)
+     EndCutSceneMode()
+END
+
+IF
+   AreaCheck("BH0100")
+THEN
+   RESPONSE #100
+     StartDialogue("bhpell",[PC])
+END
+
+IF
+   Global("BHQuestAccept","GLOBAL",4)
+   AreaCheck("BH0109")
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SmallWait(2)
+     CreateCreature("BHGELPAS",[349.505],13)
+     SetGlobal("BHQuestAccept","GLOBAL",5)
+END
+
+IF
+   Global("BHQuestAccept","GLOBAL",4)
+   AreaCheck("BH0504")
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SmallWait(2)
+     CreateCreature("BHGELPAS",[229.340],7)
+     SetGlobal("BHQuestAccept","GLOBAL",5)
+END
+
+IF
+   Global("BHHandQuestAccept","GLOBAL",1)
+THEN
+   RESPONSE #100
+     SmallWait(3)
+     StartDialogue("bhpell",[PC])
+END
+IF
+   Global("BHHandQuestAccept","GLOBAL",2)
+   AreaCheck("BH0109")
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SmallWait(5)
+     CreateCreature("BHRGUARD",[349.505],7)
+     SetGlobal("BHHandQuestAccept","GLOBAL",3)
+END
+
+IF
+   Global("BHHandQuestAccept","GLOBAL",2)
+   AreaCheck("BH0504")
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SmallWait(1)
+     CreateCreature("BHRGUARD",[229.340],7)
+     SetGlobal("BHHandQuestAccept","GLOBAL",3)
+END
+
+IF
+   Global("BHQuestAccept","GLOBAL",7)
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SaveGame(0)
+     SmallWait(2)
+     StartCutSceneMode()
+     SetGlobal("BHQuestAccept","GLOBAL",8)
+     FadeToColor([30.0],0)
+     Wait(2)
+     EraseJournalEntry(@850)
+     EraseJournalEntry(@851)
+     EraseJournalEntry(@852)
+     EraseJournalEntry(@853)
+     EraseJournalEntry(@854)
+     EraseJournalEntry(@855)
+     EraseJournalEntry(@856)
+     EraseJournalEntry(@857)
+     EraseJournalEntry(@858)
+     EraseJournalEntry(@859)
+     EraseJournalEntry(@860)
+     EraseJournalEntry(@861)
+     EraseJournalEntry(@862)
+     EraseJournalEntry(@863)
+     EraseJournalEntry(@864)
+     EraseJournalEntry(@865)
+     EraseJournalEntry(@866)
+     ActionOverride(Player1,LeaveAreaLUA("BG3402","",[320.360],12))
+     ActionOverride(Player2,LeaveAreaLUA("BG3402","",[531.269],0))
+     ActionOverride(Player3,LeaveAreaLUA("BG3402","",[543.223],0))
+     ActionOverride(Player4,LeaveAreaLUA("BG3402","",[495.197],0))
+     ActionOverride(Player5,LeaveAreaLUA("BG3402","",[457.231],0))
+     ActionOverride(Player6,LeaveAreaLUA("BG3402","",[423.264],0))
+     ActionOverride(Player1,Wait(2))
+     ActionOverride(Player1,MultiPlayerSync())
+     ActionOverride(Player1,FadeFromColor([30.0],0))
+     SetGlobal("BHQuestAccept","GLOBAL",8)
+     AddexperienceParty(12000)
+     EndCutSceneMode()
+END
+
+IF
+   Global("BHToldOfDeath","GLOBAL",2)
+THEN
+   RESPONSE #100
+     SmallWait(3)
+     StartDialogue("bhpell",[PC])
+END
+
+IF
+   Global("BHQualConfessed","GLOBAL",3)
+THEN
+   RESPONSE #100
+     SmallWait(3)
+     StartDialogue("bhpell",[PC])
+END
+
+IF
+   Global("BHAllDone","GLOBAL",2)
+THEN
+   RESPONSE #100
+     ClearAllActions()
+     SaveGame(0)
+     SmallWait(2)
+     StartCutSceneMode()
+     SetGlobal("BHAllDone","GLOBAL",3)
+     FadeToColor([30.0],0)
+     Wait(2)
+     EraseJournalEntry(@867)
+     EraseJournalEntry(@868)
+     EraseJournalEntry(@869)
+     EraseJournalEntry(@870)
+     EraseJournalEntry(@871)
+     EraseJournalEntry(@872)
+     EraseJournalEntry(@873)
+     EraseJournalEntry(@874)
+     EraseJournalEntry(@875)
+     EraseJournalEntry(@876)
+     EraseJournalEntry(@877)
+     EraseJournalEntry(@878)
+     EraseJournalEntry(@879)
+     EraseJournalEntry(@880)
+     EraseJournalEntry(@881)
+     EraseJournalEntry(@882)
+     EraseJournalEntry(@883)
+     EraseJournalEntry(@884)
+     EraseJournalEntry(@885)
+     EraseJournalEntry(@886)
+     EraseJournalEntry(@887)
+     EraseJournalEntry(@888)
+     EraseJournalEntry(@889)
+     EraseJournalEntry(@890)
+     EraseJournalEntry(@891)
+     EraseJournalEntry(@892)
+     EraseJournalEntry(@893)
+     EraseJournalEntry(@894)
+     EraseJournalEntry(@895)
+     EraseJournalEntry(@896)
+     ActionOverride(Player1,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player2,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player3,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player4,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player5,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player6,LeaveAreaLUA("BG0900","",[4411.3687],5))
+     ActionOverride(Player1,Wait(2))
+     ActionOverride(Player1,MultiPlayerSync())
+     ActionOverride(Player1,FadeFromColor([30.0],0))
+     SetGlobal("BHAllDone","GLOBAL",3)
+     AddexperienceParty(15000)
+     EndCutSceneMode()
+END  
+
+IF
+	Global("BH_wielblad","BH0500",0)
+	Global("BHToldOfDeath","GLOBAL",5)
+	Exists("fabio")
+	!See("fabio")
+	AreaCheck("BH0500")
+THEN
+	RESPONSE #100
+		CreateCreature("BHFABIO",[2550.1447],14)
+		SetGlobal("BH_wielblad","BH0500",1)
+END

@@ -1,0 +1,96 @@
+BEGIN ~BHRUMOR~
+
+IF ~RandomNum(19,1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,2)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,3)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,4)~ THEN BEGIN 3
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,5)~ THEN BEGIN 4
+  SAY @4
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,6)~ THEN BEGIN 5
+  SAY @5
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,7)~ THEN BEGIN 6
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,8)~ THEN BEGIN 7
+  SAY @7
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,9)~ THEN BEGIN 8
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,10)~ THEN BEGIN 9
+  SAY @9
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,11)~ THEN BEGIN 10
+  SAY @10
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,12)~ THEN BEGIN 11
+  SAY @11
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,13)~ THEN BEGIN 12
+  SAY @12
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,14)~ THEN BEGIN 13
+  SAY @13
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,15)~ THEN BEGIN 14
+  SAY @14
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,16)~ THEN BEGIN 15
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,17)~ THEN BEGIN 16
+  SAY @16
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,18)~ THEN BEGIN 17
+  SAY @17
+  IF ~~ THEN EXIT
+END
+
+IF ~RandomNum(19,19)~ THEN BEGIN 18
+  SAY @18
+  IF ~~ THEN EXIT
+END

@@ -1,0 +1,67 @@
+@1  = ~Salutations, je suis Yalta. Que puis-je faire pour vous ?~
+@2  = ~Salut Yalta. Nous sommes le groupe de <CHARNAME>. Nous aidons Pelltar à régler certains problèmes qui empoisonnent Restenford.~
+@3  = ~Attaques de gnolls
+
+J'ai parlé à Yalta de l'ogre-mage qui dirigeait les gnolls. Espérons que ce problème est résolu.~
+@4  = ~Attaques de gnolls
+
+Yalta dit que les gnolls de Tri-Top ne cessent d'attaquer la ville. Ils semblent plus organisés que par le passé et représentent un réel défi pour les gardes désormais. Il se passe quelque chose là-bas et il veut que je trouve d'où cela vient.~ 
+@5  = ~Les gnolls de Tri-Top étaient sous le contrôle d'un ogre. Nous avons tué l'ogre et traqué tous les gnolls que nous avons pu trouver. Ils ne devraient plus ennuyer la ville pendant un bon moment.~
+@6  = ~Il semble qu'il y ait un vieux complexe de grottes sous le poste de garde et les rats avaient un nid énorme dans la grotte. Nous avons aussi trouvé quelques mort-vivants et les avons détruits de même.~
+@7  = ~Ah, oui. Nous en avons notre part. Vous intéressez-vous à quelque chose de particulier ? Peut-être puis-je aider.~
+@8  = ~Je suppose que vous êtes prêtre ?~
+@9  = ~Je comprends que des groupes de gnolls ont attaqué la ville ?~
+@10 = ~Avez-vous entendu parler du vieux poste de garde abandonné ?~
+@11 = ~Cela ne fait pas encore longtemps que nous sommes ici. Donc nous en sommes encore à apprendre en quoi consistent les problèmes. Y a-t-il une chose pour laquelle vous pensez que nous pourrions aider ?~
+@12 = ~Non, je suppose que nous avons déjà résolu tous les problèmes dont vous avez parlé. Si vous n'avez rien d'autre, nous irons vérifier auprès de Pelltar.~
+@13 = ~Merci de votre offre. Je pense que vous avez couvert tous les sujets pour l'instant. Nous allons poursuivre nos recherches jusqu'à trouver les réponses.~ 
+@14 = ~Oui, je suis le conseiller spirituel de la Baronne, Dame Fairwind.~
+@15 = ~Conseiller ?~
+@16 = ~N'avez-vous pas encore rencontré Dame Fairwind ? C'est une prêtresse, elle aussi.~
+@17 = ~Bien entendu, compte tenu des devoirs d'une Baronne, elle n'est pas toujours en mesure de poursuivre son apprentissage spirituel. Je suis son tuteur, bien que ces derniers temps je sois davantage le confident de ses soucis.~
+@18 = ~La Baronne a des soucis ?~
+@19 = ~Non, non, rien de ce genre. Elle considère les problèmes de son pays comme les siens (ainsi que ceux de son mari, bien sûr). Ils ne veulent pas que leur peuple souffre.~
+@20 = ~C'est une honte que tous les dirigeants ne ressentent pas les choses ainsi.~
+@21 = ~Hum ? Oui, oui, ce n'est hélas que trop vrai. Alors, où en étais-je ?~
+@22 = ~Vous alliez nous parler de certains des problèmes de cette région ?~
+@23 = ~Vous nous parliez des problèmes de la région. Je pense que vous avez tout évoqué.~ 
+@24 = ~*Soupir.* Oui, ç'a été un problème récurrent pour Restenford. Il y a plusieurs clans gnolls, orques ou gobelins un peu partout dans les collines et les étendues sauvages des alentours.~
+@25 = ~Oui. Une petite fille a été mordue par un gros rat là-bas, près du vieux poste de garde abandonné. Ce ne devrait pas poser problème, normalement, mais j'ai entendu d'autres personnes se plaindre des rats elles aussi. Vous devriez vérifier ça et vous assurer qu'il ne se passe rien d'anormal, s'il vous plaît. Allez parler à Zahrdahl, c'est le marchand qui vit près du poste de garde. Il en sait peut-être davantage sur leur origine.~
+@26 = ~Yalta nous a demandé de nettoyer un poste de garde abandonné investi par des rats. Ça semble assez simple. Il m'a suggéré de parler au marchand d'appâts, vu que c'est lui qui vit le plus près du poste de garde.~
+@27 = ~Nous serions ravis de jeter un oeil là-dessus. Merci.~
+@28 = ~Que m'importe ? Si elle meurt, c'est qu'elle n'aurait pas dû être là. Ça lui apprendra.~
+@29 = ~D'autres problèmes, à part les rats ?~
+@30 = ~Nous nous sommes déjà occupés du problème des rats.~
+@31 = ~Hé bien, c'est décevant d'entendre cela. Si c'est l'idée que vous vous faites de l'assistance, vous pouvez demander à Pelltar de vous renvoyer tout de suite. Laissez-moi, je vous prie.~
+@32 = ~Il y a d'autres problèmes à Restenford. Revenez me rendre visite quand vous en aurez l'occasion.~ 
+@33 = ~La plupart du temps ils nous laissent tranquilles. Ce n'est que durant les hivers vraiment froids qu'ils tentent d'attaquer la ville. C'est toujours à cause de la pénurie de nourriture durant l'hiver. Les hivers réduisent leur nombre, d'habitude, mais ils ont l'air de se reproduire comme des lapins.~
+@34 = ~Les dernières attaques ne suivent pas le schéma habituel. Nous ne sommes pas en hiver, il devrait y avoir quantité de nourriture là-bas. Alors pourquoi nous harcèlent-ils ? Je pense que quelque chose ou quelqu'un les organise.~
+@35 = ~Qu'est-ce qui vous fait penser ça ?~
+@36 = ~Oui, oui ! Vous nous avez déjà renseignés sur les gnolls. Nous allons continuer à chercher.~ 
+@37 = ~Les attaques sont mieux planifiées. Désormais, ils sont répartis en groupes et attaquent le mur en différents points durant leurs raids, de sorte que nos gardes se dispersent en essayant de protéger plusieurs zones à la fois. Par le passé, les gnolls se contentaient de se jeter sur les murs. A présent ils font cause commune avec des loups pour attaquer les voyageurs ou frapper tout garde qui s'aventure à l'extérieur de la palissade. De plus, ils attaquent à toute heure du jour. Autrefois c'était uniquement la nuit.~
+@38 = ~Nous serions ravis de nous pencher là-dessus pour vous.~
+@39 = ~Hum, nous pourrons examiner cela plus tard. Pelltar a quelques urgences immédiates pour nous.~ 
+@40 = ~Oui, des groupes de gnolls attaquent sans cesse la ville par l'ouest.~
+@41 = ~Parlez à Almax ou à Sir BillyBob. Ils vivent tous deux de l'autre côté de la ville. Peut-être pourront-ils vous aider. Allez en paix, mon frère.~ ~Parlez à Almax ou à Sir BillyBob. Ils vivent tous deux de l'autre côté de la ville. Peut-être pourront-ils vous aider. Allez en paix, ma soeur.~ 
+@42 = ~Vraiment ? Bravo. Je suis heureux que vous soyez là alors. Pelltar a pris une excellente décision en vous recrutant.~
+@43 = ~Merci. Nous ne faisons qu'aider là où nous le pouvons.~ 
+@44 = ~Des mort-vivants ? Ici ? En ville ? Hé bien. Ce sont VRAIMENT des temps troublés. Merci de vous être occupés de ça. Au fait, la petite fille va se remettre.~
+@45 = ~Pas de quoi.~ 
+@46 = ~Allez en paix, mon frère.~ ~Allez en paix, ma soeur.~ 
+@47 = ~Bienvenue encore, <CHARNAME>. Comment progressent vos investigations ?~
+@48 = ~Très bien pour l'instant. Il semble que plus nous recherchons des problèmes, plus nous en trouvons.~
+@49 = ~Attaques de gnolls
+
+J'ai parlé à Yalta de l'ogre-mage qui dirigeait les gnolls. Espérons que ce problème est résolu.~
+@50 = ~Attaques de gnolls
+
+Yalta dit que les gnolls de Tri-Top ne cessent d'attaquer la ville. Ils semblent plus organisés que par le passé et représentent un réel défi pour les gardes désormais. Il se passe quelque chose là-bas et il veut que je trouve d'où cela vient.~ 
+@51 = ~Les gnolls de Tri-Top étaient sous le contrôle d'un Ogre Mage. Nous avons tué l'Ogre Mage et traqué tous les gnolls que nous avons pu trouver. Ils ne devraient plus gêner la ville d'ici un bon moment.~
+@52 = ~Très bien pour l'instant. Nous faisons de notre mieux pour éliminer les problèmes que nous trouvons.~
+@53 = ~S'il vous plaît, partez maintenant ! Je ne veux plus avoir affaire à vous !~ 
+@54 = ~Vraiment ?! S'il vous plaît, racontez-moi.~
+@55 = ~Bah, les nains et les elfes pourraient dire la même chose de vous, foutus humains.~
+@56 = ~Quoi ! Ignore <CHARNAME>, s'il te plaît. Nous serons heureux de débarrasser cette ville des mauvais rats. Bouh déteste les rats.~ 
+@57 = ~Elle s-semble être un merveilleux chef pour cette cité. Plus de dirigeants devraient être comme elle.~
+@58 = ~Bah ! Ces maudits cul-bénis. Je parie qu'en réalité ils s'assoient en cercle pour recompter l'argent des taxes tous les soirs, comme je le ferais à leur place.~
+@59 = ~Ignorez-le. C'est une honte que tous les dirigeants ne ressentent pas les choses comme les vôtres.~

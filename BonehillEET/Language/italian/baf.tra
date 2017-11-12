@@ -1,0 +1,179 @@
+//BH0109.baf
+@0    = ~Sembra che i furti siano iniziati una settimana dopo l'impiccagione di un famoso bandito di nome Reynard. Un altro fatto interessante è che un tempo a Restenford c'era una Gilda di Ladri. Il Barone Grellus riuscì a distruggerla appena divenne barone. Era dislocata nelle fogne della parte ovest della città. Il ladro si nasconderà lì?~
+@1    = ~Dopo diverse ore di lettura, hai scoperto alcune interessanti informazioni nei libri di storia su Restenford. Sembra che i furti siano iniziati una settimana dopo l'impiccagione di un famoso bandito di nome Reynard. Un altro fatto interessante è che un tempo a Restenford c'era una Gilda di Ladri. Il Barone Grellus riuscì a distruggerla appena divenne barone. Era dislocata nelle fogne della parte ovest della città. In una guida di oggetti magici hai scoperto che la Mano della Gloria è stata creata dalla mano di un ladro morto. Tuttavia il testo non spiega cosa può fare la Mano.~
+
+//BH0401T.baf
+@50   = ~Hai trovato una botola sotto le macerie. Sembra vecchia e inutilizzata da molto tempo.~
+
+//BH0402T.baf
+@100  = ~Qui deve essere da dove escono i topi. L'odore è orribile. Puoi vederli e sentirli più avanti.~
+
+//BH0504.baf
+@150  = ~Sembra che i furti siano iniziati una settimana dopo l'impiccagione di un famoso bandito di nome Reynard. Un altro fatto interessante è che un tempo a Restenford c'era una Gilda di Ladri. Il Barone Grellus riuscì a distruggerla appena divenne barone. Era dislocata nelle fogne della parte ovest della città. Il ladro si nasconderà lì?~
+@151  = ~Dopo diverse ore di lettura, hai scoperto alcune interessanti informazioni nei libri di storia su Restenford. Sembra che i furti siano iniziati una settimana dopo l'impiccagione di un famoso bandito di nome Reynard. Un altro fatto interessante è che un tempo a Restenford c'era una Gilda di Ladri. Il Barone Grellus riuscì a distruggerla appena divenne barone. Era dislocata nelle fogne della parte ovest della città.~
+
+//BH0700.baf
+@200  = ~Insieme avete decifrato la nota scoprendo che si tratta di una mappa di Restenford.~
+
+//BH1100.baf
+@250  = ~Il capo dei banditi ora è morto.~
+
+//BH1101.baf
+@260  = ~Ora sai dove gli orchi nascondevano le carovane scomparse.~
+
+//BH1301.baf
+@300  = ~E così un Orco Magi guida gli gnoll. Questo spiega i recenti attacchi organizzati contro Restenford.~
+
+//BHALARM.baf
+@350  = ~Appena varchi il cancello, un allarme suona e poi improvvisamente si ferma.~
+
+//BHALARM2.baf
+@400  = ~Qualcuno ti ha scoperto! Senti chiamare le guardie!~
+
+//BHALMON.baf
+@450  = ~Ladro! Come osi!!~
+@451  = ~Sei é stato scoperto da Almon. Sono state chiamate le guardie.~
+
+//BHARNSPL
+@1300 = ~Aiuto! Guardie, proteggetemi!~
+
+//BHBERSER.baf
+@500  = ~Beve una pozione~
+@501  = ~Ho bisogno di cure!~
+
+//BHCTMS.baf
+@550  = ~Trappola Scattata!~
+
+//BHCUTBA1.baf
+@600  = ~Per gli Dei che giornata! La finiranno mai di litigare i mercanti?~
+@601  = ~Cos'è questo? Fairwind, è tuo questo cara?~
+@602  = ~Ha ha ha ha!~
+
+//BHFAIR.baf
+@650  = ~Ladro!~
+@651  = ~Il tuo furto è stato scoperto dalla Signora Fairwind.~
+
+//BHGRAVE.baf
+@700  = ~Sembra come una tomba nuova.~
+@701  = ~La tomba di Reynald viene dissotterrata. Dopo aver guardato nella bara, sotto il coperchio, scopri due corpi nella stessa bara. Uno è un corpo di un umano maschio a cui manca la mano sinistra, l'altro è uno gnomo maschio.~
+@702  = ~Oltre ai due corpi quasi putrefatti non c'è nient'altro all'interno della tomba.~
+@703  = ~Sei troppo lontano dalla tomba per fare qualcosa.~
+
+//BHHARPER.baf
+@750  = ~Mi chiedo se sia necessaria altra neve?~
+@751  = ~Forse dobbiamo dare più servizi sotto l'acqua?~
+@752  = ~Hmm, penso che quell'incantesimo rimuoverà le macchie.~
+@753  = ~Perfetto, sembra odore di pioggia.~
+@754  = ~Quando si mangia? Sono affamato.~
+
+//BHINFO01.baf
+@800  = ~Appena attraversi la porta, un allarme suona e poi improvvisamente si ferma.~
+
+//BHPELL.baf
+@850  = ~Zahrdahl non va alla locale taverna e inoltre ha una gamba finta che non gli permetterebbe comunque di arrivarci. Mi domando perché è così interessato a quello che sto facendo qui.~
+@851  = ~Un contadino ci ha detto che ha perso del bestiame. Pensa che siano stati gli gnoll.~
+@852  = ~Un contadino ci ha detto di aver visto muoversi qualcosa vicino alla sua casa. Tuttavia non ci ha saputo dire di cosa si trattasse.~
+@853  = ~Un uomo afferma che ci siano dei Non Morti vicino alla vecchia casa di guardia. Forse è necessario che ci dia un'occhiata.~
+@854  = ~Abbiamo incontrato un contadino che ha voluto raccontarci quello che successe a suo zio. Sembra che suo zio una volta andò ad esplorare delle vecchie rovine e tornò posseduto da uno spirito malvagio. Si riuscì poi a liberarlo lanciandogli un incantesimo di Bloccapersone sullo sfortunato uomo.~
+@855  = ~In diverse strade intorno a Restenford ci sono banditi. Mi sembra come se fossi tornato a casa.~
+@856  = ~Il Ladro dei Magazzini 
+
+Welcar pensa che una persona sola sia coinvolta nei furti ai magazzini. E così è stata una persona sola a commettere i furti? E gli assassinii? Perché?~
+@857  = ~Il Ladro dei Magazzini 
+
+Tutte le cose rubate sono state restituita e Welcar. Forse ora Gelpas lascerà che Pelltar ci rispedisca indietro.~
+@858  = ~Welcar ha detto che ci sono delle vecchie fogne sotto Restenford. Tempo fa i ladri le usavano per nascondersi. Presumo che il ladro dei magazzini la stia usando.~
+@859  = ~Attacchi Gnoll
+
+Ho detto a Yalta che un Orco Magi era a capo degli gnoll, e che abbiamo ucciso l'Orco e tutti gli Gnoll che abbiamo incontrato. Speriamo che questo problema sia risolto.~
+@860  = ~Yalta mi ha detto di ripulire e controllare una casa di guardia abbandonata piena di topi. Sembra un lavoro abbastanza facile. Ci ha consigliato di parlare anche con il venditore di oggetti per la pesca che vive nei pressi dalle casa di guardia.~
+@861  = ~Attacchi Gnoll
+
+Yalta ci ha detto che gli gnoll delle parti di Tri-Top attaccano la città. Sembrano più organizzati che in passato e sono diventati un vero problema per le guardie adesso. Lì sta accadendo qualcosa e noi dovremo scoprire cosa sta succedendo.~
+@862  = ~Ripulire la Casa Abbandonata della Guardia 
+
+Zahrdahl, il mercante locale di oggetti per la pesca, ci ha chiesto di ripulire l'area dai topi. Sembra esserci un nido nella casa abbandonata della guardia a sud di Restenford.~
+@863  = ~ Ripulire la casa Abbandonata della Guardia 
+
+Ho detto a Zahrdahl che i topi non lo infastidiranno più. Naturalmente, con tutte le esche intorno alla sua casa, non passerà molto tempo prima che ritornino.~
+@864  = ~Sembra che qualcuno abbia ucciso il guardiano del faro ed abbia messo il suo cadavere nella stessa tomba dove è sepolto il bandito. Presumo che siano una o più persone. Sarà meglio andare a dare un'occhiata al faro.~
+@865  = ~Fabio pensa che il pezzo di carta si riferisce ad un oggetto magico chiamato la Mano della Gloria. Credo che sia vero, ma allora perché i ladri pensavano che ce l'avessi io? Dobbiamo parlare con Pelltar di tutto questo e tornare a Restenford il prima possibile.~
+@866  = ~Sembra che i furti siano iniziati una settimana dopo l'impiccagione di un famoso bandito di nome Reynard. Un altro fatto interessante è che un tempo a Restenford c'era una Gilda di Ladri. Il Barone Gellus riuscì a distruggerla appena divenne barone. Era dislocata nelle fogne della parte ovest della città. Il ladro si nasconderà lì?~
+@867  = ~Trovare l'assassino del Barone Grellus.~
+@868  = ~Si suppone che qualche persona nella città di Garrotten sia coinvolta nell'assassinio del Barone Grellus. Ci sono tre persone sospette; Harper, un sommo sacerdote, Abraham, un locandiere, e Balmorrow, un bardo proprietario di un teatro. Perché queste persone avrebbero voluto la morte del Barone? Uno di loro davvero è un assassino assunto per uccidere? E se è così, quale di loro? E chi può aver assoldato un assassino?~
+@869  = ~ Gilda degli Assassini
+
+Bisogna verificare la veridicità su voci che parlano dell'esistenza di una Gilda di Assassini a Garrotten.~
+@870  = ~L'Abate Qualton non ha potuto resuscitare Grellus. Per qualche ragione, ho la sensazione che non ne sia stato molto dispiaciuto.~
+@871  = ~Il Sindaco di Garrotten sta restaurando un vecchio castello. Sembra che i soldi del restauro non provengano dalle tasse della città. Forse lei era ricca prima di venire qui? Ma se è così ricca perché il duca gli fa governare questa piccola città? Cosa sta facendo per cercare di impedire che lo venga a sapere la gente della città?~
+@872  = ~Sembra che il Sindaco stia ripetendo le mie indagini. Lei ha preso Balmorrow per interrogarlo. Mi domando perché mai non lo abbia potuto interrogare qui a teatro.~
+@873  = ~Sembra che il Sindaco stia ripetendo le mie indagini. Lei ha preso Abraham per interrogarlo. Mi domando perché mai non abbiano potuto interrogarlo qui nella locanda.~
+@874  = ~Secondo Priska, Basmar starebbe progettando di uccidermi la prossima volta che ci incontriamo. Dovrò essere pronto.~
+@875  = ~Martin il druido mi ha chiesto di attaccare il castello! Pensa che i suoi amici saranno ingiustamente accusati e uccisi per un assassinio che non hanno commesso. Inoltre pensa anche che le prove dell'esistenza della Gilda esistano e si trovano da qualche parte al piano superiore del castello.~
+@876  = ~Ho trovato il simbolo sacro del Sommo Sacerdote Harper e ho scoperto una spia nella chiesa. Però è sfuggita. Ma sono sicuro che la incontrerò di nuovo.~
+@877  = ~Harper sembra essere una persona un po' folle ma sincera. O è vero oppure recita meravigliosamente bene. Ho avuto il permesso di investigare per conto della chiesa. Credo di dover parlare con questo Lothar.~
+@878  = ~Abraham é innocente! Il ragazzo stalliere, Falpir, ha ammesso di aver rubato il bottone di Abraham. Oscar gli ha chiesto di farlo. Credo che Oscar sia un membro della Gilda ed ora ho altre prove. Ho fatto una vigorosa paternale a Falpir, nella speranza che il ragazzo abbia capito e che si e diventerà una brava persona.~
+@879  = ~Abraham è innocente! Il ragazzo stalliere, Falpir, ha ammesso di aver rubato il bottone di Abraham. Oscar gli ha chiesto di farlo. Credo che Oscar sia un membro della Gilda ed ora ho altre prove. Ho detto al ragazzo la verità su quello che succederà ad Abraham. Lui non l'ha presa bene.~
+@880  = ~Tutti i cittadini del luogo conoscono la Gilda degli Assassini. Non deve essere poi così segreta.~
+@881  = ~Un uomo sostiene che i Signori di Lendore non hanno intenzione di fermare gli attacchi degli orchi qui a Garrotten. Questo è un bene o un male?~
+@882  = ~Uno dei pescatori mi ha detto che gli orchi hanno assalito la città di Garrotten. Sembra che abbiano gli stessi problemi di Restenford.~
+@883  = ~Un pescatore mi ha detto che qualcosa di "squamoso" ha attaccato diverse barche ed ha ucciso alcuni pescatori. Farà parte dei rischi del loro lavoro?~
+@884  = ~Perché un giardiniere dovrebbe avere il simbolo sacro di un sacerdote? Perché aveva anche una trappola sulla porta? Perché c'erano due buchi per spiare la stanza di Harper? Penso di aver trovato la spia del tempio. Tuttavia, ora ho bisogno di trovare Lothar per averne la prova.~
+@885  = ~Ho parlato ad una giovane sacerdotessa di Xerbo oggi. Lei dice che qualcosa che proviene dal lago sta attaccando i pescatori. Forse si tratta della vendetta di un dio?~
+@886  = ~Sembra che il Sindaco stia ripetendo le mie indagini. Lei ha preso Harper per interrogarlo. Mi chiedo perché non lo abbia potuto interrogare qui al tempio.~
+@887  = ~Balmorrow era spiato da un'apprendista maga chiamata Holga. Lei lavora per Arrness, il Sindaco. E' forse il Sindaco il capo della Gilda degli Assassini?~
+@888  = ~Balmorrow ha indicato Philmar e Oscar alla locanda come possibili componenti della Gilda degli Assassini. Dovrò fare attenzione con loro.~
+@889  = ~Mostri marini?
+
+C'è qualcosa che attacca i pescatori nel lago. Il Sindaco vuole che io scopra di che si tratta e che ritrovi, inoltre, un suo esploratore che è stato inviato ad indagare sulla cosa.~
+@890  = ~Il Sindaco di Garrotten mi ha quasi sbattuto in prigione per aver chiesto notizie sulla Gilda degli Assassini. Deve essere una persona molto suscettibile.~
+@891  = ~Il Sindaco di Garrotten vuole indagare lei sull'assassinio e mi ha bloccato non autorizzandomi a proseguire le indagini. Mi domando se in questo modo si riuscirà a prendere il vero assassino.~
+@892  = ~Il locandiere Abraham pensa che la Gilda sia aiutata da qualcuno nel castello. Le guardie o qualcuno dei consiglieri potrebbero esserne coinvolti. Saranno forse solo impauriti dalla Gilda?~
+@893  = ~Il Mistero dei Mostri Marini 
+
+Il Capitano Quenex ci ha informato che la sua squadra di pescatori, recentemente, ha subito degli attacchi da parte di strane creature provenienti da sotto il lago. Lui non sa cosa siano ma ha perso diversi uomini e i pescatori ora hanno paura ad andare al largo del lago per andare a pescare.~
+@894  = ~Il Capitano Quenex mi ha informato che il "Capitano" Basmar non ha né barche e né ha mai visto Basmar pescare.~
+@895  = ~Il Capitano Quenex sostiene pienamente il Sommo Sacerdote Harper e non pensa che lui possa essere coinvolto con la Gilda degli Assassini. Infatti, ha detto di credere che se Harper fosse stato giovane, non avrebbe permesso che succedesse una cosa simile a Garrotten.~
+@896  = ~Il Mistero dei Mostri Marini 
+
+Ho detto al Capitano Quenex di aver sconfitto e distrutto gli uomini lucertola e che ora i pescatori potranno andare in acqua senza pericolo.~
+
+//BHSHOUT2.BAF
+@1102 = ~Pietà!~
+@1103 = ~Prendi qualcun altro per fare il tuo sporco lavoro, codardo.~
+
+//BHSIRIUS.baf and part of BHSHOUT2, BHTHIEF, BHARNSPL, and BHBRAWL.BAF
+@900  = ~Sono in una nube tossica! Devo andare via! ~
+@901  = ~Codardo, usi il veleno su di me!~
+@902  = ~Canaglia! Combatti come un guerriero...~
+@903  = ~Avvicinati e combatti lealmente!~
+@904  = ~Vigliacco! Usi un'arma a distanza per attaccarmi!~
+@905  = ~Ehi! Scommetto che non sei in grado di reggere un combattimento corpo a corpo...~
+@906  = ~Ecco! Prendi!~
+@907  = ~Preso!~
+@908  = ~Non preoccuparti...starò qui a proteggerti.~
+@909  = ~Usa una pergamena~
+@910  = ~Usa una bacchetta~
+@911  = ~Basta~
+@912  = ~Morte a chi mi attacca!~
+@913  = ~Non posso prenderlo~
+@914  = ~Muori con tutti gli stivali!~
+
+//BHSNOW.baf
+@950  = ~Harper fa ancora nevicare!~
+@951  = ~Sto andando a costruire una fortezza!~
+@952  = ~Andiamo a combattere a palle di neve.~
+@953  = ~Mi chiedo quanto durerà la nevicata questa volta.~
+
+// BHTHIEF.BAF
+@1200 = ~Hmmm....Qualcosa non quadra qui...~
+@1201 = ~Individuare illusioni fallito~
+@1202 = ~Usa un anello di invisibilità~
+
+//BHTHIEF1.baf
+@1000 = ~Sono lì! Uccideteli! Per la Gilda, uomini!~
+
+//AR6526.baf
+@6526 = ~Finale di partita
+
+La vita continua ad essere piuttosto la sfida. Lei è stato accusato di aver ucciso il leader del Trono di ferro, e il pugno Flaming sicuramente hound ogni passo a causa di esso. Nonostante tutto questo, si deve tornare alla città di Baldur's Gate, la tana della vostra accusatori. Si deve trovare ed esporre quello che è responsabile per la vostra situazione, si deve trovare Sarevok.~

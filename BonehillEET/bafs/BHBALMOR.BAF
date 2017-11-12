@@ -1,0 +1,19 @@
+IF
+  InParty("Fabio")
+  AreaCheck("BH2018")
+  NumberOfTimesTalkedTo(0)
+  See("Fabio")
+THEN
+  RESPONSE #100
+    StartDialogue("BHBalmor",[PC])
+END
+
+IF
+  !InParty("Fabio")
+  AreaCheck("BH2018")
+  NumberOfTimesTalkedTo(0)
+THEN
+  RESPONSE #100
+    StartDialogue("BHBalmor",[PC])
+END
+

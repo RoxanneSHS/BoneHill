@@ -1,0 +1,30 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH1001",0)
+  LevelGT(Player1,3)
+  NumInPartyGT(1)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1001",1)
+    CreateCreature("GHOUL",[2380.280],2)  // ~Ghoul~
+    CreateCreature("GHOUL",[2720.500],2)  // ~Ghoul~
+    CreateCreature("GHOUL",[2660.540],2)  // ~Ghoul~
+    CreateCreature("GHOUL",[2320.300],2)  // ~Ghoul~
+END
+
+IF
+  Global("BP_MoreStooges","BH1001",1)
+  LevelGT(Player1,4)
+  NumInPartyGT(3)
+  !Difficulty(EASIEST)
+  !Difficulty(EASY)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1001",2)
+    CreateCreature("GHOUL",[2540.490],2)  // ~Ghoul~
+    CreateCreature("GHAST",[2420.430],2)  // ~Ghast~
+    CreateCreature("GHOUL",[2470.530],2)  // ~Ghoul~
+    CreateCreature("GHAST",[2360.450],2)  // ~Ghast~
+END
+

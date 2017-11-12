@@ -1,0 +1,28 @@
+IF
+  Global("BHQualConfessed","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreature("BHRGUARD",[533.571],14)  // ~Guard~
+    CreateCreature("BHGUARDE",[676.494],14)  // ~Guard Enforcer~
+    CreateCreature("BHPELL",[667.575],14)  // ~Pelltar~
+    CreateCreature("BHQUAL",[701.605],5)  // ~Qualton~
+    SetGlobal("BHQualConfessed","GLOBAL",3)
+END
+
+IF
+  Global("BHQualConfessed","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SmallWait(2)
+    StartCutSceneMode()
+    ActionOverride(Player1,Wait(2))
+    ActionOverride("BHRGUARD",MoveToPoint([1312.683]))
+    ActionOverride("BHGUARDE",MoveToPoint([1360.699]))
+    ActionOverride("BHQUAL",MoveToPoint([1422.590]))
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    SetGlobal("BHQualConfessed","GLOBAL",5)
+    EndCutSceneMode()
+END
+

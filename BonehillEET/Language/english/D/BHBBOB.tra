@@ -1,0 +1,66 @@
+@1   = ~Greetings, I am Sir BillyBob, adventurer, soldier, and protector of the realms.  You must be <CHARNAME>.~
+@2   = ~Er, yes I am.  How did you know?~
+@3   = ~Well, besides the fact that you are obviously the new party in town that everyone is talking about, I was with Pelltar when he advised the baron of hiring you.~
+@4   = ~I thought he was looking for any adventurers when we happened to stop by the temple he was at.  I didn't realize I was exactly whom he wanted.~
+@5   = ~Pelltar did want to hire another party instead of you, the Maulers, I believe they are called.  Any, I had recommended you since Elminster said you could handle the task.~
+@6   = ~Elminster said that?~
+@7   = ~Yes, he seems to have a strong interest in you.  Actually, several of us do.  But that is another issue that will come later.~
+@8   = ~What can I help you with?~
+@9   = ~For starters, could you explain the dead orcs all over your field?~
+@10  = ~Ah yes, another day, another group of orc bandits trying to bother my farm.  You would think that they would finally realize how hopeless it is to steal from me.  If wolves wouldn't dare to bother my farm, why do orcs think they can?~
+@11  = ~Speaking of such, perhaps you have heard about some bandits around here?~
+@12  = ~Yes, it was mentioned in town.~
+@13  = ~No, this is the first I have heard about bandits.~
+@14  = ~Well, I hadn't heard anything.  But I did go exploring and got attacked by some orcs out on Bald Hill.  I killed their leader.  He was a cleric and he looked like a half-orc.~
+@15  = ~Good, I am glad to hear that you are investigating the problems here.~
+@16  = ~There are several roads coming out of Restenford on this side of town.  The one you see just south of us, and the one just north of my farm and the apple orchards.  That north road runs between the East Resten river and Bald Hill.  It is a perfect spot for bandits to attack travelers because of the hills.~
+@17  = ~Normally, the town guards and I walk along that road to sweep out the nasties and make it safe for merchants.  Unfortunately, with the crops starting to come in, many people are needed in the fields right now.  As you can see, my crops haven't really started yet, but I am busy with livestock birthing and don't have the time to clear out Bald Hill.~
+@18  = ~This is, of course, where you come in.  I need you to head north of here and hunt down any more orcs, bandits, or whatever else you find that is attacking the merchants.  Something must be up there.  We are missing some wagons and I haven't seen some of the merchants that normally stop by here this time of the year.~
+@19  = ~Bandits on Bald Hill
+
+Sir BillyBob asked me to stop the bandits that are hiding out near Bald Hill.  They stop the caravans from coming into town from the north and east sides of town.~
+@20  = ~Sure, we can do that.~
+@21  = ~No, we need to take care of Pelltar's request first.~
+@22  = ~Then I guess I should wait until after you get a chance to investigate more of our problems.  Please visit me again after you help Pelltar.~
+@23  = ~The East Restin river flows down near the Xerbal mountains and close to Bald Hill where it joins with the West Restin river before heading out to sea in Restenford.~
+@24  = ~<CHARNAME>, good to see you again.  What can I help you with?~
+@25  = ~We found the missing wagons.~
+@26  = ~We went over to Bald Hill and were attacked by orcs.  They put up a good fight but I think we cleared them all out.  We got their leader also.~
+@27  = ~We did not find anything nor did we see anything suspicious out near Bald Hill.~
+@28  = ~We found the missing wagons and we fought with the bandits.  I think we got them all.~
+@29  = ~We haven't gotten to Bald Hill yet.~
+@30  = ~Nothing really, just stopping by.~
+@31  = ~What can you tell me of the baron's death?~
+@32  = ~What was it you wanted us to look into, again?~
+@33  = ~May I ask you a question?~
+@34  = ~Excellent work.~
+@35  = ~Bandits on Bald Hill
+
+I told Sir BillyBob about what I found out on Bald Hill.  He seems to think that the bandit problem is now over for the town.  I hope so.~
+@36  = ~I have a question for you.~
+@37  = ~Thank you.~
+@38  = ~Really?  Seems strange.  Well, perhaps they were hiding from you.  No matter, if there are any orcs, I'll get to them later.~
+@39  = ~Well then, go ahead and ask.~
+@40  = ~How old are you really?  Everyone in town seems to think you are ancient but being a half-elf, I assume you are older than you look.~
+@41  = ~Why aren't you the leader of Restenford?~
+@42  = ~(he chuckles) I'm not as old as Elminster but I have been around for quite awhile.  Longer than most full-blooded elves could hope for.  I'm not a Chosen for any deity but I have been tasked by some to help shift power and control from one faction to another.
+
+By the way, who is now in charge at Candlekeep?  I haven't been there in many years.~
+@43  = ~Tethtoril.~
+@44  = ~What?!  Hmm, I think I remember a stable boy by that name.  I guess it has been awhile since I was last there.
+
+Well, anyway, I need to get back to my crops.  Good luck to you <CHARNAME>.~
+@45  = ~I thought there had to be more of them.  I guess you haven't found the missing caravan though?  It probably doesn't matter at this point.  I suspect you found the culprits.~
+@46  = ~I don't think they will be bothering any more people.~
+@47  = ~Just a social visit this time?  Well, please check out Bald Hill when you get a chance.~
+@48  = ~Ah, that would be Krellus.  He has been a thorn in my side for awhile now.  Excellent work, young <SIRMAAM>.  If you get the chance, please keep checking there for any more orcs.  Also, I am interested in what happened to a caravan that is missing.  I suspect that Krellus had something to do with it.~
+@49  = ~Probably nothing more than what Pelltar has already told you.  I don't believe there were three assassins.  I think there was just one and that one planted the evidence about the other two.  In doing so, that person also left something behind.~
+@50  = ~Or, all three are innocent and the assassin planted the evidence about all three of them.  I suggest you go talk to all three and find out what happened to the items found at the crime.  There is a story to each of those items.  Perhaps one of those stories will lead you to the true assassin.~
+@51  = ~I can also tell you that although I am not a priest, something strange is responsible for Qualton not being able to raise the baron.  The answer must also be in Garrotten.~
+@52  = ~So all roads lead to Garrotten?~
+@53  = ~Exactly.  By the way, just outside of Garrotten is an old castle I used to own.  I sold it off many years ago to an adventurer that died shortly after the purchase.  It seems that an old enemy of his had finally caught up with him.  The castle turned into a ruin for years.  Anyway, I understand the current mayor is in the process of restoring it.  I am sure the construction is disturbing the dead as well as whatever may have moved into the castle in the past hundred or so years.~
+@54  = ~So why are you telling me this?~
+@55  = ~Because I suspect that her guards are going to be on edge.  They may attack anyone or anything strange.  Just be careful around the castle.~
+@56  = ~Okay, thanks for the warning.~
+@57  = ~Cool, a great excuse to slaughter her guards, thanks.~
+@58  = ~Why would I want to be?  Sometimes, you have more power when you are behind the throne instead of on the throne.  But even those days are over for me.  I give advice to the baron only when he asks for it.  I am happier out here on my farm than I would be stuck in his manor house.~

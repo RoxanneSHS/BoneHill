@@ -1,0 +1,213 @@
+@1    = ~Ah, aventureros. Deseo contratar a alguien que me pueda ayudar. ¿Puedo robaros un poco de tu tiempo, por favor?~
+@2    = ~Claro, ¿por qué no?~
+@3    = ~Puede. Últimamente tengo la sensación que todo el mundo pretende que haga su trabajo sucio.~
+@4    = ~Gracias. Soy el mago local de Restenford. Es una pequeña ciudad situada en la Isla de Lendore.~
+@5    = ~La vida en nuestra pequeña ciudad pesquera es muy tranquila. Sin embargo, últimamente parecen haber surgido problemas que no he sido capaz de determinar.~
+@6    = ~Algunas caravanas no han llegado. Además, los pocos viajeros que han venido a la ciudad nos han dicho que sus viajes se han visto importunados por grandes trasgos, gnolls, y otras criaturas similares.~
+@7    = ~Aunque no he dicho que la isla esté libre de esos seres, estoy preocupado por los crecientes problemas que nos están causando.~
+@8    = ~Tenemos unas ruinas antiguas y cuevas en la zona en las que se puedan estar ocultando. Por desgracia, no tengo tiempo para ocuparme de este asunto. Parece ser que hay asuntos más importantes relativos a la familia del Barón que debo atender.~
+@9    = ~¿Y bien, <SIRMAAM>? ¿Nos ayudaréis?~
+@10   = ~Sí.~
+@11   = ~No.~
+@12   = ~Puede, ¿os importa repetirme lo que deseáis?~
+@13   = ~Lamento que este asunto sea de la misma categoría que otros. Quizás cuando hayáis ayudado a los demás podáis volver aquí, ¿no?~
+@14   = ~Maravilloso. Bien, actualizaré vuestro mapa. Como estamos fuera del continente, necesitaríais un barco para llegar allí. Así que os teletransportaré.~
+@15   = ~Bien, estaré por aquí buscando otros aventureros. Si lo reconsideráis venid a verme, por favor.~
+@16   = ~Ya hemos llegado. Bienvenidos a Restenford. Explorad la ciudad a vuestro antojo. Es probable que os encontréis con gente que sabe quiénes sois, las noticias vuelan en esta pequeña ciudad. Por favor, no molestéis a los guardias. El barón tiene una estricta norma sobre matar a los guardias, muerte inmediata. Yo no podría revocar esa decisión. Recordad que sois nuestros invitados.~
+@17   = ~Podréis encontrarme en mi hogar o en la torre que tengo en el castillo. Por favor, si descubrís algo fuera de lo normal hacédmelo saber. Cuando estéis preparados os devolveré al templo.~
+@18   = ~Bien <CHARNAME>, ¿pudisteis encontrar algo sospechoso?~
+@19   = ~Nada. Vuestra ciudad está bien. No entiendo de qué os quejabais.~
+@20   = ~Hemos encontrado algunos problemas extraños que están atacando a vuestros mercaderes al igual que los habituales bandidos y gente de su calaña.~
+@21   = ~Zahrdahl está muerto.~
+@22   = ~Creo que nuestro trabajo aquí ha terminado. Por favor, ¿podéis devolvernos a nuestro hogar?~
+@23   = ~No Pellatar, aún no. Vamos a seguir buscando.~
+@24   = ~Hummm, qué extraño. Mis contactos no suelen equivocarse. Oh bueno, creo que lo comprobaré en persona.~
+@25   = ~Muy bien, parece ser que habéis estado muy ocupados. Por favor, explicadme todo lo sucedido desde la última vez que nos vimos.~
+@26   = ~Hablamos con los ciudadanos y oímos todo tipo de cotilleos e historias sobre extraños sucesos. Así que decidimos investigar esas historias.~
+@27   = ~Buena decisión, es sorprendente lo que la gente corriente sabe sobre la zona. A veces pienso que saben más que los que nos hacemos llamar gente "educada".~
+@28   = ~Muy bien. Habéis hecho un gran trabajo por el que os estaré eternamente agradecido. Si estáis preparados, os devolveré al templo.~
+@29   = ~Sí, por favor.~
+@30   = ~Gracias, pero aún no. Creo que haremos un poco más de turismo.~
+@31   = ~Y bien, ¿qué descubristeis?~
+@32   = ~Descubrimos que los bandidos atacaban las caravanas mercantes que llegaban del este. Así que fuimos a Colinas Calvas y nos atacaron. Al final resultó ser una banda de orcos y un semiorco clérigo que los lideraba.~
+@33   = ~Descubrimos un grave problema con las ratas cerca de la antigua casa de la guardia. Así que fuimos a investigar y hallamos un antiguo sistema de cuevas subterráneo.~
+@34   = ~Oímos que los gnolls atacaban la ciudad. Así que fuimos a Trescimas y hallamos a toda su tribu. Tras una larga batalla, descubrimos que su líder era un ogro mago. Fue sangrienta, pero los gnolls no os volverán a molestar.~
+@35   = ~Fuimos a la Colina del Hueso e investigamos las ruinas.~
+@36   = ~Puede que necesitéis esto. Es el diario de Zahrdahl, el vendedor de cebos.~
+@37   = ~Necesitamos investigar un poco más esos rumores locales.~
+@38   = ~Hmm, bien organizado y bien dirigido. Espero que ese líder no estuviera bajo las órdenes de alguien más.~
+@39   = ~No encontramos ninguna evidencia de eso. Dijo algo parecido a que era un "liberador" de bienes o algo así.~
+@40   = ~Es posible, pero no encontramos nada más.~
+@41   = ~Con un poco de suerte sólo será eso, y no algo más siniestro.~
+@42   = ~En cualquier caso, ahora la ciudad está a salvo gracias a vuestra heroicidad. Gracias por todo.~
+@43   = ~¿Cuevas? Cuevas... hmm sí, sí. Hace unos cien años o puede que incluso más, se construyeron unos túneles bajo las barracas iniciales que pasaban por toda la ciudad. Se usaban para almacenar armas y armaduras. Cuando empezamos a usar almacenes mágicos, se suponía que esos túneles se sellarían. Los que están cerca del río estaban a punto de inundarse, así que era peligroso seguir manteniéndolos. Me pregunto cuántos quedarán hoy día. Bueno, volviendo a vuestras aventuras. ¿Qué decíais?~
+@44   = ~Alguien más descubrió esa cueva y la usaba como guarida. Encontramos el cadáver de un ladrón. También había algunos esqueletos y otros muertos vivientes que debimos perturbar. También encontramos un enorme nido de ratas. Matamos todas las que se nos cruzaron pero es posible que queden más.~
+@45   = ~¿Un ogro mago liderando a gnolls? Eso es muy extraño. Nunca había oído que los gnolls permitieran que otra criatura los liderara. Pueden trabajar con orcos u otras criaturas pero nunca tendrán a uno como su líder. Muy extraño... ¿Debo suponer que habéis investigado otros rumores y cotilleos?~
+@46   = ~Sí bueno, creo que eso es algo de lo que se pueden encargar los guardias. Será muy divertido ver a Gelpas liderando la "patrulla raticida", ¿eh? Bueno, gracias por ese extraño hallazgo. Será mejor que los guardias busquen más cuevas y acaben el trabajo de sellarlas. No querría que alguien siniestro las usara.~
+@47   = ~Uh, vale, me habéis pillado. ¿Para qué quiero yo esto?~
+@48   = ~Porque en realidad era un espía del duque.~
+@49   = ~¡Qué! Así que las historias sobre un espía en la ciudad eran ciertas. Un trabajo brillante. Debo informar al barón de esto cuanto antes. ¿Debo suponer que os habéis encargado de ese "vendedor de cebos"?~
+@50   = ~Oh sí. Era un mago de algún tipo. Tenía una daga muy buena, pero ya no la volverá a necesitar.~
+@51   = ~No, os lo hemos dicho a vos primero.~
+@52   = ~Bien pensado. Sospecho que será demasiado poderoso para los guardias. Por favor, acaba con él inmediatamente. Querréis enseñarle su diario. Eso podría ayudaros a hacerle hablar. Volved con él y enseñaré su libro al Barón Grellus.~
+@53   = ~Es un alivio saberlo. Ya tenemos suficientes problemas con los señores elfos sin que nos envíen espías. Aquí no nos aburrimos nunca. Gracias por ayudarnos.~
+@54   = ~¿Y?~
+@55   = ~Un mago llamado Telvar dirigía una banda de grandes trasgos. Acabamos con todos ellos. Tenemos su diario. Aquí tenéis.~
+@56   = ~Un incorpóreo estaba controlando todo tipo de muertos vivientes en las ruinas de la Colina del Hueso. Acabamos con él y con los muertos vivientes.~
+@57   = ~Encontramos un mago y un incorpóreo. El mago dirigía una banda de grandes trasgos y el incorpóreo lideraba a algunos muertos vivientes. Estaban trabajando juntos para crear un ejército. Restenford iba a ser su primer objetivo. Acabamos con ellos y con sus seguidores. El mago tenía un diario que explica sus planes. Aquí tenéis. Él ya no lo necesitará.~
+@58   = ~No encontramos nada fuera de lo común. Allí no había nada.~
+@59   = ~¿Grandes trasgos y un mago? Bueno, serán fáciles de manipular. Gracias por solucionar el problema. Me encargaré de que el barón lo sepa.~
+@60   = ~¿Un incorpóreo y otros muertos vivientes? Esperaba algún que otro muerto viviente, pero esto parece más grave. Gracias por solucionar nuestro problema.~
+@61   = ~¡Por los dioses! ¿Nos iban a atacar? Eso es terrible. Me alegra mucho haberos encontrado a tiempo. Debo informar al barón sobre esto de inmediato.~
+@62   = ~<CHARNAME>, por favor, decidme que no es cierto.~
+@63   = ~No es verdad. No sé de qué estáis hablando Gelpas.~
+@64   = ~Bien, <CHARNAME>, parece ser que necesitamos vuestra ayuda de nuevo. Creo que aparte de que habléis con Welcar no puedo daros más consejos.~
+@65   = ~Muy bien, hablaré con él.~
+@66   = ~Sí, así es, acaba de marcharse. Gracias por la información.
+
+¿Bandidos? <CHARNAME>, ¿no me dijisteis que os habíais encargado de los bandidos?~
+@67   = ~Así es. Ese debe ser otro grupo. Iré allí para descubrir qué está pasando.~
+@68   = ~No habíamos llegado a ese problema todavía. Puede que éste sea otro grupo, o puede que sea el mismo. Saldremos para allá y averiguaremos qué está pasando.~
+@69   = ~¿Habéis descubierto algo?~
+@70   = ~Matamos a los bandidos. Encontramos una nota en uno de ellos. Habla sobre una "Mano de la Gloria", sea lo que sea. Creo que era eso lo que buscaban.~
+@71   = ~Exploramos las alcantarillas antiguas y encontramos el cadáver de un mago o alguien vestido como tal. También encontramos esta nota. No estamos muy seguros de qué es, pero pienso que podría ser un mapa. ¿Tiene esto algún sentido para vos?~
+@72   = ~Aún no.~
+@73   = ~Sí, encontramos al verdadero ladrón. Se llamaba Sirius y los señores elfos lo habían contratado para acabar con el dominio del barón.~
+@74   = ~Sí, encontramos al verdadero ladrón. Se llamaba Sirius y los señores elfos lo habían contratado para acabar con el dominio del barón. Aquí tenéis su diario.~
+@75   = ~Los libros de historia de vuestra ciudad hablan de un sistema de alcantarillas. ¿Sabéis algo al respecto?~
+@76   = ~Hemos encontrado al pobre Bomarc metido en una tumba reciente junto con el ladrón Reynard, que fue ahorcado recientemente.~
+@77   = ~Hablamos con los guardias de la puerta oeste cerca del "Árbol de los colgajos". Nos hablaron sobre Reynard el ladrón, que fue ahorcado la semana pasada, pero no saben mucho más sobre ello. Estamos esperando a que Ravella regrese de sus faenas para poder hablar con ella sobre esto. Tal vez ella viera algo.~
+@78   = ~Oimos algunos rumores nos llevaron a buscar en la casa de Zahrdahl más a fondo que la primera vez que miramos.~
+@79   = ~Esto es lo que sucedió cuando nos encaramos con Zahrdahl sobre el diario.~
+@80   = ~¡Pelltar! ¡Debemos hablar con vos!~
+@81   = ~No hemos descubierto nada más respecto a los robos y asesinatos, pero hemos recabado información sobre los problemas que estaban asolando a la zona en un principio.~
+@82   = ~¿Mano de la Gloria? No, jamás he oído nada al respecto.~
+@83   = ~¿Podemos examinar vuestros libros? Quizás la respuesta esté en uno de ellos.~
+@84   = ~¿Libros? ¡Sí! Buena idea, aunque os costará un tiempo. Por cierto, no molestéis a mis aprendices, tienen trabajo que hacer.~
+@85   = ~Es difícil leerlo, pero hmmm... Parece un mapa muy mal dibujado de esta ciudad. Suponiendo que esta línea sea el río, estas deben ser las casas y las tiendas que hay por aquí. ¿Por qué habrán marcas?~
+@86   = ~¡Oh! ¡Bendita Mystra, lo tengo! Las marcas están cerca de edificios en los que robaron. Mirad, estos dos son los dos almacenes de los que hablaba Gelpas. Hablé con él sobre los otros robos mientras estabais fuera. Todo encaja a la perfección. Hablad con Welcar o con Zelmar, he oído que también les robaron. Esos otros serán los hogares.~
+@87   = ~Qué extraño. ¿Por qué estará el faro aquí? Bomarc es casi un ermitaño. No tendrá nada que robar. Bueno, no tiene una marca, así que supongo que será un punto de referencia o algo así.~
+@88   = ~En cualquier caso, quizás deberíamos investigar también el faro.~
+@89   = ~Ya hemos estado en el faro. Encontramos al verdadero ladrón. Si nombre era Sirius y fue contratado por los señores elfos para destruir el control del barón aquí.~
+@90   = ~Estábamos pensando en porqué el ladrón estaba usandolo como su base de operaciones.~
+@91   = ~Por favor, seguid buscando. Gelpas no permitirá que os vayáis hasta que se resuelvan estos problemas.~
+@92   = ~Os dejaremos saber lo que encontremos después de que volváis y habléis con Ravella.~
+@93   = ~¿Así que los señores vuelven a las andadas? Esta es la táctica más extrema que han usado contra nosotros. Informaré a Gelpas y al barón de inmediato. Habéis ayudado mucho a esta ciudad.~
+@94   = ~Bien. Espero haber acabado aquí, necesito terminar mi propia misión en el continente.~
+@95   = ~Gracias. Todavía necesitamos que perseguir a los nuevos bandidos al Norte de Restenford, y también nos gustaría saber qué ocurrió con Bomarc.~
+@96   = ~Gracias. Todavía necesitamos que perseguir a los nuevos bandidos al Norte de Restenford.~
+@97   = ~Gracias. En verdad nos gustaría saber qué le pasó a Bomarc antes de que nos marchemos.~
+@98   = ~Nos dirigiremos directamente al faro y veremos si podemos seguirle la pista al asesino de Bomarc.~
+@99   = ~Claro, nunca os lo podremos agradecer lo suficiente. Lanzaré los hechizos para llevaros de vuelta. Me llevaré la Mano de la Gloria, a mis aprendices les parecerá digno de estudio. Como sólo afecta a humanoides, no creo que fuera de mucha utilidad para un poderoso grupo de aventureros como vosotros.~
+@100 = ~¿Alcantarillas? Oh, el sistema de drenaje para cuando el río se desborda. Sí, está en la parte oeste de la ciudad. Allí abajo pasó algo, pero no lo recuerdo. Hmm. Hablad con Welcar, él se acordará de qué ocurrió.~
+@101 = ~¿Nada de nada? Qué extraño, teniendo en cuenta la cantidad de rumores que circulan por ahí.~
+@102 = ~Por eso son simples rumores y no hechos.~
+@103 = ~Ah bien, Fabio os encontró. Como ya os debe haber explicado, tenemos un grave problema del que sólo se pueden ocupar aventureros de vuestra talla.~
+@104 = ~Sé un poco del asunto, ¿podríais explicárnoslo mejor?~
+@105 = ~Por supuesto. Yalta pudo lanzar un Hablar con los Muertos y hablamos con Grellus sobre lo que recuerda. Por desgracia, no mucho. El atacante lo golpeó por detrás y lo mató de un solo golpe. Nunca vio quién fue.~
+@106 = ~¿No habéis intentado resucitarlo?~
+@107 = ~Qualton es el único clérigo de aquí capaz de realizar ese ritual. Dice que algo está bloqueando el espíritu del barón por lo que no puede regresar. Ahora, el cuerpo del barón estará tan corrompido que lo único que lograríamos sería crear a un zombi de lo que queda de él. El atacante lo golpeó cuando no había nadie cerca, así que el cuerpo estuvo horas allí hasta que Belloviento lo descubrió esta mañana.~
+@108 = ~¿Alguna pista?~
+@109 = ~En realidad, sí. Encontramos tres objetos en la habitación que no pertenecen al barón. Una cuerda dorada de laúd bajo la cama, un pequeño rubí cerca del cadáver y un botón de cuero rojo en la mano del barón.~
+@110 = ~¿Un botón? ¿No dijisteis que no vio a su atacante?~
+@111 = ~Eso es lo más extraño de la historia. Debió agarrar al atacante mientras moría pero su espíritu no recuerda nada al respecto. Es posible que el atacante no sepa que lo ha perdido.~
+@112 = ~Además, hemos descubierto que tres forasteros entraron en Restenford ayer por la puerta Sur. Es la puerta que da al camino a Garrotten.~
+@113 = ~Habladme de cada uno de ellos.~
+@114 = ~El primero era un hombre viejo de pelo largo y blanco. Vestía una túnica azul con el símbolo de Osprem. Comió en la taberna de Falco, y según él llevaba un símbolo sagrado de una ballena con ojos rojos de rubí. El tamaño de los rubíes encaja con el que encontramos aquí.~
+@115 = ~Conozco a este hombre, es el sumo sacerdote Harper y dirige un templo en Garrotten. No entiendo qué estaría haciendo aquí sin algunos de sus ayudantes. Se supone que vino a la ciudad solo.~
+@116 = ~El segundo es un hombre que se detuvo en la misma taberna unas pocas horas después. Tenía un laúd y tocaba canciones para los clientes. Según gente que le vio, el laúd tenía cuerdas doradas.~
+@117 = ~Así que ese debe ser un bardo.~
+@118 = ~El último visitante era un hombre corpulento que vino a ver a Zelmar en el Viento Oeste. Quería comprar algunas cajas de vino. Dijo que era Abraham, y por lo que sé es el posadero de Garrotten. Vestía un chaleco rojo con botones de cuero rojo.~
+@119 = ~Encontrad al asesino del Barón Grellus.~
+@120 = ~¿Estáis diciendo que puede que los tres hayan asesinado al barón?~
+@121 = ~No sé qué pensar. No puedo creer que los tres estuvieran involucrados. Que yo sepa, ninguno de ellos tenía motivos para asesinarle. Uno de ellos debió hacerlo y dejó pruebas de los otros dos. Dudo que el asesino pretendiera dejar algo suyo.~
+@122 = ~Así que todo lo que debo hacer es golpear algunas cabezas hasta que uno de ellos cante, ¿no?~
+@123 = ~¡No! ¡Por supuesto que no! Por desgracia, Garrotten está bajo la protección del duque, al igual que nosotros. Cualquier cosa que hagáis que señale a Restenford podría hacer que el duque nos lance su ejército.~
+@124 = ~Muy bien, ¿qué sugerís?~
+@125 = ~Debéis ir allí e investigar este asunto sin dejar que nadie descubra que sois de aquí. Si Lady Arrness os descubre, os echará fuera del pueblo o aún peor, os matará. Es la alcaldesa del pueblo. Sé que tiene envidia de Restenford y que nada le complacerá más que ver a la familia del barón derrocada. Sin embargo, no me imagino que ella esté involucrada en esto. El duque querría su cabeza si descubriera que ella es la causa del revuelo en sus tierras. Ya tiene bastantes problemas con las batallas fronterizas.~
+@126 = ~¿Así que debemos buscar por el pueblo hasta que descubramos algo? Eso no es de gran ayuda.~
+@127 = ~¿Habéis oído los rumores sobre Garrotten?~
+@128 = ~Si queréis ver a alguien muerto, id a Garrotten. Sí, se supone que allí hay una cofradía de asesinos.~
+@129 = ~No hay pruebas de que esa cofradía exista. Debemos suponer que hay gente en Garrotten que en realidad son buenos y decentes.~
+@130  = ~Pensamos que alguien del pueblo de Garrotten estuvo involucrado en el asesinato del Barón Grellus. Tenemos tres sospechosos; Harper, un sumo sacerdote, Abraham, un posadero, y Balmorrow, un bardo que posee un teatro. ¿Por qué querría uno de ellos ver muerto al Barón? ¿Es que en realidad es un asesino contratado para matarle? Si es así, ¿cuál de ellos? ¿Y quién contrató al asesino?~
+@131  = ~Dicho esto, si encontráis pruebas de la existencia de una cofradía de asesinos, destruidla. Traedme las pruebas para que podamos justificar nuestras acciones ante el duque. También ante Lady Belloviento, ya que ahora es la gobernadora de Restenford. Acabar con una cofradía tan malvada supondría un alivio para la buena gente en estos tiempos tan inseguros. El duque querrá ver toda cofradía de ese tipo destruida. Si Lady Arrness esconde una cofradía así, merecerá cualquier sentencia que dictéis sobre ella.~
+@132  = ~La Cofradía de Asesinos
+
+Debo descubrir la verdad sobre el rumor de una cofradía de asesinos en Garrotten.~
+@133  = ~Abad Qualton, vuestras acciones son inexcusables. La baronesa sentenciará vuestro destino. Guardias, lleváoslo.~
+@134  = ~<CHARNAME>, no sé cómo agredecéroslo. Sé que Qualton libró una pelea con un devorador de intelecto hace unos meses. Me pregunto si el resultado de la batalla fue su actual comportamiento.~
+@135  = ~Quizás. Me he encontrado con otra gente con problemas mentales. Aunque ninguno parecía ser tan astuto.~
+@136  = ~En cualquier caso, supongo que desearéis que os devuelva a vuestro hogar. Sé que ahora tenéis que resolver vuestros propios problemas, ¿no es así hijo de Bhaal?~
+~En cualquier caso, supongo que desearéis que os devuelva a vuestro hogar. Sé que ahora tenéis que resolver vuestros propios problemas, ¿no es así hija de Bhaal?~
+@137  = ~¿Vos también lo sabéis? ¿Es que todo el mundo está enterado de mi vida? (suspiro) Sí, debo detener a Sarevok.~
+@138  = ~Sí. Os enviaré justo al exterior de Puerta de Baldur. Por cierto, es probable que ahora os consideren fugitivos. Alejaos de los guardias del Puño Llameante y buena suerte.~
+@139  = ~Saludos <CHARNAME>, ¿qué habéis descubierto?~
+@140  = ~Encontramos esta carta del Abad Qualton para Tellish. El abad lo contrató para asesinar al barón.~
+@141  = ~Qualton nos atacó cuando le enseñamos la carta. Empezó a divagar como si fueran dos personas en una. Una voz decía que nos matara y la otra que no. También dijo que planeaba casarse con Andrella y que luego pretendía matar al duque.~
+@142  = ~La cofradía de asesinos ha llegado a su fin. Encontré estos documentos en la habitación de la alcaldesa Arrness. En ellos está toda la información sobre la cofradía; qué trabajos, quién pagó, y quién fue asesinado. Hay información sobre todos los espías que tiene por toda las islas.~
+@143  = ~Por ahora nada.~
+@144  = ~La alcaldesa se nos adelantó. Arrestó a los tres sospechosos y dijo que Abraham, el posadero, había admitido el crimen. Él, Balmorrow, y Harper formaban parte de una cofradía de asesinos.~
+@145  = ~¿Qué? ¡Imposible! Él es el líder de la iglesia local. Es un hombre santo. Debe haber algún error.~
+@146  = ~Leedla. Conocéis su caligrafía mejor que yo. Aunque eso ya no importa. Nos enfrentamos a él y nos atacó. Qualton está muerto.~
+@147  = ~Leedla. Conocéis su caligrafía mejor que yo.~
+@148  = ~Hmm, es su letra. De acuerdo, enfrentaos a él. Ya veremos si lo admite.~
+@149  = ~Hmm, es su letra. Supongo que ya no importa. ¿Así que Qualton quería ver al barón muerto? ¿Os dijo el porqué?~
+@150  = ~Empezó a divagar como si fueran dos personas en una. Una voz decía que nos matara y la otra que no. También dijo que planeaba casarse con Andrella y que luego pretendía matar al duque.~
+@151  = ~¿Dos personas? Hace un tiempo lideró un grupo contra un devorador de intelecto que llegó de alguna manera hasta aquí. Me pregunto si destruyó parte de su mente. Desde entonces actuaba de una manera graciosa. Nunca hubiera esperado esto.~
+@152  = ~Bien, podríais investigar la verdad sobre esa cofradía. Intentad contratar a alguien y seguid la cadena de mando. También podríais investigar si alguno de los tres sospechosos es inocente para ver si saben por qué han sido inculpados. Ellos viven allí, uno podría ayudaros. Aparte de eso, no se me ocurren más ideas para ayudaros. Tendréis que usar vuestro juicio para saber qué hacer y qué decir.~
+@153  = ~El camino a Garrotten está en la puerta sur. Tardaréis más o menos un día en llegar allí. Os teletransportaría, pero nunca he estado allí. El teletransporte a un lugar desconocido suele acabar en desastre. He conocido a magos que se teletransportaron en rocas o árboles. Aseguraos de llevar las provisiones necesarias, no sé si en Garrotten tienen muchas pociones u objetos mágicos. Cuando volváis, venid directos aquí para poder informar a la baronesa de la situación. Por ahora, haré una visita a la familia para ver cómo se encuentran.~
+@154  = ~¿Así que la cofradía existía y la alcaldesa era su líder? Tiene sentido que la cofradía no pudiera operar sin su conocimiento. ¿Debo suponer que acabasteis con todo miembro de la cofradía que encontrasteis?~
+@155  = ~Oh sí, fue una dura pelea contra muchos de sus guardias, pero vencimos.~
+@156  = ~Buen trabajo. Bien, ahora necesito saber por qué alguien quería ver muerto al barón.~
+@157  = ~Volved cuando hayáis encontrado pruebas de la existencia de la cofradía y de por qué asesinaron al barón.~
+@158  = ~¡<CHARNAME>! Gracias a Mystra que os encontré.~
+@159  = ~¿Pelltar? ¿Qué estáis haciendo aquí?~
+@160  = ~Necesito de vuestra ayuda de nuevo. ¡El barón ha sido asesinado! Fue anoche. Yalta y Qualton no han podido resucitarle. Os necesitamos.~
+@161  = ~¿¡Qué!? Decidme lo que sepáis.~
+@162  = ~Y se supone que me importa porque...~
+@163  = ~Oh, ¿así que con salvar Restenford una vez ya tuvisteis suficiente? ¿Es que ya no os importa? Sir BillyBob dijo que esto podría suceder.~
+@164  = ~Vuestra ciudad resultó ser un dolor de cabeza que no quiero revivir. Largáos y encuentrad a otro idiota que os haga el trabajo sucio.~
+@165  = ~Mirad, lo siento pero acabo de salir de la cárcel. Los guardias creen por error que asesiné a alguien que ha resultado ser el culpable de los problemas de la Costa de la Espada. Ahora mismo no es un buen momento, debo acabar mi misión.~
+@166  = ~Así sea.~
+@167  = ~Nadie de las islas Lendore lo sabrá así que estaréis seguros allí. Hablaré con Lady Belloviento y veré si podemos hacer algo para ayudaros. Por ahora, necesitamos vuestra ayuda.~
+@168  = ~Bien, ayudaré. Decidme lo que sepáis.~
+@169  = ~No, debo acabar con esto cuanto antes. No os puedo ayudar.~
+@170  = ~Todo lo que sabemos es que no vio a su asesino. Nadie sabe si resto de la familia está en peligro o si fue un asesinato aislado.~
+@171  = ~Puedo devolvernos a todos a Restenford. ¿Nos ayudaréis?~
+@172  = ~Bien, hemos llegado. Tenemos un grave problema del que creo que sólo aventureros como vosotros se pueden ocupar.~
+@173  = ~¿Podríais explicármelo de nuevo?~
+@174  = ~¿Ese tal Abraham admitió haber asesinado al barón? ¿Cuándo os lo dijo?~
+@175  = ~Justo antes de venir aquí. ¿Por qué?~
+@176  = ~¡Porque anoche alguien asesinó a Lady Belloviento!~
+@177  = ~¿Qué? Pero eso es imposible. Ahora los tres sospechosos están en la cárcel.~
+@178  = ~Bien, es obvio que hay más gente en esa cofradía. No los atrapasteis a todos. Regresad a Garrotten y descubrid quién más está implicado.~
+@179  = ~Consternados.
+
+La alcaldesa Arrness arrestó a mis tres sospechosos pero debe haber más asesinos en la ciudad. Alguien mató a Lady Belloviento. Debería haber investigado en Garrotten más a fondo.~
+@180  = ~¿Sí? ¿Necesitáis algo más?~
+@181  = ~¿Podríais explicarme de nuevo qué debo hacer?~
+@182  = ~Claro, descubrir quién asesinó al barón. Si el asesino forma parte de una cofradía, encontrar pruebas de su existencia y destruirla. También quiero saber quién contrató al asesino.~
+@183 = ~Por favor, contadmelo todo <CHARNAME>, ¿fuisteis capaz de cumplir el encargo?~
+@184 = ~Ahora si que sólo hubo una resolución para el gremio de asesinos de Garrotten.~
+@185 = ~Buen trabajo.~
+@186 = ~¡Vaya, estamos en una isla! ¿Alguna vez imaginasteis que viajaríamos tan lejos? ¿Qué es lo primero que podríamos hacer?~
+@187 = ~¿Tumbarnos en la playa? No lo sé. Quizás debamos hablar con la gente para descubrir qué está pasando aquí.~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

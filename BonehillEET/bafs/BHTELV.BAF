@@ -1,0 +1,18 @@
+IF
+  Detect([PC])
+  NumTimesTalkedToLT(2)
+THEN
+  RESPONSE #100
+    StartDialogNoSet(LastSeenBy(Myself))
+    Wait(25)
+END
+
+IF
+  Global("BHTelvarAttack","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Shout(125)
+    Enemy()
+    SetGlobal("BHTelvarAttack","GLOBAL",2)
+END
+

@@ -1,0 +1,63 @@
+@1   = ~You don't look like you plan to go fishing.~
+@2   = ~No, I wasn't planning on it.  Who are you?~
+@3   = ~Name's Zahrdahl.  You must be that group of adventurers that Pelltar hired.~
+@4   = ~Yes, that is us.  My name is <GABBER>.  Uh, how did you know about us already?~
+@5   = ~Yes.  We haven't been here all that long.  How did you know about us already?~
+@6   = ~Oh, well, uh, local gossip and such.  What can I help you with?~
+@7   = ~There are rumors going around that you are the cause of the local rat problem.~
+@8   = ~What do you know about the rat problem around your house?~
+@9   = ~Don't blame me!  The damn things keep eating all of my bait.  I want them gone.~
+@10  = ~Well then clean this place up!~
+@11  = ~Use a trap or two.~
+@12  = ~Look, I sell bait; worms, parts of dead animals, good stuff like that.  I don't sell glassware or pottery.  The rats are coming up the road at night from the south.~
+@13  = ~I have set traps.  I even use the ones I catch as bait.  I have seen some huge ones that the others follow.~
+@14  = ~If you got nothing better to do, go down to the old barracks and find out where they come from.~
+@15  = ~Old barracks?  Where is that?~
+@16  = ~Follow this road south. it ends at a guard house that burnt down years ago.  There shouldn't be anything down there so I don't know why all the rats come from there.~
+// Shall remain identical to @862 in baf.tra, otherwise there will be a journal issue
+@17  = ~Clear out Abandoned Guardhouse
+
+Zahrdahl, the local fishing bait merchant, asked us to clear out some rats.  Seems there must be a nest of them in the abandoned guardhouse just south of his home.~
+@18  = ~Okay, we will look into it.~
+@19  = ~Okay, we can look into it, if the price is right.~
+@20  = ~Hmm, I think I have already been there.  Maybe I should have talked to you before I went to the guard house.~
+@21  = ~All right, we will look into it.~
+@22  = ~Price!?  How about I give you some worms!  Go get those damn rats!~
+@23  = ~Whatcha want?~
+@24  = ~We killed every rat we could find.~
+@25  = ~Have you heard of any other problems around here?~
+@26  = ~We haven't gotten to the rats yet.~
+@27  = ~Nothing right now.~
+@28  = ~You asked us if we had some gossip.~
+@29  = ~I'm afraid there is a BIG problem, Zahrdahl!~
+@30  = ~About time someone around here did something useful.~
+// Shall remain identical to @863 in baf.tra, otherwise there will be a journal issue
+@31  = ~Clear out Abandoned Guardhouse
+
+I told Zahrdahl that the rats won't be bothering him anymore.  Of course, with all the bait around his house, it won't be long before they come back.~
+@32  = ~Zahrdahl is very interested in everything we are doing.  Very interested.  I wonder why.~
+@33  = ~Problems?  Other than a few rats, we don't have any problems.~
+@34  = ~Nothing at all?  Pelltar made it sound like Restenford has all sorts of problems.~
+@35  = ~What about the problem with the gnolls always attacking?~
+@36  = ~What about the problem with the bandits attacking travelers?~
+@37  = ~We are just making certain,,,~
+@38  = ~We are just making certain...~
+@39  = ~When you find out more information, please let me know.  It would be, uh, good gossip and I can't always make it up to Falco's Tavern to get information when my leg flares up.~
+@40  = ~Okay, we will let you know.~
+@41  = ~Don't know anything about that.  Gnolls don't exactly bother fishing boats so no one has told me anything about it.  So what is this about?~
+@42  = ~Well I don't really know just yet.  Could be nothing.  We need to look into it some more.~
+@43  = ~Seems that bands of gnolls keep attacking travelers and your west wall, trying to get through and attack the town.~
+@44  = ~Really?  And the guards can't stop them so they needed to hire you?  Interesting... Uh, good gossip you know.~
+@45  = ~Bandits?  Here?  Come to think of it, I do remember some strangers coming in to town last week talking about that.~
+@46  = ~Well, we understand that some orcs are raiding the merchants when they travel in and out of town on the east side.~
+@47  = ~Then why the hell are you bothering me?  Go get them!~
+@48  = ~Oh yeah?  Well, whatcha got?~
+@49  = ~When we cleared out the rats, we found an old cave system under the barracks.  Looks like it had been used by a thief at one time.  We think we found his body down there.  Lots of traps, daggers, and his furniture were all down there.~
+@50  = ~When we searched for the gnolls, we found that they had been under control of an Ogre Mage.  That explains why they were better organized for their attacks.~
+@51  = ~When we went out to Bone Hill, we found a wizard leading a band of hobgoblins.  He had joined with a wraith and together they had planned to attack Restenford with their combined army.~
+@52  = ~When we searched for the bandits, we found orcs out on Bald Hill.  They had some merchant wagons stashed in a cave.~
+@53  = ~I think that is everything so far.~
+@54  = ~We found a journal with notes in it about information on Restenford.  It included all the things we have been doing here.  The journal belongs to a spy for the Duke of Kroten.~
+@55  = ~Oh boy, this is great stuff.  Thanks.~
+@56  = ~I figured you would like that information.  I will return when I have some more gossip.~
+@57  = ~Damn you!  You won't take me alive.~

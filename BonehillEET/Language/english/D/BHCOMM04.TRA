@@ -1,0 +1,24 @@
+@0    = ~Them orcs are at it again.  They attacked last week and I hear they plan to attack again.  What did we do to them?~
+// Shall remain identical to @882 in baf.tra, otherwise there will be a journal issue
+@1    = ~One of the fishermen told me that orcs have been raiding the village of Garrotten.  Seems they have problems like Restenford.~
+@2    = ~I hear one of the other boats got attacked by them scaly things.  Lost some crew.~
+// Shall remain identical to @883 in baf.tra, otherwise there will be a journal issue
+@3    = ~A fisherman told me that something "scaly" attacked a boat and killed some fishermen.  The balance at work?~
+@4    = ~I heard one of the guards say that the overlords don't care about us and they won't stop the orc raids.~
+// Shall remain identical to @881 in baf.tra, otherwise there will be a journal issue
+@5    = ~A man claims the overlords of Lendore won't stop the orc raids here in Garrotten.  Is that good or bad?~
+@6    = ~Why does Garrotten have such a bad name for itself?  We've done nothing wrong.~
+@7    = ~Maybe it is because everyone else thinks you have an assassins' guild here?~
+@8    = ~I'm just a simple fisherman, I don't know much.~
+@9    = ~Get out of my sight!  I'll do nothing for you!~
+@10   = ~Shhh!  Keep your voice down, ya idiot!  They're everywhere.~
+// Shall remain identical to @880 in baf.tra, otherwise there will be a journal issue
+@11   = ~Even the commoners in this place know about the assassins' guild.  Must be the worst kept secret ever.~
+@12   = ~Hey there, you look like the hardy sort.  You might want to try your hand at fishing.~
+@13   = ~Fishing?  Why?~
+@14   = ~Cause around here, the fish are biting back!~
+@15   = ~Hmmprf!  Adventurers!  Ha!~
+@16   = ~What is so wrong about adventurers?~
+@17   = ~If ya really wanna work and ya knows which end of a dagger ta use, there be some work here fur ya.~
+@18   = ~What do you mean?  Thieving kind of work?~
+@19   = ~(* looks around *)  Ask around the inn.  I gotta go.~

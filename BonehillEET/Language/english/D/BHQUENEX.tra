@@ -1,0 +1,57 @@
+@1   = ~Xerbo's blessings to you.~
+@2   = ~Xerbo?  You also worship him?~
+@3   = ~Xerbo?  Who is he?~
+@4   = ~Greetings again Captain Quenex.  Could I ask you a question?~
+@5   = ~You have meet Bess?  We both are clerics of the sea god.  What can I do for you?~
+@6   = ~For starters, who are you?~
+@7   = ~I am captain Quenex, leader of the fishing squadron.  Forgive me, I have had some pressing matters lately.~
+@8   = ~You mean like the strange attacks out on the water?~
+@9   = ~Bess told you?  Yes, it is very strange.  It is to be expected once in a while.  Xerbo protects the creatures of the sea, both in and on it.  Sometimes one side wins more than the other.  Lately it seems to be the creatures under the sea that are winning.  Normally, one or two men lost are to be expected but this has been several boats of lost men.  They are getting scared to go out too far.~
+@10  = ~So why don't they just fish closer to the docks?~
+@11  = ~If the fish stayed near the docks, that wouldn't be a problem.  No, unfortunately nothing has been caught near the docks or even within sight of the town.  We have to go out further which is more dangerous.  It's almost like something is chasing the fish away from here so we have to go out further.  Once the boats are so far from the docks, they get attacked by something.~
+@12  = ~Has anyone actually seen what attacks?  Is it just a big fish?~
+@13  = ~The only one to ever see anything and live said that it was a scaly human shaped thing.  Unfortunately, we lost that eyewitness last week.  So no one alive has seen this creature.  I don't even know if there is more than one creature.~
+@14  = ~This is very strange.  We are here for another purpose but we might find time to help you track down this creature or creatures.~
+@15  = ~Xerbo is our god of the sea and all creatures within.~
+@16  = ~I thought that was Osprem.~
+@17  = ~Osprem protects water travelers like fishermen.  Xerbo protects what the fishermen catch.  Forgive me, I am captain Quenex, the leader of the fishing squadron.  I am also a priest of Xerbo.~
+@18  = ~If you lead the fishermen, shouldn't you be a cleric of Osprem?~
+@19  = ~Harper is the high priest of Osprem.  I am not that high a rank.  Both gods are worshipped by the fishermen.  Lately I feel that we must not be worshipping Xerbo enough.~
+@20  = ~Hmm, I have some questions about Harper but I am curious about your comment.  What is wrong with the worship of Xerbo now?~
+@21  = ~Have you heard about the attacks on the fishermen?~
+@22  = ~Yes, seems you have lost a few men lately.~
+@23  = ~No, tell me about it.~
+@24  = ~Something out on the water is attacking the fishing boats.  It is to be expected once in a while.  Xerbo protects the creatures of the sea, both in and on it.  Sometimes one side wins more than the other.  Lately it seems to be the creatures under the sea that are winning.  Normally, one or two men lost are to be expected but this has been several boats of lost men.  They are getting scared to go out too far.~
+@25  = ~I thank you.~
+// Shall remain identical to @893 in baf.tra, otherwise there will be a journal issue
+@26  = ~Water Monster Mystery
+
+Captain Quenex informed me that his fishing squadron has been attacked recently by strange creatures out on the lake.  He doesn't know what they are but he has lost several men now and the fishermen are scared to go out very far on the lake.~
+@27  = ~Of course.~
+@28  = ~What do you know about Captain Basmar?~
+@29  = ~What can you tell me about Harper?~
+@30  = ~We looked into the fishermen problem.~
+@31  = ~Hmm, nothing right now.~
+@32  = ~(frowns)  Well, I know he uses that title but I don't know why.~
+@33  = ~What do you mean?~
+@34  = ~I am the captain of the fishing boats.  "Captain" Basmar doesn't even have a boat, nor have I ever seen him out fishing.~
+@35  = ~Perhaps he was the fishing captain in another town?~
+@36  = ~Sure, that is possible.  I don't know what he does here though.  He has lived in Garrotten for over a year now and has never talked to me about joining the fishermen.~
+// Shall remain identical to @894 in baf.tra, otherwise there will be a journal issue
+@37  = ~Captain Quenex informed me that "Captain" Basmar doesn't have a boat nor has he ever seen Basmar fishing.~
+@38  = ~Interesting.  Thank you.~
+@39  = ~He is a wise and good man.  I rely on him and the temple since they allow us to worship Xerbo inside.  Not many churches would allow another god to be worshipped in their church.  Xerbo and Osprem are well matched and we freely support each other.~
+@40  = ~But you have never seen Harper behave strangely?~
+@41  = ~That depends on what you mean.  Harper is getting very old.  His mind wanders off and he is known to mix his words or just forget what he was doing or even forget he just talked to you.~
+@42  = ~No, I mean does he leave town unexpectedly or visit with some of the questionable folk of this town?~
+@43  = ~Hmm, no.  There are days where I doubt he could even find his way out of town.  As for questionable people?  Yes we have them.  This town has something horrible going on.  Everyone knows it but we don't know what to do about it.  Harper isn't involved, that I am sure.  If anything, I suspect he is someone "they" want removed.  If he was younger, I suspect the reputation this town has wouldn't exist.  He would see to it.~
+// Shall remain identical to @895 in baf.tra, otherwise there will be a journal issue
+@44  = ~Captain Quenex fully supports High Priest Harper and doesn't think he is involved in the assassin's guild.  In fact, he mentioned that he thinks if Harper was younger, he would have made sure such a thing didn't exist in Garrotten.~
+@45  = ~Good, so what type of creature was it?~
+@46  = ~Lizard men.  They were using the fishermen as food.~
+@47  = ~Hmm, strange that lizard men would be this close to a town.  Obviously they had no fear of us.  They are known to attack towns to capture people as food.  If they were only capturing the fishermen, they must have been a smaller group.  Which means that it was an outpost for a future attack.~
+@48  = ~I believe you may have saved this town from a terrible fate.  I will have to let the fishermen know that they are safe to continue fishing.  Well done.~
+// Shall remain identical to @896 in baf.tra, otherwise there will be a journal issue
+@49  = ~Water Monster Mystery
+
+I told Captain Quenex that I defeated the lizard men and now his fishermen should be safe again on the water.~

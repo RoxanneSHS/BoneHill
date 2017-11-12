@@ -1,0 +1,16 @@
+IF
+  GlobalTimerExpired("RavellaAppears","GLOBAL")
+  Global("SpawnRavella","BH0300",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SpawnRavella","BH0300",1)
+    CreateCreature("BHRAVELA",[2615.3647],4)  // ~Ravella~
+END
+
+IF
+  Global("BHHandGrave","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ActionOverride("BHRAVELA",DestroySelf())
+END
+

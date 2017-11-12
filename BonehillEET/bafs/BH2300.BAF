@@ -1,0 +1,104 @@
+IF
+  Global("BHSetContact","GLOBAL",1)
+  Global("BHBasSpawn1","BH2300",0)
+  !Dead("BHBasmar")
+THEN
+  RESPONSE #100
+    CreateCreature("BHBasmar",[3876.525],13)
+    SetGlobal("BHBasSpawn1","BH2300",1)
+    Continue()
+END
+
+IF
+  Global("BHSetContact","GLOBAL",1)
+  Global("BHOscSpawn1","BH2300",0)
+  !Dead("BHOscar")
+THEN
+  RESPONSE #100
+    CreateCreature("BHOscar",[3997.258],0)
+    SetGlobal("BHOscSpawn1","BH2300",1)
+    Continue()
+END
+
+IF
+  Global("BHSetContact","GLOBAL",1)
+  Global("BHPhiSpawn1","BH2300",0)
+  !Dead("BHPhilma")
+THEN
+  RESPONSE #100
+    CreateCreature("BHPhilma",[3648.496],13)
+    SetGlobal("BHPhiSpawn1","BH2300",1)
+    SetGlobal("BHSetContact","GLOBAL",2)
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",1)
+  Global("BHContactsLeave","BH2300",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHBasmar",EscapeArea())
+    ActionOverride("BHPhilma",EscapeArea())
+    ActionOverride("BHOscar",EscapeArea())
+    SetGlobal("BHContactsLeave","BH2300",1)
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",3)
+  Global("BHBasSpawn2","BH2300",0)
+  !Dead("BHBasmar")
+THEN
+  RESPONSE #100
+    CreateCreature("BHBasmar",[3648.496],13)
+    SetGlobal("BHBasSpawn2","BH2300",1)
+    Continue()
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",3)
+  Global("BHOscSpawn2","BH2300",0)
+  !Dead("BHOscar")
+THEN
+  RESPONSE #100
+    CreateCreature("BHOscar",[3997.258],0)
+    SetGlobal("BHOscSpawn2","BH2300",1)
+    Continue()
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",3)
+  Global("BHPhiSpawn2","BH2300",0)
+  !Dead("BHPhilma")
+THEN
+  RESPONSE #100
+    CreateCreature("BHPhilma",[3873.450],13)
+    SetGlobal("BHPhiSpawn2","BH2300",1)
+    Continue()
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",3)
+  Global("BHSanSpawn2","BH2300",0)
+  !Dead("BHSangst")
+THEN
+  RESPONSE #100
+    CreateCreature("BHSangst",[3876.525],12)
+    SetGlobal("BHSanSpawn2","BH2300",1)
+    SetGlobal("BHHiredAssassin","GLOBAL",4)
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",5)
+THEN
+  RESPONSE #100
+    CreateCreature("BHThief",[3938.352],0)
+    CreateCreature("BHBandt2",[3782.453],15)
+    CreateCreature("BHThief1",[4161.400],2)
+    CreateCreature("BHThief",[4202.766],7)
+    CreateCreature("BHBandt2",[4625.130],2)
+    CreateCreature("BHThief1",[4784.263],2)
+    CreateCreature("BHThief",[3709.687],12)
+    CreateCreature("BHBandt2",[4186.589],4)
+    CreateCreature("BHSharg2",[4180.575],2)
+    SetGlobal("BHHiredAssassin","GLOBAL",6)
+END
+

@@ -1,0 +1,24 @@
+IF
+  OpenState("Altar01",FALSE)  // Altar01
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0308",FALSE)
+END
+
+IF
+  OpenState("Altar01",TRUE)  // Altar01
+THEN
+  RESPONSE #100
+    TriggerActivation("Tran0308",TRUE)
+END
+
+IF
+  GlobalGT("BHAlmonCheckQual","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Wait(1)
+    SetGlobal("BHAlmonCheckQual","GLOBAL",3)
+    CreateCreature("BHALMON",[412.200],14)  // ~Almon~
+    ActionOverride("BHALMON",MoveToPoint([568.330]))
+END
+

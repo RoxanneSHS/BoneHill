@@ -1,0 +1,60 @@
+@1    = ~Bienvenidos, viajeros. Soy Almax, el druida de Restenford y protector de la tierra. ¿Hay algo en lo que os pueda ayudar?~
+@2    = ~Un druida, ¿eh? ¿Tenéis conjuros o pociones en venta?~
+@3    = ~Ahora mismo no, gracias.~
+@4    = ~Ahora mismo no, gracias. ¿Os importaría responderme a unas preguntas?~
+@5    = ~Encontramos a Martin. Nos dio este mensaje para vos.~
+@6    = ~Encontramos a Martin. Es bastante asustadizo pero aparte de eso, las cosas le van bien en el bosque.~
+@7    = ~Martin nos atacó por lo que nos tuvimos que defender. Lamento deciros que está muerto.~
+@8    = ~Tengo algunos objetos que mi familia y yo hemos hecho a mano. También puedo ofreceros hechizos de curación si los necesitáis.~
+@9    = ~Por supuesto. Adelante, preguntad.~
+@10   = ~Como conocéis bien la zona, ¿qué me podéis decir de las tierras que rodean a Restenford?~
+@11   = ~Por ahora nada, gracias.~
+@12   = ~¿De qué zona queréis que os hable?~
+@13   = ~El sur de Restenford.~
+@14   = ~El oeste de Restenford.~
+@15   = ~El norte de Restenford.~
+@16   = ~¿Algún otro lugar que se os ocurra que debamos examinar?~
+@17   = ~En verdad creo que tenemos bastante que investigar por ahora. Gracias.~
+@18   = ~(sonríe) Al sur está el mar. ¿He de suponer que os referís a la tierra que hay al suroeste cerca de la antigua casa de la guardia?~
+@19   = ~Sí, esa zona.~
+@20   = ~En realidad no hay mucho que decir. La casa de la guardia se quemó hace muchos años por culpa de una ascua mal apagada en la chimenea. Se construyeron otros barracones cerca de la puerta oeste. La antigua casa nunca se derribó. He oído historias de ratas en la zona pero no creo que molesten a nadie.~
+@21   = ~Tengo algunas preguntas más.~
+@22   = ~En realidad ya hemos investigado esa historia. Encontramos algunas ratas gigantes y muertos vivientes en una cueva bajo los barracones.~
+@23   = ~Si seguís el camino más allá de la abadía, os llevará hacia el oeste y luego al sur hasta llegar a Garrotten. Un pueblo desagradable y peligroso que acoge a ladrones, rameras, y otros tipos de corrupción.~
+@24   = ~Si seguís hacia el oeste llegaréis al Bosque Kelman y más adelante, al Bosque Muerto. Allí no hay nada fuera de lo común. Si vais al noroeste llegaréis a la Colina del Guijarro y a Trescimas. En esa zona parece haber una gran población de gnolls. No suelen ser un problema, pero hace poco algo les ha hecho atacar a Restenford. Por eso construimos el muro en esa parte de la ciudad.~
+@25   = ~¿Trescimas? Sí, hemos estado allí. Parece ser que un ogro mago lideraba a los gnolls. Pasarán uno o dos inviernos antes de que vuelvan a molestar a sus habitantes.~
+@26   = ~Los dos ríos, Restin Oeste y Restin Este, fluyen hacia el sur y se unen justo bajo el Bosque Dweomer y las montañas Xerbal. Luego llega hasta el mar en el lugar donde se construyó Restenford. Hay una zona, justo al norte de aquí, llamada Colinas Calvas. Hemos tenido problemas con los bandidos que se ocultan en esas colinas. Normalmente, Sir BillyBob coge a algunos de los soldados más jóvenes y se los lleva allí para entrenarlos en la caza de bandidos.~
+@27   = ~¿Sir BillyBob?~
+@28   = ~Sí, un viejo semielfo que vive cerca de aquí. Ahora está retirado y trabaja en su granja.~
+@29   = ~¿Por qué se lleva a los soldados más jóvenes para cazar? ¿Por qué no se lleva a los más experimentados?~
+@30   = ~¡Porque en ese caso aquí no quedaría nadie para proteger al barón! Además, siempre lanza hechizos de protección sobre ellos para que no les hagan daño. Los soldados aprenden a luchar y descubren si tienen madera para la guerra, los bandidos reciben lo que se merecen, y los caminos son seguros para los viajeros.
+
+Sin embargo, últimamente ha estado ocupado y he oído que faltan algunas mercancías que ya deberían haber llegado a la ciudad. Algunas de mis existencias también se están agotando. Podríais hablar con él para que os explique más cosas sobre los bandidos.~
+@31   = ~Sí, podríamos hacerlo.~
+@32   = ~Ya nos hemos encargado de los bandidos.~
+@33   = ~Bien.~
+@34   = ~¡Maravilloso!~
+@35   = ~Por supuesto, el Bosque Rojizo, justo al norte de la Colina del Hueso, al oeste de Trescimas.~
+@36   = ~Pelltar mencionó algo sobre la Colina del Hueso. ¿Qué sabéis de ese lugar?~
+@37   = ~¿El Bosque Rojizo?~
+@38   = ~Ya nos habéis hablado de todas esas áreas así que iremos a investigarlas y os consultaremos más tarde.~
+@39   = ~Sí, no hay mucho por allí. Podría ser un buen sitio para descansar de vuestras aventuras. Otro grupo de druidas estaba intentando construir un altar allí, pero no sé si lo han abandonado o no. Los problemas con los gnolls impiden que me comunique con esos druidas.
+
+En realidad, ahora que lo pienso, si os acercáis a ese lugar, por favor, comprobad cómo se encuentran. Deberíais encontraros con Martin, es un explorador. Es joven e inexperto, un poco imprudente, pero es un buen entrenamiento para él.~
+@40   = ~¿Martin? Martin... Sí, creo que ese era el nombre del tipo extraño que nos atacó. ¿Trabajaba para vos? Lo siento, se debió volver loco por vivir tanto tiempo solo.~
+@41   = ~La Colina del Hueso es el nombre de una cumbre situada fuera del Bosque Muerto. Hace mucho, mucho tiempo, era una fortaleza para proteger esta región. Se han librado muchas batallas en ella por lo que se ha deteriorado con el tiempo y ahora sólo quedan sus ruinas. Estoy seguro de que todo tipo de almas en pena deambulan por los pasillos de ese lugar.
+
+Las historias de viajeros insinúan que los muertos de ese lugar se han alzado de nuevo. Los muertos vivientes rompen el equilibrio de la naturaleza. Por favor, haced lo que esté en vuestras manos para corregir esto.~
+@42   = ~¡Sorprendente! No sabía que esa cueva existiera. ¿También acabasteis con los muertos vivientes? Maravilloso.~
+@43   = ~¡Eso es maravilloso! Muchas gracias por averiguar su paradero. Prepararé las mercancías y enviaré a Amos para que las entregue. Por favor, si le volvéis a ver decidle que Amos llegará en unos días.~
+@44   = ~De acuerdo, se lo diremos.~
+@45   = ~De acuerdo, pero puede que tardemos en ir por ese camino.~
+@46   = ~Vaya. Eso son malas noticias. Sabía que era un poco exagerado al proteger la arboleda, pero no me imaginé que pudiera atacar a alguien. Lo lamento mucho. Tendré que enviar a Amos allí para que se encargue del lugar.~
+@47   = ~¿Os entregó algo? Esperaba que me diera una lista de existencias.~
+@48   = ~Sí, pero la perdimos.~
+@49   = ~¿Una lista? No. Estaba preocupado por el problema con los gnolls.~
+@50   = ~Así es, aquí tenéis.~
+@51   = ~Creo que pudimos haber trastornado a Martin. Se marchó entre los árboles sin darnos nada.~
+@52   = ~Vaya. Muy bien, enviaré a Amos a la arboleda para que me traiga otra lista de parte de Martin. Gracias por Vuestra ayuda de todos modos.~
+@53   = ~Muy bien, ¿podríais ayudarnos a descubrir qué está provocando que los gnolls nos ataquen? Mientras continúen haciéndolo, no podré hacerle llegar ningún mensajero a Martin. Avisadle cuando hayáis terminado.~
+@54   = ~Parece un lugar despreciable. Supongo que es el tipo de cosas que conlleva la civilización.~

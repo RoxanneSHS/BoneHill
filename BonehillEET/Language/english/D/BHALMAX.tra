@@ -1,0 +1,60 @@
+@1   = ~Welcome, travelers.  I am Almax, the resident druid of Restenford and protector of the lands.  Is there something I can help you with?~
+@2   = ~A druid, eh?  Do you have any spells or potions that we can purchase?~
+@3   = ~Not just now, thanks.~
+@4   = ~Not just now, thanks.  I do have a few questions if you please?~
+@5   = ~We found Martin.  He gave us this message for you.~
+@6   = ~We found Martin.  He is quite jumpy but otherwise, doing okay in the woods.~
+@7   = ~Martin attacked us.  We defended ourselves but I am sorry to say that he is dead.~
+@8   = ~I do have a few items my family and I have crafted.  I can also provide some healing if you need it.~
+@9   = ~Of course.  Just ask.~
+@10  = ~Since you know the area well, what can you tell me of the land around Restenford?~
+@11  = ~Nothing right now thank you.~
+@12  = ~Which area in particular?~
+@13  = ~South of Restenford.~
+@14  = ~West of Restenford.~
+@15  = ~North of Restenford.~
+@16  = ~Any other locations you can think of that we should look into?~
+@17  = ~Actually, I think that gives us enough to investigate for now. Thank you.~
+@18  = ~(He smiles)  South would be the sea itself.  I assume you mean the land southwest near the old guard house?~
+@19  = ~Yes, that's the area.~
+@20  = ~Not much to say really.  The guard house was burned down several years ago by a badly built fire in the fireplace.  Another barracks was built closer to the west gate.  The old one was never torn down.  I have heard stories about rats in the area but they shouldn't bother anyone.~
+@21  = ~I have a few more questions.~
+@22  = ~Actually, we already looked into that story.  We found some giant rats and some undead in a cave below the barracks.~
+@23  = ~If you follow the road out past the abbey, it will take you west and then south to Garrotten.  A foul and nasty town that supports thieves, harlots, and other debauchery.~
+@24  = ~Directly west will take you to the Kelman Woods and then on to the Dead Forest.  Nothing unusual there.  Northwest will take you to Pebble Hills and Tri-Top.  That area seems to have a large gnoll population.  Normally not a problem but lately something is causing them to raid Restenford.  That is why we built the wall along that part of town.~
+@25  = ~Tri-Top?  Yes, we have been there. Seems an ogre mage was leading the gnolls.  It may be another winter or two before they bother this town again.~
+@26  = ~The two rivers, West Restin and East Restin flow south and merge just below the Dweomer Forest and Xerbal mountains.  It then runs down to the sea at the point that Restenford was built.  There is an area, just north of here, called Bald Hill.  We have had problems with bandits hiding out in those hills.  Normally, Sir BillyBob takes some of the younger soldiers up there to train them to hunt down the bandits.~
+@27  = ~Sir BillyBob?~
+@28  = ~Yes, a old half-elf that lives near here.  He is retired now and works on his farm.~
+@29  = ~Why does he take the younger soldiers out to hunt?  Why not take the more experienced ones?~
+@30  = ~Because, then no one would be here to protect the baron!  Besides, he always casts spells on guards to protect 'em from harm.  The soldiers learn to fight and see if they are really cut out for war, the bandits get what they deserve, and the roads are safe for travelers.
+
+However, he has been busy lately and I have heard that we are missing some goods that should have arrived by now.  Some of my supplies are drying up also.  Perhaps you should talk to him more about the bandits.~
+@31  = ~Yes, we could do that.~
+@32  = ~We already took care of the bandits.~
+@33  = ~Good.~
+@34  = ~Wonderful!~
+@35  = ~Of course, the Reddy Forest, just north of Bone Hill, and west of Tri-Top.~
+@36  = ~I have heard Pelltar mention Bone Hill.  What do you know of that area?~
+@37  = ~Reddy Forest?~
+@38  = ~But you have already told us of those areas so we will investigate them and check in with you later.~
+@39  = ~Yes, not much there.  Might be a good spot to rest between adventures.  Another group of druids was working on building a shrine there but I don't know if they are still working on it or not.  The problems with the gnolls have blocked all my communications with those druids.
+
+Actually, now that I think of it, if you are going near there, please check on their status please.  You should meet with Martin, he is a ranger.  He is young and inexperienced, a little rash, but this is good training for him.~
+@40  = ~Martin?  Martin...  Yes, I think that was the name of the strange guy that attacked us.  He was working for you?  I'm sorry, but he must have gone nuts being out there alone.~
+@41  = ~Bone Hill is the name for a hilltop just outside the Dead Forest.  Long, long ago, it was the fortress to protect this area.  Many battles over the years have battered it down to an old ruin.  I'm sure all sorts of lost souls wander the halls of that place.
+
+Stories from travelers suggest that the dead are walking again out there.  Undead disrupt the balance of nature.  Please do what you can to correct this.~
+@42  = ~Amazing!  I didn't know such a cave existed.  You destroyed the undead too?  Wonderful.~
+@43  = ~This is wonderful!  Thank you for tracking him down.  I will get the supplies ready and send Amos to deliver them.  If you see him again, please let him know that Amos should be arriving in a few days.~
+@44  = ~Okay, we will tell him.~
+@45  = ~Okay, but we may not get back out that way anytime soon.~
+@46  = ~*Sigh.*  This is grave news.  I knew he was a bit cocky about guarding the grove but I wouldn't have expected him to attack anyone.  I am sorry about this.  I will have to send Amos to take care of things there.~
+@47  = ~Did he give you anything?  I was expecting a list of supplies from him.~
+@48  = ~Yes, but we lost it.~
+@49  = ~List?  No.  He was worried about the gnoll problem.~
+@50  = ~Oh yeah, here you go.~
+@51  = ~I think we may have upset Martin. He took off into the woods without giving us anything.~
+@52  = ~*Sigh.*  Very well, I will send Amos out to the grove to get another list from Martin.  Thanks for your help anyway.~
+@53  = ~Well then, could you please find out what is causing the gnolls to attack us?  As long as they continue, I can't get messengers through to Martin.  Let him know once that is finished.~
+@54   = ~Sounds like a despicable place.  This is the sort of thing that comes naturally with civilization, it seems.~

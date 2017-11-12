@@ -1,0 +1,73 @@
+BEGIN ~BHBESHKA~
+
+IF WEIGHT #1 ~NumberOfTimesTalkedTo(0)
+AreaCheck("BH2005")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 DO ~SetGlobal("BHToldToLeave","BH2005",1)~ EXIT
+  IF ~~ THEN REPLY @2 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 GOTO 5
+  IF ~~ THEN REPLY @11 DO ~SetGlobal("BHToldToLeave","BH2005",1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 6
+  IF ~~ THEN REPLY @14 GOTO 8
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 8
+END
+
+IF WEIGHT #0 ~Global("BHToldToLeave","BH2005",2)~ THEN BEGIN 7
+  SAY @17
+  IF ~~ THEN DO ~CreateCreature("BHRGUARD",[-1.-1],0)
+CreateCreature("BHRGUARD",[-1.-1],0)
+CreateCreature("BHRGUARD",[-1.-1],0)
+Shout(125)
+Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @18
+  IF ~~ THEN DO ~SetGlobal("BHToldToLeave","BH2005",1)~ EXIT
+END
+
+IF WEIGHT #2 ~AreaCheck("BH2009")~ THEN BEGIN 9
+  SAY @19
+  IF ~~ THEN REPLY @20 EXIT
+END
+
+IF WEIGHT #3 ~AreaCheck("BH2005")
+!NumberOfTimesTalkedTo(0)~ THEN BEGIN 10
+  SAY @21
+  IF ~GlobalLT("BHToldToLeave","BH2005",2)~ THEN DO ~SetGlobal("BHToldToLeave","BH2005",1)~ EXIT
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #4 ~OR(2)
+AreaCheck("BH2008")
+AreaCheck("BH2022")~ THEN BEGIN 11
+  SAY @22
+  IF ~~ THEN DO ~Enemy()~ EXIT
+END

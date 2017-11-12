@@ -1,0 +1,36 @@
+IF
+	Global("Healed","LOCALS",0)
+	OR(3)
+		SpellCastOnMe([GOODCUTOFF],CLERIC_HEAL)
+		SpellCastOnMe([GOODCUTOFF],CLERIC_LESSER_RESTORATION)
+		SpellCastOnMe([GOODCUTOFF],CLERIC_RESTORATION)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("Healed","LOCALS",1)
+		StartDialogueNoSet([GOODCUTOFF])
+END
+
+IF
+	Global("BHQualConfessed","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Wait(2)
+		ClearAllActions()
+		SaveGame(0)
+		SmallWait(2)
+		StartCutSceneMode()
+		FadeToColor([30.0],0)
+		Wait(1)
+		ActionOverride(Player1,LeaveAreaLUA("BH0507","",[761.653],5))
+		ActionOverride(Player2,LeaveAreaLUA("BH0507","",[796.618],5))
+		ActionOverride(Player3,LeaveAreaLUA("BH0507","",[701.663],5))
+		ActionOverride(Player4,LeaveAreaLUA("BH0507","",[646.658],5))
+		ActionOverride(Player5,LeaveAreaLUA("BH0507","",[812.586],5))
+		ActionOverride(Player6,LeaveAreaLUA("BH0507","",[683.698],5))
+		ActionOverride(Player1,Wait(2))
+		ActionOverride(Player1,MultiPlayerSync())
+		FadeFromColor([30.0],0)
+		EndCutSceneMode()
+		SetGlobal("BHQualConfessed","GLOBAL",2)
+END

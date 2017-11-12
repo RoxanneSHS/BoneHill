@@ -1,0 +1,39 @@
+IF
+  Global("BHToldOfDeath","GLOBAL",5)
+  Global("BHPellSpawn","BH0500",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHPELL",[2606.1492],1)
+    SetGlobal("BHPellSpawn","BH0500",1)
+END
+
+IF
+  Global("BHToldOfDeath","GLOBAL",5)
+  !Global("BHFabJoinedOnce","GLOBAL",0)
+  AreaCheckObject("BH0500","Fabio")
+  InActiveArea("Fabio")
+  Global("BHSetFabio","BH0500",0)
+THEN
+  RESPONSE #100
+    SpellNoDec("Fabio",CLERIC_RESURRECTION)
+    ActionOverride("Fabio",ChangeAIScript("BHFABIO",OVERRIDE))
+    ActionOverride("Fabio",ChangeAIScript("wtarsgt",GENERAL))
+    ActionOverride("Fabio",SetDialogue("BHFABIO"))
+    ActionOverride("Fabio",SetNumTimesTalkedTo(1))
+    ActionOverride("Fabio",SetGlobal("IWasKickedOut","LOCALS",0))
+    SetGlobal("BHSetFabio","BH0500",1)
+END
+
+IF
+  Global("BHFabJoinedOnce","GLOBAL",0)
+  !Dead("Fabio")
+  Global("BHFabioCheck","BH0500",0)
+  Global("BHToldOfDeath","GLOBAL",5)
+THEN
+  RESPONSE #100
+    SetGlobal("BHFabioCheck","BH0500",1)
+    CreateCreature("BHFABIO",[2550.1447],14)
+    ActionOverride("Fabio",SetDialogue("BHFABIO"))
+    AddXPObject("Fabio",5000)
+END
+

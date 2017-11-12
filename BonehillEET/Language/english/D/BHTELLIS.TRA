@@ -1,0 +1,12 @@
+@0    = ~Good day to you <CHARNAME>.  What can I do for you?~
+@1    = ~Who are you?~
+@2    = ~I am Tellish, the advisor to Lady Arrness.~
+@3    = ~Advisor?~
+@4    = ~I am a clerical advisor as well as financial and political.  I do many jobs but mostly I am here to assist her with leadership.~
+@5    = ~What do you know of the assassin's guild?~
+@6    = ~(he frowns)  That is a terrible rumor that I believe was tagged to this town by jealous leaders of other towns on these islands.  There has never been such a guild here.  If so, we would have found it and removed it immediately.~
+@7    = ~Why would other rulers say such things about Garrotten?~
+@8    = ~Who can say?  We are a pleasant small town next to a large lake that provides some of the best fishing on this island.  The lands around here are full of deer and other game for hunters.  Trade along the lake and river is good for us.  I suspect these are all reasons for why other town leaders say such things about us.  Some of the closer towns have tried to subjugate us into their territories.  We have always resisted, so I assume the rumors are retaliation.~
+@9    = ~Interesting view.  I hadn't thought about that.~
+@10   = ~(he bows) That is why the lady asks me to be here to advise.~
+@11   = ~Indeed.~

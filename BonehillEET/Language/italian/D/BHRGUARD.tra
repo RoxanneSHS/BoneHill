@@ -1,0 +1,34 @@
+@1   = ~Non ci saranno né combattimenti e né furti all'interno del territorio della città! I trasgressori saranno puniti con il massimo della pena!~
+@2   = ~Pelltar! Grazie al cielo ti ho trovato. Ho saputo che ci sono dei banditi appena a nord della città. E' giunto un mercante morente nella nostra Baracca di Guardia. Prima di morire ci ha riferito che era stato attaccato dai banditi in quella direzione. Stavano cercando qualcosa e pensavano che l'avesse lui. Ho pensato che era meglio riferire il tutto a Gelpas e mi è stato detto che stava qui.~
+@3   = ~State indagando sui furti ai magazzini, non è vero?~
+@4   = ~Si, cosa ci puoi dire in merito a questi furti?~
+@5   = ~Devi essere lo sveglio del gruppo. Cosa ci puoi dire in merito ai furti?~
+@6   = ~No, non ora.~
+@7   = ~Niente. Noi facciamo solo la guardia alla porta della città. Nessuno di noi è stato incaricato di indagare sui furti.~
+@8   = ~Beh, questo non mi è di molto aiuto. Ma grazie lo stesso.~
+@9   = ~Grazie lo stesso. Fate solo la guardia alle porte?~
+@10  = ~Si. Beh, eccetto per quell'albero là.~
+@11  = ~Fate la guardia ad un albero?~
+@12  = ~No, solo ai cadaveri appesi.~
+@13  = ~Er, puoi spiegarti meglio per favore?~
+@14  = ~Beh, diciamo che facciamo la guardia ai morti. Ci assicuriamo che non gli succeda nulla. Ad alcune persone piace lanciare pietre a coloro che non gli piacciono.
+
+(Si avvicina a te e ti dice) Alle streghe piace rubare le parti dei cadaveri per creare zombi ed altri orribili mostri.~
+@15  = ~Ciò che mi dici é strano. Inoltre, non ci sono streghe in questa città.~
+@16  = ~Ma non ci sono streghe in questa città.~
+@17  = ~Huh? Oh, si. Presumo di no.~
+@18  = ~Sembra che una delle corde sia nuova. E' stato appeso qualcuno di recente?~
+@19  = ~Si. Reynard. (Sputa sul terreno) Era uno sporco bastardo. Un bandito. Ha rapinato molta gente fuori e dentro la città. E a volte faceva anche di peggio che derubare. Voleva che le signore lo ricordassero per sempre, non so se hai capito cosa intendo. Ha ucciso diversi miei amici prima che lo riuscissimo a catturare. E' stata una soddisfazione poterlo impiccare. Mi sarebbe piaciuto mettergli un topo nella sua cella e lasciarlo lì.~
+@20  = ~E così era un ladro?~
+@21  = ~Uno dei migliori o dei peggiori, dipende dal punto di vista in cui lo giudichi.~
+@22  = ~C'è stato qualcosa di insolito durante la sua impiccagione? Sono passate molte persone?~
+@23  = ~Ok, ti ringrazio. Penso che continuare non mi porterà da nessuna parte.~
+@24  = ~Non che io sappia. Ravella è stata l'ultima a fare il turno di guardia, ed è stata lei che lo ha sepolto. Dovresti parlare con lei.~
+@25  = ~No, penso che abbiamo saputo tutto quello di cui avevamo bisogno. Ti ringrazio.~
+@26  = ~Dove posso trovare Ravella?~
+@27  = ~Oggi si è presa un giorno libero. Dovrebbe tornare domani.~
+@28  = ~Grazie. Sei stato di grande aiuto.~
+@29  = ~Andiamo, non vedi che sto lavorando?~
+@30  = ~Ravella non è ancora ritornata.~
+@31  = ~Ho visto che c'è una corda nuova su quell'albero. E' stato impiccato qualcuno di recente?~
+@32  = ~Io e Boo abbiamo visto una corda nuova. Qualche malvagio è stato preso a calci nel sedere utlimamente?~

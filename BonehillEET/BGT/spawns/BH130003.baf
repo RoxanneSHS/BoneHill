@@ -1,0 +1,4642 @@
+IF
+	RandomNum(1,1)
+	Global("RandomSet35411414_3","BH1300",0)
+	Global("RandomBeenSet35411414","BH1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("RandomSet35411414_3","BH1300",1)
+		SetGlobal("RandomBeenSet35411414","BH1300",1)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #50
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #18
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #30
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #25
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #25
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #30
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #18
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #50
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #6
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #6
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(1)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(2)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(3)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(4)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(5)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(DAY)
+	NumInParty(6)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #50
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #18
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #30
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #25
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #25
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #30
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),1,LEVEL)
+		CheckStat(StrongestOf(Myself),1,LEVEL2)
+		CheckStat(StrongestOf(Myself),1,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),1,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #18
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #50
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #8
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),2,LEVEL)
+		CheckStat(StrongestOf(Myself),2,LEVEL2)
+		CheckStat(StrongestOf(Myself),2,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),2,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(3)
+		CheckStat(StrongestOf(Myself),3,LEVEL)
+		CheckStat(StrongestOf(Myself),3,LEVEL2)
+		CheckStat(StrongestOf(Myself),3,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),3,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #15
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #6
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #20
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #6
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #7
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(6)
+		CheckStat(StrongestOf(Myself),4,LEVEL)
+		CheckStat(StrongestOf(Myself),4,LEVEL2)
+		CheckStat(StrongestOf(Myself),4,LEVEL3)
+		CheckStat(StrongestOf(Myself),5,LEVEL)
+		CheckStat(StrongestOf(Myself),5,LEVEL2)
+		CheckStat(StrongestOf(Myself),5,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),5,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(6)
+		CheckStat(StrongestOf(Myself),6,LEVEL)
+		CheckStat(StrongestOf(Myself),6,LEVEL2)
+		CheckStat(StrongestOf(Myself),6,LEVEL3)
+		CheckStat(StrongestOf(Myself),7,LEVEL)
+		CheckStat(StrongestOf(Myself),7,LEVEL2)
+		CheckStat(StrongestOf(Myself),7,LEVEL3)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+	!CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(1)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(2)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(3)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(4)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(5)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	Range([PC],35)
+	TimeOfDay(NIGHT)
+	NumInParty(6)
+	OR(3)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL2)
+		CheckStatGT(StrongestOf(Myself),7,LEVEL3)
+	Global("SpawnReset35411414","BH1300",0)
+	Global("RandomSet35411414_3","BH1300",1)
+THEN
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #10
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		CreateCreature("GNOLL01",[3541.1414],0) // Gnoll
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #40
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #2
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WOLF01",[3541.1414],0) // Wolf
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		CreateCreature("WORG",[3541.1414],0) // Worg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #5
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		CreateCreature("BEARGR",[3541.1414],0) // Grizzly Bear
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #4
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+	RESPONSE #3
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		CreateCreature("ANKHEG",[3541.1414],0) // Ankheg
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END
+
+IF
+	!Range([PC],35)
+	Global("SpawnReset35411414","BH1300",1)
+	GlobalTimerExpired("130035411414","BH1300")
+THEN
+	RESPONSE #100
+		SetGlobal("SpawnReset35411414","BH1300",0)
+		SetGlobal("RandomBeenSet35411414","BH1300",0)
+		SetGlobal("RandomSet35411414_3","BH1300",0)
+END
+
+IF
+	Range([PC],35)
+	Global("SpawnReset35411414","BH1300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SpawnReset35411414","BH1300",1)
+		CreateCreature("GNLCAP01",[3541.1414],0) // Gnoll Captain
+		SetGlobalTimer("130035411414","BH1300",EIGHT_HOURS)
+END

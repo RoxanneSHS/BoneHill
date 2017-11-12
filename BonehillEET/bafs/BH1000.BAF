@@ -1,0 +1,79 @@
+IF
+  OnCreation()
+  GlobalLT("BHBoneHillQuest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("BHBoneHillQuest","GLOBAL",2)
+END
+
+IF
+  Global("BP_MoreStooges","BH1000",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1000",1)
+    CreateCreature("HOBGO2",[3220.1170],10)
+    CreateCreature("HOBGO2",[3300.1140],10)
+    CreateCreature("HOBGO2",[3080.1125],10)
+    CreateCreature("HOBGO2",[1875.965],0)
+    CreateCreature("HOBGO2",[1800.1000],0)
+    CreateCreature("HOBELITE",[1705.920],0)
+    CreateCreature("HOBGOA_A",[505.870],8)
+    CreateCreature("HOBGOA_A",[580.1050],8)
+    CreateCreature("HOBGOA_A",[1750.845],8)
+    CreateCreature("HOBGOA_A",[2800.660],8)
+    CreateCreature("HOBGOA_A",[2930.740],8)
+    CreateCreature("HOBELITE",[2910.850],8)
+    CreateCreature("HOBGO2",[2820.1940],10)
+    CreateCreature("HOBGO2",[2700.1915],10)
+    CreateCreature("HOBELITE",[2485.1900],10)
+    CreateCreature("HOBGOA_A",[2965.1845],10)
+    CreateCreature("HOBGO2",[3040.1780],10)
+    CreateCreature("HOBGO2",[3010.1750],10)
+    CreateCreature("HOBGO2",[3250.1615],6)
+END
+
+IF
+  Dead("BHTELV")
+  !Dead("BHWRAITH")
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",1)
+    Continue()
+END
+
+IF
+  !Dead("BHTELV")
+  Dead("BHWRAITH")
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",1)
+    Continue()
+END
+
+IF
+  Dead("BHTELV")
+  Dead("BHWRAITH")
+THEN
+  RESPONSE #100
+    SetGlobal("BHRestenfordEnemies","GLOBAL",2)
+    Continue()
+END
+
+IF
+  GlobalGT("BHRestenfordEnemies","GLOBAL",0)
+  !Global("BHBoneHillQuest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("BHBoneHillQuest","GLOBAL",2)
+END
+
+IF
+  Global("BHVolcWentExploring","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHVolcfr",[3691.2793],5)
+    ActionOverride("BHVolcfr",Kill("BHVolcfr"))
+    SetGlobal("BHVolcWentExploring","GLOBAL",2)
+END
+

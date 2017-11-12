@@ -1,0 +1,32 @@
+IF
+  Detect([PC])
+  Global("Display","LOCALS",0)
+THEN
+  RESPONSE #25
+    SetGlobal("Display","LOCALS",1)
+    DisplayStringHead(Myself,@950)
+    RandomWalk()
+  RESPONSE #25
+    SetGlobal("Display","LOCALS",1)
+    DisplayStringHead(Myself,@951)
+    RandomWalk()
+  RESPONSE #25
+    SetGlobal("Display","LOCALS",1)
+    DisplayStringHead(Myself,@952)
+    RandomWalk()
+  RESPONSE #25
+    SetGlobal("Display","LOCALS",1)
+    DisplayStringHead(Myself,@953)
+    RandomWalk()
+END
+
+IF
+  Detect([PC])
+  Global("Display","LOCALS",1)
+  Delay(12)
+THEN
+  RESPONSE #100
+    SetGlobal("Display","LOCALS",0)
+    RandomWalk()
+END
+

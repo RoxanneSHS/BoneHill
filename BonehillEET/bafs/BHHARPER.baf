@@ -1,0 +1,40 @@
+IF
+  Global("BHHarpCrazy","BH2002",1)
+THEN
+  RESPONSE #20
+    Wait(15)
+    ForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
+    Wait(2)
+    DisplayStringHead(Myself,@750)
+    RandomWalk()
+    Continue()
+  RESPONSE #20
+    Wait(15)
+    ForceSpell(Myself,CLERIC_BARKSKIN)
+    Wait(2)
+    DisplayStringHead(Myself,@751)
+    RandomWalk()
+    Continue()
+  RESPONSE #20
+    Wait(25)
+    ForceSpell(Myself,CLERIC_CHANT)
+    Wait(2)
+    DisplayStringHead(Myself,@752)
+    RandomWalk()
+    Continue()
+  RESPONSE #20
+    Wait(5)
+    ForceSpell(Myself,CLERIC_ZONE_OF_SWEET_AIR)
+    Wait(2)
+    DisplayStringHead(Myself,@753)
+    RandomWalk()
+    Continue()
+  RESPONSE #20
+    Wait(15)
+    ForceSpell(Myself,CLERIC_RESTORATION)
+    Wait(2)
+    DisplayStringHead(Myself,@754)
+    RandomWalk()
+    Continue()
+END
+

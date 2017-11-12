@@ -1,0 +1,104 @@
+IF
+  Global("BHFabioAndrella","GLOBAL",1)
+  AreaCheck("BH0500")
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    StartDialogue("BHFabioJ",[PC])
+    SetGlobal("BHFabioAndrella","GLOBAL",2)
+END
+
+IF
+  Global("BHGuardRatTrigger","GLOBAL",1)
+  AreaCheck("BH0402")
+  CombatCounter(0)
+  InParty("Minsc")
+THEN
+  RESPONSE #100
+    ActionOverride(Myself,Interact("Minsc"))
+END
+
+IF
+  Global("BHGuardRatTrigger","GLOBAL",1)
+  AreaCheck("BH0402")
+  CombatCounter(0)
+  !InParty("Minsc")
+THEN
+  RESPONSE #100
+    SetGlobal("BHGuardRatTrigger","GLOBAL",2)
+END
+
+IF
+  Global("BHHandNoteDecipher","GLOBAL",1)
+  CombatCounter(0)
+  AreaCheck("BH0700")
+  Global("BHFabioExplainedNote","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHFabioExplainedNote","GLOBAL",1)
+    StartDialogue("BFabio",[PC])
+END
+
+IF
+  Global("BHQuestAccept","GLOBAL",6)
+THEN
+  RESPONSE #100
+    ActionOverride(Myself,StartDialogue("BFabio",[PC]))
+END
+
+IF
+  Global("BHToldOfDeath","GLOBAL",1)
+  See([PC])
+  AreaCheck("BG2626")
+THEN
+  RESPONSE #100
+    SmallWait(3)
+    ActionOverride(Myself,StartDialogue("bhfabio",[PC]))
+END
+
+IF
+  Global("BHToldOfDeath","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SmallWait(3)
+    ActionOverride(Myself,StartDialogue("bhfabio",[PC]))
+END
+
+IF
+  Global("BHToldOfDeath","GLOBAL",4)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SaveGame(0)
+    SmallWait(2)
+    StartCutSceneMode()
+    SetGlobal("BHToldOfDeath","GLOBAL",5)
+    FadeToColor([30.0],0)
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUA("BH0500","",[2521.1573],9))
+    ActionOverride(Player2,LeaveAreaLUA("BH0500","",[2587.1541],8))
+    ActionOverride(Player3,LeaveAreaLUA("BH0500","",[2673.1533],7))
+    ActionOverride(Player4,LeaveAreaLUA("BH0500","",[2500.1552],9))
+    ActionOverride(Player5,LeaveAreaLUA("BH0500","",[2587.1574],8))
+    ActionOverride(Player6,LeaveAreaLUA("BH0500","",[2669.1564],7))
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    SetGlobal("BHToldOfDeath","GLOBAL",5)
+    EndCutSceneMode()
+END
+
+IF
+  Global("BHToldOfDeath","GLOBAL",6)
+THEN
+  RESPONSE #100
+    SmallWait(3)
+    ActionOverride(Myself,StartDialogue("bhfabio",[PC]))
+END
+
+IF
+  Global("BHAllDone","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride(Myself,StartDialogue("BFabio",[PC]))
+END
+

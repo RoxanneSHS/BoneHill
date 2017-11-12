@@ -1,0 +1,9 @@
+IF
+  Entered([ANYONE])
+  Global("BH2100Spawn","BH2100",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHWATCHR",[2346.2244],4)
+    SetGlobal("BH2100Spawn","BH2100",1)
+END
+

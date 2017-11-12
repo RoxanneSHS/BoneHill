@@ -1,0 +1,72 @@
+@1   = ~Greetings, I am Yalta.  What can I do for you?~
+@2   = ~Hello Yalta.  We are the party of <CHARNAME>.  We are helping Pelltar with some problems plaguing Restenford.~
+// Shall remain identical to @859 in baf.tra and @49 in BHYALTA.tra, otherwise there will be a journal issue
+@3   = ~Gnoll Attacks
+
+I told Yalta about the Ogre Mage leading the gnolls.  Hopefully this problem is resolved.~
+// Shall remain identical to @861 in baf.tra and @50 in BHYALTA.tra, otherwise there will be a journal issue
+@4   = ~Gnoll Attacks
+
+Yalta says that the gnolls out on Tri-Top keep attacking the town.  They seem to be more organized than in the past and they are making a real challenge for the guards now.  Something is going on out there and he wants me to find out what is causing this.~
+@5   = ~The gnolls out at Tri-Top were under the control of an ogre.  We killed the ogre and hunted down all the gnolls we could find.  They shouldn't bother the town for quite awhile now.~
+@6   = ~It seems that there is an old cave system under the guardhouse and the rats had a huge nest in the cave.  We also found some undead and destroyed them as well.~
+@7   = ~Ah, yes.  We have our share of those.  Is there something in particular you are interested in?  Perhaps I can help.~
+@8   = ~I assume you are a priest?~
+@9   = ~I understand that bands of gnolls have been attacking the town?~
+@10  = ~Have you heard anything about the old abandoned guard house?~
+@11  = ~We haven't been here long yet.  So we are still learning what the problems are.  Is there anything that you can think of that we can help with?~
+@12  = ~No, I guess we have solved all the problems you mentioned already.  If you have nothing else, we will check with Pelltar.~
+@13  = ~Thanks for the offer. I think you have covered everything so far. We will keep searching until we find the answers.~
+@14  = ~Yes, I am the spiritual advisor of the Baroness, Lady Fairwind.~
+@15  = ~Advisor?~
+@16  = ~Have you not met Lady Fairwind yet?  She is a priest as well.~
+@17  = ~Of course, with the duties of being a baroness, she is not always able to continue her spiritual learning.  I am her tutor, although lately more of a listener to her troubles.~
+@18  = ~The baroness is in trouble?~
+@19  = ~No, no, nothing like that.  She feels that the problems of this land are hers (and her husband of course).  They do not want their people to suffer.~
+@20  = ~It is a shame other rulers do not feel the same way.~
+@21  = ~Hmm?  Yes, yes, too true unfortunately.  So where was I?~
+@22  = ~You were going to tell us about some of the problems in this area?~
+@23  = ~You were telling us about the areas problems. I think you covered it all.~
+@24  = ~*Sigh.*  Yes, this has been an on going problem for Restenford.  Throughout the hills and wilderness around here, there are several clans of gnolls, orcs, goblins, and so forth.~
+@25  = ~Yes.  A little girl was bitten by a large rat down near the old abandoned guardhouse.  Normally this wouldn't be an issue, but I have heard others complaining about the rats also.  Just check it out and make sure nothing unusual is going on please.  Check with Zahrdahl, he is the merchant that lives near the guardhouse.  He may know more about where these rats are coming from.~
+// Shall remain identical to @860 in baf.tra, otherwise there will be a journal issue
+@26  = ~Yalta has asked me to clear out an abandoned guardhouse full of rats.  Sounds easy enough.  He suggested that I talk to the bait seller since he lives the closest to the guardhouse.~
+@27  = ~We would be glad to check into that.  Thank you.~
+@28  = ~What do I care?  If she dies, she shouldn't have been there.  Serves her right.~
+@29  = ~Any other problems besides rats?~
+@30  = ~We already took care of the rat problem.~
+@31  = ~Well now, that is disappointing to hear.  If that is your idea of help, you can ask Pelltar to take you back now.  Please leave me.~
+@32  = ~There are other problems in Restenford.  Come back and visit when you get a chance.~
+@33  = ~Most of the time they leave us alone.  Only during really cold winters do they make any attempt at attacking the town.  It is always because of food shortages during winter.  The winters usually reduce their numbers, but they seem to breed like rabbits.~
+@34  = ~The latest attacks don't follow their normal pattern.  It isn't winter, there should be plenty of food out there.  So why are they bothering us?  I think something or someone is organizing them.~
+@35  = ~What makes you think that?~
+@36  = ~Yes, yes! You have already given us your information about the gnolls. We will keep looking.~
+@37  = ~The attacks are better planned.  Now they are in groups and attack the wall at different spots during raids so our guards are spread out trying to protect several areas.  In the past, the gnolls would just throw themselves at the walls.  Now they work with wolves to attack travelers or to hit any guards on the outside of the wall.  Also, they are attacking during all hours of the day.  In the past it was only at night.~
+@38  = ~We would be glad to check into this for you.~
+@39  = ~Hmm, we can look into this later.  Pelltar has some immediate needs for us.~
+@40  = ~Yes, bands of gnolls keep attacking the town from the west.~
+@41  = ~Talk to Almax or Sir BillyBob.  They are both on the other side of town.  They may be able to help you.  Go in peace <BROTHERSISTER>.~
+@42  = ~Really?  Wow.  I'm glad that you are here then.  Pelltar made an excellent decision in hiring you.~
+@43  = ~Thank you.  Just helping out where we can.~
+@44  = ~Undead?  Here?  In town?  Oh my.  These ARE troubled times.  Thank you for taking care of this.  By the way, the little girl will be fine.~
+@45  = ~You are welcome.~
+@46  = ~Go in peace <BROTHERSISTER>.~
+@47  = ~Welcome back <CHARNAME>, how have your investigations been going?~
+@48  = ~Very well so far. It seems the more we look, the more problems we find.~
+// Shall remain identical to @859 in baf.tra and @3 in BHYALTA.tra, otherwise there will be a journal issue
+@49  = ~Gnoll Attacks
+
+I told Yalta about the Ogre Mage leading the gnolls.  Hopefully this problem is resolved.~
+// Shall remain identical to @861 in baf.tra and @4 in BHYALTA.tra, otherwise there will be a journal issue
+@50  = ~Gnoll Attacks
+
+Yalta says that the gnolls out on Tri-Top keep attacking the town.  They seem to be more organized than in the past and they are making a real challenge for the guards now.  Something is going on out there and he wants me to find out what is causing this.~
+@51  = ~The gnolls out at Tri-Top were under the control of an Ogre Mage.  We killed the Ogre Mage and hunted down all the gnolls we could find.  They shouldn't bother the town for quite awhile now.~
+@52  = ~Very well so far. We are doing the best we can to eliminate the problems we find.~
+@53  = ~Please leave now! I want nothing more to do with you!~
+@54  = ~Really?! Please tell me.~
+@55   = ~Bah, dwarves and elves both could say the same about you bloody humans.~
+@56   = ~What!  Please ignore <CHARNAME>.  We would be glad to rid this town of evil rats.  Boo hates rats.~
+@57   = ~S-sounds like a wonderful leader for this town.  More rulers should be like her.~
+@58   = ~Bah!  Damn goody goodies.  I bet they really sit around counting the tax money each night like I would.~
+@59   = ~Ignore him.  It is a shame other rulers do not feel the same way as yours.~

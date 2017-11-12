@@ -1,0 +1,25 @@
+IF
+  CombatCounter(0)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    Formation("BHWELCAR",[-3.-5])
+END
+
+IF
+  Delay(15)
+  See(NearestEnemyOf(Myself))
+  Exists(LastAttackerOf(LastSeenBy(Myself)))
+  NumCreatureGT([ENEMY],1)
+THEN
+  RESPONSE #100
+    Formation("BHWELCAR",[-3.-5])
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

@@ -1,0 +1,9 @@
+IF
+  Global("BHHandLightHouseOpen","GLOBAL",1)
+  Global("BHSiriusSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHSirius",[343.274],7)  // ~Sirius~
+    SetGlobal("BHSiriusSpawn","GLOBAL",1)
+END
+

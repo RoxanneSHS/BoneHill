@@ -1,0 +1,39 @@
+REPLACE ~25SPELL~
+
+IF WEIGHT #4 ~AreaCheck("AR5011")~ THEN BEGIN 0
+  SAY @0 
+  IF ~Global("lazarus","GLOBAL",3)~ THEN GOTO 1
+  IF ~Global("lazarus","GLOBAL",0)~ THEN REPLY @1  GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @2
+  IF ~~ THEN DO ~SetGlobal("lazarus","GLOBAL",1)~ GOTO 13
+END
+
+END
+
+APPEND ~25SPELL~
+
+IF WEIGHT #5 ~AreaCheck("BH0103")~ THEN BEGIN SoBH1
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO SoBH2
+  IF ~~ THEN REPLY @5 GOTO SoBH3
+END
+
+IF ~~ THEN BEGIN SoBH2
+  SAY @6
+  IF ~~ THEN DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END
+
+IF ~~ THEN BEGIN SoBH3
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO SoBH4
+END
+
+IF ~~ THEN BEGIN SoBH4
+  SAY @6
+  IF ~~ THEN DO ~StartStore("BHST0103",LastTalkedToBy)~ EXIT
+END
+
+END

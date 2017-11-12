@@ -1,0 +1,58 @@
+@0    = ~Go talk to Basil if you need services.~
+@1    = ~I am <GABBER>, who are you?~
+@2    = ~My name is Harmin and I am the canon here.  The High Priest and I are busy right now.~
+@3    = ~Harper is here?  Good, I need to talk to him.~
+@4    = ~He is busy right n-~
+@5    = ~Sir, I don't know what they want yet.
+
+What do you want?~
+@6    = ~I need to speak with Harper.~
+@7    = ~Well, you've interrupted us already.  Speak!~
+@8    = ~Alone.~
+@9    = ~Alone.  Balmorrow said it would be okay.~
+@10   = ~Alone.  Abraham said it would be okay.~
+@11   = ~(frowning)  You come in here, strangers, armed to the teeth, and expect me to leave you alone with him?  You should be lucky I don't call the guards and throw you out.~
+@12   = ~Fine.  The High Priest is accused of murdering Baron Grellus of Restenford.~
+@13   = ~That's it!  Where are the guards?  I will have you thrown out.  We don't have time for such ridiculous nonsense.~
+@14   = ~The baron was murdered a few nights ago.  Next to his body, the guards found a small red ruby.  Witnesses in town say that Harper stopped by an inn for dinner.~
+@15   = ~You are serious?  This is incredible.  It isn't true but still it is incredible.  Harper hasn't left this town in the last couple of months.~
+@16   = ~Sorry sir.~
+@17   = ~You weren't sir.  In fact, I don't think anyone from the temple would have been there.  There is no sister church to Osprem or Xerbo in that town.
+
+Basil, did anyone need to meet with the Phaulkon temple?~
+@18   = ~Sigh, here we go.  You might as well leave now.  He will go on for the next few hours whether you are here or not.~
+@19   = ~Now, after seeing him, do you really think he is capable of sneaking into a castle and killing the baron?~
+@20   = ~It could be a ploy.~
+@21   = ~He seems to be like any other old kook.~
+@22   = ~Doubtful.  He has been like this for several years and it keeps getting worse.  He has his good times and bad.  Right now, I think you put him in a bad spell for awhile.  Hopefully, he will still be able to perform services tomorrow.~
+@23   = ~Wouldn't a restoration spell heal him?~
+@24   = ~Yes.  You don't get the honor of cleaning his bed linens each morning or having to assist in feeding him.  There are several tasks the acolytes truly despise like this.~
+@25   = ~It has been tried.  No, I am afraid that this is just the results of living past the time when many of us would have already died.  I'm not sure if anything will restore his mind.~
+@26   = ~Whether this is a trick or not, the problem is that he is a suspect in this murder.~
+@27   = ~Do you have the ruby that you mentioned?~
+@28   = ~Yes, here it is.~
+@29   = ~Not with me, no.~
+@30   = ~Hmm, the holy symbol that Harper wears has been missing for about a week now.  This ruby does look like it would have fit.  Very strange and disturbing.  Someone must have stolen it to get to the stones.~
+@31   = ~Balmorrow suspects that each of the three suspects has a spy watching them.  Could one of the priests be a guild spy?~
+@32   = ~Abraham suspects that each of the three suspects has a spy watching them.  Could one of the priests be a guild spy?~
+@33   = ~Is it possible that someone here is a member of the guild?~
+@34   = ~Hmm, the holy symbol that Harper wears has been missing for about a week now.  This ruby you mentioned may have fit.  Very strange and disturbing.  Someone must have stolen it to get to the stones.~
+@35   = ~Doubtful, Osprem wouldn't provide priest spells to an evil person.  I can't imagine her allowing another priest in here to pray for their spells.~
+@36   = ~What about a non-priest?  Servants and cooks.~
+@37   = ~Hmm, the only one is Lothar.~
+@38   = ~Lothar?  Who is that?~
+@39   = ~Lothar is the groundskeeper.  He has been here for several years now.  Oh, I can't believe it would be him.  Lothar was at the wrong end of a flail years ago.  The results have left most of his face and head scarred so bad he scares children.  He normally has to wear a hood to hide his face.~
+@40   = ~Does he do anything suspicious?  Disappear for a few days at a time?  Have strange people stop by to talk to him?~
+@41   = ~No, no nothing like that.  He is very helpful here.  We never have any problems with him.~
+@42   = ~Okay, maybe it is someone else.  In the meantime, may we look around?~
+@43   = ~Of course.  We are willing to fully assist you.  The temple of Osprem cannot be tainted with this horrible crime.  If you need services, just talk to Basil.~
+// Shall remain identical to @877 in baf.tra, otherwise there will be a journal issue
+@44   = ~Harper seems to be a genuine crazy person.  Either it is real or a very good act.  I have been given permission to investigate around the church.  Guess I need to talk to this Lothar person.~
+@45   = ~Go see Basil if you need any services.~
+@46   = ~What's this?  Lothar had the amulet?~
+@47   = ~It was in a cabinet in his room.  The door and drawer both had traps on them.  I assume no priest here knows how to set a trap with poison on it.~
+@48   = ~Poison?  No, I doubt any of the acolytes would do something like that.  Basil, send for Lothar.~
+@49   = ~Did you look around the buildings?~
+@50   = ~Well, if he is a spy, he is headed for the guild to inform the others.  <CHARNAME>, you had best be careful around here.  There is no telling what will happen next.~
+// Shall remain identical to @876 in baf.tra, otherwise there will be a journal issue
+@51   = ~I found High Priest Harper's holy symbol and exposed a spy at the church.  However, he has escaped.  I'm sure I will be seeing him again.~

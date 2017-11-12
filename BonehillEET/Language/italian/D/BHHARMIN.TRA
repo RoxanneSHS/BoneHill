@@ -1,0 +1,56 @@
+@0    = ~Parla con Basil se hai bisogno di qualche servizio.~
+@1    = ~Io sono <GABBER>, e tu chi sei?~
+@2    = ~Mi chiamo Harmin e sono il canonico qui. Il Sommo Sacerdote ed io siamo occupati in questo momento.~
+@3    = ~Harper è qui? Bene, ho bisogno di parlargli.~
+@4    = ~Lui è occupato in questo momento n-~
+@5    = ~Signore, non so cosa vogliate ancora.
+
+Cosa volete?~
+@6    = ~Devo parlare con Harper.~
+@7    = ~Beh, ormai ci hai interrotto. Parla!~
+@8    = ~Da soli.~
+@9    = ~Da soli. Balmorrow ha detto che sarebbe meglio.~
+@10   = ~Da soli. Abraham ha detto che sarebbe meglio.~
+@11   = ~(aggrottando le sopracciglia) Voi venite qui, stranieri, armati fino ai denti, e sperate che vi lasci parlare da solo con lui? Consideratevi fortunati se non chiamo le guardie e non vi faccio buttare fuori.~
+@12   = ~Bene. Il Sommo Sacerdote è accusato dell'assassinio del Barone Grellus di Restenford.~
+@13   = ~Questo è troppo! Dove sono le guardie? Vi farò cacciare. Non abbiamo tempo per sentire simili ridicolaggini senza senso.~
+@14   = ~Il barone è stato assassinato qualche notte fa. Vicino al suo cadavere, le guardie hanno trovato un piccolo rubino rosso. Dei testimoni in città dicono che hanno visto Harper fermarsi in una locanda per mangiare.~
+@15   = ~Parli seriamente? Questo è incredibile. Non è vero ma è ugualmente incredibile. Harper sono un po' di mesi che non lascia la città.~
+@16   = ~Mi dispiace, signore.~
+@17   = ~No, non c'è stato nessuno signore. In effetti, io non penso che nessuno del tempio sia stato lì. Non c'è nessuna chiesa di Osprem o Xerbo in quella città.
+
+Basil, qualcuno doveva incontrarsi al tempio di Phaulkon?~
+@18   = ~Sigh, eccoci qui. Ora puoi anche andare. Starà così per le prossime ore sia che tu sia qui o no.~
+@19   = ~Ora, dopo averlo visto, veramente pensi che lui sia in grado di entrare di nascosto in un castello ed uccidere il barone?~
+@20   = ~Pottrebbe essere una trappola da parte sua per confonderci.~
+@21   = ~Sembra essere un po' folle come qualsiasi altro vecchio.~
+@22   = ~Ne dubito. E' cosi da diversi anni e via via va peggiorando. Fa il buono e il cattivo tempo. Penso che lo abbia colpito un brutto incantesimo qualche tempo fa. Siamo nella speranza che domani sia ancora in grado di poter fare i suoi servizi e dare assistenza a chi la chiede.~
+@23   = ~Non si potrebbe guarire con un incantesimo di ristorazione?~
+@24   = ~In effetti bisogna cambiargli le lenzuola del letto ogni mattina e doverlo aiutare a mangiare. Ci sono diversi incarichi che gli accoliti disprezzano, come questo.~
+@25   = ~E' stato provato, ma senza risultato. Ho paura che questo sia solo il risultato che si ottiene quando molti di noi sarebbero dovuti già morire. Non ne sono certo che ci sia qualcosa che possa risanargli la mente.~
+@26   = ~Comunque il problema è che lui è sospettato di essere l'assassino.~
+@27   = ~Avete il rubino di cui parlavate?~
+@28   = ~Si, eccolo.~
+@29   = ~No, non ce l'ho con me.~
+@30   = ~Hmm, il simbolo sacro che indossa Harper è stato perso circa una settimana fa. Questo rubino è molto simile. Molto strano e preoccupante. Qualcuno deve averlo rubato per prendersi la pietra.~
+@31   = ~Balmorrow crede che ognuno dei tre sospettati hanno una spia che li osserva. Qualcuno dei sacerdoti potrebbe essere una spia della Gilda?~
+@32   = ~Abraham crede che ognuno dei tre sospettati hanno una spia che li osserva. Qualcuno dei sacerdoti potrebbe essere una spia della Gilda?~
+@33   = ~E' possibile che qualcuno del tempio sia un componente della Gilda?~
+@34   = ~Hmm, il simbolo sacro che indossa Harper è stato perso circa una settimana fa. Il rubino perso potrebbe, in effetti, essere anche il rubino trovato da voi. Questo rubino è molto simile. Molto strano e preoccupante. Qualcuno deve averlo rubato per prendersi la pietra.~
+@35   = ~Non credo, Osprem non insegnerebbe incantesimi da chierico a persone malvagie. Non posso credere che abbia permesso ad un altro sacerdote di pregare per i suoi incantesimi qui.~
+@36   = ~E di coloro che non sono sacerdoti? Magari servitori o cuochi.~
+@37   = ~Hmm, l'unico é Lothar.~
+@38   = ~Lothar? Chi é?~
+@39   = ~Lothar è il giardiniere. E' qui da diversi anni ormai. Oh, non posso credere che sia lui. Lothar ebbe una disgrazia anni fa. Il risultato fu che si procurò molti sfregi sulla testa e sul volto così brutti da spaventare i bambini. Normalmente indossa un cappuccio per nascondersi il volto.~
+@40   = ~Hai notato qualcosa di sospetto in quello che fa? Delle volte sparisce per qualche giorno? Ci sono strane persone che si fermano a parlare con lui?~
+@41   = ~No, niente di simile. Lui ci aiuta molto qui. Non abbiano mai avuto problemi con lui.~
+@42   = ~Ok, probabilmente è qualcun altro. Nel frattempo possiamo dare un'occhiata qui intorno?~
+@43   = ~Naturalmente. Noi vogliamo aiutarti. Il tempio di Osprem non può essere disonorato con il sospetto di questo orribile assassinio. Se hai bisogno di qualche servizio, vai a parlare con Basil.~
+@44   = ~Harper sembra essere una persona un po' folle ma sincera. O è vero oppure recita meravigliosamente bene. Ho avuto il permesso di investigare per conto della chiesa. Credo di dover parlare con questo Lothar.~
+@45   = ~Vai da Basil se hai bisogno di qualche servizio.~
+@46   = ~Come? Lothar aveva l'amuleto?~
+@47   = ~Era in un mobiletto della sua stanza. Sia la porta che il cassetto avevano delle trappole. Credo che i sacerdoti non siano conosciuti per preparare trappole fatte col veleno.~
+@48   = ~Veleno? No, dubito che qualcuno degli accoliti possa fare qualcosa del genere. Basil, manda a chiamare Lothar.~
+@49   = ~Avete controllato tutto l'edificio?~
+@50   = ~Beh, se è una spia, sarà andato alla Gilda per informare gli altri. <CHARNAME>, sarà meglio fare attenzione. Non si sa cosa potrà succedere.~
+@51   = ~Ho trovato il simbolo sacro del Sommo Sacerdote Harper e ho scoperto una spia nella chiesa. Però è sfuggita. Ma sono sicuro che la incontrerò di nuovo.~

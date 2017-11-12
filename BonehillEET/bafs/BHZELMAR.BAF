@@ -1,0 +1,20 @@
+IF
+  Detect([PC])
+  Allegiance(Myself,NEUTRAL)
+  Global("quest1","LOCALS",0)
+THEN
+  RESPONSE #100
+    RandomWalk()
+    Wait(1)
+    MoveToObject("BHSOOT")
+    DisplayStringHead(Myself,4604)
+    Wait(2)
+    RandomWalk()
+    Wait(1)
+    MoveToObject("BHCOMM01")
+    DisplayStringHead(Myself,4611)
+    Wait(2)
+    RandomWalk()
+    SetGlobal("quest1","LOCALS",1)
+END
+

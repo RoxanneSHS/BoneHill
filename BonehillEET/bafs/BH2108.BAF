@@ -1,0 +1,35 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    CloseDoor("AR9706_HIDE_DOOR1")
+    TriggerActivation("Tran2109",FALSE)
+    Continue()
+END
+
+IF
+  Global("AR9706_HIDDEN_DOOR_STATE","GLOBAL",0)
+  OpenState("AR9706_HIDE_DOOR1",TRUE)
+THEN
+  RESPONSE #100
+    CloseDoor("AR9706_HIDE_DOOR1")
+    TriggerActivation("Tran2109",FALSE)
+END
+
+IF
+  !Global("AR9706_HIDDEN_DOOR_STATE","GLOBAL",0)
+  OpenState("AR9706_HIDE_DOOR1",FALSE)
+THEN
+  RESPONSE #100
+    OpenDoor("AR9706_HIDE_DOOR1")
+    TriggerActivation("Tran2109",TRUE)
+END
+
+IF
+  OpenState("AR9706_DOOR1",TRUE)
+  Global("BHCellarOpen","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHCellarOpen","GLOBAL",1)
+    ActionOverride("BHOLIEUT",StartDialog("BHOLIEUT",[PC]))
+END

@@ -1,0 +1,34 @@
+@1  = ~Es darf keine Kämpfe oder Diebstähle innerhalb der Stadtgrenzen von Restenfurth geben! Übertritte werden im vollen Ausmaß des Gesetzes bestraft! ~ 
+@2  = ~Pelltar! Gott sei Dank, dass ich Euch fand. Räuber! Direkt im Norden der Stadt. Ein Händler schaffte es knapp zu unserer Kaserne, bevor er starb. Seine letzten Worte waren, dass er auf seinem Weg hierher von Räubern angegriffen wurde. Sie behaupteten, dass sie nach etwas suchen, und dachten, dass er es hatte. Ich muss das Gelpas melden. Mir wurde gesagt, dass er hier ist. ~
+@3  = ~Ihr untersucht diese Diebstähle, nicht wahr? ~ 
+@4  = ~Ja, das tun wir. Was könnt Ihr uns erzählen? ~
+@5  = ~Ihr müsst der Gescheiteste der Gruppe sein. Was könnt Ihr uns erzählen? ~ 
+@6  = ~Nein, nicht gerade jetzt. ~
+@7  = ~Nichts. Wir bewachen das Stadttor. Keiner von uns wurde mit der Untersuchung von Diebstählen beauftragt. ~
+@8  = ~Nun, das ist nicht sehr nützlich für mich. Trotzdem danke. ~ 
+@9  = ~Habt trotzdem Dank. Ihr bewacht gerade das Tor? ~
+@10 = ~Ja. Und auch den Baum da drüben. ~ 
+@11 = ~Ihr bewacht den Baum? ~
+@12 = ~Nö, nur die Leichen, die daran baumeln. ~
+@13 = ~Äh, könntet Ihr mir das bitte erklären? ~ 
+@14 = ~Wir passen auf die Toten auf. Stellen sicher, dass nichts mit ihnen geschieht. Die Leute werfen gerne Steine auf alle, die sie nicht mögen.
+
+(Er neigt sich zu Euch und flüstert) Die Hexen stehlen gerne Körperteile, um Zombies und andere schreckliche Ungeheuer zu machen. ~
+@15 = ~Ihr seid komisch. Einmal abgesehen davon - in dieser Stadt gibt es keine Hexen. ~ 
+@16 = ~Aber es gibt keine Hexen in der Stadt. ~
+@17 = ~Hä? Oh, ja. Ich gaube auch, dass wir hier keine haben. ~
+@18 = ~Eines der Taue sieht recht neu aus. Wurde erst kürzlich jemand gehängt? ~
+@19 = ~Oh ja, Reynard. (Er spuckt auf den Boden.) Er war ein widerlicher Bastard. Ein Straßenräuber. Er raubte viele aus, die in die Stadt kamen oder fortgingen. Manchmal ging er noch weiter. Gerade die Damen sollten sich immer an ihn erinnern, wenn Ihr versteht, was ich meine. Er hat einige meiner Freunde ermordet, bevor wir ihn festnahmen konnten. Ihn zu hängen war noch zu gut, wenn Ihr mich fragt. Ich hätte ihn in einen Rattenkäfig geworfen und dort drin gelassen. ~ 
+@20 = ~Wie reizend. Er war also ein Dieb? ~
+@21 = ~Einer der besten oder schlimmsten, je nachdem, wie Ihr es betrachtet. ~ 
+@22 = ~Gab es irgendetwas Ungewöhnliches, während seine Leiche noch hing? Irgendjemand, der hier herumschnüffelte? ~ 
+@23 = ~In Ordnung, danke. Ich glaube, dass mich das nicht weiter bringt. ~
+@24 = ~Nichts, von dem ich etwas wüßte. Ravella war die letzte auf der Wache, und sie ist diejenige, die ihn begrub. Ihr müsstet mit ihr sprechen. ~ 
+@25 = ~Nein, ich glaube, Ihr habt uns alles gesagt, was uns nützt. Danke. ~
+@26 = ~Wo kann ich Ravella finden? ~
+@27 = ~Sie hat heute frei und sollte morgen wieder hierher zurückkommen. ~
+@28 = ~Danke Euch. Ihr wart eine große Hilfe. ~
+@29 = ~Kommt schon, könnt Ihr nicht sehen, dass ich hier arbeite? ~
+@30 = ~Ravella ist noch nicht zurückgekehrt. Sie sollte bald wieder auf Wache sein. ~
+@31 = ~Eines der Taue sieht recht neu aus. Wurde erst kürzlich jemand gehängt?~
+@32 = ~Boo und ich erkennen doch, dass das dort ein frisches Tau ist. Hat hier ein Böser einen Tritt in den Hintern bekommen?~

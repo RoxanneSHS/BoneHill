@@ -1,0 +1,32 @@
+BEGIN ~BHWILLIS~
+
+IF ~True()~ THEN BEGIN 0
+  SAY @0
+  IF ~AreaCheck("BH2017")~ THEN REPLY @1 GOTO 1
+  IF ~AreaCheck("BH2018")
+!Global("BHMayorStopsParty","GLOBAL",1)~ THEN REPLY @1 GOTO 2
+  IF ~!AreaCheck("BH2017")
+!AreaCheck("BH2018")~ THEN REPLY @1 GOTO 1
+  IF ~AreaCheck("BH2018")
+Global("BHMayorStopsParty","GLOBAL",1)~ THEN REPLY @1 GOTO 3
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN REPLY @4 EXIT
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @5
+  IF ~~ THEN DO ~SetGlobal("BHBardArrested","GLOBAL",1)~ JOURNAL @6 EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @7
+  IF ~~ THEN EXTERN ~BHBALMOR~ 54
+END

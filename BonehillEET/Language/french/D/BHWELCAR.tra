@@ -1,0 +1,32 @@
+@1  = ~Il ne doit pas y avoir de vol dans ces entrepôts ! Les contrevenants seront châtiés avec toute la rigueur de la loi !~
+@2  = ~Que voulez-vous ?~
+@3  = ~Gelpas nous a dit de vous parler. C'est à propos du vol de l'entrepôt.~
+@4  = ~Nous avons retrouvé les objets volés. Les voici...~
+@5  = ~Nous avons trouvé le voleur et la perle noire. Tenez, prenez-la.~
+@6  = ~Nous avons trouvé cette note. Nous ne sommes pas sûrs de ce que cela pourrait signifier. Pouvez-vous y jeter un oeil ?~
+@7  = ~Nous avons trouvé cette note. Nous pensons que c'est une carte. Ces deux rectangles correspondent-ils aux entrepôts où le voleur a dérobé des marchandises ?~
+@8  = ~Rien.~ 
+@9  = ~Ouais. Ch'sais pas comment quelqu'un a réussi à passer devant moi et devant les chiens. D'habitude il y a aussi un garde dans chacun des bâtiments. Ça s'est passé la nuit dernière. A ce que je crois, on a emporté de la nourriture, quelques épées, et un peu de soie. Et comme si ça suffisait pas, dans un autre bâtiment, quelqu'un a volé une perle noire que le baron avait fait acheminer ici par bateau. Ça sera chaud quand il le découvrira.~
+@10  = ~Alors ils ont ciblé deux bâtiments en une seule nuit ? Vous n'avez rien entendu ?~
+@11  = ~Pas un bruit. Je suppose que ce devait être une seule personne.~
+@12  = ~Hein ? Pourquoi une seulement ?~
+@13  = ~Parce que le voleur n'a pris que ce qu'un individu seul peut porter. S'ils étaient davantage, y'aurait pas plus de marchandises de disparues ?~
+@14 = ~Le Vol des Entrepôts
+
+Welcar pense qu'un seul voleur est impliqué dans ces vols. Ainsi, une seule personne aurait accompli tout le cambriolage ? Et les meurtres ? Comment ?~
+@15 = ~Bien vu. Nous allons devoir y réfléchir. Merci.~
+@16  = ~Vraiment ? Parfait ! Mais où est la perle noire ?~
+@17  = ~Ici. Prenez-la.~
+@18  = ~Nous n'avons pas pu la trouver.~
+@19  = ~Je craignais que le baron ne réclame ma tête pour l'avoir perdue. Merci à vous.~
+@20  = ~Le Vol des Entrepôts
+
+J'ai rapporté à Welcar toutes les marchandises volées. Peut-être qu'à présent, Gelpas laissera Pelltar nous renvoyer d'où nous sommes venus.~ 
+@21  = ~Oh, ce n'est pas bon, ça. Le baron aura ma tête, et peut-être la vôtre aussi. Il faut que vous continuiez à chercher. Le voleur doit être quelque part.~ 
+@22  = ~C'est une carte de Restenford ! Regardez, elle montre les trois entrepôts à droite, près de cette ligne qui représente la rivière. Hé, les deux qui ont été cambriolés sont ceux qui ont des marques juste à côté d'eux. Et là, celle-là doit être le Vent d'Ouest. Zelmar m'a dit hier que quelqu'un avait pris tout leur argent la semaine dernière. Vous devriez parler du vol à Zelmar.~ 
+@23  = ~Oui, c'est sans aucun doute une carte de Restenford. Ces rectangles correspondent aux entrepôts. Regardez ça, ça doit être le le Vent d'Ouest. Zelmar m'a dit hier que quelqu'un avait pris tout leur argent la semaine dernière. Il y a une croix près de ce bâtiment. Vous devriez en parler à Zelmar.~
+@24  = ~Vous savez, il y a plusieurs années, on avait beaucoup de vols. Il s'est avéré que des voleurs de Garrotten étaient venus en ville et s'étaient installés dans les égouts. Le baron a dû recruter des mercenaires pour les nettoyer. Gelpas était le chef du groupe qui a combattu les voleurs. Il y a perdu la majeure partie de son équipe. Je suppose que c'est ce qui l'a fait renoncer à l'aventure. Au moins il a fini par attraper ces bâtards et les pendre haut et court à "l'Arbre aux Pendus". C'est un truc à voir si vous voulez y jeter un oeil. C'est à l'extérieur, au-delà du temple, près de la porte ouest, sur la route de Garrotten. Je parie que les gardes là-bas pourraient vous raconter quelques histoires à vous dresser les cheveux sur la tête... Brrr !~
+@25  = ~Des égouts ? Nous n'avons pas trouvé d'égouts dans cette ville.~
+@26  = ~Oh ils sont bien là. Ce ne sont pas vraiment des égouts, ils servent à l'évacuation des eaux quand la rivière déborde. Les plus anciens sont de l'autre côté, sur la rive ouest, en bas, près du poste de garde incendié. Pour autant que je m'en souvienne, c'est là que Gelpas et son groupe ont trouvé les voleurs. En fait, il y avait aussi une autre entrée plus haut, dans le cimetière au nord du temple.~
+@27  = ~Welcar a dit qu'il y a de vieux égouts sous Restenford. Autrefois des voleurs s'y cachaient. Je me demande si le voleur s'en sert à présent.~ 
+@28  = ~Merci d'avoir tout résolu.~

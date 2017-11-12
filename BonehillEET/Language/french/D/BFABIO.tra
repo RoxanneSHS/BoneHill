@@ -1,0 +1,41 @@
+@1  = ~Vous êtes l'âme de ce groupe, n'est-ce pas ?~ [FABIONZ] 
+@2  = ~Crétin, tu ne peux pas laisser Imoen mourir !~ [FABIONI] ~Crétine, tu ne peux pas laisser Imoen mourir !~ [FABIONI] 
+@3  = ~Ouah, une drow ! Et un canon en plus !~ [FABIONV] 
+@4  = ~Vous savez quoi ? Les filles qui résistent comme vous, en fait elles m'excitent.~[FABIONSH] 
+@5  = ~Hé, <CHARNAME>. Il existe une chanson qui raconte quelque chose d'approchant.~
+@6  = ~Et je suppose que tu connais cette chanson ?~
+@7  = ~En fait, ouais. Je ne viens pas te déranger avec des trucs stupides comme le fait l'autre gamin.~
+@8  = ~En quelque sorte, oui. Laissez-moi réfléchir. (il s'éclaircit la gorge)
+
+Do di da, je comprends pas.
+Gouttes de suif sur main flétrie
+Sous l'ombre d'une potence,
+J'ai pris (là il manque un truc),
+Dansent les doigts, j'étire, je baille,
+Main de Gloire.~
+@9  = ~Je ne me souviens pas de la partie centrale. La chanson parle de la création d'un objet magique appelé la Main de Gloire. Mais c'est tout ce que je peux me rappeler. Nous devrions probablement vérifier auprès de Pelltar.~
+@10 = ~Fabio pense que le parchemin fait référence à un objet magique appelé la Main de Gloire. Je me demande ce que c'est, et pourquoi les voleurs pensaient que je l'avais ? Il nous faudra vérifier cela auprès de Pelltar aussitôt que nous pourrons retourner à Restenford.~
+@11 = ~Ces rectangles sur la carte, ils sont sur les mêmes emplacements que certains des bâtiments en ville. Mais ils n'y sont pas tous. Certains d'entre eux sont marqués d'une croix, ce qui est assez étrange.~
+@12 = ~Ce serait une carte ? Oui, c'est possible, n'est-ce pas ? Il y a trois rectangles plus grands près de la ligne qui pourrait représenter la rivière. Deux de ces rectangles sont cochés. Il y a trois grands entrepôts près de la rivière. Alors pourquoi seulement deux d'entre eux sont cochés ?~
+@13 = ~Hé bien, peut-être parce que seulement deux des trois entrepôts ont subi des vols de marchandises ?~
+@14 = ~Peut-être. Peut-être devrions-nous parler à Welcar pour voir s'il est d'accord avec toi.~ 
+@15 = ~Holà ! Vous autres, vous quittez cette jolie ville ? Désolé mais je dois rester dans les parages. La Baronne ne m'apprécie peut-être pas mais sa fille si, pour sûr. Il suffit que je continue à travailler sur elle. Après tout ce que nous venons de faire, je devrais être un héros pour la Baronne ! Peut-être vous croiserai-je sur la côte un jour ou l'autre. Salut.~ 
+@16 = ~Vous nous quittez encore ? D'accord. J'espère que tout s'arrange pour vous.~ 
+@17 = ~Balmorrow, vous êtes le pire barde que les royaumes aient jamais porté.~
+@18 = ~Je me sentirais toujours mieux qu'en te regardant "jouer", comme tu dis.~
+@19 = ~Nous devons discuter. Loin des oreilles indiscrètes. Voici <CHARNAME>. Un de mes amis.~ ~Nous devons discuter. Loin des oreilles indiscrètes. Voici <CHARNAME>. Une de mes amis.~
+@20 = ~Salutation à vous, Balmorrow. Vous avez là un théâtre sacrément bien installé.~
+@21 = ~Salutations.~
+@22 = ~(Désignant le luth) C'est peut-être bien ce qu'ils ont fait.~
+@23 = ~Oh oui, c'est plutôt une dame à présent.~
+@24 = ~<CHARNAME>, il est impossible que Balmorrow soit impliqué avec une guilde d'assassins. J'ai voyagé avec lui des années durant. Je le connais bien. Peut-être devrions-nous regarder autour de ce château pour y chercher des indices ?~
+@25 = ~Hé Willard, tu devrais te sentir chez toi ici.~ [FABIONM1]
+@26 = ~Bouh veut savoir qui est ce "Willard". Je ne vois personne d'autre que nous ici.~
+@27 = ~C'est toi que j'appelais Willard. C'était le nom du personnage d'un film. Il aimait les rats et vivait avec un énorme troupeau d'entre eux.~
+@28 = ~Oh ! D'accord. Bouh n'aime pas être traité de rat, musicien. Mais, hum, qu'est-ce qu'un film ?~
+@29 = ~(Lève les yeux au ciel) Heaum, pourquoi moi ? Un film est comme une pièce de théâtre. Seulement, au lieu de regarder directement la pièce, on l'enregistre afin que tu puisses la regarder plus tard. Avant que tu ne poses la question ! Pense à une histoire dans un livre. L'histoire est écrite afin que tu puisses la lire plus tard quand tu en as le temps, ou bien si tu veux la lire plusieurs fois.~
+@30 = ~Ah, pourquoi ne l'avais-tu pas dit ? Bouh aime les livres, il en fait de petits lits. J'aime seulement ceux avec de grandes images.~
+@31 = ~D'une certaine manière, je me doutais que tu allais dire ça.~ 
+@32 = ~Oh, et je suppose que Monsieur je-sais-tout connaît une chanson qui parle de ce gribouillage ?~
+@33 = ~Oui, ça me semble tout à fait sensé. C'est un pense-bête. Je suppose que ces autres rectangles sont les autres endroits visités par le voleur. Nous devrions le vérifier.~ 
+@34 = ~Ouais, ça me semble parfaitement sensé. C'est un genre de pense-bête. J'suppose que ces autres rectangles sont les autres endroits visités par le voleur. On devrait vérifier.~

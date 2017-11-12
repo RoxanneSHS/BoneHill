@@ -1,0 +1,61 @@
+@1   = ~So <LADYLORD> <CHARNAME> has come to visit.  What a lovely surprise.~
+@2   = ~Visit?  I didn't think I had much choice when your goons showed up.~
+@3   = ~Lady Arrness, thank you for your time.~
+@4   = ~What can I do for you?~
+@5   = ~We are here investigating the murder of Baron Grellus.  We believe that at least one of your townspeople were involved.~
+@6   = ~We are just adventurers.  We were hoping to assist you in any way.~
+@7   = ~Grellus?  That is horrible news.  Such a wonderful man.  The Lady Fairwind must be just wrought with despair.~
+@8   = ~Goons?  Not a very nice thing to say about my captain or his men.  I assure you they were just trying to protect you.~
+@9   = ~Protect me?  From what?~
+@10  = ~Why, from whatever dangerous person you are looking for.  You are looking into the murder of Baron Grellus, correct?~
+@11  = ~Yes.  How did you know?~
+@12  = ~My good <MANWOMAN>, the rumors are all over the streets.  If you were trying to be quiet about your investigation, you did a lousy job.~
+@13  = ~Speaking of which, I don't appreciate your sneaking around my town without first visiting me to explain what you are doing.  As the ruler of this town, it is my duty to control crime and keep order here.  Your unauthorized investigation will stop right now.  My guards will investigate this matter for you.  Once the truth is known, I will summon for you.  Is that understood?~
+// Shall remain identical to @891 in baf.tra, otherwise there will be a journal issue
+@14  = ~Garrotten's mayor plans to investigate the murder and has put a stop to my investigation.  I wonder if the real killer will be caught.~
+@15  = ~Yes madam, understood.~
+@16  = ~But what of the assassin's guild?~
+@17  = ~Good.  You may return to the inn.  I will have a guard contact you there.  You are dismissed.~
+@18  = ~Bah!  Rumors!  Lies about me and my town.  I also don't appreciate comments like that about my town.  Now then, would you like to return to the inn or should I have the captain prepare a cell for you?~
+// Shall remain identical to @890 in baf.tra, otherwise there will be a journal issue
+@19  = ~Garrotten's mayor almost threw me in jail for asking about the assassin's guild.  It must be a touchy subject.~
+@20  = ~No need for the cell, madam.~
+@21  = ~So, you are here to investigate this tragic event?  I assume you are under the authority of Lady FairWind or her advisor, Pelltar?~
+@22  = ~Yes madam.~
+@23  = ~Good.  Actually, it doesn't matter if you are or are not.~
+@24  = ~What do you mean?~
+@25  = ~I don't appreciate your sneaking around my town.  As the ruler of this town, it is my duty to control crime and keep order here.  Your unauthorized investigation will stop right now.  My guards will investigate this matter for you.  Once the truth is known, I will summon for you.  Is that understood?~
+@26  = ~Really?!  Well then, I may have a proposition for you.  There are stories about something out on the lake that is causing fear among the fishermen.  Have you heard about this?~
+@27  = ~Yes ma'am.  One of the Xerbo clerics had mentioned this.~
+@28  = ~No, this is news to me.~
+@29  = ~Wonderful, then I don't have to tell you all the details.  I will add that I had sent a scout to the north side of the lake to see what the problem was.  He hasn't returned and I believe something may have happened to him.  Find him or find out what happened to him.~
+// Shall remain identical to @889 in baf.tra, otherwise there will be a journal issue
+@30  = ~Water Monsters?
+
+Something is attacking fishermen out on the lake.  The mayor wants me to find out what it is and also to find her scout that was also looking into this.~
+@31  = ~Yes ma'am.~
+@32  = ~Talk to some of the townspeople for more details.  I will add that I had sent a scout to the north side of the lake to see what the problem was.  He hasn't returned and I believe something may have happened to him.  Find him or find out what happened to him.~
+@33  = ~Good.  Now about the real reason you are here.~
+@34  = ~Excuse me?~
+@35  = ~Oh don't play games.  Pelltar sent you to find who killed the baron.  Why else would adventurers come into Garrotten just days after his death?  Yes, the story is out about someone murdering him.  Of course, the town of Restenford thinks the killer is from here.  How typical of them.  No one had the decency to contact me first.~
+@36  = ~<CHARNAME>, you have returned.  Did you discover anything about the lake monster?~
+@37  = ~Nothing to report right now.~
+@38  = ~Actually we need to talk about something else.  You told me that you arrested the three suspects in the baron's murder but I just found out that Lady Fairwind has now been killed.~
+@39  = ~You dare to steal my documents?!~
+@40  = ~Yes, this gives me all the proof I need to have the duke's army close down your guild.  Assuming Pelltar doesn't destroy you first.  You are finished Arrness.~
+@41  = ~You shall die!~
+@42  = ~Well then lets hear it.~
+@43  = ~Your fishermen were being attacked by lizard men.~
+@44  = ~Lizard men?  Here?  So close to a town?~
+@45  = ~They were using some caves up at the north end of the lake.  Seems that they were using the fishermen as food.~
+@46  = ~I assume you have removed all of them?~
+@47  = ~Yes ma'am.  Their leader was a large lizard king but he is dead now too.~
+@48  = ~Thank you.  I believe this town is indebted to you for saving us.  I would like to tell you that we have brought in several suspects for questioning.  Abraham, the innkeeper, has admitted to the murder.  It seems that he has quite a little guild working.  Balmorrow and Harper will also be executed for their part in this crime on Restenford.  You may leave Garrotten and tell Pelltar or Lady Fairwind what we have uncovered here.  That is all.~
+@49  = ~Really?  So tragic.  I'm sure Pelltar is beside himself with grief.  Oh yes, the child, Andrella, she must be having a breakdown right now.~
+@50  = ~I need to find the other assassins here.~
+@51  = ~What!  You dare to accuse me of harboring assassins?  I have already done most of your work for you.  If you can't find them, what makes you think they are even in this town?~
+@52  = ~Enough, you have upset me.  You are dismissed.  I expect you to leave Garrotten immediately.  Otherwise, I will be forced to assist you.~
+@53  = ~Hold up one moment, <CHARNAME>!~
+@54  = ~What now?!~
+@55  = ~Instead of losing so much time sitting around in my town doing nothing, there is something I would have you do for me.  Assuming that you are interested, of course...~
+@56  = ~Naturally.  Anything is better than wasting away, being bored at the Inn.~

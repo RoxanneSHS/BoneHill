@@ -1,0 +1,43 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH1200",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1200",1)
+    CreateCreature("BHORC01",[3937.1744],4)
+    CreateCreature("BHORC01",[2924.2900],12)
+    CreateCreature("BHORC01",[2823.2764],12)
+    CreateCreature("BHORC01",[2343.3009],10)
+    CreateCreature("BHORC01",[2372.3128],10)
+END
+
+IF
+  Global("BHHandQuest","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHBANDT3",[2985.943],14)
+    SetGlobal("BHHandQuest","GLOBAL",2)
+END
+
+IF
+  OR(2)
+    Dead("BHBANDT3")
+    PartyHasItem("BHGHANDN")
+  !Global("BHHandQuest","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("BHHandQuest","GLOBAL",3)
+END
+
+IF
+  PartyHasItem("BHGHANDN")
+  Global("BHFabioHandNote","BH1200",0)
+  InParty("Fabio")
+  !Dead("Fabio")
+THEN
+  RESPONSE #100
+    SetGlobal("BHFabioHandNote","BH1200",1)
+    ActionOverride("Fabio",StartDialogue("BFABIO",[PC]))
+END
+

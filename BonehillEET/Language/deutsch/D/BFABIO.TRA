@@ -1,0 +1,41 @@
+@1  = ~Ihr seid das Herz der Gruppe, stimmt das? ~ [FABIONZ] 
+@2  = ~Ihr Trottel, Ihr könnt Imoen doch nicht sterben lassen! ~ [FABIONI]
+@3  = ~Toll, eine Drow! Und ein heißer Feger noch dazu! ~ [FABIONV] 
+@4  = ~Wisst Ihr was? Schwierige Mädchen wie Ihr machen mich wirklich an. ~ [FABIONSH]
+@5  = ~Hallo, <CHARNAME>. Es gibt ein Lied über etwas Ähnliches wie dies hier. ~ 
+@6  = ~Und ich nehme an, Ihr kennt dieses Lied? ~
+@7  = ~Nun, ja. Ich unterbreche Euch nicht mit dummen Zeug wie der Junge da drüben es tut. ~
+@8  = ~Ziemlich, ja. Lasst mich nachdenken. (räuspert sich)
+
+Dum de dum, versteht Ihr nicht,
+Wachs tropft auf 'ne verwelkte Hand
+unter dem Schatten eines Galgenbaums,
+ich nehm (etwas, etwas),
+Finger tanzen und ich strecke mich und gähne,
+die Hand des Ruhmes. ~ 
+@9  = ~Ich erinnere mich nicht an den Mittelteil. Das Lied handelt von der Herstellung eines magischen Gegenstandes, "Hand des Ruhmes" genannt. Das ist aber alles, an das ich mich erinnern kann. ~
+@10 = ~Fabio glaubt, dass sich das Papier auf einen magischen Gegenstand, genannt die "Hand des Ruhms", bezieht. Ich frage mich, was das heißt und warum die Diebe dachten, sie sei in meinem Besitz. ~ 
+@11 = ~Diese Kästchen auf dieser Karte sind an derselben Position wie einige der Gebäude hier in der Stadt. Aber das ist nicht alles. Einige von ihnen weisen Markierungen auf, merkwürdige Markierungen. ~
+@12 = ~Eine Karte? Ja, das ist möglich, nicht wahr? Es gibt drei größere Kästchen neben der Linie, die den Fluss darstellen könnte. Zwei jener Kästchen weisen Markierungen auf. Es gibt drei große Lagerhäuser in der Nähe des Flusses. Aber warum sind nur zwei der drei gekennzeichnet? ~
+@13 = ~Nun, vielleicht, weil sich nur in zweien der Lagerhäuser Gegenstände befanden, die gestohlen wurden? ~ 
+@14 = ~Mag sein. Vielleicht sollten wir mit Welcar sprechen, um zu sehen, ob er mit Euch übereinstimmt. ~
+@15 = ~He nun! Ihr verlasst diese schöne Stadt? Es tut mir Leid, aber ich muss hier bleiben. Die Mutter von Andrella mag mich nicht leiden, aber ihre Tochter sehr wohl. Ich muss sie nur weiter bearbeiten. Nach all dem, was wir vollbracht haben, sollte ich auch in den Augen der Baronin ein Held sein! Vielleicht werde ich Euch eines Tages an der Schwertküste wiedersehen. Gehabt Euch wohl. ~ 
+@16 = ~Ihr verlasst uns wieder? In Ordnung. Ich hoffe, dass alles gut für Euch läuft. ~
+@17 = ~Balmorrow, Ihr seid der schlechteste Barde, den die Reiche jemals ins Leben furzten. ~
+@18 = ~Es würde sich noch viel besser anfühlen, als Euch beim "Spielen" zuzusehen, wie Ihr es schimpft. ~
+@19 = ~Wir müssen reden. Ohne dass andere Ohren mithören. Das ist <CHARNAME>. Ein Freund von mir. ~ ~Wir müssen reden. Ohne dass andere Ohren mithören. Das ist <CHARNAME>. Eine Freundin von mir. ~ 
+@20 = ~Seid gegrüßt, Balmorrow. Ihr verfügt über die ganze Theatereinrichtung hier? ~
+@21 = ~Seid gegrüßt. ~ 
+@22 = ~(Weist zur Laute hin.) Vielleicht taten sie das. ~ 
+@23 = ~Oh, sie ist jetzt ganz die Dame. ~
+@24 = ~<CHARNAME>, es ist ausgeschlossen, dass Balmorrow an einer Art Vereinigung gedungener Mörder beteiligt ist. Ich kenne ihn seit Jahren. Vielleicht sollten wir uns im Schloss nach Hinweisen umsehen? ~ 
+@25 = ~Hey Willard, Ihr solltet Euch hier wie zu Hause fühlen. ~ [FABIONM1]
+@26 = ~Boo will wissen, wer dieser "Willard" ist. Ich sehe niemanden hier außer uns.~
+@27 = ~Ich nannte Euch Willard. Es war der Name eines Charakters in einem Film. Er liebte Ratten und lebte mit einem riesigen Schwarm von ihnen zusammen. ~
+@28 = ~Oh! In Ordnung. Boo mag nicht als Ratte bezeichnet werden, Musiker. Aber ähm, was ist ein Film?~
+@29 = ~(Rollt mit seinen Augen.) Warum ich, Helm? Ein Film ist einem Spiel ähnlich. Nur anstatt das Spiel direkt zu beobachten, wird es mit Hilfe spezieller Schriftrollen als bewegte Bilder aufgezeichnet, so dass Ihr es später ansehen könnt. Bevor Ihr fragt: Denkt an eine Geschichte in einem Buch. Die Geschichte wird niedergeschrieben, so dass Ihr sie später lesen könnt, wenn Ihr Zeit habt, oder wenn Ihr sie mehrere Male lesen wollt. ~
+@30 = ~Gut, warum sagt Ihr das nicht gleich? Boo liebt Bücher, er macht kleine Betten aus ihnen. Ich dagegen mag nur die mit großen Bildern.~
+@31 = ~Irgendwie habe ich geahnt, dass Ihr so etwas sagen würdet.~
+@32 = ~Oh, und ich nehme an, dass Herr "Allwissend" ein Lied kennt, das über dieses Gekritzel handelt?~
+@33 = ~Ja, das leuchtet mir vollkommen ein. Das ist eine Kontrolliste. Ich wette, dass diese anderen Kästchen die anderen Orte sind, zu denen der Dieb ging. Wir sollten das überprüfen.~
+@34 = ~Ja, das leuchtet mir vollkommen ein. Das ist eine Art Kontrolliste. Ich wette, dass diese anderen Kästchen die anderen Orte sind, zu denen der Dieb ging. Wir sollten das überprüfen.~

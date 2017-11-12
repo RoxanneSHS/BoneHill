@@ -1,0 +1,40 @@
+@1   = ~Yes?  Oh, you must be the lackeys that Pelltar sent for.~
+@2   = ~We are adventurers if that is what you mean.  And you are?~
+@3   = ~Do not bother me.  Go talk to Pelltar.~
+@4   = ~Pelltar!  In the name of Baron Grellus I order you to stop!~
+@5   = ~What is the meaning of this?~
+@6   = ~Good.~
+@7   = ~Gelpas.  I am the captain of the guard.~
+@8   = ~Well then, greetings Gelpas.  Can you tell us of the troubles your town is in?~
+@9   = ~You all are charged with the murder of several civilians and the theft of numerous homes.~
+@10  = ~What?~
+@11  = ~No.  Personally, I think it is all rumor and hog wash.  There is nothing here that my guards can't handle.  As such, I will be keeping a close eye on you since you are not needed.  Don't do anything to insult the baron or this town!~
+@12  = ~I wouldn't dream of it.~
+@13  = ~The guards have found two homes burglarized and the owners murdered.  Welcar informs me that some items are missing from the warehouses also, in particular a black pearl.~
+@14  = ~I know nothing about a black pearl.  Go ahead and search me.  You will find that I am innocent of these charges.~
+@15  = ~Well, I admit to stealing from the warehouses, but I didn't take a black pearl.~
+@16  = ~So some peasants died.  Why should I care?  I wouldn't bother stealing anything from them.  I might catch a disease or something.~
+@17  = ~Well then, we have a serious problem here.  Something that I hate to admit, but my guards can't handle this.~
+@18  = ~As much as I hate to ask this, will you please stay and help us?~
+@19  = ~Yes.  I would be honored to assist.~
+@20  = ~Yeah, I got nothing better to do.~
+@21  = ~Hmm, I don't think I heard that well enough.  Could you repeat that?  Louder this time please.~
+@22  = ~Hell no!  I want nothing to do with this pisshole town anymore.  Pelltar, send me back.~
+@23  = ~You heard it once and that is enough.  Check with Welcar about the warehouse issue.  There isn't much to tell you about the murders.  The houses were not broken into.  It is as if the thief had a key.  There are no signs of a struggle either.  The victims had their throats slit where they stood or in their beds.  It looks like they never saw the thief or thieves.
+
+Report to Pelltar with your findings.  That is all.~
+@24  = ~Thank you.  Please check with Welcar about the warehouse issue.  There isn't much to tell you about the murders.  The houses were not broken into.  It is as if the thief had a key.  There are no signs of a struggle either.  The victims had their throats slit where they stood or in their beds.  It looks like they never saw the thief or thieves.~
+@25  = ~Please report to Pelltar with your findings.~
+@26  = ~Well then, you are in a pickle.  As far as I am concerned, you are guilty of these crimes.  Therefore, you can either find the real killer or you can be executed instead.  Do I make myself clear?~
+@27  = ~Uhm, when do I start?~
+@28  = ~Your admittance would be enough to have you executed as a thief.  However, it sounds like something is afoot here.  I don't know if the guards can handle this.~
+@29  = ~Since you need to repay this town for the damages and thefts you have caused, you are here by ordered to solve this mystery.  I am going to assume there is another party involved in all of this.  Your job is to find that person or persons.  Kill them or drag their sorry carcass in front of me to explain themselves.  Either way, you had better have proof they did it and not you.~
+@30  = ~Check with Welcar about the warehouse issue.  There isn't much to tell you about the murders.  The houses were not broken into.  It is as if the thief had a key.  There are no signs of a struggle either.  The victims had their throats slit where they stood or in their beds.  It looks like they never saw the thief or thieves.
+
+Report to Pelltar with your findings.  That is all.~
+@31  = ~While your attitude may need some adjusting from my fist, your logic is probably valid.  I don't understand why someone would steal from farmers and peasants either.  However, the warehouses carry valuable items and that was the latest theft.  So maybe the thief is getting bolder.  It isn't the characteristics I would expect from an experienced adventuring group such as yourselves.
+
+Hmmm...~
+@32  = ~Ah, you have bandit scalps.  I would be glad to buy them from you.  The only good bandit is a dead bandit.~
+@33   = ~Well!  He was very rude!  We should leave this place.~
+@34   = ~Try not to turn him into a toad, will you?~

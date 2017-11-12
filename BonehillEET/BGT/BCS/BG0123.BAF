@@ -1,0 +1,11 @@
+IF
+	GlobalGT("BHQuestAccept","GLOBAL",3)
+	Global("BHShaggySpawn","BG0123",0)
+	Global("BHShaggySpawns","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("BHSHARGR",[2157.1537],13)
+		CreateCreature("BHSHARG1",[2034.1518],13)
+		CreateCreature("BHSHARG1",[2075.1614],13)
+		SetGlobal("BHShaggySpawn","BG0123",1)
+END

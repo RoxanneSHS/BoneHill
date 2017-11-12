@@ -1,0 +1,8 @@
+IF
+  Entered([ANYONE])
+THEN
+  RESPONSE #100
+    PlaySound("ALARM1")
+    DisplayString(Myself,@350)
+END
+

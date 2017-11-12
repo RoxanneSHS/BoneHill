@@ -1,0 +1,655 @@
+@0    = ~Secret of BoneHill (EET)~
+@1    = ~Copying graphic files~
+@2    = ~Copying sound files~
+@3    = ~Installing new items.~
+@4    = ~Boulder projectile already installed~
+@5    = ~Boulder projectile not already installed~
+@6    = ~Boulder~
+@7    = ~This is the type of rock that a giant hurls at the unfortunate. It can cause great damage, as well as knock the victim unconscious. A character of giant-class strength is able to hurl these as well...  
+
+Range: 80 yards 
+Damage: 3-18 
+Special: Save vs. Breath Weapon at -4, or be knocked unconscious for one round, 
+              and stunned for the next round. 
+Requires: 19 Strength~
+@8    = ~Amulet of Fireballs~
+@9    = ~Amulets of fireballs are amulets with small globes that when thrown will cough forth a huge, burning ball of fire that streaks out to the desired range (to a maximum of 120') and bursts in a fiery, violent blast, just like the fireball spell.  The fireball inflicts 6d6 points of damage, but all 1s rolled are counted as 2s.  The victim(s) may make a save vs. wands in order to take only half damage.  Once the globes are all used, the amulet is destroyed.
+
+STATISTICS:
+
+Ability  1:
+Effect:  shoots out a Fireball
+Damage:  6D6 (save vs. wands for half)
+Range:  90 ft
+Area 30 ft radius
+
+Not usable by:
+ Wizardslayer~
+@10   = ~Bard's Ring~
+@11   = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago. 
+
+It is set with a single stone of an unknown type that radiates a slight glow.  Though the ring is cold to the touch, the chill is strangely comforting
+
+STATISTICS:
+
+Special:
+   Memorize 1 Additional 1st Level Spell
+   Memorize 1 Additional 3rd Level Spell
+   Memorize 1 Additional 5th Level Spell
+Weight: 0
+Usable only by:
+   Bards~
+@12   = ~Horn~
+@13   = ~Bronze Horn of Valhalla~
+@14   = ~This is a small horn.  Horns are typically made of bone or metal and can produce a large variety of sounds.~
+@15   = ~Bronze Horn of Valhalla
+
+In the halls of Valhalla rest the most valiant of warriors.  Their service to war during their lives has rewarded them with honored positions in Valhalla.  As part of their service these warriors must offer their service to any who blow a horn of Valhalla.  This horn will summon forth a seventh level berserk warrior who will fight for the summoner for one minute.  The horn may be used once per day.
+
+This particular horn looks dented and bent from use or misuse.~
+@16   = ~Black Pearl~
+@17   = ~This is the missing black pearl that Gelpas accused you of stealing.  It should be returned to Welcar, the guard near the warehouses.~
+@18   = ~QuarterStaff~
+@19   = ~Staff of the Blue Dragon~
+@20   = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
+
+STATISTICS:
+
+Damage:  1D6
+Damage type:  crushing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Staff
+Type:  2-handed
+Requires: 5 Strength~
+@21   = ~This long black wooden staff has a large blue crystal shaped like a blue dragon's head at its tip that radiates electricity.  These staves are made for members of the Cult of the Dragon.  Only the dragonriders are allowed to carry these staves.  Therefore the cult may become very interested in your possession of this staff.
+
+The dragon staves carry the abilities of the particular dragon or dracolich that the rider was partnered with.
+
+STATISTICS:
+
+Damage:  1D6 + 3
+THAC0:  +3
+Special:
+ Grants 50% resistance to electricity.
+ The staff has a 50% chance of dealing out 1D8 electrical damage if the blue gem strikes.
+ Launch bolt of lightning with 6D6 damage half if save vs. wands.  2 charges per day.
+ The staff has one chain lightning charge per day.
+Damage type:  crushing
+Weight: 7
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type:  2-handed
+Requires: 5 Strength
+Usable By:
+ Mage (Single or Multi-class)~
+@22   = ~Cloak of the Assassin~
+@23   = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and assisting in backstabs. 
+
+STATISTICS:
+   Cast Improved Haste once/day
+   Cast Improved Invisibility 3/day
+
+Armor Class:  +2 bonus
+Saving Throw:  +2 bonus
+Weight:  3~
+@24   = ~Club~
+@25   = ~Club +2, The Assassin's Assistant~
+@26   = ~Club +2, The Assassin's Assistant
+This belonged to Tellish, an evil cleric/thief known as a leader in one of the strongest assassin's guilds in modern time.  It has a chance to incapacitate any human, dwarf, gnome, or halfling by inducing deep slumber, though elves are conveniently immune.  To assist the assassin, the weapon provides a 50% increase in backstab abilities.  Although technically a morning star, for a thief it works like any other club.
+
+STATISTICS:
+
+Combat Ability: Any human or demi-human, excluding elves, hit by the Sleeper must save vs. poison with no bonus or fall asleep for 18 seconds.
+Special Ability: 50% increase in backstab ability
+THACO:  +2 bonus
+Damage:  2D4 +2
+Damage type:  crushing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Club
+Type:  1-handed
+Requires: 5 Strength
+Usable By:
+ Thief (Single or Multi-class)~
+@27   = ~Lute~
+@28   = ~Fabio's Lute~
+@29   = ~A musical lute.~
+@30   = ~Fabio claims that this is the famous lute used by Pellon Kay.  However, with all his travels, he has modified some of the magical abilities.
+
+How Fabio obtained this lute is a mystery he won't talk about.
+
+Special Abilities:
+
+Once per day, when played at a target, this lute casts Dire Charm.
+
+3 times a day can cause confusion to all creatures within listening range (save vs. spells to avoid the confusion).  The bard and fellow party members are not affected by the confusion.
+
+Only Usable By:
+  Bard~
+@31   = ~Long Sword~
+@32   = ~Sword of Flame +2~
+@33   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
+
+STATISTICS:
+
+Damage:  1D8
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@34   = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+This particular sword seems to have a fire elemental or something imprisoned inside.  Its evil nature may overpower weak personalities.  However, the imprisoned creature draws nearby flames into the sword which may provide protection to the owner.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  1D8 +2, +3 fire damage
+Special: Fire Resistance +50%
+Damage type:  slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@35   = ~Glorious Hand~
+@36   = ~This is a desiccated hand.  There are red candles attached to each finger and thumb.~
+@37   = ~This grisly item is the severed left had of a human male, with a red candle affixed to each of the fingers and the thumb.  It was the hand of a robber, but is now a powerful magic item.
+
+Special Abilities: 
+
+Casts Knock 
+Casts Hold Person 
+
+Usable by: 
+ Anyone~
+@38   = ~Scrap of Paper~
+@39   = ~This scrap of paper has little legible writing left on it.  It is covered with ash, dirt, and it looks like recent blood.  Here is what you can read:
+
+...eagerly await the arrival of the Glorious Hand...w... an we not achieve ... in our clutches ....~
+@40   = ~Note Fragment~
+@41   = ~This dirty, stained, piece of paper has weird markings on it.  Looking at it closely, you see that they look like different shaped boxes and they are in a pattern.~
+@42   = ~Journal~
+@43   = ~Many of the words on these scattered pages have faded over the centuries.
+
+...damn curse!...undead...what to do?...restoration scroll...
+
+Only the final entry has any meaningful information:
+
+I am out of paper and my flesh is almost all but rotted away.  I understand from the others that the one who bested me is also dead.  His evil has allowed him to change into a wraith, thus continuing to condemn this place with unholy sacrilege.
+
+Will my suffering ever end?  I need my soul released from my corpse to join in Amunator's glory.
+
+I have found some restoration scrolls, perhaps one will work.  But someone else has to cast the spell!~
+@44   = ~Key~
+@45   = ~A complex looking key made from cold iron.~
+@46   = ~Martin's Message~
+@47   = ~This is Martin's message for Almax.  Looking through it, you see that it is a list of equipment Martin needs to help finish the druid grove.~
+@48   = ~Helmet~
+@49   = ~Helm of Mind Warding~
+@50   = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck.  These helmets commonly provide protection for the nose.  
+
+STATISTICS:
+
+Armor Class Bonus:  None
+Special:  Protects Against Critical Hits
+Weight: 2
+Not Usable By:
+ Mage
+ Bard
+ Thief~
+@51   = ~As its name suggests, the Helm of Mind Warding protects its wearer from any magical attempts at emotional manipulation. As a precaution, some high-profile mercenary groups regularly equip their members with such helmets to ensure that they can perform their prescribed duties without external interference.
+
+STATISTICS:
+
+Protects Against Critical Hits
+Wearer is immune to Mind Spells
+Can cast True Sight 3 times per day
+Weight: 4
+Usable by:
+Good Aligned -
+ Fighter (including multiclass)
+ Paladin
+ Ranger (including multicass)
+ Cleric~
+@52   = ~Locinda's Body~
+@53   = ~This is the body of Locinda, she needs to be taken to the temple in Garrotten for healing.~
+@54   = ~This is the missing equipment from the warehouse.  There are 2 swords, a shield, some sacks of flour and sugar (now spoiled by the rats), and a bolt of mauve silk.~
+@55   = ~Letter from Qualton~
+@56   = ~This is a letter from Abbot Qualton.  It states that he wants to hire Tellish to kill the baron and his wife, Fairwind.  It also says that he wants them dead as soon as possible.~
+@57   = ~Holy Symbol of Osprem~
+@58   = ~This is a holy symbol of the goddess Osprem.  The golden amulet has a picture of a whale on it.  Normally the whale has a red ruby eye.  This particular amulet is missing the ruby eye.~
+@59   = ~Pelltar's Spellbook~
+@60   = ~This is Pelltar's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@61   = ~String~
+@62   = ~This is the lute string found near the body of Baron Grellus.  It is gold in color and seems to give off a magical radiance.~
+@63   = ~Ruby Stone~
+@64   = ~This small ruby stone was found near the body of Baron Grellus.  According to witnesses, High Priest Harper of the Osprem temple wears an amulet with these stones.~
+@65   = ~Red Leather Button~
+@66   = ~This red leather button was found in the hand of Baron Grellus.  According to witnessess, Abraham, an innkeeper in Garrotten, wears a vest with these buttons on it.~
+@67   = ~Arrness's Documents~
+@68   = ~The Lord Mayor of Garrotten, Arrness was very detailed in writing down every bit of information about the assassin's guild.  Employment records of every spy and killer in her service are here.  Logs containing information about every job are also in these records.  From what you can tell, the guild was very successful in information gathering, espionage, and assassinations.
+
+She also has her diary here.  According to it, she plans to take over Restenford as the new Baroness once the current family is removed.  Tellish has been hired by someone to assist them in this plan.  Nothing here indicates who that person is.~
+@69   = ~Sirius' Journal~
+@70   = ~This is the journal of Sirius.
+
+Reading through it, you find that he and a necromancer were hired by the elven overlords of Lendore Isles.  Their mission was to bring chaos to the last remaining human-ruled areas so the overlords could take control.  The Glorious Hand was created to help with the thieving.  It also appears that Sirius discovered the necromancer stealing from their hoard, so he killed him.  He then moved into the lighthouse to be closer to town.  Near the end of the journal you see that your party was considered a threat to him and he was planning different options to have you blamed for everything.~
+@71   = ~Ninja-To +2, +6 vs. Lawful Good~
+@72   = ~This evil blade was designed by the Yakuza to help remove paladins, good rulers, and others that got in their way.
+
+STATISTICS:
+
+Special Abilities:
+   Kills Lawful Good on successful hit (no save)
+
+THAC0: +2 bonus, +6 vs. Lawful Good
+Damage:  1D8 +2
+Damage type:  slashing
+Weight: 1 
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakishashi/Ninja-To
+Type:  1-handed
+Requires: 6 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@73   = ~Telvar's Journal~
+@74   = ~This journal mostly contains Telvar's notes about celestial observations.  There are also some notes about potions he was creating.  Near the end of the journal, Telvar mentions working with someone or something called "Wraith".  He gives no details other than the fact that "Wraith" controls the undead in the keep.  It seems that Wraith and he were planning an attack on Restenford soon.~
+@75   = ~Telvar's Spellbook~
+@76   = ~This is Telvar's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@77   = ~Wand of Cause Serious Wounds~
+@78   = ~Although thought to be only usable by clerics.  This wand can actually be used by anyone that doesn't want to get too close to their victim.
+
+Cast Cause Serious Wounds
+
+Usable By:
+ All~
+@79   = ~X Spellbook~
+@80   = ~This spellbook contains dozens of specialty spells that are hard to find.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@81   = ~Zahrdahl's Spellbook~
+@82   = ~This is Zahrdahl's spellbook.  All of his spells are stored inside.
+
+This sturdy container allows dozens of scrolls to be placed in it, safe from exposure to fire, rain, or lightning -- common hazards faced by any adventuring wizard.~
+@83   = ~Zahrdahl's Notebook~
+@84   = ~This notebook contains Zahrdahl's notes about the people of Restenford.  It seems that he has detailed information about everyone.  It also lists the recent problems in town with the bandits, gnolls, and rats.  He also states that he plans to visit Bone Hill to get more information about what is out there.
+
+The greatest discovery you make reading this, is that the information here is to be sent to the Duke of Kroten.  It seems that Zahrdahl is not a bait dealer at all, he is a spy sent here by the duke.
+
+This information should go to Pelltar.~
+@85   = ~Installing new stores.~
+@86   = ~Druid Almax~
+@87   = ~Alton's Armour~
+@88   = ~Temple of Osprem~
+@89   = ~Abbey of Phaulkon~
+@90   = ~Falco's Tavern~
+@91   = ~Gilmi's Weapons~
+@92   = ~House of Abraham~
+@93   = ~Hestal's Potions~
+@94   = ~Krak's Armory~
+@95   = ~Ohlatta the Jeweler~
+@96   = ~Pelltar~
+@97   = ~Pelltar's Scroll Case~
+@98   = ~Perk's Store~
+@99   = ~Pheldman's Store~
+@100  = ~Ye' Magic Shoppe~
+@101  = ~Restenford Shop~
+@102  = ~X Scrolls~
+@103  = ~Tavern of the West Wind~
+@104  = ~Installing new creatures.~
+@105  = ~Abracus~
+@106  = ~[MALE GREETING 12]  Yeah mate?~ [GENMG12]
+@107  = ~[MALE TOWNSFOLK 5]~ [VILLM05]
+@108  = ~[MALE TOWNSFOLK 6]~ [MTOWN06]
+@109  = ~Abraham~
+@110  = ~Almax~
+@111  = ~Almon~
+@112  = ~[MALE GREETING 8]  Hullo.~ [GENMG08]
+@113  = ~[MALE GREETING 11]  Somethin' on your mind?~ [GENMG11]
+@114  = ~Alton~
+@115  = ~ Greetings. Your power impresses.~ [EPRIM01]
+@116  = ~ Mercy! Have mercy!~ [EPRIM08]
+@117  = ~ You will pray for death when I am done with you!~ [EPRIM05]
+@118  = ~ What do you want amongst the faithful?~ [EPRIM02]
+@119  = ~ Bow down before the gods and beg for mercy!~ [EPRIM03]
+@120  = ~ The gods are unforgiving, fool!~ [EPRIM04]
+@121  = ~Amos~
+@122  = ~Andrella~
+@123  = ~Armax~
+@124  = ~Mayor Arrness~
+@125  = ~Arthur~
+@126  = ~Ascue~
+@127  = ~[OGRE MAGE 01] Hoo ha ha ha ha ha. ~ [OGREM01]
+@128  = ~[OGRE MAGE 02] You shall die for your impudence... ~ [OGREM02]
+@129  = ~[OGRE MAGE 04] Die, cattle!~ [OGREM04]
+@130  = ~[OGRE MAGE 08] ~ [OGREM08]
+@131  = ~[OGRE MAGE 09] ~ [OGREM09]
+@132  = ~Balmar~
+@133  = ~Balmorrow~
+@134  = ~[BANDITS 1] So I kicked 'em in the head till he was dead.  Har har.~ [BANDT01]
+@135  = ~[BANDITS 3] Whoa, now that was a stinker, har har.~ [BANDT03]
+@136  = ~[BANDITS 4] Stop pickin' yer nose!~ [BANDT04]
+@137  = ~Basil~
+@138  = ~Basmar~
+@139  = ~Sir BillyBob~
+@140  = ~Rain on the scarecrow, blood on the plow.~
+@141  = ~Beshkar~
+@142  = ~[FEMALE GREETING 12]  Hello there.~ [GENFG12]
+@143  = ~[FEMALE THREAT 7]  Your screams shall be music to my ears.~ [GENFT07]
+@144  = ~[FEST HALL GIRL 5]~ [FESTH05]
+@145  = ~[FEST HALL GIRL 6]~ [FESTH06]
+@146  = ~Bess~
+@147  = ~Bomarc~
+@148  = ~Acolyte of Osprem~
+@149  = ~Acolyte~
+@150  = ~Acolyte of Phaulkon~
+@151  = ~Boy~
+@152  = ~[MALE CHILDREN 1] Mother said not to talk with strangers.~ [MCHIL01]
+@153  = ~[MALE CHILDREN 5]~ [MCHIL05]
+@154  = ~[MALE CHILDREN 6]~ [MCHIL06]
+@155  = ~[MALE TOWNSFOLK OF NASHKELL 5 HOSTILE]  Get away from me!  I wouldn't trust you as far as I can spit!~
+@156  = ~[MALE CHILDREN LAUGHING]~ [AMB_M34B]
+@157  = ~Commoner~
+@158  = ~[MALE GREETING 13]  'Ello pal.~ [GENMG13]
+@159  = ~[MALE TOWNSFOLK OF NASHKELL HOSTILE]  Get out of my sight!  I'll do nothing for you!~
+@160  = ~[DRUNK 4]~ [DRUNK04]
+@161  = ~[DRUNK 1]~ [DRUNK01]
+@162  = ~[FARMERS 1] I've no time fer ta talk to ye now.~ [FARME01]
+@163  = ~[FARMER 4 HOSTILE]  Get out of my sight!  I'll do nothing for you!~
+@164  = ~[FARMERS 5]~ [FARME05]
+@165  = ~[FARMERS 6]~ [FARME06]
+@166  = ~Construction Worker~
+@167  = ~Servant Girl~
+@168  = ~Eless~
+@169  = ~Fabio~
+@170  = ~Sorry, I don't take requests.~ [FABIO20]
+@171  = ~Sorry, gotta run.  The ladies are calling me.  Bye.~ [FABIO11]
+@172  = ~You know?  You're alright.  I may have to write a song about you.~ [FABIO15]
+@173  = ~This group has some serious issues.~ [FABIO12]
+@174  = ~You know, I ready do have better things to do with my time than be with you people.~ [FABIO16]
+@175  = ~That's it, I'm done with you.  You can just forget about a song.~ [FABIO13]
+@176  = ~If I was king for just one day.~ [FABIOB]
+@177  = ~Yawn.  Man, I need my beauty sleep.~ [FABIOC]
+@178  = ~You know, this is interfering with my skirt chasing.~ [FABIOD]
+@179  = ~I will sing about your death!~ [FABIOA]
+@180  = ~Another fool to die at my hands.~ [FABIO9]
+@181  = ~Death to you all!  Hmm, maybe I should write that down.~ [FABIO8]
+@182  = ~Your death doesn't even deserve a song.~ [FABIO10]
+@183  = ~For the needy!  Wait, that's copyrighted.~ [FABIO19]
+@184  = ~Ouch!  Dammit, that hurt!~ [FABIOL]
+@185  = ~Ugh.~ [FABIOM]
+@186  = ~Hey!  Need a potion over here, quick now!~ [FABIOE]
+@187  = ~Ah, the forest with plenty of privacy.  If only I had a lady to enjoy it with...~ [FABION]
+@188  = ~Please, please ladies, just stand in line.~ [FABIOO]
+@189  = ~Ahh, Not much point in using an accent down here.~ [FABIOP]
+@190  = ~Only in the daylight can you really see my beautiful face.~ [FABIOQ]
+@191  = ~humming~ [FABIOR]
+@192  = ~I swear I really didn't know her age.~ [FABIOG]
+@193  = ~So many women, so little time.~ [FABIOF]
+@194  = ~There once was a lady from Nantucket...~ [FABIOH]
+@195  = ~Dude, what's up?~ [FABIOX]
+@196  = ~Did I ever tell you about this thiefling with a tail that I met?  Oh, man!~ [FABIO0]
+@197  = ~Ja, herr commandant!~ [FABIOT]
+@198  = ~Loveshack, baby, loveshack, yeah!~ [FABIOI]
+@199  = ~Don't hate me just because I am beautiful.~ [FABIOJ]
+@200  = ~Sure.  I can do that.~ [FABIOK]
+@201  = ~Hey!  I'm workin' here.~ [FABIOY]
+@202  = ~Jolly good, sir.~ [FABIOU]
+@203  = ~Oh sure have me do it.  I don't see you doing it.~ [FABIO_]
+@204  = ~Another fallen hero.  Hmm, maybe I should write a song about him.~ [FABIOW]
+@205  = ~Sweet!~ [FABIOV]
+@206  = ~Oh, yeah!~ [FABIOZ]
+@207  = ~What?!  I never miss.~ [FABIO1]
+@208  = ~What the hell?  Its not working.~ [FABIO2]
+@209  = ~Hey, this pack's full, buddy.  Find another mule.~ [FABIO3]
+@210  = ~Ha ha ah!~ [FABIO4]
+@211  = ~Fabio, the famous bard - so he claims, seems to have wandered everywhere.  Touring with different ensembles across multiple worlds.  Unfortunately, he refers to things on other worlds that don't always make since to those that haven't traveled there.  One obvious vice of his is women.  He can't keep a conversation with you without looking around at any female nearby.  Thinking himself quite the ladies man, he can be very annoying at times to the female party members.  He likes to try different accents, hoping to swoon any women nearby.  Hopefully, his silver but forked-tongue will not get you into any trouble.~
+@212  = ~Fairwind~
+@213  = ~Falco~
+@214  = ~Falpir~
+@215  = ~Felwin~
+@216  = ~[ELF FEMALE 2]  I much prefer the wooded regions, but one must be flexible in these times.~ [FELFF02]
+@217  = ~[ELF FEMALE 5]  ~ [FELFF05]
+@218  = ~[ELF FEMALE 6]  ~ [FELFF06]
+@219  = ~[ELF FEMALE 1]  Good day and hello to you.~ [FELFF01]
+@220  = ~Fire Giant~
+@221  = ~Fliban~
+@222  = ~Gap~
+@223  = ~Gellius~
+@224  = ~Gelmark~
+@225  = ~[STOREOWNER 1] Welcome to my humble establishment.~ [STORE01]
+@226  = ~[STOREOWNER 5]~ [STORE05]
+@227  = ~[STOREOWNER 6]~ [STORE06]
+@228  = ~[STOREOWNER 3] The customer is always right.~ [STORE03]
+@229  = ~Gelpas~
+@230  = ~Gilmi~
+@231  = ~Glami~
+@232  = ~[MALE THREAT 5]  Sorry friend, but you've got a date down under.~ [GENMT05]
+@233  = ~[MALE GREETING 9]  Speak up, speak up!~ [GENMG09]
+@234  = ~Golem~
+@235  = ~Gorharg~
+@236  = ~Grecko~
+@237  = ~Baron Grellus~
+@238  = ~Gristla~
+@239  = ~Skeleton~
+@240  = ~[GUARDS 5]~ [GUARR05]
+@241  = ~[GUARDS 6]~ [GUARR06]
+@242  = ~[MALE GREETING 14]  'Allo~ [GENMG14]
+@243  = ~[FRIENDLY ARM INN GUARDS (CPT. BILSHIRE) HOSTILE]  You've made no friends here!  Move along!~
+@244  = ~[GUARDS 1]~ [GUARR01]
+@245  = ~Guard~
+@246  = ~Assassin Apprentice~
+@247  = ~Haki~
+@248  = ~Harmin~
+@249  = ~Harper~
+@250  = ~Hestal~
+@251  = ~[LOW CLASS MAN 1]  'ey friend!  Good to meet a fine sod such as yerself.~ [MANLC01]
+@252  = ~[LOW CLASS MAN 3] ~ [MANLC03]
+@253  = ~[LOW CLASS MAN 4] ~ [MANLC04]
+@254  = ~Hoirag~
+@255  = ~Holga~
+@256  = ~Krak~
+@257  = ~[ORC 01] ~ [ORCAXE01]
+@258  = ~[ORC 03] ~ [ORCAXE03]
+@259  = ~[ORC 04] ~ [ORCAXE04]
+@260  = ~[ORC 08] ~ [ORCAXE08]
+@261  = ~[ORC 10] ~ [ORCAXE10]
+@262  = ~[ORC 02] ~ [ORCAXE02]
+@263  = ~Krellus~
+@264  = ~Lizardman~
+@265  = ~Lizardman King~
+@266  = ~Lizardman Shaman~
+@267  = ~Locinda~
+@268  = ~Lothar~
+@269  = ~Lydia~
+@270  = ~Martin~
+@271  = ~[DRUID 2] Don't mess with nature, or it'll mess with you.  ~ [DRUID02]
+@272  = ~[DRUID 5]~ [DRUID05]
+@273  = ~[DRUID 6]~ [DRUID06]
+@274  = ~[DRUID 1] It would be good for you to watch your actions while in this wood.~ [DRUID01]
+@275  = ~[DRUID 3] Civilization seems far, city dweller.~ [DRUID03]
+@276  = ~Marvin~
+@277  = ~Ogre~
+@278  = ~[OGRE 03] Me will crush you, crush you to goo!~ [OGREE03]
+@279  = ~[OGRE 04] Me will smash your face.~ [OGREE04]
+@280  = ~[OGRE 08] ~ [OGREE08]
+@281  = ~[OGRE 09] ~ [OGREE09]
+@282  = ~[OGRE 01] I will crush. ~ [OGREE01]
+@283  = ~[OGRE 02] ~ [OGREE02]
+@284  = ~[OGRE 10]~ [OGREE10]
+@285  = ~Orc Guard~
+@286  = ~Ohlatta~
+@287  = ~Orc Lieutenant~
+@288  = ~Orc~
+@289  = ~Orc Leader~
+@290  = ~Oscar~
+@291  = ~Perk~
+@292  = ~[MALE GREETING 10]  Whatcha want?~ [GENMG10]
+@293  = ~Philmar~
+@294  = ~Phyllis~
+@295  = ~Priska~
+@296  = ~Qualton~
+@297  = ~[KELDATH ORMLYR 3]~ [KELDT03]
+@298  = ~[KELDATH ORMLYR 4]~ [KELDT04]
+@299  = ~[KELDATH ORMLYR 2] Don't touch me, I'm super important.~ [KELDT02]
+@300  = ~Quenex~
+@301  = ~Giant Rat~
+@302  = ~Ravella~
+@303  = ~[FEMALE TOWNSFOLK OF NASHKELL 2 HOSTILE]  I'll not speak a word after what you did!~
+@304  = ~[FEMALE TOWNSFOLK 5]~ [FTOWN05]
+@305  = ~[FEMALE TOWNSFOLK 6]~ [FTOWN06]
+@306  = ~[FEMALE GREETING 12]~ [GENFG12]
+@307  = ~Relba~
+@308  = ~Rogan~
+@309  = ~[MALE GREETING 6]  Hi, friend.~ [GENMG06]
+@310  = ~Sangster~
+@311  = ~[MAREK 1] Could we have a moment of your time?~ [MAREK01]
+@312  = ~[MALE THREAT 3]  I've a blade with your name on it.~ [GENMT03]
+@313  = ~[MAREK 3] ~ [MAREK03]
+@314  = ~[MAREK 3] ~ [MAREK04]
+@315  = ~[MAREK 2] Stupid saps.  They'll never know what hit 'em.~ [MAREK02]
+@316  = ~Selmo~
+@317  = ~Mercenary~
+@318  = ~Shargrailar~
+@319  = ~[DAVEORN 6] Tremble before the might of my sorcery!~ [DAVEO06]
+@320  = ~[DAVEORN 5] Your efforts are futile!~ [DAVEO05]
+@321  = ~[DAVEORN 3] Die, insolent whelps!~ [DAVEO03]
+@322  = ~[DAVEORN 4] Ah ha ha ha ha ha! ~ [DAVEO04]
+@323  = ~Sirius~
+@324  = ~Smyth~
+@325  = ~Soot~
+@326  = ~[Cat Meow1]~ [AMB_E44A]
+@327  = ~[Cat Meow2]~ [AMB_E44D]
+@328  = ~[Cat 1]Meow~ [AMB_E44A]
+@329  = ~[Cat 2]Meow~ [AMB_E44D]
+@330  = ~Pheldman~
+@331  = ~Unknown Attacker~
+@332  = ~Tellish~
+@333  = ~Telvar~
+@334  = ~[DAVEORN 7] Your feeble skills are no match for my magic!~ [DAVEO07]
+@335  = ~[DAVEORN 8] ~ [DAVEO08]
+@336  = ~[DAVEORN 9] ~ [DAVEO09]
+@337  = ~[DAVEORN 1] So the stoic adventurers have found their way down to my lair.~ [DAVEO01]
+@338  = ~Rogue~
+@339  = ~Tolvar~
+@340  = ~Tavern Wench~
+@341  = ~Statue~
+@342  = ~Volcifar~
+@343  = ~Guard Dog~
+@344  = ~[DOG, WAR 03] ~ [WADOG03]
+@345  = ~[DOG, WAR 04] ~ [WADOG04]
+@346  = ~[DOG, WAR 05] ~ [WADOG05]
+@347  = ~[DOG, WAR 06] ~ [WADOG06]
+@348  = ~[DOG, WAR 08] ~ [WADOG08]
+@349  = ~[DOG, WAR 09]~ [WADOG09]
+@350  = ~[DOG, WAR 01] ~ [WADOG01]
+@351  = ~[DOG, WAR 02] ~ [WADOG02]
+@352  = ~Watcher~
+@353  = ~Welcar~
+@354  = ~Wilbur~
+@355  = ~Wilfong~
+@356  = ~Willis~
+@357  = ~Wraith~
+@358  = ~Yalta~
+@359  = ~Zahrdahl~
+@360  = ~Zelmar~
+@361  = ~Compile new scripts~
+@362  = ~Compile dialogs~
+@363  = ~Install new areas~
+@364  = ~Tutu installed, installing Tutu files~
+@365  = ~Castle Restenford~
+@366  = ~Barracks~
+@367  = ~The Magic Shop~
+@368  = ~Armor, Weapons, and Shields~
+@369  = ~The heavy footsteps of a Restenford Guard awakens you from your slumber.~
+@370  = ~Bald Hill~
+@371  = ~Restenford~
+@372  = ~Rectory~
+@373  = ~South to Garrotten~
+@374  = ~There is a small tunnel entrance here.  It was well hidden and doesn't look recently used.  Something is blocking you from entering this tunnel.~
+@375  = ~Someone dug a tunnel under the fence.~
+@376  = ~This must be the hanging tree.  There are several old ropes hanging from the large branches.~
+@377  = ~Tri-Top~
+@378  = ~This leads back to the altar.  You may want to cover the stairs so no one knows you came down here.~
+@379  = ~This barracks was obviously in a major fire.  Most of the roof is burnt away.~
+@380  = ~The house looks abandoned.  This door is covered over with weeds and bushes.~
+@381  = ~The bed, table, and other furniture is rotten and ready to collapse.~
+@382  = ~There is a practice target here with a rusty dagger still plunged into it.~
+@383  = ~This tunnel is only large enough for the rats to get through.  This must be how they get out of the caves.~
+@384  = ~From what you can see of these remains, this may have been a thief.  Dark clothing and a broken lock pick are all that is left besides bones.~
+@385  = ~Baron of Restenford~
+@386  = ~Pelltar's Tower~
+@387  = ~Exit~
+@388  = ~Here lies Joe who said, "This mod would be the death of me!"~
+@389  = ~This looks like a new grave.~
+@390  = ~Tucked back in here is a small tunnel going down.~
+@391  = ~This skeleton looks recent.  The clothing remains are dark and looks like a wizard's robe.~
+@392  = ~This catapult looks like someone is rebuilding it.  Several beams have been replaced.~
+@393  = ~You can see that this area is being cleared of all plant life.~
+@394  = ~This small fort looks like it was just recently abandoned.  It is starting to fall into disrepair.~
+@395  = ~Reddy Forest~
+@396  = ~Basement Exit~
+@397  = ~Exit to Surface~
+@398  = ~North of Restenford~
+@399  = ~East to Restenford~
+@400  = ~Bone Hill~
+@401  = ~Pause and pray in my temple!  The deities of the seas would have your praise and your generosity.~
+@402  = ~Statue of Osprem, Goddess of fishermen and sailors.~
+@403  = ~Go forth to the sea in ships to claim its bounty by fair means.  Feed its monsters or rid the seas of them.  This is the fortune of the high seas!~
+@404  = ~Statue of Xerbo, God of the Sea~
+@405  = ~Theater of the Mystic Celebration~
+@406  = ~The heavy footsteps of a town guard awakens you from your slumber.~
+@407  = ~To Restenford~
+@408  = ~To Castle~
+@409  = ~North of town~
+@410  = ~South of town~
+@411  = ~There are two small holes in the wall which allows someone standing here to see into the next room.~
+@412  = ~Gardening tools and dirt covered clothes are along this wall.~
+@413  = ~This is a statue of the goddess Osprem.~
+@414  = ~These shelves are filled with books about theology and religion~
+@415  = ~These barrels are filled with various weapons and tools.  Most of them appear to be rusty and in poor condition.~
+@416  = ~These thick, plush carpets have been rolled up for easy storage.~
+@417  = ~A row of lanterns hangs on display. Judging from the layers of dust, they no doubt have been here for a very long time.~
+@418  = ~An exotic arrangement of clothing has been hung upon this wooden stand.  It appears to be an outfit consisting of a silk doublet with floral imprints, and a matching turban.~
+@419  = ~These leather satchels are obviously of poor quality and workmanship. Their stitching is loose and haphazard, and it is doubtful that they would reliably hold the weight of more than a few coins.~
+@420  = ~A selection of polished vases and oil lamps are scattered about the length of this counter.~
+@421  = ~These shelves are stocked with various and sundry items ranging from books and parchment to clothing, food, and cookware. None of the items appear to be of much value.~
+@422  = ~Bring not might of arms to the door of the fortress lest I strike you down.~
+@423  = ~This is a statue of Kord, the God of War.~
+@424  = ~These stairs have been collapsed, preventing anyone from entering the rest of this tower.  New repairs haven't been finished yet.~
+@425  = ~This rusty contraption appears to be a functioning pipe organ.~
+@426  = ~This section of the tower has crumbled away, leaving a gaping hole in the floor.~
+@427  = ~Various pieces of lockpicking tools are arranged on this table.~
+@428  = ~Various pieces of torture equipment are arranged on this table.  Many look well used.~
+@429  = ~This hallway has collapsed.~
+@430  = ~You see a large cave entrance but there is no way to get down the hill to enter.  Perhaps another entrance exists?~
+@431  = ~Cave Entrance~
+@432  = ~This passage leads out to the lake.~
+@433  = ~North to Garrotten~
+@434  = ~This marker has been defaced and now has orcish graffiti scratched onto it.~
+@435  = ~BGT-Weidu installed, installing BGT files~
+@436  = ~Update game files~
+@437  = ~Install the new areas?  This must be done at least once!~
+
+@501  = ~This character is now level 0. Level them up to choose their initial proficiencies and skills. (Until you do this, their hit points and equipment may be a little odd; don't worry about this. Once you level them up, they may gain more levels (depending on your own experience)).~
+
+@750	= ~Hand Bandit Leader~
+

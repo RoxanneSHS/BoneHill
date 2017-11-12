@@ -1,0 +1,16 @@
+@1    = ~Saludos. Soy Ascue, el capitán de la guardia.~
+@2    = ~Saludos Ascue, soy <GABBER>.~
+@3    = ~Hoy la alcaldesa está en la corte si necesitáis hablar con ella. No merodeéis por el castillo.~
+@4    = ~¡Os lo advertí! ¡Guardias!~
+@5    = ~Debéis de ser <CHARNAME>. Tengo entendido que estáis investigando un asesinato. La alcaldesa desea hablar con vos. ¡Ahora!~
+@6    = ~No tenéis permitida la entrada a esa zona. ¡Guardias!~
+@7    = ~Espero que cumpláis las órdenes de la alcaldesa. Ignorarlas no sería una buena idea.~
+@8    = ~Tampoco merodeéis por el castillo.~
+@9    = ~¡Odio el teletransporte! Ah, <CHARNAME>, os encontré.~
+@10   = ~¿Qué queréis?~
+@11   = ~Sólo quería que supierais que Abraham ha confesado el asesinato. Admito que nos costó un poco sonsacárselo, pero insistimos hasta que al fin la verdad salió a la luz. Parece ser que Balmorrow y Harper colaboraron con él.~
+@12   = ~¿Así que los tres lo habían planeado desde el principio? Sorprendente. Creo que mi trabajo aquí ha terminado. Volveré a Restenford.~
+@13   = ~¿Por qué no os creo?~
+@14   = ~Por favor, creedme. La alcaldesa aún está molesta con vosotros por haber estado fisgoneando por el pueblo para investigar sin la autorización pertinente, pero si os marcháis ahora las cosas deberían calmarse. Sois libre de dejar la ciudad.~
+@15   = ~Como si importara lo que quisierais creer. Tenemos al asesino. La justicia está servida. Vuestros servicios ya no son requeridos ni deseados en Garrotten.~
+@16   = ~Creo que mi trabajo aquí ha terminado. Volveré a Restenford.~

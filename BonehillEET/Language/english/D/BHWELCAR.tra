@@ -1,0 +1,35 @@
+@1   = ~There is to be no stealing from these warehouses! Transgressors will be punished to the full extent of the law!~
+@2   = ~What do you want?~
+@3   = ~Gelpas told us to talk to you.  It is about the theft from the warehouse.~
+@4   = ~We found the stolen items.  Here they are.~
+@5   = ~We found the thief and the black pearl.  Here, take it.~
+@6   = ~We found this note.  We aren't sure what any of this means.  Can you take a look?~
+@7   = ~We found this note.  We think it is a map.  Are these two boxes the warehouses that the thief took stuff from?~
+@8   = ~Nothing.~
+@9   = ~Yeah.  Don't know how someone got past me 'n the dogs.  There's usually a guard in each buildin' also.  It happened last night.  From what I figure, some food, a couple a' swords, and some silk were all taken.  And if that wasn't bad enough, in another buildin', someone stole a black pearl that the baron had shipped here.  'e's gonna be hot when 'e finds out.~
+@10  = ~So they hit two buildings in one night?  You didn't hear anything?~
+@11  = ~Not a sound.  Figure it had to be one person.~
+@12  = ~Huh?  Why just one?~
+@13  = ~Cause the thief only took what one person can carry.  If there were more, wouldn't more stuff be gone?~
+// Shall remain identical to @856 in baf.tra, otherwise there will be a journal issue
+@14  = ~The Theft of the Warehouses
+
+Welcar thinks only one thief is involved in the thefts.  So did just one person do all the stealing?  And the killings?  How?~
+@15  = ~Good point.  We will have to think on that.  Thank you.~
+@16  = ~Really?  Great!  But where is the black pearl?~
+@17  = ~Right here.  Take it.~
+@18  = ~We couldn't find it.~
+@19  = ~I was afraid the baron would have my head for losing this.  Thank you.~
+// Shall remain identical to @857 in baf.tra, otherwise there will be a journal issue
+@20  = ~The Theft of the Warehouses
+
+I have returned all of the stolen goods to Welcar.  Perhaps now Gelpas will let Pelltar send us back.~
+@21  = ~Oh, that's not good.  The baron will have my head, and maybe yours too.  You need to keep looking.  The thief has got to be somewhere.~
+@22  = ~This is a map of Restenford!  Look, it shows the three warehouses right next to this line which is the river.  Hey, the two that were broken into are the same two that have checks next to them here.  And this, this one must be the West Wind.  Zelmar told me yesterday that someone stole all their money last week.  You should talk to Zelmar about the theft.~
+@23  = ~Yes, this is definitely a map of Restenford.  Those boxes match these warehouses.  Look at this, that should be the West Wind.  Zelmar told me that someone stole their money last week.  There is a checkmark next to that building.  You should check with Zelmar about this.~
+@24  = ~You know, several years ago, we had lots of thefts.  Turned out some thieves from Garrotten had moved into town and setup shop down in the sewers.  The baron had to hire some mercenaries to clear them out.  Gelpas was the leader of that band that fought the thieves.  He lost most of his team.  I guess that was what made him retire from adventuring. At least he caught the bastards in the end and strung them up from the "Hanging Tree". That's quite a sight to see if you care to check it out. It's out past the temple near the western gate on the road to Garrotten. I bet the guards there could tell you some stories to make your hair stand on end...Brrr!~
+@25  = ~Sewers?  We haven't found any sewers in this town.~
+@26  = ~Oh they are here.  They are not really sewers, they are meant for drainage when the river overflows.  The older ones are over on the west side, down near the burnt out guardhouse.  As I recall, that was where Gelpas and his band found the thieves. Matter of fact, there was another entrance up in the graveyard north of the temple, too.~
+// Shall remain identical to @858 in baf.tra, otherwise there will be a journal issue
+@27  = ~Welcar said there are some old sewers under Restenford.  Thieves used to hid in them.  I wonder if the thief is using it now.~
+@28  = ~Thank you for finding everything.~

@@ -1,0 +1,72 @@
+IF
+  CombatCounter(0)
+  RandomNumGT(10,1)
+  OR(2)
+    TimeGT(DUSK_START)
+    TimeLT(DAWN_START)
+  XPLT(Player1,50001)
+  !GlobalTimerNotExpired("BHTrapsAll","GLOBAL")
+  !GlobalTimerNotExpired("BHTrap01","GLOBAL")
+THEN
+  RESPONSE #20
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+    CreateCreatureObjectOffScreen("BHThief",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt2",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief1",Player1,0,0,0)
+  RESPONSE #80
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+END
+
+IF
+  CombatCounter(0)
+  !Difficulty(EASIEST)
+  RandomNumGT(10,1)
+  OR(2)
+    TimeGT(DUSK_START)
+    TimeLT(DAWN_START)
+  XPGT(Player1,50000)
+  XPLT(Player1,100001)
+  !GlobalTimerNotExpired("BHTrapsAll","GLOBAL")
+  !GlobalTimerNotExpired("BHTrap01","GLOBAL")
+THEN
+  RESPONSE #20
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+    CreateCreatureObjectOffScreen("BHBandt2",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt1",Player1,0,0,0)
+  RESPONSE #80
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+END
+
+IF
+  CombatCounter(0)
+  OR(2)
+    TimeGT(DUSK_START)
+    TimeLT(DAWN_START)
+  XPGT(Player1,100000)
+  !GlobalTimerNotExpired("BHTrapsAll","GLOBAL")
+  !GlobalTimerNotExpired("BHTrap01","GLOBAL")
+THEN
+  RESPONSE #20
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+    CreateCreatureObjectOffScreen("BHBandt1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHBandt2",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHThief1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHSHARG1",Player1,0,0,0)
+    CreateCreatureObjectOffScreen("BHSHARG2",Player1,0,0,0)
+  RESPONSE #80
+    SetGlobalTimer("BHTrapsAll","GLOBAL",360)
+    SetGlobalTimer("BHTrap01","GLOBAL",1440)
+END
+

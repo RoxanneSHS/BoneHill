@@ -1,0 +1,347 @@
+IF
+  Global("BP_MoreStooges","BH1300",0)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2144.1832],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",1)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2144.1832],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",1)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2144.1832],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",1)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[2144.1832],12)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[2144.1832],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",1)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2144.1832],12)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[2144.1832],12)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[2144.1832],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",1)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",1)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2585.1662],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",2)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2585.1662],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",2)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[2585.1662],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",2)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[2585.1662],12)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[2585.1662],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",2)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2585.1662],12)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[2585.1662],12)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[2585.1662],12)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",2)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",2)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",3)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",3)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",3)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    CreateCreature("GNOLL01",[2971.1831],12)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",3)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",3)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",4)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",4)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",4)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3000.1984],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",4)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",4)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3234.1766],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",5)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3234.1766],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",5)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3234.1766],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",5)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3234.1766],0)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3234.1766],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",5)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3234.1766],0)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3234.1766],0)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3234.1766],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",5)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",5)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3199.1906],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",6)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3199.1906],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",6)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3199.1906],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",6)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3199.1906],0)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3199.1906],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",6)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3199.1906],0)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3199.1906],0)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3199.1906],0)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",6)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",6)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",7)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",7)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",7)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3649.1744],0)  // ~Gnoll~
+    SetGlobal("BP_MoreStooges","BH1300",7)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",7)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("GNOLL_E",[2926.1828],12)  // ~Gnoll Veteran~
+    CreateCreature("WORG",[4161.1076],4)  // ~Worg~
+    SetGlobal("BP_MoreStooges","BH1300",8)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",8)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3170.1022],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",9)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3170.1022],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",9)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3170.1022],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",9)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3170.1022],8)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3170.1022],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",9)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3170.1022],8)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3170.1022],8)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3170.1022],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",9)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",9)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3863.1200],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",10)
+  RESPONSE #50
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3863.1200],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",10)
+  RESPONSE #40
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL_D",[3863.1200],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",10)
+  RESPONSE #30
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3863.1200],8)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3863.1200],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",10)
+  RESPONSE #20
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL01",[3863.1200],8)  // ~Gnoll~
+    CreateCreature("GNOLL_E",[3863.1200],8)  // ~Gnoll Veteran~
+    CreateCreature("GNOLL_D",[3863.1200],8)  // ~Gnoll Slasher~
+    SetGlobal("BP_MoreStooges","BH1300",10)
+END
+
+IF
+  Global("BP_MoreStooges","BH1300",10)
+  Global("BP_VillagePeople","GLOBAL",0)
+THEN
+  RESPONSE #100
+    Wait(3)
+    SetGlobal("BP_MoreStooges","BH1300",11)
+    SetGlobal("BP_VillagePeople","GLOBAL",1)
+END
+

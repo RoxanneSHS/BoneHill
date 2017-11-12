@@ -1,0 +1,127 @@
+IF
+  Global("BPSC","LOCALS",0)
+  !Alignment(Player1,CHAOTIC_EVIL)
+THEN
+  RESPONSE #100
+    Shout(125)
+    Enemy()
+    Attack(Player1)
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    Shout(125)
+END
+
+IF
+  Global("BPSC","LOCALS",0)
+  Allegiance(LastSummonerOf(Myself),GOODCUTOFF)
+  Alignment(LastSummonerOf(Myself),CHAOTIC_EVIL)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",OVERRIDE)
+    ChangeAIScript("",CLASS)  //GB-SUMM
+    ChangeAIScript("",RACE)
+    ChangeAIScript("",GENERAL)
+    ChangeAIScript("",DEFAULT)
+END
+
+IF
+  Global("BPSC","LOCALS",0)
+  Allegiance(LastSummonerOf(Myself),EVILCUTOFF)
+  Alignment(LastSummonerOf(Myself),CHAOTIC_EVIL)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",OVERRIDE)
+    ChangeAIScript("",CLASS) //GB-SUMM
+    ChangeAIScript("",RACE)
+    ChangeAIScript("",GENERAL)
+    ChangeAIScript("",DEFAULT)
+    Shout(125)
+    Enemy()
+    Attack(Player1)
+END
+
+IF
+  Global("BPSC","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BPSC","LOCALS",1)
+END
+
+IF
+  HitBy([GOODCUTOFF],CRUSHING)
+THEN
+  RESPONSE #100
+    Shout(125)
+    Enemy()
+END
+
+IF
+  Allegiance(Myself,EVILCUTOFF)
+  Heard([EVILCUTOFF],125)
+  !See([GOODCUTOFF])
+  !TargetUnreachable(LastHeardBy(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(LastHeardBy(Myself))
+END
+
+IF
+  OR(2)
+    !Allegiance(Myself,EVILCUTOFF)
+    !Detect([GOODCUTOFF])
+THEN
+  RESPONSE #100
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+  Global("SHOUT","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SHOUT","LOCALS",1)
+    Shout(125)
+END
+
+IF
+  TargetUnreachable(LastSeenBy(Myself))
+  Delay(6)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    Continue()
+END
+
+IF
+  HasItem("potn52",Myself)
+  !GlobalTimerNotExpired("POT","LOCALS")
+  HPPercentLT(Myself,70)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@500)
+    SetGlobalTimer("POT","LOCALS",6)
+    UseItem("potn52",Myself)
+END
+
+IF
+  ActionListEmpty()
+  HPPercentLT(Myself,35)
+  OR(2)
+    General(Myself,HUMANOID)
+    General(Myself,GIANTHUMANOID)
+  !HasItem("POTN55",Myself)
+  !HasItem("POTN52",Myself)
+  !GlobalTimerNotExpired("BPW","LOCALS")
+  See([EVILCUTOFF])
+THEN
+  RESPONSE #80
+    SetGlobalTimer("BPW","LOCALS",6)
+    DisplayStringHead(Myself,@501)
+    Shout(125)
+  RESPONSE #20
+    Continue()
+END
+

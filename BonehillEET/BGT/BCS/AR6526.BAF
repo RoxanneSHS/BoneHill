@@ -1,0 +1,61 @@
+IF
+	Global("ExploredArea","AR6526",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ExploredArea","AR6526",1)
+		Explore()
+END
+
+IF
+	Global("Teth","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Chapter","GLOBAL",6)
+		IncrementChapter("Chptxt-7")
+		SetGlobal("Chapter","GLOBAL",8)
+		AddJournalEntry(@6526,INFO)
+		SetGlobal("Teth","GLOBAL",3)
+END
+
+IF
+	Global("Criminal","GLOBAL",1)
+	Global("WatchSpawn","GLOBAL",1)
+	GlobalGT("BHQuestAccept","GLOBAL",3)
+	Global("BHToldOfDeath","GLOBAL",0)
+	!Dead("Fabio")
+THEN
+	RESPONSE #100
+		CreateCreature("BHFabio",[4418.3026],3)
+		ActionOverride("Fabio",SetNumTimesTalkedTo(1))
+		SetGlobal("BHToldOfDeath","GLOBAL",1)
+END
+
+IF
+	Global("Criminal","GLOBAL",1)
+	Global("WatchSpawn","GLOBAL",1)
+	GlobalGT("BHQuestAccept","GLOBAL",3)
+	Global("BHToldOfDeath","GLOBAL",0)
+	Dead("Fabio")
+THEN
+	RESPONSE #100
+		CreateCreature("BHPell",[4418.3026],3)
+		SetGlobal("BHToldOfDeath","GLOBAL",1)
+END
+
+IF
+	GlobalGT("BHToldOfDeath","GLOBAL",5)
+	Exists("Fabio")
+THEN
+	RESPONSE #100
+		ActionOverride("Fabio",DestroySelf())
+		Continue()
+END
+
+IF
+	GlobalGT("BHToldOfDeath","GLOBAL",5)
+	Exists("BHPell")
+THEN
+	RESPONSE #100
+		ActionOverride("BHPell",DestroySelf())
+		Continue()
+END

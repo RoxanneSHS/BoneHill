@@ -1,0 +1,122 @@
+BEGIN ~BHLOCI~
+
+IF ~AreaCheck("BH1400")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @3
+  IF ~~ THEN GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @4
+  IF ~PartyHasItem("POTN08")~ THEN REPLY @5 DO ~TakePartyItemNum("POTN08",1)
+UseItem("POTN08",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN52")~ THEN REPLY @6 DO ~TakePartyItemNum("POTN52",1)
+UseItem("POTN52",Myself)~ GOTO 5
+  IF ~~ THEN REPLY @7 GOTO 12
+  IF ~~ THEN REPLY @8 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @9
+  IF ~~ THEN REPLY @10 DO ~ReputationInc(-1)~ GOTO 11
+  IF ~PartyHasItem("POTN08")~ THEN REPLY @11 DO ~TakePartyItemNum("POTN08",1)
+UseItem("POTN08",Myself)~ GOTO 5
+  IF ~PartyHasItem("POTN52")~ THEN REPLY @12 DO ~TakePartyItemNum("POTN52",1)
+UseItem("POTN52",Myself)~ GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @13
+  IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @14
+  IF ~~ THEN REPLY @15 DO ~AddexperienceParty(1000)~ GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @16
+  IF ~~ THEN REPLY @17 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 9
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @20
+  IF ~~ THEN REPLY @21 DO ~SetGlobal("BHMetLocinda","GLOBAL",3)~ GOTO 10
+  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHMetLocinda","GLOBAL",2)~ GOTO 10
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @23
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @24
+  IF ~~ THEN DO ~SetGlobal("BHMetLocinda","GLOBAL",1)
+EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @25
+  IF ~~ THEN REPLY @15 GOTO 7
+END
+
+IF ~AreaCheck("BH2201")~ THEN BEGIN 13
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 14
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @28
+  IF ~~ THEN REPLY @29 DO ~EscapeArea()~ EXIT
+END
+
+IF ~AreaCheck("BH2102")~ THEN BEGIN 15
+  SAY @30
+  IF ~~ THEN REPLY @31 GOTO 16
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @32
+  IF ~~ THEN REPLY @33 GOTO 17
+  IF ~~ THEN REPLY @34 GOTO 18
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @35
+  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0)
+DestroySelf()~ EXIT
+END
+
+IF ~~ THEN BEGIN 18
+  SAY @36
+  IF ~~ THEN REPLY @37 GOTO 19
+  IF ~~ THEN REPLY @38 GOTO 20
+END
+
+IF ~~ THEN BEGIN 19
+  SAY @39
+  IF ~~ THEN DO ~GiveItemCreate("BHMISC01",LastTalkedToBy,0,0,0)
+DestroySelf()~ EXIT
+END
+
+IF ~~ THEN BEGIN 20
+  SAY @40
+  IF ~~ THEN DO ~Polymorph(FIGHTER_FEMALE_HALFORC)
+EscapeArea()~ EXIT
+END

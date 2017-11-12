@@ -1,0 +1,26 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH2101",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH2101",1)
+    CreateCreature("BHOGUARD",[1992.1046],3)
+    CreateCreature("BHOGUARD",[1850.863],3)
+    CreateCreature("BHOGUARD",[952.812],9)
+    CreateCreature("BHOGUARD",[1320.665],5)
+END
+
+IF
+  Global("BHGuardWarning","BH2101",3)
+THEN
+  RESPONSE #100
+    ActionOverride("BHOLIEUT",MoveToObject(Player1))
+    ActionOverride("BHOLIEUT",Shout(125))
+    ActionOverride("BHOLIEUT",Enemy())
+    ActionOverride("BHTELLIS",MoveToObject(Player1))
+    ActionOverride("BHARRNES",Polymorph(MAGE_FEMALE_HUMAN))
+    ActionOverride("BHARRNES",MoveToObject(Player1))
+    SetGlobal("BHGuardWarning","BH2101",4)
+END
+

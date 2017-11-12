@@ -1,0 +1,14 @@
+IF
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToPoint([2847.3368])
+    Wait(3)
+    MoveToPoint([2363.2831])
+    Wait(3)
+    MoveToPoint([2070.2566])
+    Wait(3)
+    MoveToPoint([3042.3743])
+    Wait(3)
+END
+

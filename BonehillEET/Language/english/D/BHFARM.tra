@@ -1,0 +1,21 @@
+@1   = ~I've lost 10 head of cattle in the last month alone!  Gall-derned gnoll raiders must be gettin' into rustling I figure. ~
+// Shall remain identical to @851 in baf.tra, otherwise there will be a journal issue
+@2   = ~A farmer told us that he has had cattle go missing on him.  He figures it must be the gnolls.~
+@3   = ~We cleared out the gnolls.  Shouldn't be any problems now.~
+@4   = ~Three o' mah hired hands a run off in the last month!  Disappeared right in the middle o' the work day!  Ya just can't get good help these days.~
+// Shall remain identical to @852 in baf.tra, otherwise there will be a journal issue
+@5   = ~A farmer told us that he has seen something moving about close to his home. He doesn't know what it was though.~
+@6   = ~My brother claims he saw a dead man walking around the old guard house.  Course he was just coming back from the tavern at the time.~
+// Shall remain identical to @853 in baf.tra, otherwise there will be a journal issue
+@7   = ~A man claims that undead are near the old guard house.  Maybe I need to look into this.~
+@8   = ~Your brother was right, we found an old cave system under that burnt guard house.  It had some undead and hoards of rats.~
+@9   = ~I'll not go near places the dead walk, leastwise not since my uncle was possessed.  He came out of a dungeon slathering mad, and the cleric in his group had not the experience to dispel the evil from his mind.  It was a prayer to hold him still that freed him, but he'll not go near another ruin.~
+// Shall remain identical to @854 in baf.tra, otherwise there will be a journal issue
+@10  = ~We came across a farmer who told us a story about his uncle.  He said that his uncle had once been possessed by some evil spirit while exploring the old ruins.  They managed to free him by casting a hold person spell upon the unfortunate man.~
+@11  = ~We went out there, there was all sorts of undead around that ruin.~
+@12  = ~I'm just a simple farmer, I don't know much.~
+@13  = ~Get out of my sight!  I'll do nothing for you!~
+@14  = ~Don't have time to talk to ye now, I have my cattle to care for back at the farm.  Before I go, you just take my advice.  I'd watch yerself while traveling the roads.  There be bandits in the wilderness who'll take more than just yer gold.~
+// Shall remain identical to @855 in baf.tra, otherwise there will be a journal issue
+@15  = ~Some of the roads around Restenford have bandits.  Sounds familiar to back home.~
+@16  = ~The merchants here don't always have what I need.  Bandits keep attacking the caravans into town.  Why don't the guards do something?~

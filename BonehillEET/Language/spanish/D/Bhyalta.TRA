@@ -1,0 +1,69 @@
+@1    = ~Saludos, soy Yalta. ¿Qué puedo hacer por vos?~
+@2    = ~Hola, Yalta. Somos el grupo de <CHARNAME>. Estamos ayudando a Pelltar con los problemas que plagan Restenford.~
+@3    = ~Ataques Gnoll
+
+Expliqué a Yalta que un ogro lideraba a los gnolls. Espero que este problema ya esté resuelto.~
+@4   = ~Ataques Gnoll
+
+Yalta dice que los gnolls que hay en Trescimas están atacando la ciudad. Parecen estar más organizados que antes y ahora son un verdadero problema para los guardias. Allí está pasando algo y quiere que descubra la causa de todo esto.~
+@5    = ~Los gnolls que había en Trescimas estaban liderados por un ogro. Matamos al ogro y dimos caza a todo gnoll que encontramos. No deberían volver a molestaros en mucho tiempo.~
+@6    = ~Parece ser que hay un antiguo sistema de cuevas bajo la casa de la guardia, y las ratas tenían un enorme nido en la cueva. También encontramos algunos muertos vivientes y acabamos con ellos.~
+@7    = ~Ah, sí. También hemos tenido nuestra parte. ¿Hay algo que os interese en concreto? Quizás os pueda ayudar.~
+@8    = ~Soi un clérigo, ¿no?~
+@9    = ~Así que esa banda de gnolls está atacando la ciudad, ¿me equivoco?~
+@10   = ~¿Habéis oído algo sobre la casa de la guardia abandonada?~
+@11   = ~Hace poco que hemos llegado aquí, así que aún no sabemos qué problemas hay. ¿Se os ocurre algo en lo que os podamos ayudar?~
+@12   = ~No, me parece que ya hemos resuelto todos los problemas que mencionasteis. Si no se os ofrece nada más, iremos a hablar con Pelltar.~
+@13  = ~Gracias por la oferta. Creo que habéis tratado con todo hasta ahora. Seguirémos buscando hasta que encontremos las respuestas.~
+@14   = ~Sí, soy el asesor espiritual de la Baronesa, Lady Belloviento.~
+@15   = ~¿Asesor?~
+@16   = ~¿Aún no conocéis a Lady Belloviento? También es clérigo.~
+@17   = ~Por supuesto, a causa de los deberes de ser baronesa no siempre puede seguir con su aprendizaje espiritual. Yo soy su tutor, aunque últimamente suelo limitarme a escuchar sus problemas.~
+@18   = ~¿La baronesa tiene problemas?~
+@19   = ~No, no, nada de eso. Para ella, es como si los problemas de sus tierras fueran suyos (y de su marido, por supuesto). No quieren que su gente sufra.~
+@20   = ~Es una lástima que otros gobernadores no sean como ella.~
+@21   = ~¿Hmm? Sí, sí, demasiado cierto por desgracia. ¿Por dónde iba?~
+@22   = ~Nos ibais a explicar algunos de los problemas de la región.~
+@23   = ~Nos contábais los problemas de la zona. Creo que ya los tratasteis todos.~
+@24   = ~(suspiro) Sí, esto ha sido un problema creciente para Restenford. Por todas las colinas y los bosques que nos rodean se han formado muchos clanes de gnolls, orcos, trasgos, etcétera.~
+@25   = ~Sí. Hace poco, una rata enorme mordió a una niñita cerca de la casa de la guardia abandonada. Normalmente esto no sería un problema, pero he oído a más gente quejarse de las ratas. Sólo echad un vistazo para comprobar que no hay algo más detrás de esto, por favor. Hablad con Zahrdahl, es un mercader que vive cerca de la casa de la guardia. Puede que él sepa algo más sobre de dónde provienen esas ratas.~
+@26   = ~Yalta me ha pedido que limpie una casa de la guardia abandonada que está llena de ratas. No parece muy difícil. Me sugirió que hablara con el vendedor de cebos ya que vive cerca de la casa de la guardia.~
+@27   = ~Lo investigaremos de buen grado. Gracias.~
+@28   = ~¿Y a mí qué me importa? Si se muere es porque no debía haber estado allí. Le está bien merecido.~
+@29   = ~¿Algún otro problema aparte de las ratas?~
+@30   = ~Ya nos encargamos del problema de las ratas.~
+@31   = ~Vaya, me decepciona oír eso. Si eso es lo que entendéis por ayudar, lo mejor será que le pidáis a Pelltar que os devuelva a vuestro hogar. Por favor, fuera de aquí.~
+@32   = ~Hay otros problemas en Restenford. Venid a verme cuando tengáis tiempo.~
+@33   = ~La mayor parte del tiempo nos dejan en paz. Sólo intentan atacar la ciudad en inviernos muy fríos. Siempre es así porque durante el invierno escasea la comida. El invierno suele reducir su población, pero parece que se reproducen como conejos.~
+@34   = ~Los últimos ataques no parecen seguir su patrón normal. No es invierno, así que deberían tener mucha comida ahí fuera. ¿Así que por qué molestarnos? Creo que algo o alguien los está organizando.~
+@35   = ~¿Qué os hace pensar eso?~
+@36   = ~¡Sí, sí! Ya nos habéis dado la información sobre los gnolls. Nos mantendremos atentos.~
+@37   = ~Los ataques están mejor planeados. Ahora vienen varios grupos que atacan distintos puntos de la muralla en sus incursiones, por lo que nuestros guardias deben dispersarse para intentar proteger varios lugares a la vez. Antes, los gnolls se limitaban a tirarse contra la muralla. Ahora, trabajan junto a lobos para atacar a los viajeros o luchar con los guardias que salen de la muralla. Además, atacan a cualquier hora del día. Antes sólo lo hacían de noche.~
+@38   = ~Investigaremos el problema de buen grado.~
+@39   = ~Hmm, podríamos investigarlo más tarde. Ahora mismo Pelltar nos necesita para otras cosas.~
+@40   = ~Sí, hay bandas de gnolls que atacan la ciudad desde el oeste.~
+@41   = ~Hablad con Almax o Sir BillyBob. Ambos están al otro lado de la ciudad. Ellos podrán ayudaros. Id en paz, hermanos.~
+@42   = ~¿De veras? Vaya. Entonces me alegro de que estéis aquí. Pelltar tomó una decisión excelente al contrataros.~
+@43   = ~Gracias. Sólo ayudamos en lo que podemos.~
+@44   = ~¿Muertos vivientes? ¿Aquí? ¿En la ciudad? Oh, vaya. Sin duda estos son tiempos difíciles. Gracias por ocuparos de esto. Por cierto, la niñita estará bien.~
+@45   = ~Bienvenidos.~
+@46   = ~Id en paz, hermano.~
+~Id en paz, hermana.~
+@47  = ~Bienvenido de nuevo <CHARNAME>, ¿cómo han ido vuestras indagaciones?~
+~Bienvenida de nuevo <CHARNAME>, ¿cómo han ido vuestras indagaciones?~
+@48  = ~Muy bien por ahora. Parece que contra más buscamos, más problemas nos encuentran a nosotros.~
+@49  = ~Ataques Gnoll
+
+Expliqué a Yalta que un ogro mago lideraba a los gnolls. Espero que este problema ya esté resuelto.~
+@50  = ~Ataques Gnoll
+
+Yalta dice que los gnolls que hay en Trescimas están atacando la ciudad. Parecen estar más organizados que antes y ahora son un verdadero problema para los guardias. Allí está pasando algo y quiere que descubra la causa de todo esto.~
+@51  = ~Los gnolls que había en Trescimas estaban liderados por un ogro mago. Matamos al ogro mago y dimos caza a todo gnoll que encontramos. No deberían volver a molestaros en mucho tiempo.~
+@52  = ~Muy bien por ahora. Estamos haciendolo lo mejor que podemos para eliminar los problemas que encontramos.~
+@53  = ~¡Por favor, marcháos ahora! ¡No quiero tener que ver más con vos!~
+@54  = ~¡¿De verdad?! Por favor, contadme.~
+@55   = ~Bah, tanto los enanos como los elfos podrían decir lo mismo de los asquerosos humanos.~
+@56   = ~¡Qué! Por favor, no hagáis caso a <CHARNAME>. Libraremos a esta ciudad de las malvadas ratas con mucho gusto. Bubú odia a las ratas.~
+@57   = ~P-parece ser una buena líder para esta ciudad. Más gobernadores deberían ser como ella.~
+@58   = ~¡Bah! Malditos santurrones. Me juego algo a que se sientan todas las noches a contar el dinero de los impuestos, como yo haría.~
+@59   = ~Ignoradle. Es una lástima que otros gobernadores no sean como ella.~

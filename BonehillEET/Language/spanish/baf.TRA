@@ -1,0 +1,183 @@
+//BH0109.baf
+@0    = ~Parece ser que los robos comenzaron una semana después de que un conocido bandido llamado Reynard fuera ahorcado. Otro hecho interesante es que antes había una cofradía de ladrones en Restenford. El Barón Grellus acabó con ella cuando se convirtió en barón. Estaba ubicada en las alcantarillas que hay bajo la zona oeste de la ciudad. ¿Se estará ocultando el ladrón allí?~
+@1    = ~Tras muchas horas de estudio, habéis descubierto cierta información interesante en los libros de historia de Restenford. Los robos comenzaron una semana después de que un conocido bandido llamado Reynard fuera ahorcado. Otro hecho interesante es que antes había una cofradía de ladrones en Restenford. El Barón Grellus acabó con ella cuando se convirtió en barón. Estaba ubicada en las alcantarillas que hay bajo la zona oeste de la ciudad. En una guía de objetos mágicos, habéis descubierto que la Mano de la Gloria se hace con la mano de un ladrón muerto. Sin embargo, el texto no explicaba qué puede hacer la mano.~
+
+//BH0401T.baf
+@50   = ~Habéis encontrado una trampilla bajo los escombros. Parece ser que no se ha usado en mucho tiempo.~
+
+//BH0402T.baf
+@100  = ~Las ratas deben provenir de aquí. El olor es repugnante. Podéis oírlas más adelante.~
+
+//BH0504.baf
+@150  = ~Parece ser que los robos comenzaron una semana después de que un conocido bandido llamado Reynard fuera ahorcado. Otro hecho interesante es que antes había una cofradía de ladrones en Restenford. El Barón Grellus acabó con ella cuando se convirtió en barón. Estaba ubicada en las alcantarillas que hay bajo la zona oeste de la ciudad. ¿Se estará ocultando el ladrón allí?~
+@151  = ~Tras muchas horas de estudio, habéis descubierto cierta información interesante en los libros de historia de Restenford. Los robos comenzaron una semana después de que un conocido bandido llamado Reynard fuera ahorcado. Otro hecho interesante es que antes había una cofradía de ladrones en Restenford. El Barón Grellus acabó con ella cuando se convirtió en barón. Estaba ubicada en las alcantarillas que hay bajo la zona oeste de la ciudad.~
+
+//BH0700.baf
+@200  = ~Juntos habéis descifrado que la nota es un mapa de Restenford.~
+
+//BH1100.baf
+@250  = ~Ahora el líder de los bandidos está muerto.~
+
+//BH1101.baf
+@260  = ~Ahora sabéis dónde escondieron los orcos los carros desaparecidos.~
+
+//BH1301.baf
+@300  = ~Así que un ogro mago controla a los gnolls. Eso explica los ataques organizados contra Restenford.~
+
+//BHALARM.baf
+@350  = ~Nada más atravesar la entrada, una alarma suena y cesa de repente.~
+
+//BHALARM2.baf
+@400  = ~¡Alguien os ha descubierto! ¡Oís cómo llaman a la guardia!~
+
+//BHALMON.baf
+@450  = ~¡Ladrón! ¡¡Cómo os atrevéis!!~
+@451  = ~Almon se ha dado cuenta de vuestro robo. Ha avisado a los guardias.~
+
+//BHARNSPL
+@1300 = ~¡Ayuda! ¡Guardias, protegedme!~
+
+//BHBERSER.baf
+@500  = ~se bebe una poción~
+@501  = ~¡Necesito curación!~
+
+//BHCTMS.baf
+@550  = ~¡Trampa levantada!~
+
+//BHCUTBA1.baf
+@600  = ~¡Dioses, qué día! ¿Algún día pararán de discutir los mercaderes?~
+@601  = ~¿Qué ha sido eso? Belloviento, ¿sois vos, querida?~
+@602  = ~¡Ja ja ja ja!~
+
+//BHFAIR.baf
+@650  = ~¡Ladrón! ¡¡Cómo os atrevéis!!~
+@651  = ~Lady Belloviento se ha dado cuenta de vuestro robo.~
+
+//BHGRAVE.baf
+@700  = ~Ésta tumba parece reciente.~
+@701  = ~Caváis en la tumba de Reynald. Tras apartar la tapa, descubrís dos cadáveres en el interior del ataúd. Uno es el de un humano varón al que le falta la mano izquierda. El otro es el de un gnomo varón.~
+@702  = ~Aparte de dos cadáveres putrefactos, no hay nada más en la tumba.~
+@703  = ~Estáis demasiado lejos de la tumba como para hacerle algo.~
+
+//BHHARPER.baf
+@750  = ~Me pregunto si necesitamos más nieve.~
+@751  = ~Quizás debamos impartir los servicios bajo el agua.~
+@752  = ~Hmm, creía que ese hechizo quitaría las manchas.~
+@753  = ~Perfecto, huele a lluvia.~
+@754  = ~¿Cuándo cenamos? Tengo ganas de desayunar.~
+
+//BHINFO01.baf
+@800  = ~Nada más atravesar la entrada, una alarma suena y cesa de repente.~
+
+//BHPELL.baf
+@850  = ~Zahrdahl no va a la posada local y su pierna le impide caminar hasta la taberna. ¿Por qué le interesa tanto lo que estamos haciendo?~
+@851  = ~Un granjero nos dijo que le ha desaparecido ganado. Cree que han sido los gnolls.~
+@852  = ~Un granjero nos dijo que ha visto algo moverse cerca de su hogar. Aunque no sabe de qué se trataba.~
+@853  = ~Un hombre dice que hay muertos vivientes cerca de la antigua casa de la guardia. Quizás debamos investigarlo.~
+@854  = ~Nos topamos con un granjero que nos explicó una historia. Nos explicó que una vez su tío fue poseído por un espíritu maligno. Consiguieron liberarlo lanzando un hechizo de inmovilizar persona sobre el pobre hombre. Su tío estaba explorando las antiguas ruinas.~
+@855  = ~Hay bandidos en algunos de los caminos que rodean Restenford. Me recuerda a mi hogar.~
+@856  = ~El Robo de los Almacenes
+
+Welcar cree que sólo hay un ladrón involucrado en los robos. ¿Fue una única persona quien cometió los robos? ¿Y los asesinatos? ¿Cómo?~
+@857  = ~El Robo de los Almacenes
+
+He devuelto todos los objetos robados a Welcar. Quizás ahora Gelpas deje que Pelltar nos devuelva a casa.~
+@858  = ~Welcar dijo que hay unas antiguas alcantarillas bajo Restenford. Los ladrones las usaban para esconderse. Me pregunto si el ladrón las estará usando ahora.~
+@859  = ~Ataques Gnoll
+
+Expliqué a Yalta que un ogro mago lideraba a los gnolls. Espero que este problema ya esté resuelto.~
+@860  = ~Yalta me ha pedido que limpie una casa de la guardia abandonada que está llena de ratas. No parece muy difícil. Me sugirió que hablara con el vendedor de cebos ya que vive cerca de la casa de la guardia.~
+@861  = ~Ataques Gnoll
+
+Yalta dice que los gnolls que hay en Trescimas están atacando la ciudad. Parecen estar más organizados que antes y ahora son un verdadero problema para los guardias. Allí está pasando algo y quiere que descubra la causa de todo esto.~
+@862  = ~Limpiar la Casa de la Guardia Abandonada
+
+Zahrdahl, el mercader local de cebos para pescar, nos pidió que acabáramos con unas ratas. Parece ser que tienen un nido en la casa de la guardia abandonada que está justo al sur de esta casa.~
+@863  = ~Limpiar la Casa de la Guardia Abandonada
+
+Expliqué a Zahrdahl que las ratas ya no le volverán a molestar. Aunque claro, con todo el cebo que tiene en su casa no tardarán mucho en reaparecer.~
+@864  = ~Parece ser que alguien mató al encargado del faro y escondió el cadáver junto al del bandido. Sospecho que fue la misma persona o personas. El siguiente paso es investigar el faro.~
+@865  = ~Fabio cree que el escrito se refiere a un objeto mágico llamado la Mano de la Gloria. Me pregunto qué será, y por qué los ladrones pensaron que yo la tenía. Tenemos que consultarle a Pelltar sobre esto tan pronto como regresemos a Restenford.~
+@866  = ~Parece ser que los robos comenzaron una semana después de que un conocido bandido llamado Reynard fuera ahorcado. Otro hecho interesante es que antes había una cofradía de ladrones en Restenford. El Barón Grellus acabó con ella cuando se convirtió en barón. Estaba ubicada en las alcantarillas que hay bajo la zona oeste de la ciudad. ¿Se estará ocultando el ladrón allí?~
+@867  = ~Encontrad al asesino del Barón Grellus.~
+@868  = ~Pensamos que alguien del pueblo de Garrotten estuvo involucrado en el asesinato del Barón Grellus. Tenemos tres sospechosos; Harper, un sumo sacerdote, Abraham, un posadero, y Balmorrow, un bardo que posee un teatro. ¿Por qué querría uno de ellos ver muerto al Barón? ¿Es que en realidad es un asesino contratado para matarle? Si es así, ¿cuál de ellos? ¿Y quién contrató al asesino?~
+@869  = ~La Cofradía de Asesinos
+
+Debo descubrir la verdad sobre el rumor de una cofradía de asesinos en Garrotten.~
+@870  = ~El Abad Qualton no puede resucitar a Grellus. Por alguna razón, tengo la sensación de que no parecía tan disgustado como decía.~
+@871  = ~La alcaldesa de Garrotten está reconstruyendo un castillo abandonado. Parece ser que el dinero no sale de los impuestos de los pueblerinos. Quizás era rica antes de venir a la ciudad. Pero si es tan rica, ¿por qué el duque la envió a este pueblecito? ¿Y si lleva algo entre manos de lo que no quiere que se entere la gente?~
+@872  = ~Parece ser que la alcaldesa está repitiendo mi investigación. Ordenó que se llevaran a Balmorrow para interrogarlo. Me pregunto por qué no lo hizo en el teatro.~
+@873  = ~Parece ser que la alcaldesa está repitiendo mi investigación. Ordenó que se llevaran a Abraham para interrogarlo. Me pregunto por qué no lo hizo en la posada.~
+@874  = ~Según Priska, puede que Basmar planee matarme la próxima vez que nos encontremos. Tendré que estar preparado.~
+~Según Priska, puede que Basmar planee matarme la próxima vez que nos encontremos. Tendré que estar preparada.~
+@875  = ~¡Martin el druida me ha pedido que ataque el castillo! Piensa que sus amigos serán acusados por error y los matarán. También cree que las pruebas sobre la existencia de la cofradía están en algún lugar de los pisos superiores del castillo.~
+@876  = ~Encontré el símbolo sagrado del Sumo Sacerdote Harper y desenmascaré a un espía en el templo. Sin embargo ha escapado. Seguro que nos encontraremos de nuevo.~
+@877  = ~Harper parece estar realmente loco. O es verdad o actúa de maravilla. Me han dado permiso para investigar por la iglesia. Supongo que tendré que hablar con ese tal Lothar.~
+@878  = ~¡Abraham es inocente! El mozo de cuadra, Falpir, admitió haber robado un botón del chaleco de Abraham. Oscar le pidió al chico que lo robara. Sospechaba que Oscar era miembro de la cofradía y ahora tengo más pruebas. Tuve que echar un buen sermón a Falpir, espero que el chico se convierta en una persona buena y decente.~
+@879  = ~¡Abraham es inocente! El mozo de cuadra, Falpir, admitió haber robado el botón de Abraham. Oscar le pidió que lo hiciera. Sospechaba que Oscar era miembro de la cofradía y ahora tengo más pruebas. Tuve que decirle la verdad al chico sobre qué le pasará a Abraham. No se lo tomó muy bien.~
+@880  = ~Incluso los plebeyos de este lugar saben de la existencia de la cofradía de asesinos. Debe ser el secreto peor guardado de la historia.~
+@881  = ~Un hombre dice que los mandamases de Lendore no detendrán las incursiones de los orcos en Garrotten. ¿Eso es bueno o malo?~
+@882  = ~ Uno de los pescadores me dijo han estado haciendo incursiones en el pueblo de Garrotten. Parece ser que tienen problemas como en Restenford.~
+@883  = ~Un pescador me dijo que algo "escamoso" atacó a un barco y mató a unos cuantos pescadores. ¿Gajes del oficio?~
+@884  = ~¿Por qué querría un jardinero tener el símbolo sagrado de un clérigo? ¿Por qué ha puesto trampas y ha cerrado sus puertas? ¿Por qué ha hecho dos agujeros para espiar la habitación de Harper? Creo que he descubierto al espía del templo. Sin embargo, ahora debo encontrar a Lothar para demostrarlo.~
+@885  = ~Hoy hablé con una joven clérigo de Xerbo. Me dijo que hay algo en el lago que ataca a los pescadores. ¿Podría ser una venganza del dios?~
+@886  = ~Parece ser que la alcaldesa está repitiendo mi investigación. Ordenó que se llevaran a Harper para interrogarlo. Me preguntó por qué no lo hizo en el templo.~
+@887  = ~Balmorrow está siendo observado por una aprendiz de mago llamada Holga. Trabaja para la alcaldesa Arrness. ¿Será la alcaldesa la líder de la cofradía de asesinos?~
+@888  = ~Balmorrow señaló a Philmar y a Oscar de la posada como parte de la cofradía de asesinos. Tendré que ir con cuidado cuando los vea.~
+@889  = ~¿Monstruos de Agua?
+
+Algo está atacando a los pescadores del lago. La alcaldesa quiere que descubra qué es y también que encuentre al explorador que envió para investigarlo.~
+@890  = ~La alcaldesa de Garrotten casi me mete en un calabozo por preguntarle sobre la cofradía de asesinos. Debe ser un asunto delicado.~
+@891  = ~La alcaldesa de Garrotten planea investigar el asesinato y ha puesto fin a mi investigación. Me pregunto si atraparán al verdadero asesino.~
+@892  = ~El tabernero Abraham cree que alguien del castillo financia la cofradía. Los guardias o los consejeros de la alcaldesa deben estar involucrados. ¿O quizás sólo tienen miedo de la cofradía?~
+@893  = ~El Misterio de los Monstruos de Agua
+
+El capitán Quenex me explicó que su escuadrón de pesca ha sido atacado hace poco por extrañas criaturas del lago. No sabe qué son, pero ya ha perdido muchos hombres y los pescadores temen alejarse de los muelles.~
+@894  = ~El capitán Quenex me dijo que el "capitán" Basmar no tiene ningún barco y que tampoco le ha visto jamás pescando.~
+@895  = ~El capitán Quenex confía ciegamente en el sumo sacerdote Harper y no cree que esté involucrado en la cofradía de asesinos. De hecho, mencionó que cree que si Harper fuera joven, se aseguraría de que algo así no existiera en Garrotten.~
+@896  = ~El Misterio de los Monstruos de Agua
+
+Expliqué al capitán Quenex que acabamos con los hombres lagarto y que ahora los pescadores volverán a estar a salvo en el agua.~
+
+//BHSHOUT2.BAF
+@1102 = ~¡Piedad!~
+@1103 = ~Coged a otro para que haga vuestro trabajo sucio, cobarde.~
+
+//BHSIRIUS.baf
+@900  = ~¡Estoy en una nube tóxica! ¡Debo salir de aquí! ~
+@901  = ~¡Cobarde, usáis veneno!~
+@902  = ~¡Bribón! Venid y pelead como un guerrero...~
+@903  = ~¡Acercáos y pelead limpio!~
+@904  = ~¡Cobarde! ¡Usáis un arma a distancia para atacarme!~
+@905  = ~¡Rufián! Seguro que sois demasiado débil para el combate cuerpo a cuerpo...~
+@906  = ~¡Aquí! ¡Tomad!~
+@907  = ~¡Lo tengo!~
+@908  = ~No os preocupéis... Yo estaré aquí para protegeros.~
+@909  = ~utiliza un pergamino~
+@910  = ~utiliza una varita~
+@911  = ~Ya basta.~
+@912  = ~¡Matad a mi atacante!~
+@913  = ~No aguanto más.~
+@914  = ~¡Morid con las botas puestas!~
+
+//BHSNOW.baf
+@950  = ~¡Harper hizo que nevara otra vez!~
+@951  = ~¡Voy a construir un fuerte!~
+@952  = ~Hagamos una pelea de bolas de nieve.~
+@953  = ~Me pregunto cuánto durará la nieve esta vez.~
+
+// BHTHIEF.BAF
+@1200 = ~Hmmm... Algo no va bien...~
+@1201 = ~Fallo al detectar ilusiones~
+@1202 = ~Usa un anillo de invisibilidad~
+
+//BHTHIEF1.baf
+@1000 = ~¡Allí están! ¡Matadlos! ¡Por la cofradía!~
+
+//AR6526.baf
+@6526	= ~Fin del juego
+
+La vida continúa siendo el reto. Habéis sido acusado de asesinar a los jefes del Trono de Hierro y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de la Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~
+~Fin del juego
+
+La vida continúa siendo el reto. Habéis sido acusada de asesinar a los jefes del Trono de Hierro y el Puño Llameante no dudará en seguir cada uno de vuestros pasos por este motivo. A pesar de todo esto, debéis regresar a la ciudad de la Puerta de Baldur, a la mismísima guarida de vuestros acusadores. Debéis buscar y desenmascarar al responsable de vuestra difícil situación: debéis encontrar a Sarevok.~

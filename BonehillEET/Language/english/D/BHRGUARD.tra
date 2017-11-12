@@ -1,0 +1,34 @@
+@1   = ~There is to be no fighting or stealing within the town limits of Restenford! Transgressors will be punished to the full extent of the law!~
+@2   = ~Pelltar!  Thank goodness I found you.  There are bandits just north of town.  A merchant barely made it to our barracks before dying.  His last words were that he was attacked on his way in by bandits.  They claim to be looking for something and thought he had it.  I need to report this to Gelpas and was told he was here.~
+@3   = ~You all are checking into those thefts aren't you?~
+@4   = ~Yes, we are.  What can you tell us?~
+@5   = ~You must be the bright one in the group.  What can you tell us?~
+@6   = ~No, not right now.~
+@7   = ~Nothing.  We guard the town gate.  Neither of us have been tasked with looking into the stealing.~
+@8   = ~Well that isn't very helpful to me.  Thanks anyway.~
+@9   = ~Thanks anyway.  So do you just man the gate?~
+@10  = ~Yup.  Well, except for the tree over there.~
+@11  = ~You guard the tree?~
+@12  = ~Nah, just the bodies of those we hang.~
+@13  = ~Er, could you explain that please?~
+@14  = ~We watch over the dead ones.  Make sure nothing happens to them.  People like to throw rocks at people they don't like.
+
+(He leans in toward you and whispers)  The witches like to steal body parts to make zombies and other horrible monsters.~
+@15  = ~You're weird.  Besides, you don't have any witches in this town.~
+@16  = ~But, you don't have any witches in this town.~
+@17  = ~Huh?  Oh, yeah.  I guess we don't.~
+@18  = ~It looks like one of the ropes is new.  Did you hang someone recently?~
+@19  = ~Oh, yes.  Reynard.  (He spits on the ground)  He was a nasty bastard.  A highwayman.  He robbed many coming in and out of town.  Sometimes he did more than rob.  He wanted the ladies to always remember him, if you catch my meaning.  Killed a few of my buddies before we captured him.  Hanging him was too good I says.  I'd have put the rat cage on him and left it there.~
+@20  = ~Lovely.  So he was a thief?~
+@21  = ~One of the best or worst, depending on how you look at him.~
+@22  = ~Anything unusual about his hanging?  Anyone snooping around here?~
+@23  = ~Okay, thanks.  I guess this is getting me no where.~
+@24  = ~Not that I know of.  Ravella was the last on guard, and she's the one that buried him.  You would have to talk to her.~
+@25  = ~No, I think we got all we need.  Thanks.~
+@26  = ~Where can I find Ravella?~
+@27  = ~She took today off.  Should be back here sometime tomorrow.~
+@28  = ~Thank you.  You have been a great help.~
+@29  = ~Come on, can't you see I'm work here?~
+@30  = ~Ravella hasn't returned yet. She should be back on watch soon.~
+@31   = ~I see that you have a new rope in that tree.  Did you hang someone recently?~
+@32   = ~Boo and I see that you have a new rope up there.  Did someone evil get some butt kickin'?~

@@ -1,0 +1,8 @@
+IF
+  Global("BHMartinScared","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHMarti1",[594.594],2)
+    SetGlobal("BHMartinScared","GLOBAL",2)
+END
+

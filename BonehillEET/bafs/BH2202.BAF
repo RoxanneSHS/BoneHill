@@ -1,0 +1,8 @@
+IF
+  Global("BHSacraficeMade","BH2202",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHCOMM07",Kill(Myself))
+    SetGlobal("BHSacraficeMade","BH2202",1)
+END
+

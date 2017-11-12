@@ -1,0 +1,115 @@
+BEGIN ~BHRAVELA~
+
+IF ~GlobalTimerExpired("RavellaAppears","GLOBAL")
+AreaCheck("BH0300")
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @6 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 4
+  IF ~~ THEN REPLY @9 GOTO 4
+  IF ~~ THEN REPLY @10 EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @11
+  IF ~CheckStatGT(LastTalkedToBy,14,INT)
+~ THEN REPLY @12 GOTO 5
+  IF ~CheckStatGT(LastTalkedToBy,14,WIS)
+~ THEN REPLY @13 GOTO 5
+  IF ~~ THEN REPLY @14 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO 7
+  IF ~~ THEN REPLY @19 EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @20
+  IF ~~ THEN DO ~SetGlobal("BHHandGrave","GLOBAL",1)
+~ EXIT
+END
+
+IF ~Global("BHHandGrave","GLOBAL",3)
+~ THEN BEGIN 8
+  SAY @21
+  IF ~~ THEN REPLY @22 DO ~SetGlobal("BHHandGrave","GLOBAL",4)
+SetGlobal("BHHandGraveOpen","GLOBAL",1)
+~ EXIT
+END
+
+IF ~Global("BHHandGrave","GLOBAL",5)
+~ THEN BEGIN 9
+  SAY @23
+  IF ~~ THEN REPLY @24 GOTO 10
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @25
+  IF ~IfValidForPartyDialogue("Minsc")
+~ THEN EXTERN ~MINSCJ~ RAVELMINSC
+  IF ~IfValidForPartyDialogue("KIVAN")
+~ THEN EXTERN ~KIVANJ~ RAVELKIVAN
+  IF ~~ THEN REPLY @26 GOTO 11
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @27
+  IF ~!Dead("BHSirius")
+~ THEN REPLY @28 GOTO 12
+  IF ~Dead("BHSirius")
+~ THEN REPLY @29 GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @30
+  IF ~!Dead("BHSirius")
+~ THEN DO ~SetGlobal("BHHandGrave","GLOBAL",6)
+SetGlobal("BHHandLightHouseOpen","GLOBAL",1)
+AddexperienceParty(2000)
+EscapeArea()
+~ JOURNAL @31 EXIT
+  IF ~Dead("BHSirius")
+~ THEN DO ~SetGlobal("BHHandGrave","GLOBAL",6)
+AddexperienceParty(2000)
+EscapeArea()
+~ JOURNAL @32 EXIT
+END
+
+APPEND ~KIVANJ~
+
+IF ~~ THEN BEGIN RAVELKIVAN
+  SAY @26
+  IF ~~ THEN EXTERN ~BHRAVELA~ 11
+END
+
+END
+
+APPEND ~MINSCJ~
+
+IF ~~ THEN BEGIN RAVELMINSC 
+  SAY @26 
+  IF ~~ THEN EXTERN ~BHRAVELA~ 11
+END
+
+END

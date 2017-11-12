@@ -1,0 +1,194 @@
+IF
+  Global("EnteredArea","BH2020",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHPhilma",Polymorph(STATIC_PEASANT_MAN_CHAIR))
+    ActionOverride("BHOscar",RandomWalk())
+    SetGlobal("EnteredArea","BH2020",1)
+END
+
+IF
+  Global("BHFindAbraham","BH2020",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHAbraha",[505.500],0)
+    SetGlobal("BHFindAbraham","BH2020",2)
+END
+
+IF
+  Global("BHStupidTalk","GLOBAL",1)
+  Global("BHSpiesLeft","BH2020",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHOscar",EscapeArea())
+    ActionOverride("BHPhilma",Polymorph(FIGHTER_MALE_HUMAN))
+    ActionOverride("BHPhilma",EscapeArea())
+    SetGlobalTimer("BHStupidTalkTime","GLOBAL",3600)
+    SetGlobal("BHSpiesLeft","BH2020",1)
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",1)
+  GlobalLT("BHBasmarReturns","Global",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHBasmar",[385.515],0) // Basmar
+    SetGlobal("BHBasmarReturns","Global",1)
+END
+
+IF
+  Global("BHSpiesLeft","BH2020",1)
+  GlobalGT("BHMetFalpir","GLOBAL",1)
+  Global("BHOscarReturns","BH2020",0)
+  !Dead("BHOscar")
+THEN
+  RESPONSE #100
+    CreateCreature("BHOscar",[411.649],0)
+    SetGlobal("BHOscarReturns","BH2020",1)
+END
+
+IF
+  Global("BHSpiesLeft","BH2020",1)
+  Global("BHPhilmarReturns","BH2020",0)
+  Global("BHAbrahamTellsOfWho","GLOBAL",1)
+  !Dead("BHPhilma")
+THEN
+  RESPONSE #100
+    CreateCreature("BHPhilma",[505.500],4)
+    ActionOverride("BHPhilma",RandomWalk())
+    SetGlobal("BHPhilmarReturns","BH2020",1)
+END
+
+IF
+  Global("BHHiredAssassin","GLOBAL",3)
+  Exists("BHOscar")
+  Global("BHOscarLeaves","BH2020",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHOscar",EscapeArea())
+    SetGlobal("BHOscarLeaves","BH2020",1)
+END
+
+IF
+  Global("BHQuenBasmarBoat","GLOBAL",2)
+  Exists("BHOscar")
+THEN
+  RESPONSE #100
+    ActionOverride("BHOscar",EscapeArea())
+    Continue()
+END
+
+IF
+  Global("BHQuenBasmarBoat","GLOBAL",2)
+  Exists("BHPhilma")
+THEN
+  RESPONSE #100
+    ActionOverride("BHPhilma",Polymorph(FIGHTER_MALE_HUMAN))
+    ActionOverride("BHPhilma",EscapeArea())
+END
+
+IF
+  OR(6)
+    Class(Player1,BARD_ALL)
+    Class(Player2,BARD_ALL)
+    Class(Player3,BARD_ALL)
+    Class(Player4,BARD_ALL)
+    Class(Player5,BARD_ALL)
+    Class(Player6,BARD_ALL)
+  Global("BHKnowWilfongSecret","BH2020",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHKnowWilfongSecret","BH2020",1)
+END
+
+IF
+  GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
+  Global("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreatureObjectDoor("BHOGUARD",Player1,0,0,0)
+    CreateCreatureObjectDoor("BHASCUE",Player1,0,0,0)
+    Wait(5)
+    SetGlobal("BHEscortSpawn","GLOBAL",1)
+    ActionOverride("BHAscue",StartDialog("BHAscue",[PC]))
+END
+
+IF
+  Global("BHEscortedParty","GLOBAL",2)
+  GlobalGT("BHEscortSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHASCUE",DestroySelf())
+    ActionOverride("BHOGUARD",DestroySelf())
+    SetGlobal("BHEscortSpawn","GLOBAL",3)
+END
+
+IF
+  Global("BHMayorStopsParty","GLOBAL",1)
+  Global("BHAbrahamGone","BH2020",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHABRAHA",DestroySelf())
+    SetGlobal("BHAbrahamGone","BH2020",1)
+END
+
+IF
+  Global("BHAbrahamArrested","GLOBAL",1)
+  Global("BHAscueToldParty","BH2020",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("BHGuiltyTime","GLOBAL",3600)
+    SetGlobal("BHAscueToldParty","BH2020",1)
+END
+
+IF
+  GlobalTimerExpired("BHGuiltyTime","GLOBAL")
+  GlobalLT("BHEscortSpawn","GLOBAL",2)
+THEN
+  RESPONSE #100
+    CreateCreatureObjectDoor("BHASCUE",Player1,0,0,0)
+    SetGlobal("BHEscortSpawn","GLOBAL",2)
+END
+
+IF
+  Global("BHEscortSpawn","GLOBAL",2)
+  Global("BHAbrahamArrested","GLOBAL",1)
+  Exists("BHOscar")
+  !Dead("BHOscar")
+  Global("BHOscarMovesToFire","BH2020",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHOscar",MoveToPoint([590.222]))
+    ActionOverride("BHOscar",Face(0))
+    SetGlobal("BHOscarMovesToFire","BH2020",1)
+END
+
+IF
+  Global("BHAscueToldParty","BH2020",2)
+  GlobalLT("BHMetFalpir","GLOBAL",3)
+THEN
+  RESPONSE #100
+    CreateCreature("BHFalpir",[411.649],13)
+    SetGlobal("BHAscueToldParty","BH2020",3)
+    ActionOverride("BHFalpir",StartDialogue("BHFALPIR",[PC]))
+END
+
+IF
+  Global("BHAbrahamArrested","GLOBAL",1)
+  Global("BHAscueToldParty","BH2020",2)
+  Global("BHAbrahamGuilty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("BHExecuteTime","GLOBAL",3600)
+    SetGlobal("BHAbrahamGuilty","GLOBAL",1)
+END
+
+IF
+  Global("BHAbrahamFree","GLOBAL",1)
+  Global("BHAbrahamGone","BH2020",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHAbraha",[505.500],2)
+    SetGlobal("BHAbrahamGone","BH2020",2)
+END
+

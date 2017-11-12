@@ -1,0 +1,47 @@
+IF
+  Global("BHToldToLeave","BH2102",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("BHGetOut","GLOBAL",15)
+    SetGlobal("BHToldToLeave","BH2102",2)
+END
+
+IF
+  RealGlobalTimerExpired("BHGetOut","GLOBAL")
+  Global("BHStartFight","BH2102",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHStartFight","BH2102",1)
+    ActionOverride("BHSangst",StartDialogNoSet(Player1))
+END
+
+IF
+  !Dead("BHSANGST")
+  Global("BHSangsterSpawn","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHSANGST",[1185.776],5)
+    SetGlobal("BHSangsterSpawn","GLOBAL",1)
+END
+
+IF
+  Global("BHChurchSpyGone","GLOBAL",1)
+  Global("BHLotharSpawn","BH2102",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHLothar",[1580.943],4)
+    SetGlobal("BHLotharSpawn","BH2102",1)
+    ActionOverride("BHLothar",ChangeAIScript("INITRG15",OVERRIDE))
+END
+
+IF
+  Global("BHMetLocinda","GLOBAL",3)
+  !Dead("BHLOCIDA")
+  Global("BHLocidaSpawn","BH2102",0)
+THEN
+  RESPONSE #100
+    CreateCreature("BHLOCIDA",[1824.819],6)
+    ActionOverride("BHLOCIDA",Polymorph(SLEEPING_WOMAN_HUMAN))
+    SetGlobal("BHLocidaSpawn","BH2102",1)
+END
+

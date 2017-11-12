@@ -1,0 +1,16 @@
+IF
+  OnCreation()
+  GlobalLT("BHSpyQuest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ContainerEnable("Container 1",FALSE)
+END
+
+IF
+  Global("BHSpyQuest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    ContainerEnable("Container 1",TRUE)
+    SetGlobal("BHSpyQuest","GLOBAL",3)
+END
+

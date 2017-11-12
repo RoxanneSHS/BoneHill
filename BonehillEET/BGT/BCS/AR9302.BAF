@@ -1,0 +1,21 @@
+IF
+	Global("BHPelltarSpawn","AR9302",0)
+	InMyArea(Player1)
+	GlobalGT("Chapter","GLOBAL",3)
+	GlobalLT("Chapter","GLOBAL",7)
+THEN
+	RESPONSE #100
+		SetGlobal("BHPelltarSpawn","AR9302",1)
+		CreateCreature("BHPell",[328.367],15) // Pelltar
+END
+
+IF
+	OR(2)
+		Global("BHQuestAccept","GLOBAL",8)
+		GlobalGT("Chapter","GLOBAL",6)
+	Exists("BHPell")
+THEN
+	RESPONSE #100
+		ActionOverride("BHPell",DestroySelf())
+		SetGlobal("BHQuestAccept","GLOBAL",9)
+END

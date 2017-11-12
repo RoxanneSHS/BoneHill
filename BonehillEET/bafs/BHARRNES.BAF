@@ -1,0 +1,25 @@
+IF
+  Range([PC],30)
+  NumberOfTimesTalkedTo(0)
+  See([PC])
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END
+
+IF
+  ActuallyInCombat()
+  Allegiance(Myself,NEUTRAL)
+  Global("BHStanding","LOCALS",0)
+THEN
+  RESPONSE #100
+    DialogueInterrupt(FALSE)
+    Polymorph(MAGE_FEMALE_HUMAN)
+    SetGlobal("BHStanding","LOCALS",1)
+    Shout(125)
+    Enemy()
+    MoveToObject(Player1)
+    ActionOverride("BHTELLIS",MoveToObject(Player1))
+END
+

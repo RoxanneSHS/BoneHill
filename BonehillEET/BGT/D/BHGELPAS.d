@@ -1,0 +1,130 @@
+BEGIN ~BHGELPAS~
+
+IF WEIGHT #0 ~GlobalLT("BHHandQuest","GLOBAL",1)
+NumberOfTimesTalkedTo(0)
+AreaCheck("BH0505")
+~ THEN BEGIN 0
+  SAY @1
+  IF ~~ THEN REPLY @2 GOTO 4
+END
+
+IF WEIGHT #2 ~AreaCheck("BH0505")
+!PartyHasItem("MISC86")
+~ THEN BEGIN 1
+  SAY @3
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #1 ~Global("BHQuestAccept","GLOBAL",5)
+OR(2)
+AreaCheck("BH0109")
+AreaCheck("BH0504")
+~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 5
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @6
+  IF ~IfValidForPartyDialogue("Dynaheir")
+~ THEN EXTERN ~DYNAJ~ GELPASDYNA
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @7
+  IF ~~ THEN REPLY @8 GOTO 6
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @9
+  IF ~~ THEN REPLY @10 EXTERN ~BHPELL~ 32
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @11
+  IF ~~ THEN REPLY @12 GOTO 3
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @13
+  IF ~~ THEN REPLY @14 GOTO 8
+  IF ~~ THEN REPLY @15 GOTO 14
+  IF ~~ THEN REPLY @16 GOTO 17
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @17
+  IF ~~ THEN GOTO 9
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @18
+  IF ~~ THEN REPLY @19 GOTO 11
+  IF ~~ THEN REPLY @20 GOTO 11
+  IF ~~ THEN REPLY @21 GOTO 10
+  IF ~~ THEN REPLY @22 GOTO 13
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @23
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @24
+  IF ~~ THEN GOTO 12
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @25
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 13
+  SAY @26
+  IF ~~ THEN REPLY @27 GOTO 11
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @28
+  IF ~~ THEN GOTO 15
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @29
+  IF ~~ THEN GOTO 16
+END
+
+IF ~~ THEN BEGIN 16
+  SAY @30
+  IF ~~ THEN DO ~SetGlobal("BHHandQuestAccept","GLOBAL",1)
+EscapeArea()
+~ EXIT
+END
+
+IF ~~ THEN BEGIN 17
+  SAY @31
+  IF ~~ THEN GOTO 8
+END
+
+IF WEIGHT #3 ~AreaCheck("BH0505")
+PartyHasItem("MISC86")
+~ THEN BEGIN 18
+  SAY @32
+  IF ~~ THEN DO ~StartStore("stovai",LastTalkedToBy(Myself))
+~ EXIT
+END
+
+APPEND ~DYNAJ~
+
+IF ~~ THEN BEGIN GELPASDYNA
+  SAY @33
+  IF ~~ THEN REPLY @34 EXIT
+END
+
+END

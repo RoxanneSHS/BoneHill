@@ -1,0 +1,16 @@
+BEGIN ~BHCOOK1~ 2
+
+IF ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXTERN ~BHCOOK2~ 1
+END
+
+IF ~True()~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END

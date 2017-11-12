@@ -1,0 +1,30 @@
+IF
+  Global("BHHandGrave","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SaveGame(0)
+    SmallWait(2)
+    StartCutSceneMode()
+    SetGlobal("BHHandGrave","GLOBAL",2)
+    FadeToColor([30.0],0)
+    Wait(2)
+    ActionOverride(Player1,LeaveAreaLUA("BH0600","",[543.274],10))
+    ActionOverride(Player2,LeaveAreaLUA("BH0600","",[566.286],8))
+    ActionOverride(Player3,LeaveAreaLUA("BH0600","",[585.278],7))
+    ActionOverride(Player4,LeaveAreaLUA("BH0600","",[618.261],5))
+    ActionOverride(Player5,LeaveAreaLUA("BH0600","",[547.316],7))
+    ActionOverride(Player6,LeaveAreaLUA("BH0600","",[636.268],4))
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    EndCutSceneMode()
+END
+
+IF
+  AreaCheck("BH0600")
+THEN
+  RESPONSE #100
+    Wait(2)
+    StartDialogue("bhravela",[PC])
+END
+

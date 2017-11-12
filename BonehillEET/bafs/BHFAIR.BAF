@@ -1,0 +1,18 @@
+IF
+  Global("BHAdmitTheft","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DisplayStringHead(Myself,@650)
+    DisplayStringHead(LastSeenBy(Myself),@651)
+    Wait(3)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHGELPAS",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    Shout(124)
+    Enemy()
+    SetGlobal("BHAdmitTheft","GLOBAL",2)
+END
+

@@ -1,0 +1,649 @@
+@0   = ~Bone Hill-Mod v275a (Setzt EET voraus)~ 
+@1   = ~Graphische Dateien werden kopiert~
+@2   = ~Klangdateien werden kopiert~ 
+@3   = ~Neue Gegenstände werden installiert.~
+@4   = ~Felsblock-Geschoss bereits installiert~ 
+@5   = ~Felsblock-Geschoss noch nicht installiert~
+@6   = ~Felsblock~
+@7   = ~Das ist die Art von Felsbrocken, die ein Riese auf seine Opfer schleudert. Er kann großen Schaden verursachen und das Opfer bewusstlos schlagen. Ein Charakter mit der Stärke der Riesenklasse ist imstande, solche Felsen ebenfalls zu schleudern...  
+
+Reichweite: 70 m 
+Schaden: 3-18 
+Besonderheit: Rettungswurf gegen die Odemwaffe: -4, oder das Opfer wird für eine Runde  bewusstlos geschlagen und ist die folgende Runde betäubt. 
+Mindeststärke: 19~ 
+@8   = ~Feuerkugelamulett~
+@9   = ~Feuerkugelamulette sind Amulette mit kleinen Kugeln, die, wenn sie geworfen werden, einen riesigen, lodernden Feuersball auswerfen, der sich zum gewünschten Umfang von maximal 40 m ausdehnt und in einer gewaltigen Druckwelle genau wie der "Feuerball"-Zauber explodiert. Der Feuerball fügt 6W6 Schaden zu, wobei jede gewürfelte 1 als 2 gezählt wird. Den Opfern steht ein Rettungswurf gegen Zauberstäbe zu, um nur halben Schaden zu nehmen. Sobald die Kugeln verbraucht sind, ist das Amulett zerstört.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Fähigkeit 1:
+Wirkung: schießt einen Feuerball aus
+Schaden: 6W6 (Feuer)
+(Hälfte bei Rettungswurf gegen Zauberstäbe)
+Reichweite: 30 m
+Bereich: 10 m Radius
+
+Kann nicht verwendet werden von:
+ Zaubertötern~ 
+@10  = ~Ring des Barden~
+@11  = ~Obgleich der genaue Ursprung dieses Rings unbekannt ist, glauben viele, dass er vor ungefähr 200 Jahren geschaffen wurde. 
+
+Es ist mit einem einzelnen Stein eines unbekannten Typs besetzt, der ein geringes Glühen ausstrahlt. Obwohl der Ring bei Berührung kalt ist, wirkt die Kälte seltsam beruhigend.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheit:
+   1 zusätzlicher Zauber 1. Grades
+   1 zusätzlicher Zauber 3. Grades
+   1 zusätzlicher Zauber 5. Grades
+Gewicht: 0
+Kann nur verwendet werden von:
+   Barden ~
+@12  = ~Horn ~ 
+@13  = ~Bronzehorn der Walhalla ~
+@14  = ~Dies ist ein kleines Horn. Hörner werden üblicherweise aus Knochen oder Metall gemacht und können eine große Vielfalt an Tönen erzeugen. ~ 
+@15  = ~Bronzehorn der Walhalla
+
+In den geheiligten Hallen der Walhalla ruhen die tapfersten aller Krieger. Da sie dem Kriegsgott während ihres Lebens so aufopfernd gedient haben, haben sie es sich verdient, ihr Leben nach dem Tod ehrenvoll in den Hallen der Walhalla zu verbringen. Als Gegenleistung für diese Ehre müssen die Krieger jenen dienen, die in Odins Horn blasen. Odins Horn beschwört einen Berserker der 7. Stufe, der dem Beschwörer eine Minute lang dient. Das Horn kann einmal täglich eingesetzt werden.
+
+Dieses besondere Horn ist durch starken Gebrauch - oder Mißbrauch - verbeult und verbogen. ~
+@16  = ~Schwarze Perle ~
+@17  = ~Dies ist die gestohlene schwarze Perle, wegen der Euch Gelpas des Diebstahls bezichtigte. Sie sollte Welcar, der Wachte in der Nähe der Lagerhäuser, ausgehändigt werden. ~
+@18  = ~Kampfstab ~ 
+@19  = ~Stecken des Blauen Drachen ~
+@20  = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe werden aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.  
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6
+Schadensart: zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 4
+Waffenfertigkeit: Kampfstab
+Waffentyp: Beidhändig
+Mindeststärke: 5 ~ 
+@21  = ~Dieser lange schwarze Stab faßt einen großen, blauen, wie der Kopf eines Drachen gestalteten Kristall an seinem Ende ein, der vor Elektrizität knistert. Diese Stäbe werden für die Mitglieder des Drachenkultes angefertigt. Nur den Drachenreitern wird erlaubt, diese Stäbe zu tragen. Deshalb der Besitz dieses Stabes früher oder später die Aufmerksamkeit des Kultes erregen.
+
+Die Drachenstäbe beherbergen die geistige Essenz des jeweiligen Drachen, mit dem sich der Reiter zusammen tat, oder der Essenz von dessen Leiche.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W6 + 3
+ETW0: +3
+Besonderheit:
+Elektrizitätsresistenz: +50%
+Chance von 50 %, elektrischen Schaden von 1W8 zu verursachen, wenn der blaue Edelstein ausschlägt. Stösst einen Blitzstrahl mit 6D6 Schaden aus, Hälfte bei Rettungswurf gegen Zauber. 2 Ladungen pro Tag. Der Stab verfügt über eine Kettenblitz-Ladung pro Tag.
+Schadensart: zertrümmern
+Gewicht: 7
+Geschwindigkeitsfaktor: 2
+Waffenfertigkeit: Kampfstab
+Waffentyp: Beidhändig
+Mindeststärke: 5~ 
+@22  = ~Umhang des Mörders ~
+@23  = ~Die durch diesen stark verzauberten Umhang übertragenen Fähigkeiten belegen exemplarisch, dass Schutzvorrichtungen viele Formen annehmen können - einschließlich vor dem Blick Anderer verbergen und Heimtücke unterstützen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Verbesserte Hast (einmal täglich)
+Verbesserte Unsichtbarkeit (dreimal täglich)
+
+Rüstungsklasse-Bonus: -2
+Rettungswürfe-Bonus: +2 Bonus
+Gewicht: 3 ~ 
+@24  = ~Keule ~
+@25  = ~Keule +2, der Helfer des Mörders ~
+@26  = ~Keule +2, der Helfer des Mörders
+Diese Keule gehörte Tellish, dem bösartigen Kleriker/Dieb, bekannt als Führer einer der ruchlosesten Meuchlergilden der Neuzeit. Sie gewährt die Möglichkeit, jeden Menschen, Zwerg, Gnom oder Halbling kampfunfähig zu machen, indem sie tiefen Schlummer hervorruft, wohingegen Elfen für gewöhnlich geschützt sind. Die Waffe verschafft dem gedungenen Mörder einen Bonus von 50 % auf Heimtücke. Obwohl es sich technisch um einen Morgenstern handelt, funktioniert sie für einen Dieb wie jede gemeine Keule.
+
+SPEZIFISCHE EIGENSCHAFTEN: 
+
+Kampffähigkeit: Jeder Mensch oder Halbmensch außer Elfen, die von getroffen werden, müssen einen Rettungswurf gegen Gift bestehen, oder sie fallen 18 Sekunden lang in Tiefschlaf.
+Besonderheit: Zunahme von 50 % auf die  Fähigkeit Heimtücke
+THACO: +2 Bonus
+Schaden: 2D4 +2
+Schadensart: zertrümmern
+Gewicht: 4
+Geschwindigkeitsfaktor: 3
+Waffenfertigkeit: Keule
+Waffentyp: einhändig
+Mindeststärke: 5
+Kann verwendet werden von:
+ Dieben (ein- oder mehrklassig) ~
+@27  = ~Laute ~
+@28  = ~Fabios Laute ~
+@29  = ~Eine melodische Laute. ~
+@30  = ~Fabio behauptet, dass dies die berühmte Laute ist, die Pellon Kay benutzt hat. Jedoch hat er auf seinen Reisen einige der magischen Fähigkeiten verändert.
+
+Wie Fabio diese Laute erwarb ist ein Geheimnis, über das er nicht sprechen will.
+
+Besonderheiten:
+
+Wenn sie gespielt wird, verursacht die Laute einmal täglich bei ihrem Ziel einen "Schreckenszauber".
+
+Kann dreimal täglich alle Wesen in Hörweite verwirren, denen ein Rettungswurf gegen Zauber misslingt. Der Barde und seine Gruppenmitglieder sind gegen die Verwirrung immun.
+
+Kann nur verwendet werden von:
+ Barden ~
+@31  = ~Langschwert ~
+@32  = ~Flammenschwert +2 ~
+@33  = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 und 120 cm beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W8
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@34  = ~Die Klinge brennt mit einem magischen Feuer, und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte "Meta Infernum" sind in den Griff geritzt. Die Inschrift ist jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
+
+Dieses besondere Schwert scheint ein Feuerelementar oder ein anderes gefangenes Wesen zu beherbergen. Seine böse Natur ist in der Lage, schwache Persönlichkeiten zu überwältigen. In jedem Fall zieht das eingesperrte Wesen nahebei ausschlagende Flammen ins Schwert, welche dem Eigentümer zusätzlichen Schutz gewähren.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+ETW0: +2 Bonus
+Schaden: 1W8 +2, +3 Feuerschaden
+Besonderheit: Feuerwiderstand +50 %
+Schadensart: aufschlitzen
+Gewicht: 4
+Geschwindigkeitsfaktor: 5
+Waffenfertigkeit: Langschwert
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@35  = ~Ruhmreiche Hand~
+@36  = ~Dies ist eine zermergelte Hand. An jedem Finger und am Daumen sind rote Kerzen befestigt. ~
+@37  = ~Dieser grausige Gegenstand ist die abgetrennte linke Hand eines menschlichen Mannes, mit einer an jedem der Finger und dem Daumen angebrachten roten Kerze. Es war die Hand eines Räubers, aber jetzt ist es ein mächtiger magischer Gegenstand.
+
+Besonderheiten: 
+
+spricht den Zauber "Prügeln" 
+spricht den Zauber "Person festhalten" 
+
+Kann von jedem verwendet werden. ~
+@38  = ~Papierschnitzel ~
+@39  = ~Auf diesem Papierschnitzel ist nur wenig leserliche Schrift übrig. Er ist mit Asche und Schmutz bedeckt, darunter wohl auch frisches Blut. Hier steht, was Ihr lesen könnt:
+
+... heiß erwartet die Ankunft der Ruhmvollen Hand ... w ... wir nicht erreichen ... in unseren Fängen .... ~
+@40  = ~Notizfetzen ~
+@41  = ~Dieses schmutzige, besudelte Stück Papier weist unheimliche Markierungen auf. Bei näherer Berachtung seht Ihr, dass sie wie verschieden geformte Kästchen aussehen und in einem Muster angeordnet zu sein scheinen. ~
+@42  = ~Tagebuch ~
+@43  = ~Viele dieser Worte auf diesen verstreuten Seiten sind im Laufe der Jahre verblasst.
+
+... verdammter Fluch!... untoter... was soll ich tun?... Wiedergenesungs-Schriftrolle...
+
+Nur die letzten Einträge warten mit nützlichen Informationen auf:
+
+Ich habe kein Papier mehr, und mein Fleisch ist beinahe völlig verfault. Ich weiss von den anderen, dass derjenige, der mir zur Seite stand, ebenfalls tot ist. Seine Sünden haben ihm erlaubt, sich in eine Geistererscheinung zu verwandeln, um so diesen Platz auf ewig mit seiner unheiligen Präsenz zu entweihen.
+
+Wird mein Leiden jemals enden? Ich brauche meine von meinem Leichnam losgelöste Seele, um in dem Ruhm von Amunator aufzugehen.
+
+Ich habe einige Wiedergenesungs-Schriftrollen gefunden, vielleicht wird eine funktionieren. Aber jemand anderer muss den Zauber aussprechen! ~
+@44  = ~Schlüssel ~
+@45  = ~Ein kompliziert aussehender Schlüssel aus kaltem Eisen. ~
+@46  = ~Martins Nachricht ~
+@47  = ~Dies ist Martins Nachricht für Almax. Während Ihr sie durchseht, stellt Ihr fest, dass es eine Liste der Ausrüstung ist, die Martin benötigt, um zu helfen, den Druidenschrein fertig zu stellen. ~
+@48  = ~Helm ~
+@49  = ~Helm der Gedankenabwehr ~
+@50  = ~Diese Klasse eines gesichtsfreien Helms, gefertigt aus verstärktem Leder oder Metall, bedeckt den grössten Teil des Kopfs, außer dem Gesicht und dem Hals. Diese Helme bieten gewöhnlicherweise vor allem der Nase Schutz. 
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Rüstungsklassenbonus: Keiner
+Besonderheit: Schützt vor kritischen Treffern
+Gewicht: 2
+Kann nicht verwendet werden von:
+ Magiern
+ Barden
+ Dieben ~
+@51  = ~Wie sein Name andeutet, schützt der Helm der Gedankenabwehr seinen Träger vor jeglichen magischen Versuchen gefühlsmäßiger Beeinflussung. Vorsichtshalber statten einige bekannte Söldnertruppen standardmäßig ihre Mitglieder mit solchen Helmen aus, um sicherzustellen, dass sie ihre vorgeschriebenen Aufgaben ohne Einmischung von außen durchführen können.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Träger ist vor Gedankenzaubern geschützt
+Kann den Wahren Blick 3mal pro Tag anwenden
+Gewicht: 4
+Kann verwendet werden von:
+Gut gesinnten
+ Kämpfern (einschließlich mehrklassige)
+ Paladinen
+ Waldläufern (einschließlich mehrklassige)
+ Klerikern~
+@52  = ~Locindas Körper ~
+@53  = ~Dies ist der Körper von Locinda, der in den Tempel von Garrotten zur Heilung gebracht werden muss. ~
+@54  = ~Dies ist die fehlende Ausrüstung aus dem Warenhaus. Es sind zwei Schwerter, ein Schild, einige Säcke Mehl und Zucker (jetzt befallen von Ratten), und einem Ballen malvenfarbiger Seide. ~
+@55  = ~Brief von Qualton ~
+@56  = ~Dies ist ein Brief vom Abt Qualton. Er beschreibt, dass er Tellish anheuern will, um den Baron und seine Frau Fairwind zu töten. Es sagt auch, dass er sie so bald wie möglich tot wissen will. ~
+@57  = ~Heiliges Symbol von Osprem ~
+@58  = ~Dies ist ein heiliges Symbol der Göttin Osprem. Auf dem goldenen Amulett ist das Bild eines Wals zu sehen. Normalerweise hat der Wal ein rotes rubinrotes Auge. Diesem besonderen Amulett fehlt das rubinrote Auge. ~
+@59  = ~Pelltars Zauberbuch ~
+@60  = ~Dies ist Pelltars Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@61  = ~Saite ~
+@62  = ~Dies ist die Lautensaite, die neben dem Körper des Barons Grellus gefunden wurde. Sie ist goldfarben und scheint einen magischen Glanz auszustrahlen. ~
+@63  = ~Rubinstein ~
+@64  = ~Dieser kleine rubinrote Stein wurde neben dem Körper des Barons Grellus gefunden. Gemäß der Zeugen trägt der Hohepriester Harfner vom Tempel des Osprem ein Amulett mit diesen Steinen. ~
+@65  = ~Roter Lederknopf ~
+@66  = ~Dieser rote Lederknopf wurde in der Hand des Barons Grellus gefunden. Gemäß der Zeugen trägt Abraham, ein Gastwirt in Garrotten, eine Weste mit solchen Knöpfen. ~
+@67  = ~Arrness Dokumente ~
+@68  = ~Die Oberbürgermeisterin von Garrotten, Arrness, war sehr ausführlich bei der Aufzeichnung jedes Fitzelchens an Information über die Gilde der Meuchelmörder. Einsatzberichte jedes Spions und Mörders in ihrem Dienst finden sich hier. Protokolle mit Informationen über jeden Auftrag sind ebenso festgehalten. Nach dem, was Ihr berichten könnt, war die Gilde im Sammeln von Informationen, Spionage, und Ermordungen ungemein erfolgreich.
+
+Sie hat auch ihr Tagebuch hier. Gemäß diesem plant sie, Restenfurth als neue Baronin zu übernehmen, sobald die Familie des derzeitigen Herrschers beseitigt ist. Tellish wurde angeheuert, um sie bei diesem Vorhaben zu unterstützen. Nichts zeigt weist jedoch darauf hin, wer diese Person ist. ~
+@69  = ~Sirius Tagebuch~
+@70  = ~Dies ist das Tagebuch von Sirius.
+
+Während Ihr es durchlest, erkennt Ihr, dass er und ein Nekromant der Elfen-Oberherren auf den Lendore-Inseln angestellt wurden. Ihre Mission bestand darin, Verwirrung in den verbliebenen letzten von Menschen verwalteten Gebieten zu stiften, so dass die Oberherren die Kontrolle übernehmen können. Die Ruhmvolle Hand wurde geschaffen, um Diebstähle zu verüben. Es scheint zudem, dass Sirius den Nekromanten entdeckte, als er aus ihrem Vorrat stahl, und ihn dabei tötete. Er zog dann in den Leuchtturm um, um näher an der Stadt zu sein. Am Ende des Tagebuches seht Ihr, dass Eure Gruppe als eine Bedrohung gegen ihn betrachtet wurde und er verschiedene Möglichkeiten plante, Euch für die Verbrechen verantwortlich zu machen. ~
+@71  = ~Ninja +2, +6 gegen Rechtschaffen Gute ~
+@72  = ~Diese finstere Klinge wurde von den Yakuza dafür entworfen, zu helfen, Paladine, gütige Herrscher und alle anderen zu beseitigen, die im Wege stehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Besonderheiten:
+   Tötet Rechtschaffen Gute bei erfolgreichem Treffer (kein Rettungswurf)
+
+ETW0: +2 Bonus, +6 gegen Rechtschaffen Gute
+Schaden: 1W8 +2
+Schadensart: aufschlitzen
+Gewicht: 1 
+Geschwindigkeitsfaktor: 0
+Waffenfertigkeit: Krummsäbel/Wakizashi/Ninja-To
+Waffentyp: einhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern ~
+@73  = ~Telvars Tagebuch ~
+@74  = ~Dieses Tagebuch enthält größtenteils Telvars Notizen über die Beobachtung des Himmels. Es gibt zudem einige Notizen über die Arzneitränke, die er schuf. Am Ende des Tagebuchs erwähnt Telvar, mit jemandem oder etwas "Erscheinung" genannten zusammen zu arbeiten. Er nennt keine Details außer der Tatsache, dass die "Erscheinung" die Untoten in der Burg kontrolliert. Es scheint so, als ob der Apparuit und er in Kürze einen Angriff auf Restenfurth planten. ~
+@75  = ~Telvars Zauberbuch ~
+@76  = ~Dies ist Telvars Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@77  = ~Schwere Wunden verursachender Zauberstab ~
+@78  = ~Obwohl Ihr immer dachtet, dass er nur von Klerikern verwendet werden kann, kann dieser Stab von jedem verwendet werden, der seinem Opfer nicht zu nahe kommen will.
+
+Kann schwere Wunden verursachen
+
+Kann von jedermann verwendet werden. ~
+@79  = ~X Zauberbuch ~
+@80  = ~Dieses Zauberbuch enthält Dutzende von speziellen Zaubern, die schwer zu finden sind.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@81  = ~Zahrdahls Zauberbuch ~
+@82  = ~Dies ist Zahrdahls Zauberbuch. Alle seine Zauber sind darin verwahrt.
+
+In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist. ~
+@83  = ~Zahrdahls Notizbuch ~
+@84  = ~Dieses Notizbuch enthält Zahrdahls Notizen über die Leute aus Restenfurth. Es scheint, als ob er über jeden ausführliche Informationen gesammelt hat. Es verzeichnet auch die neuen Probleme in der Stadt mit den Räubern, Gnollen und Ratten. Er stellt zudem fest, dass er plant, die Knochenhügel zu besuchen, um mehr Information darüber zu bekommen, was dort los ist.
+
+Die größte Entdeckung, die Ihr beim Lesen macht, ist die, dass diese Informationen dem Herzog von Kroten gesandt werden sollen. Es scheint so, als ob Zahrdahl überhaupt kein Köderhändler ist, sondern vom Herzog als Spion hierher gesandt wurde.
+
+Diese Informationen sollten an Pelltar gehen. ~
+@85  = ~Neue Läden werden installiert. ~
+@86  = ~Druide Almax ~
+@87  = ~Altons Rüstungen ~
+@88  = ~Tempel von Osprem ~
+@89  = ~Abtei von Phaulkon ~
+@90  = ~Falcos Taverne ~
+@91  = ~Gilmis Waffen ~
+@92  = ~Abrahams Haus ~
+@93  = ~Hestals Zaubertränke ~
+@94  = ~Kraks Waffenkammer ~
+@95  = ~Ohlatta der Juwelier ~
+@96  = ~Pelltar ~
+@97  = ~Pelltars Zauberbuch~
+@98  = ~Perks Laden ~
+@99  = ~Pheldmans Laden ~
+@100 = ~Euer Magieladen~
+@101 = ~Restenfurths Geschäft ~
+@102 = ~X-Schriftrollen ~
+@103 = ~Taverne zum Westwind ~
+@104 = ~Neue Wesen werden installiert. ~
+@105 = ~Abracus ~
+@106 = ~[MALE GREETING 12] Ja Kumpel? ~ [GENMG12]
+@107 = ~[MALE TOWNSFOLK 5] ~ [VILLM05]
+@108 = ~[MALE TOWNSFOLK6] ~ [MTOWN06]
+@109 = ~Abraham ~
+@110 = ~Almax ~
+@111 = ~Almon ~
+@112 = ~[MALE GREETING 8] Hallo. ~ [GENMG08]
+@113 = ~[MALE GREETING 11] Habt Ihr etwas auf dem Herzen?~ [GENMG11]
+@114 = ~Alton ~
+@115 = ~Seid gegrüßt. Eure Macht ist beeindruckend. ~ [EPRIM01]
+@116 = ~Gnade! Habt Gnade! ~ [EPRIM08]
+@117 = ~Ihr werdet um den Tod flehen, wenn ich mit Euch fertig bin! ~ [EPRIM05]
+@118 = ~Was wollt Ihr unter den Gläubigen? ~ [EPRIM02]
+@119 = ~Beugt Euch vor den Göttern nieder und bittet um Gnade! ~ [EPRIM03]
+@120 = ~Die Götter sind unversöhnlich, Narr! ~ [EPRIM04]
+@121 = ~Amos ~
+@122 = ~Andrella ~
+@123 = ~Armax ~
+@124 = ~Bürgermeisterin Arrness ~
+@125 = ~Arthur ~
+@126 = ~Ascue ~
+@127 = ~[OGRE MAGE 01] Hoo ha ha ha ha ha. ~ [OGREM01]
+@128 = ~[OGRE MAGE 02] Ihr sollt für Eure Frechheit sterben... ~ [OGREM02]
+@129 = ~[OGRE MAGE 04] Sterbt, Rindvieh! ~ [OGREM04]
+@130 = ~[OGRE MAGE 08] ~ [OGREM08]
+@131 = ~[OGRE MAGE 09] ~ [OGREM09]
+@132 = ~Balmar ~
+@133 = ~Balmorrow ~
+@134 = ~[BANDITS 1] Also trat ich ihm gegen den Kopf, bis er tot war. Ha ha. ~ [BANDT01]
+@135 = ~ [BANDITS 3] Brr, war das jetzt ein widerlicher Kerl, ha ha. ~ [BANDT03]
+@136 = ~ [BANDITS 4] Hört auf, Eure Nase überall reinzustecken! ~ [BANDT04]
+@137 = ~Basil ~
+@138 = ~Basmar ~
+@139 = ~Sir BillyBob ~
+@140 = ~Regen auf der Vogelscheuche, Blut auf dem Pflug. ~
+@141 = ~Beshkar ~
+@142 = ~[FEMALE GREETING 12] Hallo Ihr dort. ~ [GENFG12]
+@143 = ~[FEMALE THREAT 7] Eure Schreie sind Musik in meinen Ohren. ~ [GENFT07]
+@144 = ~[FEST HALL GIRL 5] ~ [FESTH05]
+@145 = ~[FEST HALL GIRL 6] ~ [FESTH06]
+@146 = ~Bess ~
+@147 = ~Bomarc ~
+@148 = ~Messdiener von Osprem ~
+@149 = ~Messdiener ~
+@150 = ~Messdiener von Phaulkon ~
+@151 = ~Junge ~
+@152 = ~[MALE CHILDREN 1] Mutter sagte, ich solle nicht mit Fremden sprechen. ~ [MCHIL01]
+@153 = ~[MALE CHILDREN 5] ~ [MCHIL05]
+@154 = ~[MALE CHILDREN 6] ~ [MCHIL06]
+@155 = ~[MALE TOWNSFOLK OF NASHKELL 5 HOSTILE] Geht weg von mit mir! Ich würde Euch nicht soweit vertrauen, wie ich spucken kann! ~
+@156 = ~[MALE CHILDREN LAUGHING] ~ [AMB_M34B]
+@157 = ~Bürger ~
+@158 = ~[MALE GREETING 13] Hallo Kumpel. ~ [GENMG13]
+@159 = ~[MALE TOWNSFOLK OF NASHKELL HOSTILE] Geht mir aus den Augen! Ich werde nichts für Euch tun! ~
+@160 = ~[DRUNK 4] ~ [DRUNK04]
+@161 = ~[DRUNK 1] ~ [DRUNK01]
+@162 = ~[FARMERS 1] Ich habe jetzt keine Zeit, um mit Euch zu sprechen. ~ [FARME01]
+@163 = ~[FARMER 4 HOSTILE] Geht mir aus den Augen! Ich werde nichts für Euch tun! ~
+@164 = ~[FARMERS 5] ~ [FARME05]
+@165 = ~[FARMERS 6] ~ [FARME06]
+@166 = ~Baurbeiter ~
+@167 = ~Dienstmädchen ~
+@168 = ~Eless ~
+@169 = ~Fabio ~
+@170 = ~Tut mir leid, ich nehme keine Wünsche an. ~ [FABIO20]
+@171 = ~Tut mir leid, ich muss gehen. Die Damen rufen mich. Auf Wiedersehen. ~ [FABIO11]
+@172 = ~Ihr wisst es? Ihr habt ganz recht. Ich muß vielleicht ein Lied über Euch schreiben. ~ [FABIO15]
+@173 = ~Diese Gruppe hat einige ernste Probleme. ~ [FABIO12]
+@174 = ~Wisst Ihr, ich kann wirklich bessere Dinge mit meiner Zeit anfangen, als mit Leuten wie Euch zusammen zu sein. ~ [FABIO16]
+@175 = ~Das ist es, ich bin mit Euch fertig. Ihr könnt ein Lied vergessen. ~ [FABIO13]
+@176 = ~Wenn ich für einen Tag König wäre. ~ [FABIOB]
+@177 = ~Gähn. Mann, ich brauche meinen Schönheitsschlaf. ~ [FABIOC]
+@178 = ~Ihr wisst, das hindert mich daran, Röcken nachzulaufen. ~ [FABIOD]
+@179 = ~Ich werde von Eurem Tod singen! ~ [FABIOA]
+@180 = ~Ein weiterer Narr, der in meinen Händen stirbt. ~ [FABIO9]
+@181 = ~Tod Euch allen! Hmm, vielleicht sollte ich das niederschreiben. ~ [FABIO8]
+@182 = ~Euer Tod verdient gar kein Lied. ~ [FABIO10]
+@183 = ~Für die Bedürftigen! Wartet, es ist urheberrechtlich geschützt. ~ [FABIO19]
+@184 = ~Ouch! Verdammt, dieser Schmerz! ~ [FABIOL]
+@185 = ~Pfui. ~ [FABIOM]
+@186 = ~Hey! Wir brauchen einen Zaubertrank hier, schnell jetzt! ~ [FABIOE]
+@187 = ~Ah, der Wald mit viel Stille. Wenn nur ich eine Dame hatte, mit der ich sie genießen könnte... ~ [FABION]
+@188 = ~Bitte, bitte meine  Damen, steht in einer Reihe an. ~ [FABIOO]
+@189 = ~Ah, das ergibt wenig Sinn, diesen Akzent hier unten zu verwenden. ~ [FABIOP]
+@190 = ~Nur im Tageslicht könnt Ihr mein schönes Gesicht wirklich sehen. ~ [FABIOQ]
+@191 = ~Gebrumm ~ [FABIOR]
+@192 = ~Ich schwöre, dass ich wirklich nicht ihr Alter kannte. ~ [FABIOG]
+@193 = ~So viele Frauen, so wenig Zeit. ~ [FABIOF]
+@194 = ~Da war einmal eine Dame aus Nantucket ... ~ [FABIOH]
+@195 = ~Geck, was ist los? ~ [FABIOX]
+@196 = ~Habe ich Euch jemals von diesem Dieb mit einem Schwanz erzählt, den ich traf? Oh, Mann! ~ [FABIO0]
+@197 = ~Ja, Herr Kommandant! ~ [FABIOT]
+@198 = ~Liebeslaube, Baby, Liebeslaube, ja! ~ [FABIOI]
+@199 = ~Hasst mich nicht, nur weil ich schön bin. ~ [FABIOJ]
+@200 = ~Sicher. Ich kann das tun. ~ [FABIOK]
+@201 = ~Hey! Ich arbeite hier. ~ [FABIOY]
+@202 = ~Recht gut, mein Herr. ~ [FABIOU]
+@203 = ~Oh, aber sicher, laßt mich es tun. Ich sehe nicht, dass Ihr es tut.~ [FABIO_]
+@204 = ~Ein anderer gefallener Held. Hmm, vielleicht sollte ich ein Lied über ihn schreiben. ~ [FABIOW]
+@205 = ~Süß! ~ [FABIOV]
+@206 = ~Oh, ja! ~ [FABIOZ]
+@207 = ~Was?! Ich verfehle nie. ~ [FABIO1]
+@208 = ~Was zur Hölle? Es funktioniert nicht. ~ [FABIO2]
+@209 = ~Hey, dieser Packen ist voll, Freund. Findet einen anderen Maulesel. ~ [FABIO3]
+@210 = ~Ha ha ah! ~ [FABIO4]
+@211 = ~Fabio, der berühmte Barde - so behauptet er -, scheint überall gewandert zu sein. Mit verschiedenen Ensembles durch unzählige Welten reisend. Leider bezieht er sich auf Dinge in anderen Welten, die nicht immer Sinn ergeben für diejenigen, die nicht dorthin gereist sind. Ein offensichtliches Laster von ihm sind die Frauen. Er kann nicht ein Gespräch mit Euch führen, ohne sich nach jeder Frau in der Nähe umzusehen. Da er sich für einen Frauentyp hält, kann er zuweilen den weiblichen Gruppenmitgliedern sehr lästig werden. Er versucht sich gerne in verschiedenen Dialekten in der Hoffnung, dass irgendwelche Frauen in der Nähe ohnmächtig werden. Hoffentlich wird seine redegewandte, aber gespaltene Zunge Euch nicht in irgendwelche Schwierigkeiten bringen. ~
+@212 = ~Fairwind ~
+@213 = ~Falco ~
+@214 = ~Falpir ~
+@215 = ~Felwin ~
+@216 = ~[ELF FEMALE 2] Ich bevorzuge die bewaldeten Gebiete, aber man muss in diesen Zeiten flexibel sein. ~ [FELFF02]
+@217 = ~[ELF FEMALE 5] ~ [FELFF05]
+@218 = ~[ELF FEMALE 6] ~ [FELFF06]
+@219 = ~[ELF FEMALE 1] Guter Tag und hallo zu Euch. ~ [FELFF01]
+@220 = ~Feuerriese ~
+@221 = ~Fliban ~
+@222 = ~Gap ~
+@223 = ~Gellius ~
+@224 = ~Gelmark ~
+@225 = ~[STOREOWNER 1] Herzlich willkommen in meinem bescheidenen Geschäft. ~ [STORE01]
+@226 = ~[STOREOWNER 5] ~ [STORE05]
+@227 = ~[STOREOWNER 6] ~ [STORE06]
+@228 = ~[STOREOWNER 3] Der Kunde hat immer recht. ~ [STORE03]
+@229 = ~Gelpas ~
+@230 = ~Gilmi ~
+@231 = ~Glami ~
+@232 = ~[MALE THREAT 5] Tut mir Leid, mein Freund, aber Ihr werdet Euch wohl gleich die Radieschen von unten anschauen. ~ [GENMT05]
+@233 = ~[MALE GREETING 9] Sprecht lauter, sprecht lauter! ~ [GENMG09]
+@234 = ~Golem ~
+@235 = ~Gorharg ~
+@236 = ~Grecko ~
+@237 = ~Baron Grellus ~
+@238 = ~Gristla ~
+@239 = ~Skelett ~
+@240 = ~[GUARDS  5] ~ [GUARR05]
+@241 = ~[GUARDS  6] ~ [GUARR06]
+@242 = ~[MALE GREETING 14] Hallo ~ [GENMG14]
+@243 = ~[FRIENDLY ARM INN GUARDS (CPT. BILSHIRE) HOSTILE] Ihr habt Euch hier keine Freunde gemacht! Geht weiter! ~
+@244 = ~[GUARDS 1] ~ [GUARR01]
+@245 = ~Wache ~
+@246 = ~Mörder-Lehrling ~
+@247 = ~Haki ~
+@248 = ~Harmin ~
+@249 = ~Harfner ~
+@250 = ~Hestal ~
+@251 = ~[LOW CLASS MAN 1] 'Hey Freund! Gut, eine feine Scheißkerl wie Euch zu treffen. ~ [MANLC01]
+@252 = ~[LOW CLASS MAN 3] ~ [MANLC03]
+@253 = ~[LOW CLASS MAN 4] ~ [MANLC04]
+@254 = ~Hoirag ~
+@255 = ~Holga ~
+@256 = ~Krak ~
+@257 = ~[ORC 01] ~ [ORCAXE01]
+@258 = ~[ORC 03] ~ [ORCAXE03]
+@259 = ~[ORC 04] ~ [ORCAXE04]
+@260 = ~[ORC 08] ~ [ORCAXE08]
+@261 = ~[ORC 10] ~ [ORCAXE10]
+@262 = ~[ORC 02] ~ [ORCAXE02]
+@263 = ~Krellus ~
+@264 = ~Echsenmensch ~
+@265 = ~Echsenmenschen-König~
+@266 = ~Echsenmenschen-Schamane ~
+@267 = ~Locinda ~
+@268 = ~Lothar ~
+@269 = ~Lydia ~
+@270 = ~Martin ~
+@271 = ~[DRUID 2] Kommt der Natur nicht in die Quere, sonst komm ich Euch in die Quere. ~ [DRUID02]
+@272 = ~[DRUID 5] ~ [DRUID05]
+@273 = ~[DRUID 6] ~ [DRUID06]
+@274 = ~[DRUID 1] Es wäre gut für Euch, auf Euer Verhalten zu achten, solange Ihr in diesem Wald seid. ~ [DRUID01]
+@275 = ~[DRUID 3] Die Zivilisation scheint weit weg zu sein, Stadtbewohner. ~ [DRUID03]
+@276 = ~Marvin ~
+@277 = ~Oger ~
+@278 = ~[OGRE 03] Ich werde Euch zerquetschen, Euch zu Brei zerquetschen! ~ [OGREE03]
+@279 = ~[OGRE 04] Ich werde Euer Gesicht zerschlagen. ~ [OGREE04]
+@280 = ~[OGRE 08] ~ [OGREE08]
+@281 = ~[OGRE 09] ~ [OGREE09]
+@282 = ~[OGRE 01] Ich werde Euch zerschmettern. ~ [OGREE01]
+@283 = ~[OGRE 02] ~ [OGREE02]
+@284 = ~[OGRE 10] ~ [OGREE10]
+@285 = ~Ogerwache ~
+@286 = ~Ohlatta ~
+@287 = ~Ogerleutnant ~
+@288 = ~Oger ~
+@289 = ~Ogerführer ~
+@290 = ~Oskar ~
+@291 = ~Perk ~
+@292 = ~[MALE GREETING 10] Was wollt Ihr? ~ [GENMG10]
+@293 = ~Philmar ~
+@294 = ~Phyllis ~
+@295 = ~Priska ~
+@296 = ~Qualton ~
+@297 = ~[KELDATH ORMLYR 3] ~ [KELDT03]
+@298 = ~[KELDATH ORMLYR 4] ~ [KELDT04]
+@299 = ~[KELDATH ORMLYR 2] Berührt mich nicht, ich bin ausgesprochen wichtig. ~ [KELDT02]
+@300 = ~Quenex ~
+@301 = ~Riesenratte ~
+@302 = ~Ravella ~
+@303 = ~[FEMALE TOWNSFOLK OF NASHKELL 2 HOSTILE] Ich werde kein Wort sprechen nach dem, was Ihr getan habt! ~
+@304 = ~[FEMALE TOWNSFOLK  5] ~ [FTOWN05]
+@305 = ~[FEMALE TOWNSFOLK  6] ~ [FTOWN06]
+@306 = ~[FEMALE GREETING 12] ~ [GENFG12]
+@307 = ~Relba ~
+@308 = ~Rogan ~
+@309 = ~[MALE GREETING 6] Hallo, Freund. ~ [GENMG06]
+@310 = ~Sänger ~
+@311 = ~[MAREK 1] Könnten wir für einen Moment Eure Zeit beanspruchen? ~ [MAREK01]
+@312 = ~[MALE THREAT 3] Ich habe eine Klinge mit Eurem Namen darauf. ~ [GENMT03]
+@313 = ~[MAREK 3] ~ [MAREK03]
+@314 = ~[MAREK 3] ~ [MAREK04]
+@315 = ~[MAREK 2] Dumme Schläger. Sie werden nie wissen, was sie niedergemacht hat. ~ [MAREK02]
+@316 = ~Selmo ~
+@317 = ~Söldner ~
+@318 = ~Shargrailar ~
+@319 = ~[DAVEORN 6] Zittert vor der Kraft meiner Zauberei! ~ [DAVEO06]
+@320 = ~[DAVEORN 5] Eure Anstrengungen sind sinnlos! ~ [DAVEO05]
+@321 = ~[DAVEORN 3] Sterbt, unverschämte Bälger! ~ [DAVEO03]
+@322 = ~[DAVEORN 4] Ah ha ha ha ha ha! ~ [DAVEO04]
+@323 = ~Sirius ~
+@324 = ~Schmied ~
+@325 = ~Ruß ~
+@326 = ~[Cat Meow1] ~ [AMB_E44A]
+@327 = ~[Cat Meow2] ~ [AMB_E44D]
+@328 = ~[Cat 1] Miauen ~ [AMB_E44A]
+@329 = ~[Cat 2] Miauen ~ [AMB_E44D]
+@330 = ~Pheldman ~
+@331 = ~Unbekannter Angreifer ~
+@332 = ~Tellish ~
+@333 = ~Telvar ~
+@334 = ~[DAVEORN 7] Eure kläglichen Talente sind meinem Zauber nicht gewachsen! ~ [DAVEO07]
+@335 = ~[DAVEORN 8] ~ [DAVEO08]
+@336 = ~[DAVEORN 9] ~ [DAVEO09]
+@337 = ~[DAVEORN 1] Die unerschütterlichen Abenteurer haben also den Weg hier herunter in meine Höhle gefunden. ~ [DAVEO01]
+@338 = ~Schurke ~
+@339 = ~Tolvar ~
+@340 = ~Tavernendirne ~
+@341 = ~Statue ~
+@342 = ~Volcifar ~
+@343 = ~Wachhund ~
+@344 = ~[DOG, WAR 03] ~ [WADOG03]
+@345 = ~[DOG, WAR 04] ~ [WADOG04]
+@346 = ~[DOG, WAR 05] ~ [WADOG05]
+@347 = ~[DOG, WAR 06] ~ [WADOG06]
+@348 = ~[DOG, WAR 08] ~ [WADOG08]
+@349 = ~[DOG, WAR 09] ~ [WADOG09]
+@350 = ~[DOG, WAR 01] ~ [WADOG01]
+@351 = ~[DOG, WAR 02] ~ [WADOG02]
+@352 = ~Beobachter ~
+@353 = ~Welcar ~
+@354 = ~Wilbur ~
+@355 = ~Wilfong ~
+@356 = ~Willis ~
+@357 = ~Gespenst ~
+@358 = ~Yalta ~
+@359 = ~Zahrdahl ~
+@360 = ~Zelmar ~
+@361 = ~Neue Skripte werden erstellt~
+@362 = ~Dialoge werden erstellt~
+@363 = ~Neue Gebiete werden installiert ~
+@364 = ~Tutu ist installiert, Tutu-Dateien werden installiert ~
+@365 = ~Schloß Restenfurth ~
+@366 = ~Barracken ~
+@367 = ~Der Magieladen ~
+@368 = ~Rüstungen, Waffen und Schilder ~
+@369 = ~Die schweren Schritte eines Wächters aus Restenfurth erwecken Euch aus Eurem Schlummer. ~
+@370 = ~Kahle Hügel ~
+@371 = ~Restenfurth ~
+@372 = ~Pfarrhaus ~
+@373 = ~Süden von Garrotten ~
+@374 = ~Hier ist ein kleiner Tunneleingang. Er ist gut verborgen und sieht nicht so aus, als ob er kürzlich verwendet wurde. Etwas hält Euch davon, in diesen Tunnel hineinzugehen. ~
+@375 = ~Jemand hat einen Tunnel unter dem Zaun gegraben. ~
+@376 = ~Dies muss der Galgenbaum sein. Mehrere alte Taue hängen von den großen Zweigen herab. ~
+@377 = ~Dreispitz ~
+@378 = ~Dies führt zum Altar zurück. Ihr solltet vielleicht die Stufen bedecken, so dass keiner weiß, dass Ihr hier herunter gekommen seid. ~
+@379 = ~Diese Baracken waren offensichtlich einem Großfeuer ausgesetzt. Der grösste Teil des Daches ist verbrannt. ~
+@380 = ~Das Haus sieht verlassen aus. Diese Tür ist mit Unkraut und Sträuchern überdeckt. ~
+@381 = ~Das Bett, der Tisch und andere Möbel sind verfault und drohen zusammenzubrechen. ~
+@382 = ~Hier befindet sich eine benutze Zielscheibe mit einem noch darin steckendem verrosteten Dolch. ~
+@383 = ~Dieser Tunnel ist nur für Ratten groß genug, um hindurch zu gelangen. Das muss die Stelle sein, wo sie aus den Höhlen herauskommen. ~
+@384 = ~Von dem, was Ihr aus diesen Überresten ersehen könnt, muss dies ein Dieb gewesen sein. Dunkle Kleidung und ein gebrochener Nachschlüssel sind alles, was außer Knochen übrig geblieben ist. ~
+@385 = ~Baron von Restenfurth ~
+@386 = ~Pelltars Turm ~
+@387 = ~Ausgang ~
+@388 = ~Hier liegt Joe, der sagte, "Dieser Mod wird mein Tod sein!" ~
+@389 = ~Dies sieht wie ein frisches Grab aus.~
+@390 = ~Hier hinten verborgen führt ein schmaler Tunnel hinab. ~
+@391 = ~Dieses Skelett sieht neu aus. Die übrig gebliebene Kleidung ist dunkel und sieht wie eine Zaubererrobe aus. ~
+@392 = ~Dieses Katapult sieht aus, als ob jemand es wieder aufbaut. Mehrere Balken wurden ersetzt. ~
+@393 = ~Ihr seht, dass in diesem Gebiet alles pflanzliches Leben abgestorben ist. ~
+@394 = ~Diese kleine Festung sieht so aus, als wurde sie erst kürzlich aufgegeben. Sie beginnt zu zerfallen. ~
+@395 = ~Ödenwald ~
+@396 = ~Kellerausgang ~
+@397 = ~Ausgang zur Oberfläche ~
+@398 = ~Norden von Restenfurth ~
+@399 = ~Osten von Restenfurth ~
+@400 = ~Knochenhügel ~
+@401 = ~Macht eine Pause und betet in meinem Tempel! Die Gottheiten der Meere wollen Euer Lob und Eure Großzügigkeit erfahren. ~
+@402 = ~Statue von Osprem, Göttin der Fischer und Matrosen. ~
+@403 = ~Geht hinaus aufs Meer in Schiffen, um seine Spende durch angemessene Mittel zu verlangen. Füttert seine Ungeheuer oder befreit die Meere von ihnen. Das ist das Glück der Meere! ~
+@404 = ~Statue von Xerbo, Gott des Meeres ~
+@405 = ~Theater der geheimnisvollen Feiern ~
+@406 = ~Die schweren Schritte eines Stadtwächters erwecken Euch aus Eurem Schlummer. ~
+@407 = ~Nach Restenfurth ~
+@408 = ~Zum Schloss ~
+@409 = ~Norden der Stadt ~
+@410 = ~Süden der Stadt ~
+@411 = ~Da sind zwei kleine Löcher in der Wand, die jemanden erlauben, von dieser Stelle ins folgende Zimmer zu sehen. ~
+@412 = ~Gartengeräte und mit Schmutz bedeckte Kleidungsstücke liegen entlang dieser Wand. ~
+@413 = ~Dies ist eine Bildsäule der Göttin Osprem. ~
+@414 = ~Diese Regale sind mit Büchern über Theologie und Religion gefüllt.~
+@415 = ~Diese Tonnen sind mit verschiedenen Waffen und Werkzeugen gefüllt. Die meisten von ihnen scheinen verrostet und in schlechtem Zustand zu sein. ~
+@416 = ~Diese dicken Plüschteppiche sind für die leichte Lagerung aufgewickelt worden. ~
+@417 = ~Eine Reihe von Laternen hängen hier ausgestellt. Nach den Staubschichten zu urteilen, sind sie seit sehr langer Zeit hier. ~
+@418 = ~Eine fremdartige Zusammenstellung von Kleidung ist an diesen hölzernen Ständer gehängt worden. Es scheint, eine Tracht aus einem seidenen Wams mit aufgedruckten Blumen und einem dazu passenden Turban zu sein. ~
+@419 = ~Diese Lederumhängetaschen minderer Qualität stellen offensichtlich keine fachmännische Arbeit dar. Ihre Nähte sind offen und ausgefranst, und es ist zweifelhaft, dass sie das Gewicht von mehr als einigen Münzen zuverlässig halten können. ~
+@420 = ~Eine Auswahl an polierten Vasen und Öllampen ist über die Länge dieses Ladentisches gestreut. ~
+@421 = ~Diese Borde sind mit vielen und unterschiedlichen Gegenständen bestückt, angefangen von Büchern und Pergament bis hin zu Kleidung, Essen und Kochgeschirr. Keiner der Gegenstände scheint von besonderer Bedeutung zu sein. ~
+@422 = ~Tragt nicht die Macht der Waffen an die Festungstür, oder ich werde Euch niederstrecken. ~
+@423 = ~Dies ist eine Bildsäule von Kord, dem Gott des Krieges. ~
+@424 = ~Diese Stufen sind eingebrochen und halten jeden davon ab, den Rest dieses Turms zu betreten. Jüngere Reparaturen sind noch nicht abgeschlossen. ~
+@425 = ~Dieser rostige Apparat scheint eine funktionstüchtige Orgel zu sein. ~
+@426 = ~Dieser Bereich des Turms ist abgebröckelt, ein riesiges Loch gähnt im Fußboden. ~
+@427 = ~Verschiedene Werkzeuge, um Schlösser zu öffnen, sind auf diesem Tisch verstreut. ~
+@428 = ~Verschiedene Folterwerkzeuge sind auf diesem Tisch angeordnet. Viele sehen nach häufigem Gebrauch aus. ~
+@429 = ~Dieser Gang ist eingestürzt. ~
+@430 = ~Ihr seht einen großen Höhleneingang, aber es gibt keinen Weg, den Hügel hinabzugelangen, um hineinzugehen. Vielleicht gibt es einen weiteren Eingang? ~
+@431 = ~Höhleneingang ~
+@432 = ~Dieser Durchgang führt zum See. ~
+@433 = ~Norden von Garrotten ~
+@434 = ~Diese Markierung wurde durch das Geschmier von Orks unleserlich gemacht . ~
+@435 = ~BGT-Weidu installiert, BGT Dateien werden installiert~
+@436 = ~Update von Spieldateien ~
+@437 = ~Neue Gebiete installieren? Das muss mindestens einmal gemacht werden! ~
+
+@501  = ~Diese Person hat nun Stufe 0. Lasst sie aufsteigen, um ihre Eigenschaften und Fertigkeiten zu bestimmen. (Bis Ihr dies tut, können ihre Trefferpunkte und Ausrüstung etwas seltsam sein; sorgt Euch nicht darum. Wenn Ihr sie aufsteigen lasst, können sie mehrere Stufen hinzugewinnen (abhängig von Eurer eigenen Erfahrung).~
+
+@750	= ~Anführer der Hand-Banditen~

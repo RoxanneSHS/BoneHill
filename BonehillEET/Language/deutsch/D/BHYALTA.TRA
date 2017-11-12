@@ -1,0 +1,67 @@
+@1  = ~Seid gegrüßt, ich bin Yalta. Was kann ich für Euch tun? ~ 
+@2  = ~Gruß Euch, Yalta. Wir sind die Gruppe von <CHARNAME>. Wir helfen Pelltar bei einigen Problemen, die Restenfurth plagen. ~
+@3  = ~Angriffe der Gnolle
+
+Ich erzählte Yalta von dem Oger, der die Gnolle anführte. Hoffentlich ist dieses Problem gelöst. ~ 
+@4  = ~Angriffe der Gnolle
+
+Yalta sagt, dass die Gnolle vom Dreispitz weiterhin die Stadt angreifen. Sie scheinen besser organisiert zu sein als in der Vergangenheit, und sie sind zur echten Herausforderung für die Wachen geworden. Etwas geht dort draußen vor, und er will, dass ich herausfinde, was es ist. ~
+@5  = ~Die Gnolle am Dreispitz standen unter der Kontrolle eines Ogers. Wir haben ihn getötet und alle Gnolle erlegt, die wir finden konnten. Sie sollten die Stadt jetzt eine ganze Weile lang nicht mehr belästigen. ~ 
+@6  = ~Es scheint, dass es ein altes Höhlensystem unter der alten Wache gibt und die Ratten ein riesiges Nest in der Höhle hatten. Wir fanden zudem einige Untote und vernichteten auch sie. ~
+@7  = ~Ah, ja. Wir haben unseren Anteil daran. Gibt es etwas Besonderes, wofür Ihr Euch interessiert? Vielleicht kann ich helfen. ~
+@8  = ~Ich nehme an, dass Ihr ein Priester seid? ~ 
+@9  = ~Verstehe ich richtig, dass Banden von Gnollen die Stadt angegriffen haben? ~
+@10 = ~Habt Ihr irgendetwas über die alte aufgegebene Wache gehört? ~ 
+@11 = ~Wir sind noch nicht lange hier. Daher bringen wir erst nach und nach in Erfahrung, was im Argen ist. Gibt es irgendetwas, womit Ihr uns Eurer Meinung nach helfen könntet? ~
+@12 = ~Nein, ich glaube, dass wir alles behoben haben, was Ihr bislang erwähnt habt. Wenn Ihr nichts anderes habt, werden wir das mit Pelltar klären. ~
+@13 = ~Danke für das Angebot. Ich glaube, dass Ihr so weit über alles berichtet habt. Wir werden weitersuchen, bis wir die Antworten finden. ~ 
+@14 = ~Ja, ich bin der geistliche Berater der Baronin Lady Fairwind. ~
+@15 = ~Berater? ~ 
+@16 = ~Habt Ihr Lady Fairwind noch nicht getroffenen? Sie ist ebenfalls eine Priesterin. ~
+@17 = ~Natürlich ist sie ob ihrer Aufgaben als Baronin nicht immer imstande, ihregeistliche Ausbildung fortzusetzen. Ich bin ihr Privatlehrer, obwohl seit kurzem eher ein Vertrauter in bezug auf ihre weltlichen Probleme. ~
+@18 = ~Die Baronin ist in Schwierigkeiten? ~
+@19 = ~Nein, nein, überhaupt nicht. Sie erachtet die Probleme der Ländereien als ihre eigenen - und als die ihres Mannes natürlich. Sie wollen nicht, dass die Leute leiden. ~ 
+@20 = ~Es ist eine Schande, dass andere Herrscher nicht genauso empfinden. ~
+@21 = ~Hmm? Ja, ja, leider nur zu wahr. Wo war ich? ~ 
+@22 = ~Ihr wart dabei, uns von einigen der Probleme Eurer Stadt zu erzählen. ~ 
+@23 = ~Ihr erzähltet uns von den Problemen in der Gegend. Ich glaube, dass Ihr über alles Bericht erstattet habt. ~
+@24 = ~(Er seufzt.) Ja, das bereitet Restenfurth fortwährend Probleme. Überall in den Hügeln und der Wildnis ringsum lungern Meuten von Gnollen, Orks, Goblins und so weiter. ~ 
+@25 = ~Ja. Ein kleines Mädchen wurde von einer großen Ratte unten in der Nähe der alten aufgegebenen Wache angefallen. Normalerweise wäre das kein Problem für Euch, aber auch andere klagen über die Ratten. Überprüft es doch und stellt bitte sicher, dass nichts Ungewöhnliches dahinter steckt. Besprecht Euch mit Zahrdahl, er ist der Händler, der in der Nähe der Wache lebt. Er weiß vielleicht mehr darüber, wo diese Ratten herkommen. ~
+@26 = ~Yalta bat mich, eine verlassene Wache voller Ratten freizuräumen. Klingt leicht genug. Er schlug vor, mit dem Köderverkäufer zu sprechen, da er in der Nähe der Wache lebt. ~
+@27 = ~Wir nehmen uns der Sache gerne an. Habt Dank. ~
+@28 = ~Was kümmert es mich? Wenn sie stirbt, hätte sie sich dort wohl nicht herumtreiben sollen. Geschieht ihr recht. ~
+@29 = ~Gibt es noch andere Probleme außer den Ratten? ~
+@30 = ~Wir haben uns bereits um das Rattenproblem gekümmert. ~
+@31 = ~Nun, jetzt enttäuscht Ihr mich doch ein wenig. Wenn das Eure Vorstellung von Hilfe ist, solltet Ihr Pelltar bitten, Euch zurückzuschicken. Verlasst mich bitte. ~
+@32 = ~Es gibt weitere Probleme in Restenfurth. Kommt zurück, sobald Ihr die Gelegenheit habt. ~
+@33 = ~Die meiste Zeit lassen sie uns allein. Nur während der extrem kalten Wintereinbrüche unternehmen sie jede Anstrengung, um die Stadt anzugreifen. Das liegt an der Nahrungsmittelknappheit im Winter. Eigentlich sollte das ihre Population mindern, aber sie scheinen sich wie Kaninchen fortzupflanzen. ~
+@34 = ~Die letzten Angriffe folgten nicht dem normalen Muster. Jetzt ist nicht Winter, es sollte genug zu essen geben bei ihnen. Also warum belästigen sie uns? Ich glaube, etwas oder jemand hilft ihnen, sich zu organisieren. ~
+@35 = ~Was veranlasst Euch, so zu denken? ~
+@36 = ~Ja, ja! Ihr habt uns bereits Eure Information über die Gnolle gegeben. Wir werden weitersuchen. ~
+@37 = ~Die Angriffe sind besser geplant. Jetzt kommen sie in Gruppen und greifen die Mauer an verschiedenen Punkten an. Unsere Soldaten werden bei dem Versuch, mehrere Punkte zu schützen, auseinandergezogen. Früher formierten sich die Gnolle einfach im Pulk. Auch haben sie nun Wölfe abgerichtet, um Reisende oder Soldaten außerhalb der Stadtmauern anzugreifen. Außerdem kommen sie neuerdings zu allen Tageszeiten. Früher war das nur nachts. ~
+@38 = ~Wir prüfen das gerne für Euch. ~
+@39 = ~Hmm, wir können das später untersuchen. Pelltar hat Dringenderes für uns. ~
+@40 = ~Ja, Gnollmeuten greifen weiterhin die Stadt vom Westen her an. ~
+@41 = ~Redet mit Almax oder Sir BillyBob. Sie leben beide auf der anderen Seite der Stadt. Sie können Euch vielleicht weiterhelfen. Gehet in Frieden <BROTHERSISTER>. ~
+@42 = ~Wirklich? Hervorragend. Wie froh ich bin, dass Ihr hier seid. Pelltar traf eine ausgezeichnete Entscheidung, Euch aufzusuchen. ~
+@43 = ~Danke. Wir helfen nur, wo wir können. ~
+@44 = ~Untote? Hier? In der Stadt? Oh meine Güte. Dies SIND unruhige Zeiten. Vielen Dank dafür, dass Ihr Euch dessen annehmt. Übrigens wird das kleine Mädchen wieder gesund werden. ~
+@45 = ~Gern geschehen. ~
+@46 = ~Gehet in Frieden, <BROTHERSISTER>. ~
+@47 = ~Schön, dass Ihr zurück seid, <CHARNAME>, wie sind Eure Untersuchungen verlaufen? ~
+@48 = ~Sehr gut bis jetzt. Es scheint, je weiter wir suchen, desto mehr Probleme finden wir. ~
+@49 = ~Gnoll-Angriffe
+
+Ich erzählte Yalta von dem Oger Magier, der die Gnolle anführt. Hoffentlich wird dieses Problem gelöst. ~
+@50 = ~Angriffe der Gnolle
+
+Yalta sagt, dass die Gnolle vom Dreispitz weiterhin die Stadt angreifen. Sie scheinen besser organisiert zu sein als in der Vergangenheit, und sie sind zur echten Herausforderung für die Wachen geworden. Etwas geht dort draußen vor, und er will, dass ich herausfinde, was es ist. ~
+@51 = ~Die Gnolle draußen beim Dreispitz waren unter der Kontrolle eines Oger-Magiers. Wir töteten den Oger-Magier und erlegten alle Gnolle, die wir finden konnten. Sie sollten jetzt die Stadt ganz eine Weile lang nicht mehr belästigen. ~
+@52 = ~Sehr gut bis jetzt. Wir tun unser Bestes, um alle Probleme zu beseitigen, über die wir stolpern. ~
+@53 = ~Bitte geht jetzt! Ich will nichts mehr mit Euch zu tun haben! ~
+@54 = ~Wirklich?! Erzählt es mir bitte. ~
+@55 = ~Pah, sowohl Zwerge als auch Elfen könnten dasselbe über die blöden Menschen sagen. ~
+@56 = ~Was! Hört bitte nicht auf <CHARNAME>. Wir wären erfreut, die Stadt von bösen Ratten zu befreien. Boo hasst Ratten. ~
+@57 = ~K-klingt nach einem ausgezeichneten Herrscher für diese Stadt. Andere sollten es ihr gleich tun. ~
+@58 = ~Pah! Verdammt gute Annehmlichkeiten. Ich wette, dass sie tatsächlich herumsitzen und jede Nacht ihre Steuereinnahmen zählen. ~
+@59 = ~Ignoriert ihn. Es ist eine Schande, dass andere Herrscher es nicht genauso halten wie die Euren. ~

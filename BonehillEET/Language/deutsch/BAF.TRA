@@ -1,0 +1,180 @@
+// BH0109.baf
+@0 = ~Es scheint so, als ob die Diebstähle eine Woche, nachdem ein notorischer Räuber namens Reynard gehängt wurde, begannen. Ebenfalls interessant ist, dass Restenfurth für gewöhnlich eine Diebesgilde hatte. Baron Grellus räucherte sie aus, als er Baron wurde. Die Diebe versteckten sich in den Abwasserleitungen unter der Westseite der Stadt. Verbirgt sich der Dieb dort? ~
+@1 = ~Nach mehreren Stunden des Stöberns habt Ihr einige interessante Informationen in den Geschichtsbüchern über Restenfurth entdeckt. Die Diebstähle begannen eine Woche, nachdem ein notorischer Räuber namens Reynard gehängt wurde. Ebenfalls interessant ist, dass Restenfurth für gewöhnlich eine Diebesgilde hatte. Baron Grellus räucherte sie aus, als er Baron wurde. Die Diebe versteckten sich in den Abwasserleitungen unter der Westseite der Stadt. In einem Führer über magische Gegenstände habt Ihr entdeckt, dass die Ruhmvolle Hand aus der Hand eines toten Diebs hergestellt wird. Jedoch erklärte der Text nicht, was die Hand tun kann. ~
+
+// BH0401T.baf
+@50 = ~Ihr findet eine Falltür unter den Trümmern. Sie sieht alt und unbenutzt aus. ~
+
+// BH0402T.baf
+@100 = ~Dies muss der Ort sein, wo die Ratten herkommen. Der Geruch ist entsetzlich. Ihr könnt sie bis nach oben hören. ~
+
+// BH0504.baf
+@150 = ~Es scheint so, als ob die Diebstähle eine Woche, nachdem ein notorischer Räuber namens Reynard gehängt wurde, begannen. Ebenfalls interessant ist, dass Restenfurth für gewöhnlich eine Diebesgilde hatte. Baron Grellus räucherte sie aus, als er Baron wurde. Die Diebe versteckten sich in den Abwasserleitungen unter der Westseite der Stadt. Verbirgt sich der Dieb dort? ~
+@151 = ~Nach mehreren Stunden des Stöberns habt Ihr einige interessante Informationen in den Geschichtsbüchern über Restenfurth entdeckt. Die Diebstähle begannen eine Woche, nachdem ein notorischer Räuber namens Reynard gehängt wurde. Ebenfalls interessant ist, dass Restenfurth für gewöhnlich eine Diebesigilde hatte. Baron Grellus räucherte sie aus, als er Baron wurde. Die Diebe versteckten sich in den Abwasserleitungen unter der Westseite der Stadt. ~
+
+// BH0700.baf
+@200 = ~Zusammen habt Ihr die Notiz als eine Karte von Restenfurth entziffern können. ~
+
+// BH1100.baf
+@250 = ~Der Anführer der Räuber ist jetzt tot. ~
+
+//BH1101.baf
+@260  = ~Nun wisst Ihr, wo die Orks die vermissten Wagen versteckt haben.~
+
+// BH1301.baf
+@300 = ~Ein Oger kontrolliert die Gnolle. Das erklärt die neuen organisierten Angriffe gegen Restenfurth. ~
+
+// BHALARM.baf
+@350 = ~Als Ihr durch die Türöffnung geht, ertönt ein Alarm und hört dann plötzlich auf. ~
+
+// BHALARM2.baf
+@400 = ~Jemand hat Euch bemerkt! Ihr hört die Wächter, die herbeigerufen werden! ~
+
+// BHALMON.baf
+@450 = ~Dieb! Wie könnt Ihr es wagen!! ~
+@451 = ~Euer Diebstahl wurde von Almon bemerkt. Die Wächter wurden herbeigerufen. ~
+
+//BHARNSPL
+@1300 = ~Hilfe! Wachen, schützt mich!~
+
+// BHBERSER.baf
+@500 = ~Nimmt einen Arzneitrank zu sich.~
+@501 = ~Ich brauche Heilung! ~
+
+// BHCTMS.baf
+@550 = ~Falle zugeschnappt! ~
+
+// BHCUTBA1.baf
+@600 = ~Götter was für ein Tag! Werden die Händler jemals aufhören zu zanken? ~
+@601 = ~Was ist das? Fairwind, seid Ihr das? ~
+@602 = ~Ha ha ha ha! ~
+
+// BHFAIR.baf
+@650 = ~Dieb! Wie könnt Ihr es wagen!! ~
+@651 = ~Euer Diebstahl wurde von der Lady Fairwind bemerkt. ~
+
+// BHGRAVE.baf
+@700  = ~Dies sieht wie ein frisches Grab aus.~
+@701 = ~Ihr schaufelt Reynalds Grab frei. Nach dem Aufbrechen des Sarg-Deckels entdeckt Ihr zwei Körper im Sarg. Einer ist ein menschlicher Mann mit fehlender linker Hand. Der andere ist ein männlicher Zwerg. ~
+@702 = ~Außer zwei faulenden Leichnamen ist nichts von Bedeutung in dem Grab. ~
+@703 = ~Ihr seid zu weit vom Grab entfernt, um irgendetwas damit zu tun. ~
+
+// BHHarper.baf
+@750 = ~Ich frage mich, ob wir mehr Schnee brauchen? ~
+@751 = ~Vielleicht brauchen wir mehr Dienstleistungen unter Wasser? ~
+@752 = ~Hmm, ich dachte, dieser Zauber würde die Flecken entfernen. ~
+@753 = ~Perfekt, es riecht nach Regen. ~
+@754 = ~Wann gibt es Mittagessen? Ich bin hungrig seit dem Frühstück. ~
+
+// BHINFO01.baf
+@800 = ~Als Ihr durch die Türöffnung geht, ertönt ein Alarm und hört dann plötzlich auf. ~
+
+// BHPELL.baf
+@850 = ~Zahrdahl besucht nicht den örtlichen Gasthof, und sein schlimmes Bein hält ihn davon ab, bis hinüber zur Taverne zu gehen. Warum interessiert ihn so sehr, was ich hier tue? ~
+@851 = ~Ein Bauer sagte uns, dass ihm ein Teil seines Viehs abhanden gekommen ist. Er glaubt, dass die Gnolle dahinter stecken. ~
+@852 = ~Ein Bauer sagte uns, dass er etwas sah, das sich in der Nähe seines Hauses bewegte. Er weiß jedoch nicht, was es war. ~
+@853 = ~Ein Mann behauptet, dass Untote in der Nähe der alten Wache auftauchen. Vielleicht muss ich das untersuchen. ~
+@854 = ~Ein Bauer, auf den wir stießen, erzählte uns eine Geschichte. Er sagte uns, dass sein Onkel einmal von einem Dämon besessen war. Sie schafften es, ihn zu befreien, indem sie einen "Personen halten" Zauber auf den unglücklichen Mann wirkten. Sein Onkel hatte die alten Ruinen erforscht. ~
+@855 = ~Auf einigen Straßen um Restenfurth herum gibt es Räuber. Klingt als ob wir zuhause wären. ~
+@856 = ~Der Diebstahl aus dem Warenlager
+
+Welcar denkt, dass nur ein einzelner Dieb in die Diebstähle verwickelt ist. Also verübte nur eine Person die ganzen Diebstähle? Und wie kam es zu den Tötungen? Wie? ~
+@857 = ~Der Diebstahl aus dem Warenlager
+
+Ich habe Welcar alle gestohlenen Waren zurückgegeben. Vielleicht wird Gelpas jetzt Pelltar erlauben, uns zurückzusenden. ~
+@858 = ~Welcar sagte, dass es alte Abwasserleitungen unter Restenfurth gibt. Diebe haben sich für gewöhnlich in ihnen versteckt. Ich frage mich, ob der Dieb sie jetzt benutzt. ~
+@859 = ~Gnoll-Angriffe
+
+Ich erzählte Yalta von dem Oger Magier, der die Gnolle anführt. Hoffentlich wird dieses Problem gelöst. ~
+@860 = ~Yalta bat mich, eine verlassene Wache voller Ratten freizuräumen. Klingt leicht genug. Er schlug vor, mit dem Köderverkäufer zu sprechen, da er in der Nähe der Wache lebt. ~
+@861 = ~Angriffe der Gnolle
+
+Yalta sagt, dass die Gnolle vom Dreispitz weiterhin die Stadt angreifen. Sie scheinen besser organisiert zu sein als in der Vergangenheit, und sie sind zur echten Herausforderung für die Wachen geworden. Etwas geht dort draußen vor, und er will, dass ich herausfinde, was es ist. ~
+@862 = ~Räumung der Aufgegebenen Wache
+
+Zahrdahl, der lokale Köderverkäufer, bat uns, einige Ratten zu beseitigen. Es scheint so, als ob es ein Nest von ihnen in der aufgegebenen Wache genau im Süden von seinem Haus geben muss. ~
+@863 = ~Räumung der Aufgegebenen Wache
+
+Ich sagte Zahrdahl, dass die Ratten ihn nicht länger belästigen werden. Natürlich, mit all den Ködern in seinem Haus, wird es nicht lange dauern, bis sie zurückkommen. ~
+@864 = ~Es sieht so aus, als ob jemand den Leuchtturmwärter getötet und seinen Körper in den Sarg mit dem Räuber hineingestopft hat. Ich nehme an, dass es dieselbe Person war - oder Personen. Es wird Zeit, den Leuchtturm zu überprüfen. ~
+@865 = ~Fabio glaubt, dass sich das Papier auf einen magischen Gegenstand, genannt die "Hand des Ruhms", bezieht. Ich frage mich, was das heißt und warum die Diebe dachten, sie sei in meinem Besitz. ~
+@866 = ~Es scheint so, als ob die Diebstähle eine Woche, nachdem ein notorischer Räuber namens Reynard gehängt wurde, begannen. Ebenfalls interessant ist, dass Restenfurth für gewöhnlich eine Diebesgilde hatte. Baron Grellus räucherte sie aus, als er Baron wurde. Die Diebe versteckten sich in den Abwasserleitungen unter der Westseite der Stadt. Verbirgt sich der Dieb dort? ~
+@867 = ~Findet den Mörder von Baron Grellus. ~
+@868 = ~Also, unsere Vermutung besteht darin, dass jemand aus der Stadt Garrotten am Meuchelmord an Baron Grellus beteiligt ist. Ich habe drei Verdächtige: Harfner, ein Hohepriester, Abraham, ein Gastwirt, und Balmorrow, ein Barde und Theaterbesitzer. Warum sollte einer dieser Leute den Baron töten wollen? Ist einer von ihnen wirklich ein Meuchelmörder, der angeheuert wurde, um ihn zu töten? Wenn es so ist, welcher? Und wer stellte den Meuchelmörder an? ~
+@869 = ~Die Gilde der Meuchelmörder
+
+Findet die Wahrheit über das Gerücht betreffs einer Gilde von Meuchelmördern in Garrotten heraus. ~
+@870 = ~Abt Qualton konnte Grellus nicht von den Toten auferstehen lassen. Aus irgendeinem Grund habe ich das Gefühl, dass er nicht so zerknirscht ist, wie er vorgab. ~
+@871 = ~Die Bürgermeisterin von Garrotten baut ein altes Schloss wieder auf. Sie scheint Geld zu haben, das nicht aus den Steuern stammt. Vielleicht war sie vor ihrer Ankunft hier bereits wohlhabend? Wenn sie so wohlhabend ist, warum berief der Herzog sie in diese kleine Stadt? Und warum tut sie etwas, von dem sie nicht will, dass andere Leute davon wissen? ~
+@872 = ~Es sieht so aus, als ob die Bürgermeisterin in meine Untersuchung eingreift. Sie hatte Balmorrow zum Verhör zitiert. Ich frage mich, warum sie das nicht hier im Theater erledigen konnten. ~
+@873 = ~Es sieht so aus, als ob die Bürgermeisterin in meine Untersuchung eingreift. Sie hatte Balmorrow zum Verhör zitiert. Ich frage mich, warum sie das nicht hier im Gasthof erledigen konnten? ~
+@874 = ~Gemäß Priska dürfte Basmar planen, mich beim nächstenmal, wenn wir aufeinander treffen, zu töten. Ich muss auf der Hut sein. ~
+@875 = ~Der Druide Martin hat mich gebeten, das Schloss anzugreifen! Er denkt, dass seine Freunde zu Unrecht beschuldigt wurden und deshalb getötet werden sollen. Er denkt auch, dass der Beweis für die Gilde irgendwo im oberen Stockwerk des Schlosses zu finden ist. ~
+@876 = ~Ich fand das heilige Symbol des Hohepriesters Harfner und entlarvte einen Spion in der Kirche. Jedoch ist er geflüchtet. Ich bin sicher, dass ich ihn wiedersehen werde. ~
+@877 = ~Harfner scheint wirklich eine verrückte Person zu sein. Entweder ist das echt oder immerhin sehr gutes Schauspiel. Mir wurde die Erlaubnis erteilt, in der Kirche nachzuforschen. Ich glaube, dass ich mit diesem Lothar sprechen muss. ~
+@878 = ~Abraham ist unschuldig! Der Stallbursche, Falpir, gab zu, einen Knopf von Abrahams Weste gestohlen zu haben. Oskar hatte den Jungen gebeten, ihn zu stehlen. Ich sagte, dass Oskar ein Gildenmitglied war, und jetzt habe ich mehr Beweise. Nach einer gestrengen Vorhaltung, die ich Falpir machte, wird der Junge hoffentlich erwachsen werden und anständig sein. ~
+@879 = ~Abraham ist unschuldig! Der Stallbursche, Falpir, gab zu, einen Knopf von Abrahams Weste gestohlen zu haben. Oskar hatte den Jungen gebeten, ihn zu stehlen. Ich sagte, dass Oskar ein Gildenmitglied war, und jetzt habe ich mehr Beweise. Ich musste dem Kind die Wahrheit darüber sagen, was mit Abraham geschehen ist. Er nahm es nicht gut auf. ~
+@880 = ~Sogar die Bürger hier kennen die Gilde der Meuchelmörder. Muss eines der am schlechtesten gehüteten Geheimnisse überhaupt sein. ~
+@881 = ~Ein Mann behauptet, dass die Oberherren von Lendore die Überfälle der Orks auf Garrotten nicht beenden werden. Ist das gut oder schlecht? ~
+@882 = ~Einer der Fischer sagte mir, dass Orks das Dorf Garrotten überfallen haben. Es scheint, als ob eben solche Probleme wie in Restenfurth haben. ~
+@883 = ~Ein Fischer sagte mir, dass etwas "Schuppiges" sein Boot angriff und einige Fischer tötete. Das Gleichgewicht der Natur bei der Arbeit? ~
+@884 = ~Warum sollte ein Gärtner das heilige Symbol des Priesters haben? Warum schließt er seine Türen und sichert sie mit Fallen? Warum finden sich zwei Gucklöcher in Harfners Zimmerwand? Ich glaube, dass ich den Spion im Tempel gefunden habe. Jedoch jetzt muss ich Lothar finden, um es zu beweisen. ~
+@885 = ~Ich sprach heute mit einer jungen Priesterin von Xerbo. Sie sagte, dass etwas aus dem See die Fischer angreift. Rache des Gottes? ~
+@886 = ~Es sieht so aus, als ob die Bürgermeisterin in meine Untersuchung eingreift. Sie ließ Harfner für das Verhör festnehmen. Ich frage mich, warum sie das nicht hier im Tempel erledigen konnten? ~
+@887 = ~Balmorrow wird von einen Magierlehrling namens Holga observiert. Sie arbeitet für Arrness, die Bürgermeisterin. Ist die Bürgermeisterin Anführer der Meuchlergilde? ~
+@888 = ~Balmorrow wies auf Philmar und Oskar im Gasthof als Mitglieder der Meuchlergilde. Ich werde sicherstellen müssen, dass ich vorsichtig mit ihnen umgehe. ~
+@889 = ~Wasserungeheuer?
+
+Etwas greift die Fischer auf dem See an. Die Bürgermeisterin will, dass ich herausfinde, was es ist und dass ich ihren Späher finde, der dies als erstes untersucht hat. ~
+@890 = ~Die Bürgermeisterin von Garrotten hat mich beinahe ins Gefängnis geworfen, dass ich nach der Meuchlergilde auch nur frage. Es muss ein heikles Thema sein. ~
+@891 = ~Die Bürgermeisterin von Garrotten plant, den Mord zu untersuchen, und hat meiner Untersuchung ein Ende gesetzt. Ich frage mich, ob der Mörder wirklich gefangen wird. ~
+@892 = ~Der Gastwirt Abraham denkt, dass die Gilde von jemandem aus dem Schloss unterstützt wird. Die Wächter oder die Berater der Bürgermeisterin müssen beteiligt sein. Vielleicht haben sie nur Angst vor der Gilde? ~
+@893 = ~Rätsel um das Wasserungeheuer
+
+Kapitän Quenex informierte mich, dass seine Fischer kürzlich von fremden Wesen auf dem See angegriffen wurden. Er weiß nicht, was für welche es sind, aber er hat jetzt eine Reihe von Männern verloren, und die Fischer haben Angst, zu weit auf den See hinauszufahren. ~
+@894 = ~Kapitän Quenex informierte mich, dass "Kapitän Basmar" weder ein Boot besitzt noch dass er ihn jemals hat fischen gehen sehen. ~
+@895 = ~Kapitän Quenex hat volles Vertrauen in den Hohepriester Harfner und glaubt nicht, dass er mit der Gilde der Meuchelmörder in Verbindung steht. Tatsächlich glaubt er sogar, dass Harfner, wenn er jünger wäre, er sicherstellen würde, dass solch eine Sache in Garrotten nicht Fuß fasste. ~
+@896 = ~Rätsel um das Wasserungeheuer
+
+Ich sagte Kapitän Quenex, dass ich die Echsenmenschen besiegt habe und seine Fischer jetzt auf dem Wasser wieder sicher sein sollten. ~
+
+//BHSHOUT2.BAF
+@1102 = ~Gnade!~
+@1103 = ~Lasst jemand anderen Eure schmutzige Arbeit zu tun, Feigling.~
+
+//BHSIRIUS.baf and part of BHSHOUT2, BHTHIEF, BHARNSPL, and BHBRAWL.BAF
+@900 = ~Ich bin in einer Giftwolke! Ich muss wegkommen! ~
+@901 = ~Feigling, verwendet Gift gegen mich! ~
+@902 = ~Schuft! Kommt und kämpft wie ein Krieger... ~
+@903 = ~Kommt näher und bekämpft mich fair! ~
+@904 = ~Ihr Feigling! Verwendet eine Fernkampfwaffe, um mich anzugreifen! ~
+@905 = ~Widerhaken-Schleuder! Ich wette, Ihr seid zu schwach für das Handgemenge ... ~
+@906 = ~Hier! Fangt! ~
+@907 = ~Hab es! ~
+@908 = ~Keine Sorge... Ich bin hier, um Euch zu beschützen. ~
+@909 = ~Verwendet eine Schriftrolle ~
+@910 = ~Verwendet einen Stab ~
+@911 = ~Nicht mehr ~
+@912 = ~Erschlagt meinen Angreifer! ~
+@913 = ~Ich kann das nicht nehmen. ~
+@914 = ~Sterbt in Euren Stiefeln! ~
+
+// BHSNOW.baf
+@950 = ~Harfner ließ es wieder schneien! ~
+@951 = ~Ich bin dabei, eine Festung zu bauen! ~
+@952 = ~Lasst uns eine Schneeballschlacht machen. ~
+@953 = ~Ich frage mich, wie lange es dieses Mal schneien wird? ~
+
+// BHTHIEF.BAF
+@1200 = ~Hmmm... Irgendetwas ist hier nicht in Ordnung...~
+@1201 = ~Scheitert daran, Illusionen zu entdecken.~
+@1202 = ~Benutzt einen Ring der Unsichtbarkeit.~
+
+// BHTHIEF1.baf
+@1000 = ~Das sind sie! Tötet sie! Für die Gilde, Männer! ~
+
+//AR6526.baf
+
+@6526 = ~Schlussphase
+
+Leben setzt fort, ganz die Herausforderung zu sein. Sie sind beschuldigt worden, wegen die Eisenthron-Führer zu ermorden, und die Brennende Faust wird zweifellos Ihren jeden Schritt wegen seiner jagen. Trotz all dieses müssen Sie zur Stadt des Tors von Baldur, das wirkliche Lager Ihrer Ankläger zurückkehren. Sie müssen finden und denjenigen ausstellen, der für Ihre Kategorie verantwortlich ist; Sie müssen Sarevok finden.~

@@ -1,0 +1,11 @@
+IF
+  See([PC])
+  GlobalGT("BHQuestAccept","GLOBAL",4)
+  OR(2)
+    AreaCheck("BH0109")
+    AreaCheck("BH0504")
+THEN
+  RESPONSE #100
+    Dialog([PC])
+END
+

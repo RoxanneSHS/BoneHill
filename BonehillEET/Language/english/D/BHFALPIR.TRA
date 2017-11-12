@@ -1,0 +1,37 @@
+@0    = ~Hey stranger, you need to stable your horses?~
+@1    = ~No, I don't have any horses.~
+@2    = ~Then watcha doin' here?~
+@3    = ~Just checking to see what was in here.~
+@4    = ~Hey again.  What do you want?~
+@5    = ~I understand that Oscar gets you into trouble.~
+@6    = ~I like Oscar, he doesn't do that.  You're mean!~
+@7    = ~Falpir, Abraham is in trouble and I think Oscar had something to do with it.~
+@8    = ~Abraham?  He can't be in trouble.  He's really nice.~
+@9    = ~I think Oscar or Philmar stole a button from his vest.  That button was found near a really bad crime.  Abraham is in big trouble and could go to jail.~
+@10   = ~No!  He can't!  He's nice to me.  Oscar...  Well... He...~
+@11   = ~What did Oscar do?~
+@12   = ~He asked me to get a button from Abraham's vest.  I sneaked into his room and took it.  I gave it to Oscar.~
+@13   = ~Falpir, what you did may not seem like a bad thing, but Oscar used that button.  He gave it to someone who killed another person.  And that someone left the button there.  So now people think Abraham killed that person.~
+@14   = ~What? (starts crying)  No, it is all my fault!  The guards!  They'll take Abraham away.  Maybe even kill him.  I have to stop them!~
+@15   = ~Shh.  It's okay.  We are here to help Abraham.  I just needed to know what really happened.~
+@16   = ~You stupid child!  The guards will kill him.  You helped murder Abraham.~
+@17   = ~(still crying) You are going to help?  Can you protect him?~
+@18   = ~Yes child.  I will protect him.  Now, is that really what happened?~
+@19   = ~Yes child.  As a paladin, I swear an oath to protect him.  Now, is that really what happened?~
+@20   = ~No!!!~
+// Shall remain identical to @879 in baf.tra, otherwise there will be a journal issue
+@21   = ~Abraham is innocent!  The stable boy, Falpir, admitted stealing Abraham's button.  Oscar asked him to do it.  I suspected Oscar was a guild member and now I have more proof.  I had to tell the child the truth about what will happen to Abraham.  He didn't take it well.~
+@22   = ~(Sniff) Yeah.  Oscar said it would be a funny joke to play on Abraham.  So I took the button and gave it to him.~
+@23   = ~It isn't so funny now is it?  Don't worry, we will help.  Can I ask you to do something?~
+@24   = ~(scared voice)  Yes?~
+@25   = ~I think it is time for you to learn to stay away from people like Oscar and Philmar.  You are almost grown now.  You should be helping others.  You can protect people from someone like Oscar.  Think of the other children that someone like him picks on.  You can stop this.~
+@26   = ~Stay away from Oscar.  He is trouble you don't want.~
+@27   = ~Okay.  I'll try.~
+// Shall remain identical to @878 in baf.tra, otherwise there will be a journal issue
+@28   = ~Abraham is innocent!  The stable boy, Falpir, admitted to stealing a button from Abraham's vest.  Oscar had asked the boy to steal it.  I suspected Oscar was a guild member and now I have more proof.  After a strong lecture I gave to Falpir, hopefully the boy will grow up to be a good decent person.~
+@29   = ~Hey stranger, did he just say they arrested Abraham?~
+@30   = ~Yes son.  He was involved in a very bad crime.  Good thing one of his buttons was found at the crime scene.~
+@31   = ~Button?  You mean a red leather button?~
+@32   = ~Well, yes.  One was found in the hand of the victim.  He must have ripped it off of Abraham during the struggle.~
+@33   = ~No, that isn't possible.~
+@34   = ~What do you mean?  You look like you know something about this?  Tell me.  Abraham is in big trouble and is already in jail for what happened.~

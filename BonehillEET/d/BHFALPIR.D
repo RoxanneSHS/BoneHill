@@ -1,0 +1,90 @@
+BEGIN ~BHFALPIR~
+
+IF ~NumberOfTimesTalkedTo(0)
+AreaCheck("BH2021")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN REPLY @3 DO ~SetGlobal("BHMetFalpir","GLOBAL",1)~ EXIT
+END
+
+IF ~Global("BHMetFalpir","GLOBAL",2)~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN REPLY @5 GOTO 3
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @6
+  IF ~~ THEN REPLY @7 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 5
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 7
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @14
+  IF ~~ THEN REPLY @15 GOTO 8
+  IF ~~ THEN REPLY @16 GOTO 9
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO 10
+  IF ~Class(LastTalkedToBy(),PALADIN_ALL)~ THEN REPLY @19 GOTO 10
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @20
+  IF ~~ THEN DO ~ReputationInc(-2)
+SetGlobal("BHMetFalpir","GLOBAL",5)
+EscapeArea()~ JOURNAL @21 EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @22
+  IF ~~ THEN REPLY @23 GOTO 11
+END
+
+IF ~~ THEN BEGIN 11
+  SAY @24
+  IF ~~ THEN REPLY @25 GOTO 12
+  IF ~~ THEN REPLY @26 DO ~SetGlobal("BHMetFalpir","GLOBAL",4)~ EXIT
+END
+
+IF ~~ THEN BEGIN 12
+  SAY @27
+  IF ~~ THEN DO ~SetGlobal("BHMetFalpir","GLOBAL",4)
+ReputationInc(1)
+AddexperienceParty(2000)~ JOURNAL @28 EXIT
+END
+
+IF ~!GlobalGT("BHMetFalpir","GLOBAL",2)
+AreaCheck("BH2020")~ THEN BEGIN 13
+  SAY @29
+  IF ~~ THEN REPLY @30 GOTO 14
+END
+
+IF ~~ THEN BEGIN 14
+  SAY @31
+  IF ~~ THEN REPLY @32 GOTO 15
+END
+
+IF ~~ THEN BEGIN 15
+  SAY @33
+  IF ~~ THEN REPLY @34 GOTO 5
+END

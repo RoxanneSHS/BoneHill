@@ -1,0 +1,34 @@
+IF
+  Global("EnteredArea","BH2005",0)
+THEN
+  RESPONSE #100
+    SetGlobal("EnteredArea","BH2005",1)
+    RealSetGlobalTimer("BHEnteredWarehouse","GLOBAL",10)
+END
+
+IF
+  Global("BHBeshkarEntered","GLOBAL",0)
+  RealGlobalTimerExpired("BHEnteredWarehouse","GLOBAL")
+THEN
+  RESPONSE #100
+    CreateCreatureObjectDoor("BHBESHKA",Player1,0,0,0)
+    SetGlobal("BHBeshkarEntered","GLOBAL",1)
+END
+
+IF
+  Global("BHToldToLeave","BH2005",1)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("BHGetOut","GLOBAL",15)
+    SetGlobal("BHToldToLeave","BH2005",2)
+END
+
+IF
+  RealGlobalTimerExpired("BHGetOut","GLOBAL")
+  Global("BHStartFight","BH2005",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHStartFight","BH2005",1)
+    ActionOverride("BHBeshka",StartDialogNoSet(Player1))
+END
+

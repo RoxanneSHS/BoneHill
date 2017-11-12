@@ -1,0 +1,23 @@
+IF
+  See([PC])
+  NumberOfTimesTalkedTo(0)
+  !AreaCheck("BH0507")
+THEN
+  RESPONSE #100
+    Dialog([PC])
+END
+
+IF
+  AreaCheck("BH0500")
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+
+IF
+  Heard([EVILCUTOFF],125)
+THEN
+  RESPONSE #100
+    Enemy()
+END
+

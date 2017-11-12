@@ -1,0 +1,56 @@
+@0 = ~Geht und sprecht mit Basil, wenn Ihr Dienstleistungen wünscht. ~
+@1 = ~Ich bin <GABBER>, wer seid Ihr? ~
+@2 = ~Mein Name ist Harmin, und ich bin der Chorherr hier. Der Hohepriester und ich sind im Augenblick beschäftigt. ~
+@3 = ~Harfner ist hier? Gut, ich muss mit ihm sprechen. ~
+@4 = ~Er ist sehr beschäftigt...~
+@5 = ~Mein Herr, ich weiß noch nicht, was sie wollen.
+
+Was wollt Ihr? ~
+@6 = ~Ich muss mit Harfner sprechen. ~
+@7 = ~Nun, Ihr habt uns bereits unterbrochen. Sprecht! ~
+@8 = ~Alleine. ~
+@9 = ~Alleine. Balmorrow sagte, dass das in Ordnung wäre. ~
+@10 = ~Alleine. Abraham sagte, dass das in Ordnung wäre. ~
+@11 = ~(er runzelt die Stirn) Ihr kommt hierher, Fremder, bis an die Zähne bewaffnet, und glaubt, dass ich Euch mit ihm alleinlasse? Ihr solltet froh sein, dass ich nicht die Wachen rufe und Euch hinauswerfen lasse. ~ ~(er runzelt die Stirn) Ihr kommt hierher, Fremde, bis an die Zähne bewaffnet, und glaubt, dass ich Euch mit ihm alleinlasse? Ihr solltet froh sein, dass ich nicht die Wachen rufe und Euch hinauswerfen lasse. ~
+@12 = ~Schön. Der Hohepriester wird des Mordes an Baron Grellus von Restenfurth beschuldigt. ~
+@13 = ~Jetzt reichts! Wo sind die Wachen? Ich werde Euch hinauswerfen lassen. Wir haben keine Zeit für solch einen lächerlichen Unsinn. ~
+@14 = ~Der Baron wurde vor ein paar Tagen ermordet. Neben seiner Leiche fanden die Wachen einen kleinen roten Rubin. Zeugen in der Stadt sagen, dass Harfner in einem Gasthof zur Mahlzeit einkehrte. ~
+@15 = ~Ist das Euer Ernst? Das ist unglaublich. Es ist nicht wahr, aber dennoch ist es unglaublich. Harfner hat diese Stadt während der letzten beiden Monate nicht verlassen. ~
+@16 = ~Es tut mir leid, mein Herr. ~
+@17 = ~Wart Ihr nicht, mein Herr. Tatsächlich glaube ich nicht, dass irgendjemand vom Tempel dort gewesen ist. Es gibt keine Schwesterkirche von Osprem oder Xerbo in dieser Stadt.
+
+Basil, wollte sich irgendjemand mit dem Phaulkontempel in Verbindung setzen? ~
+@18 = ~Seufz, jetzt geht das los. Ihr könntet ebensogut abreisen. Er wird während der nächsten Stunden damit weitermachen, ob Ihr nun hier seid oder nicht.~
+@19 = ~Nun, nachdem Ihr ihn jetzt gesehen habt, glaubt Ihr wirklich, dass er dazu imstande ist, sich in ein Herrenhaus zu schleichen und einen Baron zu töten? ~
+@20 = ~Es könnte ein Trick sein. ~
+@21 = ~Er ist wie jeder andere senile Tattergreis auch. ~
+@22 = ~Was zu bezweifeln ist. Er ist seit mehreren Jahren so, und es wird immer schlimmer. Er hat seine guten und schlechten Phasen. Für den Moment glaube ich, dass Euer Auftreten ihm nicht gerade zuträglich war. Hoffentlich ist er noch in der Lage, morgen seinen Gottesdienst abzuhalten. ~
+@23 = ~Würde ein Wiederherstellungszauber ihn nicht heilen? ~
+@24 = ~Ja. Euch wird die Ehre nicht zuteil, seine Bettwäsche jeden Morgen zu reinigen oder bei ihm bei der Nahrungsaufnahme zu helfen. Es gibt so einiges zu tun, das den Messdienern so richtig den Tag vergällt. ~
+@25 = ~Wir haben es versucht. Nein, ich fürchte, das passiert, wenn man über die Zeit lebt, die den meisten von uns vergönnt ist. Ich bin nicht sicher, ob irgendetwas seinen Verstand wiederherstellen könnte. ~
+@26 = ~Trick oder nicht, er ist des Mordes verdächtig. ~
+@27 = ~Habt Ihr den Rubin, den Ihr erwähnt habt? ~
+@28 = ~Ja, hier ist er. ~
+@29 = ~Ich trage ihn nicht bei mir, nein. ~
+@30 = ~Hmm, Harfners heiliges Symbol wird jetzt seit ungefähr einer Woche vermisst. Dieser Rubin sieht wirklich aus, als ob er dazu gehören würde. Sehr seltsam und beunruhigend. Jemand muss es gestohlen haben, um an den Stein zu kommen. ~
+@31 = ~Balmorrow vermutet, dass jeder der drei Verdächtigen von einem Spion beobachtet wird. Könnte einer der Priester ein Gildenspion sein? ~
+@32 = ~Abraham vermutet, dass jeder der drei Verdächtigen einen Spion hat, der sie beobachtet. Könnte einer der Priester ein Gildenspion sein? ~
+@33 = ~Ist es möglich, dass jemand hier ein Mitglied der Assassinen ist? ~
+@34 = ~Hmm, Harfners heiliges Symbol wird jetzt seit ungefähr einer Woche vermisst. Dieser Rubin sieht wirklich aus, als ob er dazu gehören würde. Sehr seltsam und beunruhigend. Jemand muss es gestohlen haben, um an den Stein zu kommen. ~
+@35 = ~Fraglich, Osprem würde einer schlechten Person keine Priesterzauber verleihen. Ich kann mir nicht vorstellen, dass sie es einem falschen Priester gestatten würde, ihre Zauber zu erflehen. ~
+@36 = ~Was ist mit einem Nichtpriester? Diener, Köche? ~
+@37 = ~Hmm, der einzige ist Lothar. ~
+@38 = ~Lothar? Wer ist das? ~
+@39 = ~Lothar ist der Hausmeister. Er ist jetzt seit mehreren Jahren bei uns. Oh, ich kann nicht glauben, dass es er sein könnte. Lothar wurde vor Jahren vom Flegel getroffen. Der größten Teil seines Gesichtes und Kopfs ist derart vernarbt, dass die Kinder sich vor ihm fürchten. Er muss normalerweise eine Kapuze tragen, um sein Gesicht zu verbergen. ~
+@40 = ~Macht er irgendetwas Verdächtiges? Ist mal ein paar Tage lang weg? Kommen fremde Leute bei ihm vorbei, um mit ihm zu sprechen? ~
+@41 = ~Nein, nichts desgleichen. Er macht sich hier sehr nützlich. Wir hatten nie Probleme mit ihm. ~
+@42 = ~Nun gut, vielleicht ist es jemand anderes. Können wir uns inzwischen umsehen? ~
+@43 = ~Natürlich. Wir erklären uns bereit, Euch in allem zu helfen. Der Tempel von Osprem kann nicht mit einem schrecklichen Verbrechen besudelt werden. Wenn Ihr unsere Dienste braucht, dann sprecht nur mit Basil. ~
+@44 = ~Harfner scheint wirklich eine verrückte Person zu sein. Entweder ist das echt oder immerhin sehr gutes Schauspiel. Mir wurde die Erlaubnis erteilt, in der Kirche nachzuforschen. Ich glaube, dass ich mit diesem Lothar sprechen muss. ~
+@45 = ~Besucht Basil, wenn Ihr irgendwelche Dienstleistungen in Anspruch nehmen wollt. ~
+@46 = ~Was ist das? Lothar hatte das Amulett? ~
+@47 = ~Es war in einem Schrank in seinem Zimmer. Die Tür und die Schublade waren beide mit Fallen versehen. Ich nehme an, dass keiner der Priester hier weiß, wie man vergiftete Fallen anbringt. ~
+@48 = ~Gift? Nein, ich bezweifle, dass die Messdiener so etwas tun würden. Basil, schickt nach Lothar. ~
+@49 = ~Habt Ihr Euch in den Gebäuden umgesehen? ~
+@50 = ~Nun, wenn er ein Spion ist, wird er zu der Gilde gehen, um die anderen zu informieren. <CHARNAME>, Ihr seid am besten auf der Hut. Es steht außer Frage, was als nächstes geschehen wird. ~
+@51 = ~Ich fand das heilige Symbol des Hohepriesters Harfner und entlarvte einen Spion in der Kirche. Jedoch ist er geflüchtet. Ich bin sicher, dass ich ihn wiedersehen werde. ~

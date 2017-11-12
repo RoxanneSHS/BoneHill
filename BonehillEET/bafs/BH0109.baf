@@ -1,0 +1,28 @@
+IF
+  Global("BHHandSearch","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ClearAllActions()
+    SmallWait(2)
+    StartCutSceneMode()
+    SetGlobal("BHHandSearch","GLOBAL",2)
+    SetGlobal("BHHandSewerOpen","GLOBAL",1)
+    FadeToColor([30.0],0)
+    Wait(1)
+    RestParty()
+    FadeFromColor([30.0],0)
+    AddJournalEntry(@0,USER)
+    DisplayStringHead(Player1,@1)   
+    ActionOverride(Player1,Wait(2))
+    ActionOverride(Player1,MultiPlayerSync())
+    EndCutSceneMode()
+END
+
+IF
+  Global("BHWizTraining","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("BHWizTraining","GLOBAL",2)
+    CreateCreature("BHTOLVAR",[255.263],7)  // ~Tolvar~
+END
+

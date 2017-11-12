@@ -1,0 +1,74 @@
+BEGIN ~BHCOMF02~
+
+IF WEIGHT #1 ~RandomNum(9,1)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #9 ~RandomNum(9,9)~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #0 ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #2 ~RandomNum(9,2)~ THEN BEGIN 3
+  SAY @3
+  IF ~~ THEN REPLY @4 GOTO 4
+  IF ~~ THEN REPLY @5 GOTO 5
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @6
+  IF ~~ THEN DO ~RandomWalk()~ EXIT
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @7
+  IF ~~ THEN DO ~SetGlobal("BHKnowOrcRaids","GLOBAL",1)
+RandomWalk()~ EXIT
+END
+
+IF WEIGHT #3 ~RandomNum(9,3)~ THEN BEGIN 6
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 7
+  IF ~GlobalLT("BHGuardQuest","GLOBAL",1)~ THEN REPLY @10 GOTO 8
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @11
+  IF ~~ THEN DO ~RandomWalk()~ EXIT
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @12
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #4 ~RandomNum(9,4)~ THEN BEGIN 9
+  SAY @13
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #5 ~RandomNum(9,5)~ THEN BEGIN 10
+  SAY @14
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #6 ~RandomNum(9,6)~ THEN BEGIN 11
+  SAY @15
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #7 ~RandomNum(9,7)~ THEN BEGIN 12
+  SAY @16
+  IF ~~ THEN EXIT
+END
+
+IF WEIGHT #8 ~RandomNum(9,8)~ THEN BEGIN 13
+  SAY @17
+  IF ~~ THEN EXIT
+END

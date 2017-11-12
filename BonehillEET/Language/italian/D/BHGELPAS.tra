@@ -1,0 +1,40 @@
+@1   = ~Si? Oh, voi dovete essere i lacchè che ha inviato Pelltar.~
+@2   = ~Siamo avventurieri se è questo che intendi dire. E tu chi sei?~
+@3   = ~Non disturbarmi. Vai a parlare con Pelltar, se vuoi.~
+@4   = ~Pelltar! Nel nome del Barone Grellus ti ordino di fermarti!~
+@5   = ~Cosa intendi dire con questo?~
+@6   = ~Bene.~
+@7   = ~Sono Gelpas, il Capitano delle guardie.~
+@8   = ~Beh, allora salve Gelpas. Ci puoi parlare dei problemi che ci sono qui in città?~
+@9   = ~Sono tutti accusati dell'assassinio di alcuni cittadini e di furti in numerose case.~
+@10  = ~Cosa?~
+@11  = ~Beh, personalmente, penso che siano tutte dicerie e pettegolezzi senza senso. Non c'è nulla qui che le mie guardie non siano in grado di trattare. Quindi sarò disposto a chiudere un occhio su di voi, dal momento in cui non c'è più bisogno di voi. Non provare a fare nulla che possa ingiuriare il barone o questa città!~
+@12  = ~Non mi sognerei mai di farlo.~
+@13  = ~Le guardie hanno trovato due case svaligiate e i loro proprietari assassinati. Welcar, la guardia, ci ha anche informato della scomparsa di qualche oggetto dai magazzini, in particolare di una perla nera.~
+@14  = ~Non so nulla di una perla nera. Avanti perquisiscimi. Scoprirai che sono innocente di queste accuse.~
+@15  = ~Beh, ammetto di aver rubato dai magazzini, ma non ho preso una perla nera.~
+@16  = ~Sono morti alcuni cittadini, e allora? Perché me ne dovrebbe importare? Non mi sprecherei a derubarli. Potrei prendermi una malattia o qualcosa del genere.~
+@17  = ~Beh, allora abbiamo seri problemi qui. Qualcosa che, odio ammetterlo, le mie guardie non possono gestire.~
+@18  = ~Anche se odio dirlo ti chiedo, per favore, di rimanere e aiutarci.~
+@19  = ~Sarei onorato di aiutarvi.~
+@20  = ~Va bene, non ho niente di meglio da fare.~
+@21  = ~Hmm, penso di non aver sentito abbastanza. Potresti ripetere? Ad alta voce e un modo più chiaro, per favore?~
+@22  = ~Oh no! Non voglio avere nulla a che fare di nuovo con questa sgradevole città. Pelltar, rispediscimi indietro.~
+@23  = ~Hai ascoltato una volta e questo è sufficiente. Esamina con Welcar i magazzini. Non c'è molto da dire sugli assassini. Le case non sono state forzate. Come se i ladri avessero una chiave. Inoltre non ci sono segni di lotta. Le vittime avevano la gola tagliata ed erano distese sui loro letti. Sembra che non avessero mai visto il ladro o i ladri.
+
+Informa Pelltar se scoprirai qualcosa. Questo è tutto. Ci vediamo.~
+@24  = ~Ti ringrazio. Per favore esamina con Welcar i magazzini. Non c'è molto da dire sugli assassini. Le case non sono state forzate. Come se i ladri avessero una chiave. Inoltre non ci sono segni di lotta. Le vittime avevano la gola tagliata ed erano distese sui loro letti. Sembra che non avessero mai visto il ladro o i ladri.~
+@25  = ~Per favore informa Pelltar se scoprirai qualcosa. Questo è tutto. Ci vediamo.~
+@26  = ~Bene allora, sei in un guaio. Per quanto mi riguarda, sei colpevole di questi crimini. Quindi, o sei in grado di trovare il vero colpevole o sarai giustiziato. Sono stato chiaro?~
+@27  = ~Va bene, quando posso iniziare?~
+@28  = ~La tua ammissione potrebbe essere sufficiente per giustiziarti come ladro. Tuttavia, sembra che abbiamo un grande problema qui e non so se le guardie lo possano gestire.~
+@29  = ~Devi cercare di sdebitarti con questa città per i danni e i furti di cui sei colpevole, devi rimanere qui con l'ordine di risolvere questo mistero. Credo che ci sia un altro gruppo coinvolto in tutto questo. Il tuo incarico è di cercare questa persona o queste persone. Uccidili o trascina i loro corpi davanti a me affinché possano giustificarsi. In ogni caso, è meglio che tu abbia delle prove che ti discolpino.~
+@30  = ~Esamina con Welcar i magazzini. Non c'è molto da dire sugli assassini. Le case non sono state forzate. Come se i ladri avessero una chiave. Inoltre non ci sono segni di lotta. Le vittime avevano la gola tagliata ed erano distese sui loro letti. Sembra che non avessero mai visto il ladro o i ladri.
+
+Informa Pelltar se scoprirai qualcosa. Questo è tutto. Ci vediamo.~
+@31  = ~Anche se con il tuo comportamento meriteresti di essere preso a pugni, la tua logica probabilmente è valida. Non capisco perché qualcuno dovrebbe derubare da contadini e cittadini. Tuttavia, i magazzini contengono oggetti di valore e sono stati gli ultimi ad essere svaligiati. Forse il ladro sta diventando audace. Non è una caratteristica che mi aspetterei da un gruppo di avventurieri esperti come voi.
+
+Hmmm...~
+@32  = ~Ah, possiedi scalpi di banditi. Ti sarei grato se potessi comprarteli. L'unico bandito buon è il bandito morto.~
+@33  = ~Beh! E' stato molto sgarbato! Dovremmo andarcene da questo posto.~
+@34  = ~Non puoi provare a trasformarlo in un rospo? Eh?~

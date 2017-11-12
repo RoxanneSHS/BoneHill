@@ -1,0 +1,18 @@
+IF
+  Global("BHMayorStopsParty","GLOBAL",1)
+  Global("BHPriskaGone","BH2019",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHPRISKA",DestroySelf())
+    SetGlobal("BHPriskaGone","BH2019",1)
+END
+
+IF
+  Global("BHPriskaGone","BH2019",1)
+  Global("BHPriskaFree","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHPriska",[277.230],0)
+    SetGlobal("BHPriskaGone","BH2019",2)
+END
+

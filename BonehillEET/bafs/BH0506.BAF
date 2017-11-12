@@ -1,0 +1,12 @@
+IF
+  GlobalGT("BHToldOfDeath","GLOBAL",1)
+  Exists("BHFair")
+  Exists("BHAndre")
+  Global("BHCleanHouse","BH0506",0)
+THEN
+  RESPONSE #100
+    ActionOverride("BHFair",DestroySelf())
+    ActionOverride("BHAndre",DestroySelf())
+    SetGlobal("BHCleanHouse","BH0506",1)
+END
+

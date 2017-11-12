@@ -1,0 +1,12 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH2111",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH2111",1)
+    CreateCreature("JELLGR",[1761.439],9)
+    CreateCreature("JELLYGR",[364.669],14)
+    CreateCreature("JELLYCO",[724.596],2)
+END
+

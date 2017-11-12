@@ -1,0 +1,30 @@
+IF
+  PartyHasItem("BHGHNOTE")  // ~Note Fragment~
+  Global("BHHandNoteDecipher","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("BHHandNoteDecipher","GLOBAL",1)
+END
+
+IF
+  Global("BHHandNoteDecipher","GLOBAL",1)
+  !InParty("Fabio")  // Fabio
+  OR(12)
+    CheckStatGT(Player1,14,WIS)
+    CheckStatGT(Player2,14,WIS)
+    CheckStatGT(Player3,14,WIS)
+    CheckStatGT(Player4,14,WIS)
+    CheckStatGT(Player5,14,WIS)
+    CheckStatGT(Player6,14,WIS)
+    CheckStatGT(Player1,15,INT)
+    CheckStatGT(Player2,15,INT)
+    CheckStatGT(Player3,15,INT)
+    CheckStatGT(Player4,15,INT)
+    CheckStatGT(Player5,15,INT)
+    CheckStatGT(Player6,15,INT)
+THEN
+  RESPONSE #100
+    SetGlobal("BHHandNoteDecipher","GLOBAL",2)
+    DisplayStringHead(Player1,@200)  // 
+END
+

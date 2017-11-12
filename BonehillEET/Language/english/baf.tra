@@ -1,0 +1,225 @@
+//BH0109.baf
+@0    = ~It seems the thefts started one week after a notorious bandit named Reynard was hanged.  Another interesting fact is that Restenford used to have a thieves guild.  Baron Grellus destroyed it when he became the baron.  It was located in the sewers under the west side of town.  Is the thief is hiding there?~
+@1    = ~After several hours, you have discovered some interesting information in the history journals about Restenford.  The thefts started one week after a notorious bandit named Reynard was hanged.  Another interesting fact is that Restenford used to have a thieves guild.  Baron Grellus destroyed it when he became the baron.  It was located in the sewers under the west side of town.  In a guide to magic items, you have discovered that the Glorious Hand is made from the hand of a dead thief.  However, the text didn't explain what the hand can do.~
+
+//BH0401T.baf
+@50   = ~You found a trap door under the rubble.  It looks very old and unused.~
+
+//BH0402T.baf
+@100  = ~This must be where the rats come from.  The smell is horrid.  You can hear them up ahead.~
+
+//BH0504.baf
+@150  = ~It seems the thefts started one week after a notorious bandit named Reynard was hanged.  Another interesting fact is that Restenford used to have a thieves guild.  Baron Grellus destroyed it when he became the baron.  It was located in the sewers under the west side of town.  Is the thief is hiding there?~
+@151  = ~After several hours, you have discovered some interesting information in the history journals about Restenford.  The thefts started one week after a notorious bandit named Reynard was hanged.  Another interesting fact is that Restenford used to have a thieves guild.  Baron Grellus destroyed it when he became the baron.  It was located in the sewers under the west side of town.~
+
+//BH0700.baf
+@200  = ~Together, you have deciphered that the note is a map of Restenford.~
+
+//BH1100.baf
+@250  = ~The bandit leader is now dead.~
+
+//BH1101.baf
+@260  = ~Now you know where the orcs stashed the missing wagons.~
+
+//BH1301.baf
+@300  = ~So, an Ogre Mage controls the gnolls.  That explains the recent organized attacks against Restenford.~
+
+//BHALARM.baf
+@350  = ~As you step through the doorway, an alarm sounds and then abruptly stops.~
+
+//BHALARM2.baf
+@400  = ~Someone has noticed you! You hear the guards being summoned!~
+
+//BHALMON.baf
+@450  = ~Thief!  How dare you!!~
+@451  = ~Your theft has been noticed by Almon.  The guards have been summoned.~
+
+//BHARNSPL
+@1300 = ~Help! Guards, protect me!~
+
+//BHBERSER.baf
+@500  = ~quaffs a potion~
+@501  = ~I need healing!~
+
+//BHCTMS.baf
+@550  = ~Trap Sprung!~
+
+//BHCUTBA1.baf
+@600  = ~Gods what a day!  Will the merchants ever stop bickering?~
+@601  = ~What's that?  Fairwind, is that you dear?~
+@602  = ~Ha ha ha ha!~
+
+//BHFAIR.baf
+@650  = ~Thief!  How dare you!!~
+@651  = ~Your theft has been noticed by Lady Fairwind.~
+
+//BHGRAVE.baf
+@700  = ~This looks like a new grave.~
+@701  = ~You dig up Reynald's grave.  After prying open the coffin lid, you discover two bodies in the coffin.  One, a human male with his left hand missing, the other is a gnome male.~
+@702  = ~Other than two rotting corpses there is nothing of note within the grave.~
+@703  = ~You are too far away from the grave to do anything with it.~
+
+//BHHARPER.baf
+@750  = ~I wonder if we need more snow?~
+@751  = ~Perhaps we need more services under the water?~
+@752  = ~Hmm, I thought that spell would remove the spots.~
+@753  = ~Perfect, it smells like rain.~
+@754  = ~When is dinner?  I'm hungry for breakfast.~
+
+//BHINFO01.baf
+@800  = ~As you step through the doorway, an alarm sounds and then abruptly stops.~
+
+//BHPELL.baf
+// Shall remain identical to @38 in BHFALCO.tra, otherwise there will be a journal issue
+@850  = ~Zahrdahl doesn't go to the local inn and his leg keeps him from walking over to the tavern.  Why is he so interested in what I am doing here?~
+// Shall remain identical to @2 in BHFARM.tra, otherwise there will be a journal issue
+@851  = ~A farmer told us that he has had cattle go missing on him.  He figures it must be the gnolls.~
+// Shall remain identical to @5 in BHFARM.tra, otherwise there will be a journal issue
+@852  = ~A farmer told us that he has seen something moving about close to his home. He doesn't know what it was though.~
+// Shall remain identical to @7 in BHFARM.tra, otherwise there will be a journal issue
+@853  = ~A man claims that undead are near the old guard house.  Maybe I need to look into this.~
+// Shall remain identical to @10 in BHFARM.tra, otherwise there will be a journal issue
+@854  = ~We came across a farmer who told us a story about his uncle.  He said that his uncle had once been possessed by some evil spirit while exploring the old ruins.  They managed to free him by casting a hold person spell upon the unfortunate man.~
+// Shall remain identical to @15 in BHFARM.tra, otherwise there will be a journal issue
+@855  = ~Some of the roads around Restenford have bandits.  Sounds familiar to back home.~
+// Shall remain identical to @14 in BHWELCAR.tra, otherwise there will be a journal issue
+@856  = ~The Theft of the Warehouses
+
+Welcar thinks only one thief is involved in the thefts.  So did just one person do all the stealing?  And the killings?  How?~
+// Shall remain identical to @20 in BHWELCAR.tra, otherwise there will be a journal issue
+@857  = ~The Theft of the Warehouses
+
+I have returned all of the stolen goods to Welcar.  Perhaps now Gelpas will let Pelltar send us back.~
+// Shall remain identical to @27 in BHWELCAR.tra, otherwise there will be a journal issue
+@858  = ~Welcar said there are some old sewers under Restenford.  Thieves used to hid in them.  I wonder if the thief is using it now.~
+// Shall remain identical to @3 and @49 in BHYALTA.tra, otherwise there will be a journal issue
+@859  = ~Gnoll Attacks
+
+I told Yalta about the Ogre Mage leading the gnolls.  Hopefully this problem is resolved.~
+// Shall remain identical to @26 in BHYALTA.tra, otherwise there will be a journal issue
+@860  = ~Yalta has asked me to clear out an abandoned guardhouse full of rats.  Sounds easy enough.  He suggested that I talk to the bait seller since he lives the closest to the guardhouse.~
+// Shall remain identical to @4 and @50 in BHYALTA.tra, otherwise there will be a journal issue
+@861  = ~Gnoll Attacks
+
+Yalta says that the gnolls out on Tri-Top keep attacking the town.  They seem to be more organized than in the past and they are making a real challenge for the guards now.  Something is going on out there and he wants me to find out what is causing this.~
+// Shall remain identical to @17 in BHZAHR.tra, otherwise there will be a journal issue
+@862  = ~Clear out Abandoned Guardhouse
+
+Zahrdahl, the local fishing bait merchant, asked us to clear out some rats.  Seems there must be a nest of them in the abandoned guardhouse just south of his home.~
+// Shall remain identical to @31 in BHZAHR.tra, otherwise there will be a journal issue
+@863  = ~Clear out Abandoned Guardhouse
+
+I told Zahrdahl that the rats won't be bothering him anymore.  Of course, with all the bait around his house, it won't be long before they come back.~
+// Shall remain identical to @31 in BHRAVELA.tra, otherwise there will be a journal issue
+@864  = ~Looks like someone killed the lighthouse keeper and stuffed his body in the coffin with the bandit.  I assume it was the same person or persons.  Time to check out the lighthouse.~
+// Shall remain identical to @91 in BHFABIO.tra and @10 in BFABIO.tra, otherwise there will be a journal issue
+@865  = ~Fabio thinks the paper is referring to a magical item called the Hand of Glory.  I wonder what that is, and why did the thieves think I had it? We will need to check with Pelltar about this as soon as we can get back to Restenford.~
+@866  = ~It seems the thefts started one week after a notorious bandit named Reynard was hanged.  Another interesting fact is that Restenford used to have a thieves guild.  Baron Gellus destroyed it when he became the baron.  It was located in the sewers under the west side of town.  Is the thief is hiding there?~
+// Shall remain identical to @119 in BHPELL.tra, otherwise there will be a journal issue
+@867  = ~Find the killer of Baron Grellus.~
+// Shall remain identical to @130 in BHPELL.tra, otherwise there will be a journal issue
+@868  = ~So the thought is that someone in the town of Garrotten was involved in the murder of Baron Grellus.  I have three suspects; Harper, a high priest, Abraham, an innkeeper, and Balmorrow, a bard and theater owner.  Why would any of these people want the Baron killed?  Is one of them really an assassin hired to kill him?  If so, which one?  And who hired the killer?~
+// Shall remain identical to @132 in BHPELL.tra, otherwise there will be a journal issue
+@869  = ~Assassin's Guild
+
+Find the truth to the rumor about an assassin's guild in Garrotten.~
+// Shall remain identical to @25 in BHQUAL.tra, otherwise there will be a journal issue
+@870  = ~Abbot Qualton couldn't raise Grellus from the dead.  For some reason, I get the feeling that he wasn't as disappointed as he claimed.~
+// Shall remain identical to @44 in BHWILFON.tra, otherwise there will be a journal issue
+@871  = ~The mayor of Garrotten is rebuilding an old castle.  She seems to have money that doesn't come from taxing the townspeople.  Maybe she was wealthy before coming here?  If she is so wealthy, why did the duke appoint her to this little town?  What if she is doing something she doesn't want people to know about?~
+// Shall remain identical to @6 in BHWILLIS.tra, otherwise there will be a journal issue
+@872  = ~Looks like the mayor is repeating my investigation.  She had Balmorrow picked up for questioning.  I wonder why they couldn't do that here at the theater?~
+// Shall remain identical to @24 in BHGLAMI.tra, otherwise there will be a journal issue
+@873  = ~Looks like the mayor is repeating my investigation.  She had Abraham picked up for questioning.  I wonder why they couldn't do that here at the inn?~
+// Shall remain identical to @25 in BHPRISKA.tra, otherwise there will be a journal issue
+@874  = ~According to Priska, Basmar may be planning to have me killed the next time we meet.  I will have to be ready.~
+// Shall remain identical to @33 in BHMART1.tra, otherwise there will be a journal issue
+@875  = ~Martin the druid has asked me to attack the castle!  He thinks his friends will be wrongly accused and killed for it.  He also thinks that the proof about the guild exists somewhere in the upper level of the castle.~
+// Shall remain identical to @51 in BHHARMIN.tra, otherwise there will be a journal issue
+@876  = ~I found High Priest Harper's holy symbol and exposed a spy at the church.  However, he has escaped.  I'm sure I will be seeing him again.~
+// Shall remain identical to @44 in BHHARMIN.tra, otherwise there will be a journal issue
+@877  = ~Harper seems to be a genuine crazy person.  Either it is real or a very good act.  I have been given permission to investigate around the church.  Guess I need to talk to this Lothar person.~
+// Shall remain identical to @28 in BHFALPIR.tra, otherwise there will be a journal issue
+@878  = ~Abraham is innocent!  The stable boy, Falpir, admitted to stealing a button from Abraham's vest.  Oscar had asked the boy to steal it.  I suspected Oscar was a guild member and now I have more proof.  After a strong lecture I gave to Falpir, hopefully the boy will grow up to be a good decent person.~
+// Shall remain identical to @21 in BHFALPIR.tra, otherwise there will be a journal issue
+@879  = ~Abraham is innocent!  The stable boy, Falpir, admitted stealing Abraham's button.  Oscar asked him to do it.  I suspected Oscar was a guild member and now I have more proof.  I had to tell the child the truth about what will happen to Abraham.  He didn't take it well.~
+// Shall remain identical to @11 in BHCOMM04.tra, otherwise there will be a journal issue
+@880  = ~Even the commoners in this place know about the assassins' guild.  Must be the worst kept secret ever.~
+// Shall remain identical to @5 in BHCOMM04.tra, otherwise there will be a journal issue
+@881  = ~A man claims the overlords of Lendore won't stop the orc raids here in Garrotten.  Is that good or bad?~
+// Shall remain identical to @1 in BHCOMM04.tra, otherwise there will be a journal issue
+@882  = ~One of the fishermen told me that orcs have been raiding the village of Garrotten.  Seems they have problems like Restenford.~
+// Shall remain identical to @3 in BHCOMM04.tra, otherwise there will be a journal issue
+@883  = ~A fisherman told me that something "scaly" attacked a boat and killed some fishermen.  The balance at work?~
+// Shall remain identical to @31 in BHCLERI1.tra, otherwise there will be a journal issue
+@884  = ~Why would a gardener have the priest's holy symbol?  Why does he also lock and trap his doors?  Why are there two spy holes into Harper's room?  I think I have found the spy at the temple.  However, now I need to find Lothar to prove it.~
+// Shall remain identical to @16 in BHBESS.tra, otherwise there will be a journal issue
+@885  = ~I talked to a young priestess of Xerbo today.  She said that something in the lake is attacking the fishermen.  Revenge from the god maybe?~
+// Shall remain identical to @19 in BHBASIL.tra, otherwise there will be a journal issue
+@886  = ~Looks like the mayor is repeating my investigation.  She had Harper picked up for questioning.  I wonder why they couldn't do that here at the temple?~
+// Shall remain identical to @58 in BHBALMOR.tra, otherwise there will be a journal issue
+@887  = ~Balmorrow is being watched by a mageling named Holga.  She works for Arrness, the mayor.  Is the mayor the leader of the assassin's guild?~
+// Shall remain identical to @44 in BHBALMOR.tra, otherwise there will be a journal issue
+@888  = ~Balmorrow fingered Philmar and Oscar at the inn as part of the assassin's guild.  I will have to make sure I am careful around them.~
+// Shall remain identical to @30 in BHARRNES.tra, otherwise there will be a journal issue
+@889  = ~Water Monsters?
+
+Something is attacking fishermen out on the lake.  The mayor wants me to find out what it is and also to find her scout that was also looking into this.~
+// Shall remain identical to @19 in BHARRNES.tra, otherwise there will be a journal issue
+@890  = ~Garrotten's mayor almost threw me in jail for asking about the assassin's guild.  It must be a touchy subject.~
+// Shall remain identical to @14 in BHARRNES.tra, otherwise there will be a journal issue
+@891  = ~Garrotten's mayor plans to investigate the murder and has put a stop to my investigation.  I wonder if the real killer will be caught.~
+// Shall remain identical to @58 in BHABRAHA.tra, otherwise there will be a journal issue
+@892  = ~The innkeeper Abraham thinks the guild is supported by someone in the castle.  The guards or the mayor's advisors must be involved.  Maybe they are just scared of the guild?~
+// Shall remain identical to @26 in BHQUENEX.tra, otherwise there will be a journal issue
+@893  = ~Water Monster Mystery
+
+Captain Quenex informed me that his fishing squadron has been attacked recently by strange creatures out on the lake.  He doesn't know what they are but he has lost several men now and the fishermen are scared to go out very far on the lake.~
+// Shall remain identical to @37 in BHQUENEX.tra, otherwise there will be a journal issue
+@894  = ~Captain Quenex informed me that "Captain" Basmar doesn't have a boat nor has he ever seen Basmar fishing.~
+// Shall remain identical to @44 in BHQUENEX.tra, otherwise there will be a journal issue
+@895  = ~Captain Quenex fully supports High Priest Harper and doesn't think he is involved in the assassin's guild.  In fact, he mentioned that he thinks if Harper was younger, he would have made sure such a thing didn't exist in Garrotten.~
+// Shall remain identical to @49 in BHQUENEX.tra, otherwise there will be a journal issue
+@896  = ~Water Monster Mystery
+
+I told Captain Quenex that I defeated the lizard men and now his fishermen should be safe again on the water.~
+
+//BHSHOUT2.BAF
+@1102 = ~Mercy!~
+@1103 = ~Get someone else to do your dirty work, coward.~
+
+//BHSIRIUS.baf and part of BHSHOUT2, BHTHIEF, BHARNSPL, and BHBRAWL.BAF
+@900  = ~I am in a poison cloud! I must get away! ~
+@901  = ~Coward, using poison on me!~
+@902  = ~Knave! Come fight like a warrior...~
+@903  = ~Come closer and fight me fair!~
+@904  = ~You coward! Using a ranged weapon to attack me!~
+@905  = ~Barb-slinger! I bet you`re too weak for melee...~
+@906  = ~Here! Catch!~
+@907  = ~Got it!~
+@908  = ~Don't worry...I'll be here to protect you.~
+@909  = ~uses a scroll~
+@910  = ~uses a wand~
+@911  = ~No more~
+@912  = ~Slay my attacker!~
+@913  = ~I can't take this~
+@914  = ~Die with your boots on!~
+
+//BHSNOW.baf
+@950  = ~Harper made it snow again!~
+@951  = ~I'm gonna make a fort!~
+@952  = ~Let's have a snowball fight.~
+@953  = ~I wonder how long it will snow this time?~
+
+// BHTHIEF.BAF
+@1200 = ~Hmmm....Something's not right here...~
+@1201 = ~Fails to detect illusions~
+@1202 = ~uses a ring of invisibility~
+
+//BHTHIEF1.baf
+@1000 = ~There they are!  Kill them!  For the guild, men!~
+
+//AR6526.baf
+@6526	= ~Endgame
+
+Life continues to be quite the challenge.  You have been accused of murdering the Iron Throne leaders, and the Flaming Fist will undoubtedly hound your every step because of it.  Despite all of this, you must return to the city of Baldur's Gate, the very lair of your accusers.  You must find and expose the one who is responsible for your predicament; you must find Sarevok.~

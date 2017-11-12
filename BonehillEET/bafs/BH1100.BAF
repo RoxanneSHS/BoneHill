@@ -1,0 +1,26 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH1100",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1100",1)
+    CreateCreature("BHORC01",[627.137],0)  // ~Orc~
+    CreateCreature("BHORC01",[1905.514],4)  // ~Orc~
+    CreateCreature("BHORC01",[2590.3432],7)  // ~Orc~
+    CreateCreature("BHORC01",[4523.2999],0)  // ~Orc~
+    CreateCreature("BHORC01",[4071.3007],0)  // ~Orc~
+    CreateCreature("BHORC01",[4110.2122],0)  // ~Orc~
+    CreateCreature("BHORC01",[3937.1744],4)  // ~Orc~
+END
+
+IF
+  Dead("BHKRELUS")  // ~Krellus~
+  GlobalLT("BHBanditQuestAccept","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("BHBanditQuestAccept","GLOBAL",3)
+    DisplayString(Myself,@250)
+    Continue()
+END
+

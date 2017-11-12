@@ -1,0 +1,107 @@
+IF
+   Delay(600)
+   CombatCounter(0)
+   OR(6)
+	HasItemEquipedReal("bhfsw1",Player1) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player2) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player3) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player4) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player5) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player6) // ~Sword of Flame +2~
+THEN
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@1) // ~  Torment! ~ ~[IGN05]~
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@18) // ~  Plenty to burn here. ~ ~[IGN23]~
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@31) // ~  The flames await. ~ [IGN38]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@27) // ~  I wait to walk the paths of flames. ~ [IGN33]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@3) // ~  The flames grow within me. ~ [IGN08]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@24) // ~  No more talk and wonder. ~ [IGN29]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@26) // ~  Great power is here. ~ [IGN31]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@8) // ~  The flames hunger for the blistering of flesh. ~ [IGN13]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@15) // ~  I wait. ~ [IGN20]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@5) // ~  Ah, sweet flames. ~ [IGN10]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@25) // ~  As I remained here, thoughts filled with flames. ~ [IGN30]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@28) // ~  I am yours til death comes for us both. ~ [IGN32]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@7) // ~  Fires shall sweep through the streets. ~ [IGN12]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@13) // ~  I live? ~ [IGN18]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@11) // ~  Yes? ~ [IGN21]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@30) // ~  Ahhh. ~ [IGN36]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@14) // ~  Yes, my master? ~ [IGN19]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@2) // ~  You are all tallow for my flames. ~ [IGN06]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@29) // ~  Pain. ~ [IGN35]
+END
+
+IF
+   Delay(125)
+   !CombatCounter(0)
+   OR(6)
+	HasItemEquipedReal("bhfsw1",Player1) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player2) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player3) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player4) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player5) // ~Sword of Flame +2~
+	HasItemEquipedReal("bhfsw1",Player6) // ~Sword of Flame +2~
+THEN
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@34) // ~  Scream. ~ [IGN03]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@2) // ~  You are all tallow for my flames. ~ [IGN06]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@29) // ~  Pain. ~ [IGN35]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@18) // ~  Plenty to burn here. ~ [IGN23]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@16) // ~  Yes. (*laughs*) ~ [IGN16]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@22) // ~  As you wish. ~ [IGN27]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@33) // ~  I will burn you, lend some fire to the flames. ~ [IGN40]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@3) // ~  The flames grow within me. ~ [IGN08]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@1) // ~  Torment! ~ [IGN05]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@21) // ~  Again. ~ [IGN26]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@24) // ~  No more talk and wonder. ~ [IGN29]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@31) // ~  The flames await. ~ [IGN38]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@23) // ~  Yes. ~ [IGN28]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@7) // ~  Fires shall sweep through the streets. ~ [IGN12]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@6) // ~  Ah, sweet flames! ~ [IGN11]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@4) // ~  The skys shall be flames and all life shall be torches. ~ [IGN09]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@9) // ~  Darkness smothers the flames. ~ [IGN14]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@8) // ~  The flames hunger for the blistering of flesh. ~ [IGN13]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@17) // ~  I am yours. ~ [IGN22]
+   RESPONSE #10
+	DisplayStringHeadOwner("bhfsw1",@35) // ~  Long scream. ~ [IGN37]
+END

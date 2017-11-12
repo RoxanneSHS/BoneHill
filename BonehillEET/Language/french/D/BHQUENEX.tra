@@ -1,0 +1,53 @@
+@1  = ~Que Xerbo vous bénisse.~
+@2  = ~Xerbo ? Vous le vénérez vous aussi ?~
+@3  = ~Xerbo ? Qui est-ce ?~
+@4  = ~Salutations de nouveau, Capitaine Quenex. Puis-je vous poser une question ?~
+@5  = ~Vous avez rencontré Bess ? Nous sommes tous deux prêtres du dieu de la mer. Que puis-je faire pour vous ?~
+@6  = ~Pour commencer, qui êtes-vous ?~
+@7  = ~Je suis le capitaine Quenex, chef de la flottille de pêche. Pardonnez-moi, j'ai eu des soucis préoccupants ces derniers temps.~
+@8  = ~Vous voulez parler des attaques étranges depuis l'eau ?~
+@9  = ~Bess vous en parlé ? Oui, c'est très étrange. Il faut s'y attendre une fois de temps en temps. Xerbo protège les créatures de la mer, qu'elles vivent dans celle-ci ou à la surface. Quelquefois un camp l'emporte sur l'autre. Ces derniers temps il semble que ce soient les créatures sous-marines qui gagnent. Normalement, il faut s'attendre à une perte de un ou deux hommes, mais là ce sont plusieurs équipages de navires qui ont été perdus. Ils commencent à avoir peur de sortir trop loin.~
+@10 = ~Alors pourquoi ne se contentent-ils pas de pêcher plus près des docks ?~
+@11 = ~Si les poissons restaient près des docks, ce ne serait pas un problème. Non, malheureusement, aucune prise n'a été faite près des docks ni même à portée de vue de la ville. Nous devons aller plus loin, ce qui est plus dangereux. C'est presque comme si quelque chose chassait les poissons loin d'ici afin de nous forcer à nous éloigner. Une fois les bateaux aussi écartés de la ville, ils se font attaquer par quelque chose.~
+@12 = ~Quelqu'un a-t-il vraiment vu ce qui attaque ? C'est simplement un gros poisson ?~
+@13 = ~Le seul et unique témoin survivant a dit que c'était un humanoïde à écailles. Malheureusement, nous avons perdu ce témoin oculaire la semaine dernière. Donc personne de vivant n'a vu cette créature. Je ne sais même pas s'il y a plus d'une créature.~
+@14 = ~C'est très étrange. Nous sommes ici pour une autre raison mais nous pourrions trouver le temps de vous aider à traquer cette ou ces créatures.~
+@15 = ~Xerbo est notre dieu de la mer et de toutes les créatures qui l'habitent.~
+@16 = ~Je croyais que c'était Osprem.~
+@17 = ~Osprem protège ceux qui voyagent sur l'eau, comme les pêcheurs. Xerbo protège ce que les pêcheurs attrapent. Pardonnez-moi, je suis le capitaine Quenex, chef de la flottille de pêche. Je suis aussi prêtre de Xerbo.~
+@18 = ~Si vous conduisez les pêcheurs, ne devriez-vous pas être prêtre d'Osprem ?~
+@19 = ~Harper est le grand prêtre d'Osprem. Je ne suis pas de si haut rang. Ces deux dieux sont vénérés par les pêcheurs. Ces derniers temps j'ai le sentiment que nous ne devons pas vénérer Xerbo suffisamment.~
+@20 = ~Hum, j'ai quelques questions à propos d'Harper mais je suis curieux de connaître votre opinion. Qu'est-ce qui ne va pas avec l'adoration de Xerbo en ce moment ?~
+@21 = ~Avez-vous entendu parler des attaques contre les pêcheurs ?~
+@22 = ~Oui, il semblerait que vous ayez perdu quelques hommes récemment.~
+@23 = ~Non, parlez-en moi.~
+@24 = ~Quelque chose sort de l'eau pour attaquer les bateaux de pêche. Il faut s'y attendre une fois de temps en temps. Xerbo protège les créatures de la mer, qu'elles vivent dans celle-ci ou à la surface. Quelquefois un camp l'emporte sur l'autre. Ces derniers temps il semble que ce soient les créatures sous-marines qui gagnent. Normalement, il faut s'attendre à une perte de un ou deux hommes mais là ce sont plusieurs équipages de navire qui ont été perdus. Ils commencent à avoir peur de sortir trop loin.~
+@25 = ~Je vous remercie.~
+@26 = ~Mystère du Monstre Marin
+
+Le capitaine Quenex m'a appris que sa flottille de pêche a été attaquée récemment par des créatures étranges venues du lac. Il ne sait pas ce qu'elle sont mais il a déjà perdu plusieurs hommes et les pêcheurs ont peur de s'éloigner trop sur le lac.~ 
+@27 = ~Bien sûr.~
+@28 = ~Que savez-vous du capitaine Basmar ?~
+@29 = ~Que pouvez-vous me dire à propos d'Harper ?~
+@30 = ~Nous nous sommes occupés du problème des pêcheurs.~
+@31 = ~Hum, rien pour l'instant.~ 
+@32 = ~(Fronce les sourcils) Hé bien, je sais qu'il utilise ce titre mais je ne sais pas pourquoi.~
+@33 = ~Que voulez-vous dire ?~
+@34 = ~Je suis le capitaine des bateaux de pêche. "Capitaine" Basmar n'a même pas de navire, et je ne l'ai jamais vu non plus sortir pêcher.~
+@35 = ~Peut-être était-il capitaine de pêche dans une autre ville ?~
+@36 = ~C'est sûr, c'est possible. Cela dit je ne sais pas ce qu'il fait ici. Il vit à Garrotten depuis déjà plus d'un an et ne m'a jamais parlé de rejoindre les pêcheurs.~
+@37 = ~Le capitaine Quenex m'a appris que le "capitaine" Basmar n'a pas de bateau et qu'il n'a jamais vu Basmar pêcher.~ 
+@38 = ~Intéressant. Merci.~
+@39 = ~C'est un homme bon et sage. Je dépends de lui et du temple depuis qu'ils nous autorisent à y vénérer Xerbo. Les églises qui autoriseraient la vénération d'un autre dieu dans leur sanctuaire ne sont pas nombreuses. Xerbo et Osprem sont bien assortis et nous nous soutenons volontiers.~
+@40 = ~Mais avez-vous jamais vu Harper se comporter bizarrement ?~
+@41 = ~Cela dépend de ce que vous voulez dire. Harper se fait très vieux. Son esprit s'égare et il est connu pour mélanger les mots ou simplement oublier ce qu'il était en train de faire, ou même oublier ce qu'il vient de vous dire.~
+@42 = ~Non, je veux dire, est-ce qu'il quitte la ville à l'improviste ou rend visite aux personnes douteuses du coin ?~
+@43 = ~Hum, non. Il y a des jours où je doute qu'il pourrait seulement trouver comment sortir de la ville. Et pour ce qui est des gens douteux ? Oui, il y en a. Il se passe quelque chose d'horrible dans cette ville. Tout le monde le sait mais nous ne savons pas quoi faire contre. Harper n'est pas impliqué, ça j'en suis certain. Au contraire, je soupçonne qu'il fait partie de ceux qu' "ils" veulent éliminer. S'il était plus jeune, je pense que la ville n'aurait pas cette réputation. Il y veillerait.~
+@44 = ~Le capitaine Quenex soutient sans réserve le Grand Prêtre Harper et ne le pense pas impliqué dans la guilde d'assassins. En fait, il a précisé qu'il pensait que si Harper était plus jeune, il se serait assuré qu'une telle chose n'existe pas à Garrotten.~ 
+@45 = ~Bien,alors de quel type de créatures s'agissait-il ?~
+@46 = ~Des hommes lézards. Les pêcheurs leur servaient de nourriture.~
+@47 = ~Hum, il est étrange que ces hommes lézards aient été si près d'une ville. De toute évidence ils ne nous craignaient pas. Ils sont connus pour attaquer des villes afin de capturer des gens pour se nourrir. S'ils ne capturaient que les pêcheurs, c'est qu'ils devaient n'être qu'un petit groupe. Ce qui signifie qu'il s'agissait d'un avant-poste avant une future attaque.~
+@48 = ~Je crois que vous avez peut-être sauvé cette ville d'un destin terrible. Je vais devoir informer les pêcheurs qu'ils peuvent désormais continuer à pêcher sans risques. Bien joué.~
+@49 = ~Mystère du Monstre Marin
+
+J'ai rapporté au Capitaine Quenex que j'avais vaincu les hommes lézards et que désormais ses hommes seraient de nouveau en sécurité sur l'eau.~

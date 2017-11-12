@@ -1,0 +1,724 @@
+@0  = ~Secret of BoneHill (necessite EET)~
+@1  = ~Copie les fichiers graphiques~
+@2  = ~Copie les fichiers sons~
+@3  = ~Installation des nouveaux objets~
+@4  = ~Projectile de roche deja installe~
+@5  = ~Projectile de roche pas encore installe~
+@6  = ~Rocher~
+@7  = ~C'est le type de rochers qu'un géant lance sur un infortuné. Cela fait beaucoup de dégâts, tout en faisant perdre conscience à la victime. Un personnage ayant une force digne d'un géant est lui aussi capable de les lancer... 
+
+Portée : 72 mètres
+Dégâts : 3-18 
+Spécial : jet de sauvegarde contre le souffle à -4, sous peine de tomber inconscient pendant un round, et être étourdi durant le round suivant. 
+Nécessite : 19 en Force~
+@8  = ~Amulette de boules de feu~
+@9  = ~Les amulettes de boules de feu sont des amulettes munies de petites boules qui, une fois jetées, projetteront une boule de feu énorme et brûlante qui fusera jusqu'à la distance souhaitée (36 m au maximum) et explosera brutalement, exactement comme le sort de boule de feu. La boule de feu inflige 6d6 points de dégâts, mais tous les jets de 1 point comptent pour 2. La ou les victimes peuvent effectuer un jet de sauvegarde contre les baguettes pour n'encaisser que la moitié des dégâts. Une fois que toutes les boules ont été utilisées, l'amulette est détruite.
+
+PARAMETRES : 
+
+Capacité : 1
+Effet : projette une Boule de Feu
+Dégâts : 6D6 (jet de sauvegarde contre les baguettes pour réduire de moitié)
+Portée : 27 mètres
+Zone d'effet : 9 mètres de rayon
+
+Inutilisable par :
+ Tueur de magicien~
+@10  = ~Anneau de Barde~
+@11  = ~Bien que l'origine exacte de cet anneau soit inconnue, certains pensent qu'il a été créé il y a deux cents ans environ. 
+
+Il est serti d'une unique pierre d'un type inconnu qui dégage un léger rougeoiement. Bien que l'anneau soit froid au toucher, sa fraîcheur est, étrangement, rassurante.
+
+PARAMETRES : 
+
+Spécial:
+  Mémoriser un sort supplémentaire du 1er niveau
+  Mémoriser un sort supplémentaire du 3ème niveau
+  Mémoriser un sort supplémentaire du 5ème niveau
+
+Poids : 0
+
+Utilisable uniquement par :
+ Bardes~
+@12  = ~Cor~
+@13  = ~Cor de bronze du Valhalla~
+@14  = ~C'est un petit cor. Les cors sont typiquement faits d'os ou de métal et peuvent produire une large gamme de sons.~
+@15  = ~Cor de bronze du Valhalla
+
+Les guerriers les plus valeureux sont accueillis au Valhalla après leur mort, où leur bravoure au combat est récompensée par une éternité de banquets et de service au côté des dieux. L'un des services qu'ils rendent est de prêter main-forte à qui souffle dans un cor du Valhalla. Ce cor permet d'invoquer un guerrier berserk du septième niveau qui se battra pour celui ou celle qui l'a appelé pendant une minute. Le cor peut être utilisé une fois par jour.
+
+Ce cor-ci semble fendu et déformé à force d'usage ou de mésusage.~
+
+@16  = ~Perle Noire~
+@17  = ~C'est la perle noire dérobée que Gelpas vous a accusé d'avoir volée. Elle devrait être rendue à Welcar, le garde près des entrepôts.~
+@18  = ~Bâton~
+@19  = ~Bâton du Dragon Bleu~
+@20  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. 
+
+PARAMETRES :
+
+Dégâts : 1D6
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : bâton
+Type d'armes : à deux mains
+Nécessite : 5 en force~
+@21  = ~Ce long bâton de bois noir est orné à son sommet d'un grand cristal bleu en forme de tête de dragon qui dégage de l'électricité. Ces bâtons sont fabriqués pour les membres du Culte du Dragon. Seuls les chevaucheurs de dragons sont autorisés à porter ces bâtons. C'est pourquoi le culte pourrait s'intéresser de très près au fait que vous en possédez un.
+
+Les bâtons de dragon sont porteurs des capacités du dragon ou de la dracoliche avec lequel le chevaucheur faisait équipe.
+
+PARAMETRES :
+
+Dégâts : 1D6 +3
+TAC0 : +3
+Spécial : 
+ Procure un bonus de 50% de résistance à l'électricité
+ Le bâton a 50% de chance de libérer 1D8 points de dégâts électriques si la gemme bleue fait mouche.
+ Lance un éclair de 6D6 points de dégâts, réduits de moitié si le jet de sauvegarde contre les baguettes est réussi. 2 charges par jour.
+ Le bâton n'a qu'une charge de chaîne d'éclairs par jour.
+
+Type de dégâts : contondant
+Poids : 7
+Facteur de vitesse : 2
+Type de compétence : bâton
+Type d'armes : à deux mains
+Nécessite : 5 en force
+Utilisable par :
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
+@22  = ~Cape de l'Assassin~
+@23  = ~Les facultés conférées par cette cape puissamment enchantée démontrent que la protection peut prendre de nombreux aspects – comprenant la dissimulation au regard et l'aide à l'attaque sournoise. 
+
+PARAMETRES :
+
+Lance Hâte Améliorée une fois par jour
+Lance Invisibilité Majeure 3 fois par jour
+
+Classe d'armure : bonus de +2 
+Jets de Sauvegarde : bonus de +2
+Poids : 3~
+
+@24  = ~Masse~
+@25  = ~Masse +2, l'Assistant de l'Assassin~
+@26  = ~Masse +2, l'Assistant de l'Assassin
+Ceci appartenait à Tellish, un clerc/voleur maléfique connu pour être l'un des chefs de l'une des guildes d'assassins les plus puissantes des temps modernes. Elle a le pouvoir d'immobiliser n'importe quel humain, nain, gnome ou petite-personne en le plongeant dans un sommeil profond, bien que les elfes soient fort commodément immunisés. Pour aider l'assassin, l'arme procure une hausse de 50% des compétences en attaque sournoise. Même s'il s'agit techniquement d'un morgenstern, l'arme fonctionne pour un voleur comme n'importe quelle autre masse.
+
+PARAMETRES :
+
+Capacité de combat : tout humain ou demi-humain, à l'exception des elfes, frappé par le Dormeur doit effectuer un jet de sauvegarde contre le poison sans bénéficier de bonus ou tomber endormi pendant 18 secondes.
+Capacité spéciale : hausse de 50% de la compétence d'Attaque sournoise
+TAC0: bonus de +2 
+Dégâts : 2D4 +2
+Type de dégâts : contondant
+Poids : 4
+Facteur de vitesse : 3
+Type de compétence : masse
+Type d'armes : à une main
+Nécessite : 5 en Force
+Utilisable par :
+ Voleur (monoclassé ou multiclassé)~
+@27  = ~Luth~
+@28  = ~Luth de Fabio~
+@29  = ~Un luth.~
+@30  = ~Fabio prétend qu'il s'agit du célèbre luth utilisé par Pellon Kay. Quoi qu'il en soit, au cours de ses voyages, il en a modifié certaines des aptitudes magiques.
+
+Comment il a obtenu ce luth, c'est un mystère dont Fabio ne parlera pas.
+
+Capacités Spéciales :
+
+Une fois par jour, quand on en joue en ciblant quelqu'un, ce luth lance le sort de Charme Néfaste.
+
+Trois fois par jour, il peut plonger dans la confusion toutes les créatures à portée d'oreille (jet de sauvegarde contre les sorts pour échapper à la confusion). Le barde et les membres du groupe allié ne sont pas affectés.
+
+Utilisable uniquement par :
+ Barde~
+@31  = ~Épée longue~
+@32  = ~Épée de flamme +2~
+@33  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
+
+PARAMETRES :
+
+Dégâts : 1D8
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : grande épée
+Type d'armes : à une main
+Nécessite : 6 en force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+@34  = ~Cette lame brûle d'un feu magique, et une explosion dévastatrice est libérée à chaque coup réussi. "Meta Infernum" est gravé sur la garde, bien que cela paraisse un peu effacé et puisse ne pas être d'origine.
+
+Cette épée-ci semble avoir un élémentaire de feu ou quelque chose de similaire emprisonné à l'intérieur. Sa nature maléfique peut prendre le dessus sur les personnalités faibles. Cependant, la créature emprisonnée attire les flammes alentours vers l'épée, ce qui peut procurer une certaine protection au porteur.
+
+PARAMETRES :
+
+TAC0 : bonus de +2 
+Dégâts : 1D8 +2, +3 de dégâts de feu
+Spécial : +50% de résistance au feu
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 5
+Type de compétence : grande épée
+Type d'armes : à une main
+Nécessite : 6 en force
+Non utilisable par :
+ Druide
+ Clerc
+ Mage~
+@35  = ~Main de Gloire~
+@36  = ~C'est une main desséchée. Des cierges rouges sont attachés à chacun des doigts, pouce compris.~
+@37  = ~Cet horrible objet est la main gauche tranchée d'un mâle humain, avec un cierge rouge attaché à chacun des doigts, pouce compris. C'était la main d'un voleur, mais à présent, c'est un objet magique puissant.
+
+Capacités spéciales : 
+
+Lance Déblocage
+Lance Immobilisation des Personnes
+
+Utilisable par : 
+ Tous~
+@38  = ~Fragment de parchemin~
+@39  = ~Ce fragment de parchemin a peu de lignes d'écriture encore lisibles. Il est recouvert de cendre, de crasse, et de ce qui ressemble à du sang frais. Voici ce que vous pouvez déchiffrer :
+
+...attendons impatiemment l'arrivée de la Main de Gloire... non... et nous n'accomplissons pas... dans nos griffes...~
+@40  = ~Fragment de note~
+@41  = ~Ce morceau de papier sale et taché présente des marques étranges. En le regardant de près, vous voyez qu'il s'agit de rectangles de formes différentes et qu'ils forment un dessin.~
+@42  = ~Journal~
+@43  = ~La plupart des mots sur ces pages éparpillées ont été effacés par les siècles.
+
+...satanée malédiction ! ...mort-vivant... que faire ? ...un parchemin de restauration...
+
+Seule l'entrée finale est porteuse d'une information sensée :
+
+Je suis à cours de papier et ma chair est presque tout entière pourrie et tombée. Je comprends de ce que disent les autres que celui qui m'a vaincu est mort lui aussi. Sa nature maléfique lui a permis de se changer en spectre, pour continuer ainsi à rendre cet endroit inhabitable grâce à un sacrilège épouvantable.
+
+Ma souffrance prendra-t-elle jamais fin ? Mon âme doit être libérée de mon corps pour rejoindre Amaunator dans sa gloire.
+
+J'ai trouvé quelques parchemins de restauration, peut-être l'un d'entre eux fonctionnera-t-il. Mais il faut que quelqu'un d'autre lance le sort !~
+@44  = ~Clef~
+@45  = ~Une clef d'aspect complexe en fer froid.~
+@46  = ~Message de Martin~
+@47  = ~C'est le message de Martin pour Almax. En le regardant par transparence, vous voyez qu'il s'agit d'une liste de matériel dont Martin a besoin pour aider à finir la construction du bosquet druidique.~
+@48  = ~Heaume~
+@49  = ~Heaume de Protection Mentale~
+@50  = ~Ce type de heaume ouvert sur l'avant, fait de cuir renforcé ou de métal, recouvre la majeure partie de la tête, à l'exception du visage et du cou. Ces heaumes procurent d'habitude une protection pour le nez.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : aucun
+Spécial : protège contre les coups critiques
+Poids : 2
+Non utilisable par :
+ Mage
+ Barde
+ Voleur~
+@51  = ~Comme son nom le suggère, le Heaume de Protection Mentale protège son porteur de toute tentative magique de manipulation émotionnelle. Par précaution, certains groupes de mercenaires bien en vue équipent régulièrement leurs membres de tels heaumes afin de s'assurer qu'ils pourront accomplir la mission confiée sans interférence extérieure.
+
+PARAMETRES :
+
+Protège contre les coups critiques
+Le porteur est immunisé aux sorts mentaux
+Peut lancer Vision Véritable 3 fois par jour
+Poids : 4
+Utilisable par :
+ Personnages d'Alignement Bon
+ Guerrier (y compris multiclassé)
+ Paladin
+ Rôdeur (y compris multiclassé)
+ Clerc~
+@52  = ~Corps de Locinda~
+@53  = ~C'est le corps de Locinda, elle doit être portée au temple de Garrotten pour y être soignée.~
+@54  = ~C'est l'équipement qui manquait dans l'entrepôt. Il y a là deux épées, un écu, plusieurs sacs de farine et de sucre (désormais gâtés par les rats) et un rouleau de soie mauve.~
+@55  = ~Lettre de Qualton~
+@56  = ~C'est une lettre de l'abbé Qualton. Elle indique qu'il veut recruter Tellish afin de tuer le baron et son épouse, Fairwind. Elle dit aussi qu'il veut les voir morts dès que possible.~
+@57  = ~Symbole sacré d'Osprem~
+@58  = ~C'est un symbole sacré de la déesse Osprem. Cette amulette en or représente une baleine. Normalement la baleine a un oeil fait d'un rubis rouge. Il manque à cette amulette le rubis de l’oeil.~
+@59  = ~Livre de sorts de Pelltar~
+@60  = ~C'est le livre de sorts de Pelltar. Tous ses sorts sont rangés à l'intérieur.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@61  = ~Corde~
+@62  = ~C'est la corde de luth trouvée près du corps du Baron Grellus. Elle est de couleur dorée et semble émettre une radiation magique.~
+@63  = ~Rubis~
+@64  = ~Ce petit rubis a été trouvé près du corps du Baron Grellus. Selon des témoins, le Grand Prêtre Harper du temple d'Osprem porte une amulette dotée de cette pierre.~
+@65  = ~Bouton de Cuir Rouge~
+@66  = ~Ce bouton de cuir rouge a été trouvé dans la main du Baron Grellus. Selon les témoins, Abraham, aubergiste de Garrotten, porte une veste dotée de tels boutons.~
+@67  = ~Documents d'Arrness~
+@68  = ~La Dame maire de Garrotten, Arrness, était très consciencieuse dans la notation de tous les petits détails concernant la guilde d'assassins. Les compte-rendus des recrutements de tous les espions et tueurs à son service se trouvent ici. Des registres contenant des informations sur chaque emploi figurent aussi dans ses archives. Pour ce que vous en voyez, la guilde était très efficace pour ce qui était de collecter des informations, espionner et assassiner.
+
+Son journal se trouve aussi ici. Selon lui, elle projette de s'emparer de Restenford en tant que nouvelle Baronne une fois que la famille actuelle aura été supprimée. Tellish a été recruté par quelqu'un pour les assister dans l'exécution de ce plan. Rien ici n'indique qui est cette personne.~
+@69  = ~Journal de Sirius~
+@70  = ~C'est le journal de Sirius.
+
+En le parcourant, vous apprenez que lui et un nécromancien ont été recrutés par les Hauts-Seigneurs elfes des Iles de Lendore. Leur mission était d'apporter le chaos dans les dernières zones dirigées par les humains, afin que les Hauts-Seigneurs puissent en prendre le contrôle. La Main de Gloire a été créée pour faciliter les vols. Il semble aussi que Sirius ait découvert que le nécromancien volait dans leur butin, c'est pourquoi il l'a tué. Il s'est ensuite installé dans le phare pour être plus près de la ville. Vers la fin du journal vous voyez que votre groupe était considéré par lui comme une menace et qu'il envisageait différentes options pour vous faire imputer la responsabilité de tout.~
+@71  = ~Ninja-To +2, +6 contre l'alignement Loyal Bon~
+@72  = ~Cette lame maléfique a été conçue par les Yakuza pour les aider à supprimer les paladins, les dirigeants bons, et autres personnes qui leur barraient le passage.
+
+PARAMETRES :
+
+Capacités spéciales :
+  Tue les Loyaux Bons en cas de coup réussi (pas de jet de sauvegarde)
+
+TAC0 : bonus de +2, +6 contre l'alignement Loyal Bon
+Dégâts : 1D8 +2
+Type de dégâts : tranchant
+Poids : 1 
+Facteur de vitesse : 0
+Type de Compétence : Cimeterre / Wakishashi / Ninja-To
+Type : arme à une main
+Nécessite : 6 en Force
+Inutilisable par :
+ Druide
+ Clerc
+ Mage~
+@73  = ~Journal de Telvar~
+@74  = ~Ce journal contient pour l'essentiel des notes de Telvar sur ses observations astronomiques. Il y aussi quelques remarques sur les potions qu'il était en train de mettre au point. Vers la fin du journal, Telvar précise travailler avec quelque chose ou quelqu'un du nom de "Spectre". Il ne donne pas d'autre détail, à part le fait que "Spectre" contrôle les mort-vivants du château. Il semble bien que Spectre et lui préparaient une attaque prochaine contre Restenford.~
+@75  = ~Livre de sorts de Telvar~
+@76  = ~C'est le livre de sorts de Telvar. Tous ses sorts y sont rangés.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@77  = ~Baguette de Blessure Grave~
+@78  = ~Bien que conçue pour n'être utilisable que par les clercs, cette baguette peut en réalité être maniée par quiconque ne souhaite pas trop s'approcher de sa victime.
+
+Lance Blessure Grave
+
+Utilisable par : 
+ Tous~
+@79  = ~Livre de sorts anonyme~
+@80  = ~Ce livre de sorts contient des douzaines de sorts spécialisés difficiles à se procurer.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@81  = ~Livre de sorts de Zahrdahl~
+@82  = ~C'est le livre de sorts de Zahrdahl. Tous ses sorts sont rangés à l'intérieur.
+
+Cette boite solide permet de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs, dangers fréquents pour les aventuriers.~
+@83  = ~Carnet de notes de Zahrdahl~
+@84  = ~Ce carnet contient les notes de Zahrdahl concernant les habitants de Restenford. Il semble avoir des informations détaillées sur chacun. Ce carnet fait aussi la liste des problèmes récents de la ville, bandits, gnolls et rats. Il déclare aussi avoir l'intention de visiter la Colline d'Os pour recueillir davantage d'informations sur ce qu'il s'y passe.
+
+La plus grande découverte que vous faites en lisant ceci est que ces informations étaient destinées à être envoyées au Duc de Kroten. Il semble que Zahrdahl n'est pas du tout marchand d'appâts, mais bien un espion envoyé par le duc.
+
+Cette information devrait être rapportée à Pelltar.~
+@85  = ~Installation des nouveaux magasins.~
+@86  = ~Druide Almax~
+@87  = ~Armure d'Alton~
+@88  = ~Temple d'Osprem~
+@89  = ~Abbaye de Phaulkon~
+@90  = ~Taverne de Falco~
+@91  = ~Armes de Gilmi~
+@92  = ~Maison d'Abraham~
+@93  = ~Potions d'Hestal~
+@94  = ~Armurerie de Krak~
+@95  = ~Ohlatta la Joaillière~
+@96  = ~Pelltar~
+@97  = ~Boîte à parchemins de Pelltar~
+@98  = ~Magasin de Perk~
+@99  = ~Boutique de Pheldman~
+@100 = ~Le Magasin de Magie~
+@101 = ~Boutique de Restenford~
+@102 = ~Parchemins au propriétaire inconnu~
+@103 = ~Taverne du Vent d'Ouest~
+@104 = ~Installation des nouvelles creatures.~
+@105 = ~Abracus~
+@106 = ~[MALE GREETING 12] Oui, camarade ?~ [GENMG12]
+@107 = ~[MALE TOWNSFOLK 5]~ [VILLM05]
+@108 = ~[MALE TOWNSFOLK 6]~ [MTOWN06]
+@109 = ~Abraham~
+@110 = ~Almax~
+@111 = ~Almon~
+@112 = ~[MALE GREETING 8] Salut.~ [GENMG08]
+@113 = ~[MALE GREETING 11] Vous avez quelque chose en tête ?~ [GENMG11]
+@114 = ~Alton~
+@115 = ~Bien le bonjour. Votre puissance est impressionnante.~ [EPRIM01]
+@116 = ~Pitié ! Pitié !~ [EPRIM08]
+@117 = ~Vous me supplierez de vous achever quand j'en aurai fini avec vous !~ [EPRIM05]
+@118 = ~Que venez-vous chercher parmi les croyants ?~ [EPRIM02]
+@119 = ~A genoux devant les dieux, et priez pour votre vie !~ [EPRIM03]
+@120 = ~Fous, nos dieux sont impitoyables !~ [EPRIM04]
+@121 = ~Amos~
+@122 = ~Andrella~
+@123 = ~Armax~
+@124 = ~Maire Arrness~
+@125 = ~Arthur~
+@126 = ~Ascue~
+@127 = ~[OGRE MAGE 01] Hoo ha ha ha ha ha. ~ [OGREM01]
+@128 = ~[OGRE MAGE 02] Vous allez mourir pour votre impudence... ~ [OGREM02]
+@129 = ~[OGRE MAGE 04] Meurs, bétail !~ [OGREM04]
+@130 = ~[OGRE MAGE 08] ~ [OGREM08]
+@131 = ~[OGRE MAGE 09] ~ [OGREM09]
+@132 = ~Balmar~
+@133 = ~Balmorrow~
+@134 = ~[BANDITS 1] Et alors j'lui ai frappé la tête jusqu'à ce qu'il crève. Har har.~ [BANDT01]
+@135 = ~[BANDITS 3] Ouah, ça c'était vraiment une cochonnerie, har har.~ [BANDT03]
+@136 = ~[BANDITS 4] Arrêtez de vous mettre les doigts dans le nez !~ [BANDT04]
+@137 = ~Basil~
+@138 = ~Basmar~
+@139 = ~Sir BillyBob~
+@140 = ~Pluie sur l'épouvantail, sang sur la charrue.~
+@141 = ~Beshkar~
+@142 = ~[FEMALE GREETING 12] Salut à vous.~ [GENFG12]
+@143 = ~[FEMALE THREAT 7] Vos cris seront doux à mes oreilles.~ [GENFT07]
+@144 = ~[FEST HALL GIRL 5]~ [FESTH05]
+@145 = ~[FEST HALL GIRL 6]~ [FESTH06]
+@146 = ~Bess~
+@147 = ~Bomarc~
+@148 = ~Acolyte d'Osprem~
+@149 = ~Acolyte~
+@150 = ~Acolyte de Phaulkon~
+@151 = ~Garçon~
+@152 = ~[MALE CHILDREN 1] Maman m'a dit de ne pas parler avec les étrangers.~ [MCHIL01]
+@153 = ~[MALE CHILDREN 5]~ [MCHIL05]
+@154 = ~[MALE CHILDREN 6]~ [MCHIL06]
+@155 = ~[MALE TOWNSFOLK OF NASHKELL 5 HOSTILE] Ne m'approchez pas ! Je ne vous ferai pas confiance pour un sou !~
+@156 = ~[MALE CHILDREN LAUGHING]~ [AMB_M34B]
+@157 = ~Roturier~
+@158 = ~[MALE GREETING 13] Salut, camarade.~ [GENMG13]
+@159 = ~[MALE TOWNSFOLK OF NASHKELL HOSTILE] Hors de ma vue ! Je ne ferai rien pour vous !~
+@160 = ~[DRUNK 4]~ [DRUNK04]
+@161 = ~[DRUNK 1]~ [DRUNK01]
+@162 = ~[FARMERS 1]J'ai pas d'temps à perdre en bavardages avec vous.~ [FARME01]
+@163 = ~[FARMER 4 HOSTILE] Hors de ma vue ! Je ne ferai rien pour vous !~
+@164 = ~[FARMERS 5]~ [FARME05]
+@165 = ~[FARMERS 6]~ [FARME06]
+@166 = ~Travailleur du chantier~
+@167 = ~Servante~
+@168 = ~Eless~
+@169 = ~Fabio~
+@170 = ~Désolé, je n'accepte pas les requêtes.~ [FABIO20]
+@171 = ~Désolé, je dois y aller. Les dames m'appellent. Salut.~ [FABIO11]
+@172 = ~Vous savez quoi ? Vous avez raison. Je vais peut-être devoir écrire une chanson sur vous.~ [FABIO15]
+@173 = ~Ce groupe a de sérieux problèmes.~ [FABIO12]
+@174 = ~Vous savez, j'ai vraiment mieux à faire de mon temps que de le passer avec des gens comme vous.~ [FABIO16]
+@175 = ~Voilà, j'en ai assez de vous. Pour ce qui est d'une chanson, vous pouvez oublier.~ [FABIO13]
+@176 = ~Si seulement j'étais roi le temps d'une journée.~ [FABIOB]
+@177 = ~(baille) Mon gars, faut que je repose mes charmes.~ [FABIOC]
+@178 = ~Vous savez, cela interfère avec ma chasse aux jupons.~ [FABIOD]
+@179 = ~Je chanterai votre mort !~ [FABIOA]
+@180 = ~Encore un imbécile qui mourra de ma main.~ [FABIO9]
+@181 = ~Mort à vous tous ! Hum, peut-être devrais-je l'écrire.~ [FABIO8]
+@182 = ~Votre mort ne mérite même pas une chanson.~ [FABIO10]
+@183 = ~Pour les nécessiteux ! Ah, attendez, il y a un droit d'auteur.~ [FABIO19]
+@184 = ~Ouille ! Bordel, ça fait mal !~ [FABIOL]
+@185 = ~Ohh.~ [FABIOM]
+@186 = ~Hé ! Il y a besoin d'une potion ici, tout de suite !~ [FABIOE]
+@187 = ~Ah, la forêt et son lot d'intimité. Si seulement j'avais une dame avec qui en profiter...~ [FABION]
+@188 = ~S'il vous plait, s'il vous plait, mesdames, faites la queue.~ [FABIOO]
+@189 = ~Ahh, inutile d'utiliser un accent ici.~ [FABIOP]
+@190 = ~Ce n'est qu'à la lumière du jour que l'on peut réellement voir mon beau visage.~ [FABIOQ]
+@191 = ~(fredonne)~ [FABIOR]
+@192 = ~Je ne connaissais vraiment pas son âge, je vous jure !~ [FABIOG]
+@193 = ~Tellement de femmes et si peu de temps.~ [FABIOF]
+@194 = ~Il était une fois une dame, à Nantucket...~ [FABIOH]
+@195 = ~Mec, quoi de neuf ?~ [FABIOX]
+@196 = ~Vous ai-je jamais raconté l'histoire de cette tieffeline, qui avait une queue, que j'ai rencontrée ? Oh, mon gars !~ [FABIO0]
+@197 = ~Ja, herr commandant !~ [FABIOT]
+@198 = ~Loveshack, baby, loveshack, yeah !~ [FABIOI]
+@199 = ~Ne me haïssez pas pour ma seule beauté.~ [FABIOJ]
+@200 = ~Bien sûr. Je peux le faire.~ [FABIOK]
+@201 = ~Hé ! Je travaille, là.~ [FABIOY]
+@202 = ~Très bien, monsieur.~ [FABIOU]
+@203 = ~Oh c'est sûr que c'est à moi de le faire. Je ne vous vois pas y réussir.~ [FABIO_]
+@204 = ~Un autre héros tombé. Hum, je devrais peut-être écrire une chanson à son sujet.~ [FABIOW]
+@205 = ~Joli !~ [FABIOV]
+@206 = ~Oh, ouais !~ [FABIOZ]
+@207 = ~Quoi ?! Je n'échoue jamais.~ [FABIO1]
+@208 = ~Par les Enfers ?! Ça ne marche pas.~ [FABIO2]
+@209 = ~Hé, ce paquetage est plein, mon pote. Trouvez-vous une autre mule.~ [FABIO3]
+@210 = ~Ha ha ha !~ [FABIO4]
+@211 = ~Fabio, le célèbre barde (c'est du moins ce qu'il prétend), semble avoir voyagé partout. Il a fait des tournées avec divers ensembles en traversant de nombreux mondes. Malheureusement, il fait allusion à des choses relevant d'autres mondes et qui n'ont donc pas toujours beaucoup de sens pour ceux qui n'y ont pas voyagé. Les femmes sont un de ses vices les plus évidents. Il ne peut pas avoir une conversation avec vous sans regarder autour de lui toute femme qui passe à sa portée. Persuadé d'être un Casanova, il peut être très casse-pieds pour les membres féminins du groupe. Il tente d'utiliser différents accents, dans l'espoir de faire s'évanouir les femmes aux alentours. Avec un peu de chance, sa langue de beau parleur, mais fourchue, ne vous attirera pas de problèmes.~
+@212 = ~Fairwind~
+@213 = ~Falco~
+@214 = ~Falpir~
+@215 = ~Felwin~
+@216 = ~[ELF FEMALE 2] Je préfère de beaucoup les régions boisées, mais il faut savoir s'adapter, par les temps qui courent.~ [FELFF02]
+@217 = ~[ELF FEMALE 5] ~ [FELFF05]
+@218 = ~[ELF FEMALE 6] ~ [FELFF06]
+@219 = ~[ELF FEMALE 1] Bonjour, et salut à vous.~ [FELFF01]
+@220 = ~Géant du feu~
+@221 = ~Fliban~
+@222 = ~Gap~
+@223 = ~Gellius~
+@224 = ~Gelmark~
+@225 = ~[STOREOWNER 1] Bienvenue dans mon humble établissement.~ [STORE01]
+@226 = ~[STOREOWNER 5]~ [STORE05]
+@227 = ~[STOREOWNER 6]~ [STORE06]
+@228 = ~[STOREOWNER 3]Le client est toujours roi.~ [STORE03]
+@229 = ~Gelpas~
+@230 = ~Gilmi~
+@231 = ~Glami~
+@232 = ~[MALE THREAT 5] Désolé, camarade, mais on vous attend en Enfer.~ [GENMT05]
+@233 = ~[MALE GREETING 9] Parlez, parlez !~ [GENMG09]
+@234 = ~Golem~
+@235 = ~Gorharg~
+@236 = ~Grecko~
+@237 = ~Baron Grellus~
+@238 = ~Gristla~
+@239 = ~Squelette~
+@240 = ~[GUARDS 5]~ [GUARR05]
+@241 = ~[GUARDS 6]~ [GUARR06]
+@242 = ~[MALE GREETING 14] Salut.~ [GENMG14]
+@243 = ~[FRIENDLY ARM INN GUARDS (CPT. BILSHIRE) HOSTILE] Vous ne vous êtes pas fait des amis ici ! Allez-vous en !~
+@244 = ~[GUARDS 1]~ [GUARR01]
+@245 = ~Garde~
+@246 = ~Apprenti Assassin~
+@247 = ~Haki~
+@248 = ~Harmin~
+@249 = ~Harper~
+@250 = ~Hestal~
+@251 = ~[LOW CLASS MAN 1] Salut l'ami ! C'est agréable de rencontrer un bon bougre comme toi.~ [MANLC01]
+@252 = ~[LOW CLASS MAN 3] ~ [MANLC03]
+@253 = ~[LOW CLASS MAN 4] ~ [MANLC04]
+@254 = ~Hoirag~
+@255 = ~Holga~
+@256 = ~Krak~
+@257 = ~[ORC 01] ~ [ORCAXE01]
+@258 = ~[ORC 03] ~ [ORCAXE03]
+@259 = ~[ORC 04] ~ [ORCAXE04]
+@260 = ~[ORC 08] ~ [ORCAXE08]
+@261 = ~[ORC 10] ~ [ORCAXE10]
+@262 = ~[ORC 02] ~ [ORCAXE02]
+@263 = ~Krellus~
+@264 = ~Homme-lézard~
+@265 = ~Roi Homme-lézard~
+@266 = ~Shaman Homme-lézard~
+@267 = ~Locinda~
+@268 = ~Lothar~
+@269 = ~Lydia~
+@270 = ~Martin~
+@271 = ~[DRUID 2] Ne vous frottez pas à la nature, ou elle se frottera à vous. ~ [DRUID02]
+@272 = ~[DRUID 5]~ [DRUID05]
+@273 = ~[DRUID 6]~ [DRUID06]
+@274 = ~[DRUID 1] Il serait bon que vous preniez garde à ce que vous faites dans ce bois.~ [DRUID01]
+@275 = ~[DRUID 3] La civilisation semble bien loin quand on vient de la ville.~ [DRUID03]
+@276 = ~Marvin~
+@277 = ~Ogre~
+@278 = ~[OGRE 03] J'vais vous écraser, vous réduire en bouilliiie !~ [OGREE03]
+@279 = ~[OGRE 04] J'vais vous écraser la tête.~ [OGREE04]
+@280 = ~[OGRE 08] ~ [OGREE08]
+@281 = ~[OGRE 09] ~ [OGREE09]
+@282 = ~[OGRE 01] Je vais tout écraser. ~ [OGREE01]
+@283 = ~[OGRE 02] ~ [OGREE02]
+@284 = ~[OGRE 10]~ [OGREE10]
+@285 = ~Garde orque~
+@286 = ~Ohlatta~
+@287 = ~Lieutenant Orque~
+@288 = ~Orque~
+@289 = ~Chef orque~
+@290 = ~Oscar~
+@291 = ~Perk~
+@292 = ~[MALE GREETING 10] Vous voulez quoi ?~ [GENMG10]
+@293 = ~Philmar~
+@294 = ~Phyllis~
+@295 = ~Priska~
+@296 = ~Qualton~
+@297 = ~[KELDATH ORMLYR 3]~ [KELDT03]
+@298 = ~[KELDATH ORMLYR 4]~ [KELDT04]
+@299 = ~[KELDATH ORMLYR 2] Ne me touchez pas, je suis super important.~ [KELDT02]
+@300 = ~Quenex~
+@301 = ~Rat Géant~
+@302 = ~Ravella~
+@303 = ~[FEMALE TOWNSFOLK OF NASHKELL 2 HOSTILE] Je ne vous dirai pas un mot après ce que vous avez fait !~
+@304 = ~[FEMALE TOWNSFOLK 5]~ [FTOWN05]
+@305 = ~[FEMALE TOWNSFOLK 6]~ [FTOWN06]
+@306 = ~[FEMALE GREETING 12]~ [GENFG12]
+@307 = ~Relba~
+@308 = ~Rogan~
+@309 = ~[MALE GREETING 6] Salut, l'ami.~ [GENMG06]
+@310 = ~Sangster~
+@311 = ~[MAREK 1] Pourriez-vous nous accorder un peu de votre temps ?~ [MAREK01]
+@312 = ~[MALE THREAT 3] J'ai une lame avec votre nom dessus.~ [GENMT03]
+@313 = ~[MAREK 3] ~ [MAREK03]
+@314 = ~[MAREK 3] ~ [MAREK04]
+@315 = ~[MAREK 2] Ces imbéciles ne sauront jamais ce qui les a frappés.~ [MAREK02]
+@316 = ~Selmo~
+@317 = ~Mercenaire~
+@318 = ~Shargrailar~
+@319 = ~[DAVEORN 6] Tremblez face au pouvoir de ma sorcellerie !~ [DAVEO06]
+@320 = ~[DAVEORN 5] Vos efforts sont vains !~ [DAVEO05]
+@321 = ~[DAVEORN 3]Mourez, petits morveux !~ [DAVEO03]
+@322 = ~[DAVEORN 4] Ha ha ha ha ha ha ! ~ [DAVEO04]
+@323 = ~Sirius~
+@324 = ~Smyth~
+@325 = ~Suie~
+@326 = ~[Cat Meow1]~ [AMB_E44A]
+@327 = ~[Cat Meow2]~ [AMB_E44D]
+@328 = ~[Cat 1]Miaou~ [AMB_E44A]
+@329 = ~[Cat 2]Miaou~ [AMB_E44D]
+@330 = ~Pheldman~
+@331 = ~Attaquant inconnu~
+@332 = ~Tellish~
+@333 = ~Telvar~
+@334 = ~[DAVEORN 7] Vos faibles aptitudes ne font pas le poids face à ma magie !~ [DAVEO07]
+@335 = ~[DAVEORN 8] ~ [DAVEO08]
+@336 = ~[DAVEORN 9] ~ [DAVEO09]
+@337 = ~[DAVEORN 1] Alors, comme ça, nos aventuriers stoïques ont réussi à se frayer un chemin jusqu'à mon repaire.~ [DAVEO01]
+@338 = ~Roublard~
+@339 = ~Tolvar~
+@340 = ~Serveuse de Taverne~
+@341 = ~Statue~
+@342 = ~Volcifar~
+@343 = ~Chien de Garde~
+@344 = ~[DOG, WAR 03] ~ [WADOG03]
+@345 = ~[DOG, WAR 04] ~ [WADOG04]
+@346 = ~[DOG, WAR 05] ~ [WADOG05]
+@347 = ~[DOG, WAR 06] ~ [WADOG06]
+@348 = ~[DOG, WAR 08] ~ [WADOG08]
+@349 = ~[DOG, WAR 09]~ [WADOG09]
+@350 = ~[DOG, WAR 01] ~ [WADOG01]
+@351 = ~[DOG, WAR 02] ~ [WADOG02]
+@352 = ~Gardien~
+@353 = ~Welcar~
+@354 = ~Wilbur~
+@355 = ~Wilfong~
+@356 = ~Willis~
+@357 = ~Spectre~
+@358 = ~Yalta~
+@359 = ~Zahrdahl~
+@360 = ~Zelmar~
+@361 = ~Compile les nouveaux scripts~
+@362 = ~Compile les dialogues~
+@363 = ~Installe les nouvelles zones~
+@364 = ~Tutu installe, installation des fichiers Tutu~
+@365 = ~Château de Restenford~
+@366 = ~Quartiers des soldats ~
+@367 = ~Le Magasin de Magie~
+@368 = ~Armures, armes et boucliers~
+@369 = ~Les pas lourds d'un garde de Restenford vous tirent de votre sommeil.~
+@370 = ~Colline Chauve~
+@371 = ~Restenford~
+@372 = ~Presbytère~
+@373 = ~Sud vers Garrotten~
+@374 = ~Il y a ici une étroite entrée de tunnel. Elle était bien cachée et ne semble pas avoir servi récemment. Quelque chose vous empêche d'entrer.~
+@375 = ~Quelqu'un a creusé un tunnel sous la palissade.~
+@376 = ~Ce doit être l'arbre des pendaisons. Il y a plusieurs vieilles cordes qui pendent des grosses branches.~
+@377 = ~Tri-Top~
+@378 = ~Ce passage conduit à nouveau vers l'autel. Vous voudrez peut-être recouvrir les escaliers afin que personne ne sache que vous êtes descendus ici.~
+@379 = ~Ce baraquement a de toute évidence subi un incendie de grande ampleur. La majeure partie du toit a été réduite en cendres.~
+@380 = ~La maison semble abandonnée. Cette porte est recouverte de mauvaises herbes et de buissons.~
+@381 = ~Le lit, la table et le reste du mobilier sont pourris et prêts à s'effondrer.~
+@382 = ~Il y a là une cible d'entraînement avec une dague rouillée encore fichée dedans.~
+@383 = ~Ce tunnel est juste suffisamment large pour le passage des rats. Ce doit être par là qu'ils quittent les grottes.~
+@384 = ~De ce que vous pouvez voir de sa dépouille, ce peut avoir été un voleur. Des vêtements noirs et un crochet de serrurier brisé sont tout ce qu'il reste à part les os.~
+@385 = ~Baron de Restenford~
+@386 = ~Tour de Pelltar~
+@387 = ~Sortie~
+@388 = ~Ici repose Joe qui a dit : "Ce mod me tuera !"~
+@389 = ~On dirait une tombe fraîchement creusée.~
+@390 = ~Il y a là, cachée, l'ouverture d'un petit tunnel.~
+@391 = ~Ce squelette semble récent. Les restes des vêtements sont sombres et ressemblent à une robe de mage.~
+@392 = ~On dirait que quelqu'un est en train de réparer cette catapulte. Plusieurs poutres ont été remplacées.~ 
+@393 = ~Vous pouvez voir que l'on retire de la zone toute vie végétale.~ 
+@394 = ~Ce petit fort semble n'avoir été abandonné que récemment. Il commence à se délabrer.~
+@395 = ~Forêt de Reddy~
+@396 = ~Sortie du souterrain~
+@397 = ~Sortie vers la Surface~
+@398 = ~Nord de Restenford~
+@399 = ~Est de Restenford~
+@400 = ~Colline d'Os~
+@401 = ~Faites une pause et priez dans mon temple ! Les divinités marines accueilleraient votre prière et votre générosité.~
+@402 = ~Statue d'Osprem, Déesse des pêcheurs et des marins~
+@403 = ~Allez en mer sur des navires pour mériter sa générosité par des moyens légitimes. Nourrissez ses monstres ou débarrassez-en les mers. C'est la fortune des hautes mers !~
+@404 = ~Statue de Xerbo, Dieu de la mer~
+@405 = ~Théâtre de la Célébration Mystique~
+@406 = ~Les pas lourds d'un garde de la ville vous réveillent durant votre sommeil.~
+@407 = ~Vers Restenford~
+@408 = ~Vers le château~
+@409 = ~Nord de la ville~
+@410 = ~Sud de la ville~
+@411 = ~Il y a deux petits trous dans le mur qui permettent à quelqu'un se tenant ici de regarder dans la pièce d'à côté.~
+@412 = ~Des outils de jardinage et des vêtements couverts de crasse reposent contre ce mur.~
+@413 = ~C'est une statue de la déesse Osprem.~
+@414 = ~Ces étagères sont garnies de livres de théologie et de religion.~
+@415 = ~Ces tonneaux sont remplis d'armes et d'outils divers. La plupart d'entre eux ont l'air rouillé et en mauvais état.~
+@416 = ~Ces tapis épais et peluchés ont été roulés pour faciliter le stockage.~
+@417 = ~Une rangée de lanternes pend en vitrine. A en juger d'après les couches de poussière, il ne fait pas de doute qu'elles se trouvent là depuis très longtemps.~
+@418 = ~Un arrangement exotique de vêtements a été suspendu à ce porte-manteau de bois. Il semble s'agir d'une tenue consistant en un pourpoint de soie imprimé de motifs floraux, et un turban assorti.~
+@419 = ~Ces sacoches de cuir sont de toute évidence d'une qualité et d'une facture médiocres. Leurs coutures sont lâches et hasardeuses, et il n'est pas certain qu'elles puissent correctement supporter le poids de plus de quelques piécettes.~
+@420 = ~Une sélection de vases astiqués et de lampes à huile est éparpillée sur toute la longueur de ce comptoir.~
+@421 = ~Ces étagères sont garnies d'objets divers et variés qui vont des livres et parchemins aux vêtements, à la nourriture et aux ustensiles de cuisine. Aucun de ces objets ne semble avoir beaucoup de valeur.~
+@422 = ~N'apportez pas la force des armes aux portes de la forteresse, ou je vous abats.~
+@423 = ~C'est une statue de Kord, le Dieu de la Guerre.~
+@424 = ~Ces escaliers sont effondrés, ce qui empêche quiconque d'entrer dans le reste de cette tour. Les réparations ne sont pas encore terminées.~
+@425 = ~Cet engin rouillé semble être un conduit en état de marche.~
+@426 = ~Cette portion de la tour s'est effondrée, laissant un trou béant dans le sol.~
+@427 = ~Divers outils de crochetage sont disposés sur cette table.~
+@428 = ~Divers instruments de torture sont disposés sur cette table. Certains semblent bien usés.~
+@429 = ~Cette entrée s'est effondrée.~
+@430 = ~Vous voyez une large entrée de grotte mais il n'y pas moyen de descendre de la colline pour y accéder. Peut-être existe-t-il une autre entrée ?~
+@431 = ~Entrée de Grotte~
+@432 = ~Ce passage conduit vers le lac.~
+@433 = ~Nord de Garrotten~
+@434 = ~Ce repère a été vandalisé et il y a désormais des graffitis orques gravés dessus.~
+@435 = ~BGT-Weidu installe, installation des fichiers de BGT~
+@436 = ~Mise a jour des fichiers du jeu~
+@437 = ~Installer les nouvelles zones ? Il faut le faire au moins une fois !~
+
+@501 = ~Ce personnage est maintenant du niveau 0. Faites le passer au niveau supérieur pour choisir ses compétences et talents initiaux. (Jusqu'à ce que vous le fassiez, ses points de vie et son équipement pourraient être quelque peu bizarres ; ne vous en faites pas. Une fois que vous l'aurez passé au niveau supérieur, il se pourrait qu'il gagne d'autres niveaux (selon votre propre expérience).)~
+
+@750 = ~Chef des bandits~
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 

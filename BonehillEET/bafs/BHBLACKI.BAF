@@ -1,0 +1,18 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    MoveToPoint([776.411])
+    Wait(3)
+    MoveToPoint([495.584])
+    Wait(3)
+    MoveToPoint([146.268])
+    Wait(3)
+    MoveToPoint([308.146])
+    Wait(3)
+    MoveToPoint([426.271])
+    Wait(3)
+    MoveToPoint([588.343])
+    Wait(5)
+END
+

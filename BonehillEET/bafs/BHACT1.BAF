@@ -1,0 +1,23 @@
+IF
+  Delay(180)
+  Entered([ANYONE])
+  !StateCheck(LastTrigger,STATE_INVISIBLE)
+  !StateCheck(LastTrigger,STATE_IMPROVEDINVISIBILITY)
+  OR(6)
+    ReputationLT(Player1,3)
+    ReputationLT(Player2,3)
+    ReputationLT(Player3,3)
+    ReputationLT(Player4,3)
+    ReputationLT(Player5,3)
+    ReputationLT(Player6,3)
+THEN
+  RESPONSE #60
+    Wait(3)
+    CreateCreature("BHGUARDE",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+    CreateCreature("BHRGUARD",[-1.-1],0)
+  RESPONSE #40
+    Wait(2)
+END
+

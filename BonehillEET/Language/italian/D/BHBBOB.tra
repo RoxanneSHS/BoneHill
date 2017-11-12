@@ -1,0 +1,66 @@
+@1   = ~Salve, io sono Sir BillyBob, avventuriero, soldato, e protettore dei reami. Tu devi essere <CHARNAME>.~
+@2   = ~Er, si sono io. Come fai a saperlo?~
+@3   = ~Beh, oltre al fatto che sei ovviamente il nuovo gruppo di cui parlano tutti in città, io ero con Pelltar quando proposi al barone di contattarvi.~
+@4   = ~Ho pensato che stava cercando qualche avventuriero quando ci fermammo nei pressi del tempio in cui stava. Ma non avevo capito esattamente quello che cercava.~
+@5   = ~Pelltar voleva assumere un altro gruppo invece di voi, i Distruttori penso che si facciano chiamare. Però, io raccomandai te dopo che Elminster disse che potevi gestire il compito.~
+@6   = ~Elminster ti ha detto questo?~
+@7   = ~Si, sembra che lui sia molto interessato a te. In realtà diversi di noi sono interessati a te. Ma questa é un'altra questione che vedremo più tardi.~
+@8   = ~In che posso aiutarti?~
+@9   = ~Tanto per cominciare, potresti spiegarmi cosa ci fanno degli orchi morti lungo tutta la tua terra?~
+@10  = ~Ah si, alcuni giorni fa, un altro gruppo di orchi banditi ha provato ad infastidire la mia fattoria. Vedete bene che le loro speranze di rubarmi qualcosa siano andate in fumo. Se i lupi hanno paura a passare nella mia fattoria, perché non dovrebbero averne gli orchi?~
+@11  = ~A proposito, non so se hai sentito parlare della presenza di qualche bandito da queste parti.~
+@12  = ~Si, ne ho sentito parlare in città.~
+@13  = ~No, questa é la prima volta che sento parlare di banditi.~
+@14  = ~No, non ne ho sentito parlare. Ma mentre esploravo la zona della Collina Spoglia sono stato attaccato da diversi orchi. Ho ucciso il loro capo. Era un chierico mezzorco.~
+@15  = ~Bene, sono contento di sentire che tu sia al corrente dei problemi di questa zona.~
+@16  = ~Ci sono diverse strade che conducono fuori da Restenford da questo lato della città. Quella che si trova a sud di dove stiamo noi, e quella a nord della mia fattoria e i meleti. La strada a nord passa tra il fiume East Restin e la Collina Spoglia. Si tratta di un posto ideale per i banditi per attaccare i viaggiatori, a causa delle colline.~
+@17  = ~Di solito, le guardie della città ed io camminiamo lungo questa strada per ripulirla dai malintenzionati e renderla sicura per il passaggio dei mercanti. Sfortunatamente, con l'inizio del raccolto, sono necessarie molte persone nelle campagne. Anche se, come puoi vedere, il mio raccolto non è ancora iniziato, sono occupato con le bestie della fattoria e non ho tempo per dedicarmi a rendere sicura la zona della Collina Spoglia.~
+@18  = ~Ed é appunto per questo che chiedo il tuo aiuto. Ho necessità che tu vada a nord di qui e che dai la caccia ad orchi, banditi o qualsiasi altra creatura possa attaccare e disturbare l'arrivo dei mercanti. Deve essere fatto assolutamente qualcosa. Abbiamo diverse carovane disperse e, peraltro, non ho visto alcuni mercanti che si fermano qui in questo periodo dell'anno.~
+@19  = ~Banditi sulla Collina Spoglia
+
+Sir BillyBob mi ha chiesto di fermare gli attacchi dei banditi o di qualsiasi altra creatura sparsa e nascosta nell'area della Collina Spoglia. Loro bloccano l'arrivo delle carovane provenienti dalla città attraverso le strade a nord ed a est.~
+@20  = ~Certo, possiamo aiutare.~
+@21  = ~Dobbiamo prima occuparci della richiesta di Pelltar.~
+@22  = ~Allora penso che dovrò aspettare fino a quando non avrai terminato il tuo incarico con Pelltar. Per favore ritorna dopo che hai aiutato Pelltar.~
+@23  = ~Il fiume East Restin scorre vicino le montagne Xerbal e vicino alla Collina Spoglia dove poi si unisce con il fiume West Restin prima di raggiungere il mare a Restenford.~
+@24  = ~<CHARNAME>, é un piacere rivederti. Hai bisogno di qualcosa?~
+@25  = ~Abbiamo trovato le carovane disperse.~
+@26  = ~Siamo andati alla Collina Spoglia e siamo stati attaccati dagli orchi.  Hanno lottato duramente ma penso che siamo riusciti a ripulire la zona della loro presenza. Abbiamo preso anche il loro capo.~
+@27  = ~Non abbiamo trovato niente e né abbiamo trovato qualcosa di sospetto nei pressi della Collina Spoglia.~
+@28  = ~Abbiamo trovato le carovane disperse ed abbiamo combattuto contro i banditi. Penso che li abbiamo presi tutti.~
+@29  = ~Ancora non siamo andati alla Collina Spoglia.~
+@30  = ~Di niente, in verità, stavo solo passando di qui.~
+@31  = ~Cosa puoi dirmi della morte del barone?~
+@32  = ~Di nuovo, cosa volevi che noi approfondivamo?~
+@33  = ~Potrei farti una domanda?~
+@34  = ~Bel lavoro.~
+@35  = ~Banditi sulla Collina Spoglia
+
+Ho riferito a Sir BillyBob quello che ho fatto alla Collina Spoglia. Credo di aver risolto il problema degli assalti dei banditi che si trovavano lungo la strada per la città. Speriamo.~
+@36  = ~Grazie, avrei delle domande da farti.~
+@37  = ~Grazie.~
+@38  = ~Davvero? Mi sembra strano. Beh, forse si sono nascosti quando sei arrivato tu. Non ha importanza, se c'é qualche orco, lo prenderò successivamente.~
+@39  = ~Bene allora, domanda.~
+@40  = ~Quanti hanni hai in realtà? Ognuno in città sembra pensare che tu sia anziano ma essendo un mezzelfo, presumo che tu sia più vecchio di quello che sembri.~
+@41  = ~Perché non sei tu il capo di Restenford?~
+@42  = ~(sorride) Non sono vecchio come Elminster ma sono vissuto abbastanza.  Più di quello che potrebbero sperare di vivere la maggior parte degli elfi di razza pura. Non sono un Prescelto di qualche divinità ma sono stato incaricato da qualcuno ad aiutare lo spostamento del potere e del controllo da una fazione ad un'altra.
+
+A proposito, chi é in carica a Candlekeep? Sono molti anni che non ci vado.~
+@43  = ~Tethtoril.~
+@44  = ~Davvero?! Hmm, mi sembra di ricordare che lì questo nome lo portava un ragazzo equilibrato che conoscevo. Immagino che sia passato un po' di tempo da quando sono stato lì l'ultima volta.
+
+Beh, ora devo tornare ad occuparmi del mio raccolto. Buona fortuna <CHARNAME>.~
+@45  = ~Pensavo che ce ne fossero molti di più, comunque meglio così. Presumo che tu non abbia trovato la carovana dispersa vero? A questo punto non ha più importanza. Immagino che abbiate trovato i responsabili.~
+@46  = ~Non credo che la gente verrà ancora attaccata.~
+@47  = ~E' solo una visita di cortesia? Per favore vai alla Collina Spoglia quando ne avrai la possibilità.~
+@48  = ~Ah, sicuramente era Krellus. E' stato una una spina nel fianco finora.  Ottimo lavoro, giovane <SIRMAAM>. Se ne hai la possibilità, per favore controlla là se ci dovessero essere ancora altri orchi. Sono anche interessato a sapere cosa sia successo alla carovana dispersa. Presumo che Krellus ne sapeva qualcosa.~
+@49  = ~Probabilmente niente di più di quello che ti ha già detto Pelltar. Non credo che ci siano tre assassini. Penso che ce ne fosse solo uno, che ha lasciato delle prove per far incolpare gli altri due. In questo modo, questa persona, ha allontanato i sospetti su di lei.~
+@50  = ~O, tutti e tre sono innocenti e l'assassino ha lasciato le prove per farli accusare tutti e tre. Ti consiglio di parlare con tutti e tre e scoprire cosa é successo agli oggetti trovati sul luogo del delitto. Sicuramente c'è una storia per ognuno di questi oggetti. Forse una di queste storie ti porterà a scoprire il vero assassino.~
+@51  = ~Posso anche dirti, sebbene non sia un sacerdote, che mi sembra strano che Qualton non sia stato in grado di resuscitare il barone. Ma la risposta deve essere anche a Garrotten.~
+@52  = ~E così tutte le strade conducono a Garrotten?~
+@53  = ~Esattamente. Strada facendo, appena fuori  Garrotten c'é un vecchio castello che era di mia proprietà. L'ho venduto molti anni fa ad un avventuriero che morì poco dopo averlo acquistato. Pare che un suo vecchio nemico alla fine lo abbia ritrovato. Il castello rimase abbandonato per anni ed andò in rovina. Ad ogni modo mi sembra di aver capito che il nuovo Sindaco si stia dando da fare per restaurarlo. Sono sicuro che questo restauro stia disturbando i Non Morti tanto quanto qualsiasi altra cosa che potrebbe essere stata mossa all'interno del castello negli ultimi cento e passa anni.~
+@54  = ~Perché mi stai dicendo questo?~
+@55  = ~Perché ho il sospetto che le sue guardie stanno iniziando ad essere nervose. Potrebbero attaccare chiunque o qualsiasi cosa di strano. Bisogna fare attenzione quando ci si trova nei pressi del castello.~
+@56  = ~Ok, grazie per l'avvertimento.~
+@57  = ~Bene, un'ottima scusa per uccidere le sue guardie, grazie.~
+@58  = ~Perché dovrei esserlo? A volte, si ha più potere quando ci si trova dietro al trono che davanti al trono. Ma quei giorni sono ormai finiti per me. Dò dei consigli al barone solo quando lui me li chiede. Io sono più felice qui, alla mia fattoria, di quanto potrei esserlo nella sua villa.~

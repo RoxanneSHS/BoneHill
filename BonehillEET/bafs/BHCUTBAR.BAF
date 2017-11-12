@@ -1,0 +1,18 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    LeaveAreaLUAPanic("BH0509","",[1326.427],13)
+    LeaveAreaLUA("BH0509","",[1326.427],13)
+    Wait(1)
+    Explore()
+    MultiPlayerSync()
+    CreateCreature("BHGrelu1",[1634.349],0)
+    CreateCreature("BHTelli1",[1637.319],0)
+    SmallWait(2)
+    MoveViewPoint([1600.400],INSTANT)
+    FadeFromColor([30.0],0)
+    StartCutScene("BHCUTBA1")
+END
+

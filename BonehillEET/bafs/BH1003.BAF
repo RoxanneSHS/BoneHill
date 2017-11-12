@@ -1,0 +1,34 @@
+IF
+  OnCreation()
+  Global("BP_MoreStooges","BH1003",0)
+  !Difficulty(EASIEST)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1003",1)
+    CreateCreature("HOBELITE",[1620.1740],4)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[2405.1195],6)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[2380.1165],6)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[150.575],8)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1125.1680],12)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1140.1700],6)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1375.1665],8)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1395.1645],12)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1255.1395],4)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1235.1375],10)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1384.756],2)  // ~Hobgoblin Elite~
+END
+
+IF
+  Global("BP_MoreStooges","BH1003",1)
+  !Difficulty(EASIEST)
+  !Difficulty(EASY)
+THEN
+  RESPONSE #100
+    SetGlobal("BP_MoreStooges","BH1003",2)
+    CreateCreature("HOBELITE",[2325.1240],12)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[900.1500],4)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[535.235],8)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[260.600],0)  // ~Hobgoblin Elite~
+    CreateCreature("HOBELITE",[1665.1160],6)  // ~Hobgoblin Elite~
+END
+

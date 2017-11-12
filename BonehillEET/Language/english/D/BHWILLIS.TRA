@@ -1,0 +1,9 @@
+@0    = ~What can I do for you?~
+@1    = ~I need to talk to Balmorrow.  Is he here?~
+@2    = ~No, he should be next door at the theater.~
+@3    = ~Yes, he is up on the stage.~
+@4    = ~Thank you.~
+@5    = ~The guards picked him up a little while ago.  Said they needed to ask him some questions.~
+// Shall remain identical to @872 in baf.tra, otherwise there will be a journal issue
+@6    = ~Looks like the mayor is repeating my investigation.  She had Balmorrow picked up for questioning.  I wonder why they couldn't do that here at the theater?~
+@7    = ~Holga stopped by and the two of them left.  She seemed to be in a hurry.  She said that her mother had gotten ill and she wanted Wilbur to go with her to visit.~

@@ -1,0 +1,71 @@
+BEGIN ~BHLOTHAR~
+
+IF ~NumberOfTimesTalkedTo(0)
+AreaCheck("BH2000")~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO 1
+END
+
+IF ~~ THEN BEGIN 1
+  SAY @2
+  IF ~Global("BHClericWarnsOfLothar","GLOBAL",1)~ THEN REPLY @3 GOTO 2
+  IF ~~ THEN REPLY @4 GOTO 2
+END
+
+IF ~~ THEN BEGIN 2
+  SAY @5
+  IF ~~ THEN REPLY @6 DO ~SetGlobal("BHStupidTalk","GLOBAL",1)~ GOTO 3
+  IF ~~ THEN REPLY @7 GOTO 5
+END
+
+IF ~~ THEN BEGIN 3
+  SAY @8
+  IF ~~ THEN REPLY @9 GOTO 4
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @10
+  IF ~~ THEN REPLY @11 GOTO 6
+END
+
+IF ~~ THEN BEGIN 5
+  SAY @12
+  IF ~~ THEN REPLY @13 GOTO 7
+END
+
+IF ~~ THEN BEGIN 6
+  SAY @14
+  IF ~~ THEN DO ~SetGlobal("BHStupidTalk","GLOBAL",1)
+RandomWalk()~ EXIT
+END
+
+IF ~~ THEN BEGIN 7
+  SAY @15
+  IF ~~ THEN REPLY @16 GOTO 8
+END
+
+IF ~~ THEN BEGIN 8
+  SAY @17
+  IF ~~ THEN REPLY @18 GOTO 9
+  IF ~PartyHasItem("BHPLOT02")~ THEN REPLY @19 GOTO 10
+END
+
+IF ~~ THEN BEGIN 9
+  SAY @20
+  IF ~~ THEN DO ~SetGlobal("BHLotharKnows","GLOBAL",1)
+RandomWalk()~ EXIT
+END
+
+IF ~~ THEN BEGIN 10
+  SAY @21
+  IF ~~ THEN REPLY @22 GOTO 9
+END
+
+IF ~AreaCheck("BH2102")~ THEN BEGIN 11
+  SAY @23
+  IF ~~ THEN DO ~CreateCreature("BHTHIEF1",[-1.-1],2)
+CreateCreature("BHBandt1",[-1.-1],3)
+CreateCreature("BHBandt2",[-1.-1],4)
+Shout(125)
+Enemy()~ EXIT
+END
