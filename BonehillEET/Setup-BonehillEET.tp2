@@ -60,7 +60,7 @@ APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
 
 PRINT @1
 COPY ~BonehillEET/bams~ ~Override~
-COPY ~BonehillEET/PVRZ~ ~Override~
+COPY_LARGE ~BonehillEET/PVRZ~ ~Override~
 
 /////////////////////
 //  Install Items  //
