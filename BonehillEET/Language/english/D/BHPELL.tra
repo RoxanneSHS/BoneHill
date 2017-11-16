@@ -66,8 +66,8 @@
 @66  = ~Yes he was, he just left.  Thank you for this information.
 
 Bandits?  <CHARNAME>, I thought you said you took care of the bandits?~
-@67  = ~We did.  This must be another group.  I will go out there and found out what is going on.~
-@68  = ~We hadn't gotten to that problem yet.  This may be another group, or it could be the same one.  I will go out there and found out what is going on.~
+@67  = ~We did.  This must be another group.  I will go out there and find out what is going on.~
+@68  = ~We hadn't gotten to that problem yet.  This may be another group, or it could be the same one.  I will go out there and find out what is going on.~
 @69  = ~Did you find anything?~
 @70  = ~We killed the bandits.  On one of them we found a note.  It talks about a "Hand of Glory", whatever that is.  I think that is what they were looking for.~
 @71  = ~We explored the old sewers and found the body of a wizard or someone dressed like one.  We also found this note.  We aren't really sure what it is, but think it might be a map. Does that make any sense to you?~
