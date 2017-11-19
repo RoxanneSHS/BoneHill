@@ -66,7 +66,7 @@ END
 
 IF ~~ THEN BEGIN 12
   SAY @23
-  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAJ~ FABDYNA1
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAHJ~ FABDYNA1
   IF ~IfValidForPartyDialogue("MINSC") GlobalLT("BHWillard1","BH0107",1)~ THEN REPLY @24 GOTO 23
   IF ~OR(2) !IfValidForPartyDialogue("MINSC") Global("BHWillard1","BH0107",1)~ THEN REPLY @25 EXIT
 END
@@ -97,7 +97,7 @@ IF ~~ THEN BEGIN 16
   IF ~IfValidForPartyDialogue("Sharteel")~ THEN EXTERN ~SHARTJ~ FLIRTSHART
   IF ~IfValidForPartyDialogue("Branwen")~ THEN EXTERN ~BRANWJ~ FLIRTBRANW
   IF ~IfValidForPartyDialogue("Jaheira")~ THEN EXTERN ~JAHEIRAJ~ FLIRTJAHE
-  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAJ~ FLIRTDYNA
+  IF ~IfValidForPartyDialogue("Dynaheir")~ THEN EXTERN ~DYNAHJ~ FLIRTDYNA
   IF ~IfValidForPartyDialogue("Safana")~ THEN EXTERN ~SAFANJ~ FLIRTSAFAN
   IF ~IfValidForPartyDialogue("Imoen2")~ THEN EXTERN ~IMOEN2J~ FLIRTIMOEN
 END
@@ -334,7 +334,7 @@ END
 
 END
 
-APPEND ~DYNAJ~
+APPEND ~DYNAHJ~
 
 IF ~~ THEN BEGIN FLIRTDYNA 
   SAY @126 
