@@ -1332,8 +1332,7 @@ COPY ~BonehillEET/areas~ ~override~
 
 PRINT @435
 COPY ~BonehillEET/BGT/ARE~ ~override~ 
-  //COPY ~BonehillEET/BGT/DYNAJ.dlg~ ~override~ 
- 
+   
 COMPILE ~BonehillEET/BGT/d~
 COMPILE ~BonehillEET/BGT/BCS/BHFABIO.BAF~
 COMPILE ~BonehillEET/BGT/BCS/BHCUTBA2.BAF~
