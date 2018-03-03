@@ -7,7 +7,7 @@ VERSION ~v30 EET~
 AUTO_TRA ~BonehillEET/Language/%s/D~
 
 ALWAYS
-  ACTION_DEFINE_ARRAY va#reload BEGIN wsetup script END
+  ACTION_DEFINE_ARRAY va#reload BEGIN setup END
 
   LAF HANDLE_CHARSETS 
     INT_VAR
