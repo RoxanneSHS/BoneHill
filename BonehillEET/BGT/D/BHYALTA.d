@@ -87,6 +87,7 @@ IF ~~ THEN BEGIN 13
   SAY @37
   IF ~GlobalLT("BHGnollQuest","GLOBAL",2)~ THEN REPLY @38 DO ~SetGlobal("BHGnollQuest","GLOBAL",1) SetGlobal("BHYaltaGivesGnollQuest","BH0306",1)~ UNSOLVED_JOURNAL @4 EXIT
   IF ~GlobalLT("BHGnollQuest","GLOBAL",2)~ THEN REPLY @39 DO ~SetGlobal("BHGnollQuest","GLOBAL",1) SetGlobal("BHYaltaGivesGnollQuest","BH0306",1)~ EXIT
+IF ~Global("BHGnollQuest","GLOBAL",2) Global("BHToldYaltaGnoll","BH0306",0)~ THEN REPLY @5 DO ~EraseJournalEntry(@4)~ SOLVED_JOURNAL @3 GOTO 16
 END
 
 IF ~~ THEN BEGIN 14
