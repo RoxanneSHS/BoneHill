@@ -4,7 +4,7 @@ SUPPORT ~Roxanne - https://baldursextendedworld.com/Collaborations/ or roxanne@b
 
 VERSION ~v30 EET~
 
-AUTO_TRA ~BonehillEET/Language/%s~
+AUTO_TRA ~BonehillEET/Language/%s/D~
 
 ALWAYS
   ACTION_DEFINE_ARRAY va#reload BEGIN setup END
