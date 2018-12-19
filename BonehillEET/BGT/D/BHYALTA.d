@@ -9,7 +9,8 @@ IF WEIGHT #0 ~NumberOfTimesTalkedTo(0)~ THEN BEGIN 0
 END
 
 IF WEIGHT #4 ~True()~ THEN BEGIN 1
-  SAY @7
+  SAY @7 
+  IF ~~ THEN REPLY @52 EXIT
   IF ~GlobalLT("BHYaltaSpokeOfPriest","GLOBAL",1)~ THEN REPLY @8 GOTO 2
   IF ~GlobalLT("BHYaltaSpokeOfGnolls","GLOBAL",1)~ THEN REPLY @9 GOTO 7
   IF ~GlobalLT("BHYaltaSpokeOfRats","GLOBAL",1)~ THEN REPLY @10 GOTO 8
@@ -58,6 +59,7 @@ IF WEIGHT #5 ~GlobalLT("BHYaltaSpokeOfRats","GLOBAL",1) GlobalLT("BHToldYaltaRat
   IF ~~ THEN REPLY @28 DO ~SetGlobal("BHYaltaSpokeOfRats","GLOBAL",1) SetGlobal("BHYaltaGivesGuardQuest","BH0306",1)~ GOTO 9
   IF ~GlobalLT("BHGuardQuest","GLOBAL",3)~ THEN REPLY @29 DO ~SetGlobal("BHYaltaSpokeOfRats","GLOBAL",1) SetGlobal("BHYaltaGivesGuardQuest","BH0306",1)~ GOTO 14
   IF ~Global("BHGuardQuest","GLOBAL",3)~ THEN REPLY @30 DO ~SetGlobal("BHYaltaSpokeOfRats","GLOBAL",1)~ GOTO 21
+  IF ~~ THEN REPLY @52 EXIT
 END
 
 IF ~~ THEN BEGIN 9
@@ -123,6 +125,7 @@ IF WEIGHT #3 ~AreaCheck("BH0306") NumTimesTalkedToGT(0)~ THEN BEGIN 19
   IF ~GlobalGT("BHGuardQuest","GLOBAL",1) Global("BHToldYaltaRat","BH0306",0) Global("BHYaltaGivesGuardQuest","BH0306",1)~ THEN REPLY @6 GOTO 17
   IF ~Global("BHToldYaltaRat","BH0306",1) GlobalLT("BHToldYaltaQuest","GLOBAL",1) Global("BHGuardQuest","GLOBAL",2)~ THEN REPLY @52 GOTO 10
   IF ~GlobalLT("BHGnollQuest","GLOBAL",2)~ THEN REPLY @48 GOTO 1
+  IF ~~ THEN REPLY @52 EXIT
 END
 
 IF WEIGHT #1 ~Global("BHYaltaPissed","GLOBAL",1)~ THEN BEGIN 20
