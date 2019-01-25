@@ -14,3 +14,19 @@ THEN
     ActionOverride("BHRAVELA",DestroySelf())
 END
 
+IF
+Global("SpawnRavella","BH0300",0)
+!Exists("BHRavela")
+Global("BHHandGrave","GLOBAL",0)
+!Global("BHHandSearch","GLOBAL",2)
+OR(2)
+PartyHasItem("BHGHand")
+PartyHasItem("BHGHandn")
+Delay(12)
+THEN
+RESPONSE #100
+SetGlobal("RavellaAppears","GLOBAL",2)
+SetGlobal("SpawnRavella","BH0300",1)
+SetGlobal("BHSpokeOfRavella","GLOBAL",1)
+CreateCreature("BHRAVELA",[1528.3720],11)
+END
