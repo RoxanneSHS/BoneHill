@@ -32,6 +32,28 @@ THEN
 END
 
 IF
+  Global("BHBardGone","BH2018",0)
+  OR(4)
+Global("BHHarperArrested","GLOBAL",1)
+Global("BHBardArrested","GLOBAL",1)
+Global("BHAbrahamArrested","GLOBAL",1)
+Global("BHMayorStopsParty","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("BHBALMOR",DestroySelf())
+    SetGlobal("BHBardGone","BH2018",1)
+END
+
+IF
+  Global("BHBardFree","GLOBAL",1)
+  Global("BHBardGone","BH2018",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHBalmor",[560.940],4)
+    SetGlobal("BHBardGone","BH2018",2)
+END
+
+IF
   Global("BHWilburTells","GLOBAL",2)
   !Global("BHStupidTalk","GLOBAL",1)
 THEN
@@ -62,21 +84,5 @@ THEN
     SetGlobal("BHEscortSpawn","GLOBAL",3)
 END
 
-IF
-  Global("BHMayorStopsParty","GLOBAL",1)
-  Global("BHBardGone","BH2018",0)
-THEN
-  RESPONSE #100
-    ActionOverride("BHBALMOR",DestroySelf())
-    SetGlobal("BHBardGone","BH2018",1)
-END
 
-IF
-  Global("BHBardFree","GLOBAL",1)
-  Global("BHBardGone","BH2018",1)
-THEN
-  RESPONSE #100
-    CreateCreature("BHBalmor",[560.940],4)
-    SetGlobal("BHBardGone","BH2018",2)
-END
 

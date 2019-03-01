@@ -1,11 +1,34 @@
 IF
-  Global("BHBasilGetsLothar","GLOBAL",1)
+Global("BHBasilGetsLothar","GLOBAL",1)
 THEN
-  RESPONSE #100
-    Wait(10)
-    CreateCreature("BHBASIL",[507.619],13)
-    SetGlobal("BHBasilGetsLothar","GLOBAL",2)
-    ActionOverride("BHBASIL",Dialog([PC]))
+RESPONSE #100
+Wait(10)
+CreateCreature("BHBASIL",[507.619],13)
+SetGlobal("BHBasilGetsLothar","GLOBAL",2)
+ActionOverride("BHBASIL",Dialog([PC]))
+END
+
+IF
+Global("BHHarperGone","BH2002",0)
+OR(4)
+Global("BHHarperArrested","GLOBAL",1)
+Global("BHBardArrested","GLOBAL",1)
+Global("BHAbrahamArrested","GLOBAL",1)
+Global("BHMayorStopsParty","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("BHHarperGone","BH2002",1)
+ActionOverride("BHHARPER",DestroySelf())
+END
+
+IF
+Global("BHHarperFree","GLOBAL",1)
+Global("BHHarperGone","BH2002",1)
+THEN
+RESPONSE #100
+CreateCreature("BHHARPER",[758.273],3)
+SetGlobal("BHHarperGone","BH2002",2)
+SetGlobal("BHHarpCrazy","BH2002",2)
 END
 
 IF
@@ -30,22 +53,5 @@ THEN
     SetGlobal("BHEscortSpawn","GLOBAL",3)
 END
 
-IF
-  Global("BHMayorStopsParty","GLOBAL",1)
-  Global("BHHarperGone","BH2002",0)
-THEN
-  RESPONSE #100
-    ActionOverride("BHHARPER",DestroySelf())
-    SetGlobal("BHHarperGone","BH2002",1)
-END
 
-IF
-  Global("BHHarperFree","GLOBAL",1)
-  Global("BHHarperGone","BH2002",1)
-THEN
-  RESPONSE #100
-    CreateCreature("BHHARPER",[758.273],3)
-    SetGlobal("BHHarperGone","BH2002",2)
-    SetGlobal("BHHarpCrazy","BH2002",2)
-END
 

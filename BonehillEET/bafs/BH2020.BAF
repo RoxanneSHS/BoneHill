@@ -102,6 +102,28 @@ THEN
 END
 
 IF
+  Global("BHAbrahamGone","BH2020",0)
+    OR(4)
+Global("BHHarperArrested","GLOBAL",1)
+Global("BHBardArrested","GLOBAL",1)
+Global("BHAbrahamArrested","GLOBAL",1)
+Global("BHMayorStopsParty","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("BHABRAHA",DestroySelf())
+    SetGlobal("BHAbrahamGone","BH2020",1)
+END
+
+IF
+  Global("BHAbrahamFree","GLOBAL",1)
+  Global("BHAbrahamGone","BH2020",1)
+THEN
+  RESPONSE #100
+    CreateCreature("BHAbraha",[505.500],2)
+    SetGlobal("BHAbrahamGone","BH2020",2)
+END
+
+IF
   GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
   Global("BHEscortSpawn","GLOBAL",0)
 THEN
@@ -121,15 +143,6 @@ THEN
     ActionOverride("BHASCUE",DestroySelf())
     ActionOverride("BHOGUARD",DestroySelf())
     SetGlobal("BHEscortSpawn","GLOBAL",3)
-END
-
-IF
-  Global("BHMayorStopsParty","GLOBAL",1)
-  Global("BHAbrahamGone","BH2020",0)
-THEN
-  RESPONSE #100
-    ActionOverride("BHABRAHA",DestroySelf())
-    SetGlobal("BHAbrahamGone","BH2020",1)
 END
 
 IF
@@ -183,12 +196,5 @@ THEN
     SetGlobal("BHAbrahamGuilty","GLOBAL",1)
 END
 
-IF
-  Global("BHAbrahamFree","GLOBAL",1)
-  Global("BHAbrahamGone","BH2020",1)
-THEN
-  RESPONSE #100
-    CreateCreature("BHAbraha",[505.500],2)
-    SetGlobal("BHAbrahamGone","BH2020",2)
-END
+
 
