@@ -124,6 +124,14 @@ THEN
 END
 
 IF
+Exists("BHBasmar")
+Dead("BHSangst")
+THEN
+RESPONSE #100
+ActionOverride("BHBasmar",DestroySelf())
+END
+
+IF
   GlobalTimerExpired("BHStupidTalkTime","GLOBAL")
   Global("BHEscortSpawn","GLOBAL",0)
 THEN
