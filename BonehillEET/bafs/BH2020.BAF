@@ -121,6 +121,7 @@ THEN
   RESPONSE #100
     CreateCreature("BHAbraha",[505.500],2)
     SetGlobal("BHAbrahamGone","BH2020",2)
+    SetGlobal("BHAbrahamTalks","GLOBAL",3)
 END
 
 IF

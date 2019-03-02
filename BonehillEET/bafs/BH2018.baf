@@ -51,6 +51,7 @@ THEN
   RESPONSE #100
     CreateCreature("BHBalmor",[560.940],4)
     SetGlobal("BHBardGone","BH2018",2)
+    ActionOverride("BHBalmor",SetNumTimesTalkedTo(1))
 END
 
 IF
