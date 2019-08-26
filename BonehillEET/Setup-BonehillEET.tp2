@@ -1,4 +1,4 @@
-BACKUP ~BonehillEET/backup~ 
+BACKUP ~BonehillEET/backup~
 //AUTHOR ~SirBillyBob@gmail.com and erebusant@verizon.net~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Collaborations/ or roxanne@baldursextendedworld.com~
 
@@ -54,6 +54,8 @@ REQUIRE_PREDICATE GAME_IS ~eet~ ~This version is for EET games only~
 APPEND ~GTIMES.IDS~ ~600 TWO_HOURS~ UNLESS ~600 TWO_HOURS~
 APPEND ~GTIMES.IDS~ ~600 TEN_TURNS~ UNLESS ~600 TEN_TURNS~
 APPEND ~GTIMES.IDS~ ~2400 EIGHT_HOURS~ UNLESS ~2400 EIGHT_HOURS~
+
+COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/fl#utf8_worldmap.tra~ ~%MOD_FOLDER%/Worldmap/%LANGUAGE%/worldmap.tra~
 
 //////////////////////
 //  Copy the graphics   //
