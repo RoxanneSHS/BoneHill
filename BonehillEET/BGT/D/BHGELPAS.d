@@ -116,7 +116,7 @@ IF WEIGHT #3 ~AreaCheck("BH0505")
 PartyHasItem("MISC86")
 ~ THEN BEGIN 18
   SAY @32
-  IF ~~ THEN DO ~StartStore("stovai",LastTalkedToBy(Myself))
+  IF ~~ THEN DO ~StartStore("stovai2",LastTalkedToBy(Myself))
 ~ EXIT
 END
 
