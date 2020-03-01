@@ -21,10 +21,7 @@ Ability  1:
 Effect:  shoots out a Fireball
 Damage:  6D6 (save vs. wands for half)
 Range:  90 ft
-Area 30 ft radius
-
-Not usable by:
- Wizardslayer~
+Area 30 ft radius~
 @10   = ~Bard's Ring~
 @11   = ~While the exact origins of this ring are unknown, many believe it was created around 200 years ago. 
 
@@ -36,9 +33,7 @@ Special:
    Memorize 1 Additional 1st Level Spell
    Memorize 1 Additional 3rd Level Spell
    Memorize 1 Additional 5th Level Spell
-Weight: 0
-Usable only by:
-   Bards~
+Weight: 0~
 @12   = ~Horn~
 @13   = ~Bronze Horn of Valhalla~
 @14   = ~This is a small horn.  Horns are typically made of bone or metal and can produce a large variety of sounds.~
@@ -80,9 +75,7 @@ Weight: 7
 Speed Factor: 2
 Proficiency Type: Quarterstaff
 Type:  2-handed
-Requires: 5 Strength
-Usable By:
- Mage (Single or Multi-class)~
+Requires: 5 Strength~
 @22   = ~Cloak of the Assassin~
 @23   = ~The abilities conferred by this powerfully enchanted cloak attest to the fact that protection can take many forms - including hiding from view and assisting in backstabs. 
 
@@ -101,7 +94,7 @@ This belonged to Tellish, an evil cleric/thief known as a leader in one of the s
 STATISTICS:
 
 Combat Ability: Any human or demi-human, excluding elves, hit by the Sleeper must save vs. poison with no bonus or fall asleep for 18 seconds.
-Special Ability: 50% increase in backstab ability
+Special Ability: +1 increase in backstab ability
 THACO:  +2 bonus
 Damage:  2D4 +2
 Damage type:  crushing
@@ -109,9 +102,7 @@ Weight: 4
 Speed Factor: 3
 Proficiency Type: Club
 Type:  1-handed
-Requires: 5 Strength
-Usable By:
- Thief (Single or Multi-class)~
+Requires: 5 Strength~
 @27   = ~Lute~
 @28   = ~Fabio's Lute~
 @29   = ~A musical lute.~
@@ -123,10 +114,7 @@ Special Abilities:
 
 Once per day, when played at a target, this lute casts Dire Charm.
 
-3 times a day can cause confusion to all creatures within listening range (save vs. spells to avoid the confusion).  The bard and fellow party members are not affected by the confusion.
-
-Only Usable By:
-  Bard~
+3 times a day can cause confusion to all creatures within listening range (save vs. spells to avoid the confusion).  The bard and fellow party members are not affected by the confusion.~
 @31   = ~Long Sword~
 @32   = ~Sword of Flame +2~
 @33   = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
@@ -139,11 +127,7 @@ Weight: 4
 Speed Factor: 5
 Proficiency Type: Long Sword
 Type:  1-handed
-Requires: 6 Strength
-Not Usable By:
- Druid
- Cleric
- Mage~
+Requires: 6 Strength~
 @34   = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
 
 This particular sword seems to have a fire elemental or something imprisoned inside.  Its evil nature may overpower weak personalities.  However, the imprisoned creature draws nearby flames into the sword which may provide protection to the owner.
@@ -158,11 +142,7 @@ Weight: 4
 Speed Factor: 5
 Proficiency Type: Long Sword
 Type:  1-handed
-Requires: 6 Strength
-Not Usable By:
- Druid
- Cleric
- Mage~
+Requires: 6 Strength~
 @35   = ~Glorious Hand~
 @36   = ~This is a desiccated hand.  There are red candles attached to each finger and thumb.~
 @37   = ~This grisly item is the severed left had of a human male, with a red candle affixed to each of the fingers and the thumb.  It was the hand of a robber, but is now a powerful magic item.
@@ -170,10 +150,7 @@ Not Usable By:
 Special Abilities: 
 
 Casts Knock 
-Casts Hold Person 
-
-Usable by: 
- Anyone~
+Casts Hold Person ~
 @38   = ~Scrap of Paper~
 @39   = ~This scrap of paper has little legible writing left on it.  It is covered with ash, dirt, and it looks like recent blood.  Here is what you can read:
 
@@ -204,11 +181,7 @@ STATISTICS:
 
 Armor Class Bonus:  None
 Special:  Protects Against Critical Hits
-Weight: 2
-Not Usable By:
- Mage
- Bard
- Thief~
+Weight: 2~
 @51   = ~As its name suggests, the Helm of Mind Warding protects its wearer from any magical attempts at emotional manipulation. As a precaution, some high-profile mercenary groups regularly equip their members with such helmets to ensure that they can perform their prescribed duties without external interference.
 
 STATISTICS:
@@ -216,13 +189,7 @@ STATISTICS:
 Protects Against Critical Hits
 Wearer is immune to Mind Spells
 Can cast True Sight 3 times per day
-Weight: 4
-Usable by:
-Good Aligned -
- Fighter (including multiclass)
- Paladin
- Ranger (including multicass)
- Cleric~
+Weight: 4~
 @52   = ~Locinda's Body~
 @53   = ~This is the body of Locinda, she needs to be taken to the temple in Garrotten for healing.~
 @54   = ~This is the missing equipment from the warehouse.  There are 2 swords, a shield, some sacks of flour and sugar (now spoiled by the rats), and a bolt of mauve silk.~
@@ -263,11 +230,7 @@ Weight: 1
 Speed Factor: 0
 Proficiency Type: Scimitar/Wakishashi/Ninja-To
 Type:  1-handed
-Requires: 6 Strength
-Not Usable By:
- Druid
- Cleric
- Mage~
+Requires: 6 Strength~
 @73   = ~Telvar's Journal~
 @74   = ~This journal mostly contains Telvar's notes about celestial observations.  There are also some notes about potions he was creating.  Near the end of the journal, Telvar mentions working with someone or something called "Wraith".  He gives no details other than the fact that "Wraith" controls the undead in the keep.  It seems that Wraith and he were planning an attack on Restenford soon.~
 @75   = ~Telvar's Spellbook~
@@ -277,10 +240,7 @@ This sturdy container allows dozens of scrolls to be placed in it, safe from exp
 @77   = ~Wand of Cause Serious Wounds~
 @78   = ~Although thought to be only usable by clerics.  This wand can actually be used by anyone that doesn't want to get too close to their victim.
 
-Cast Cause Serious Wounds
-
-Usable By:
- All~
+Cast Cause Serious Wounds~
 @79   = ~X Spellbook~
 @80   = ~This spellbook contains dozens of specialty spells that are hard to find.
 
