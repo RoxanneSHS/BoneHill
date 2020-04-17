@@ -252,11 +252,6 @@ COPY ~BonehillEET/items/bhwand1.itm~ ~Override~
 
 COPY ~BonehillEET/items/BHWATCHR.ITM~ ~Override~       
 
-COPY ~BonehillEET/items/bhxspell.itm~ ~Override~       
-  SAY NAME1 @79 
-  SAY NAME2 @79 
-  SAY UNIDENTIFIED_DESC @80 
-
 COPY ~BonehillEET/items/bhzahr.itm~ ~Override~         
   SAY NAME1 @81 
   SAY NAME2 @81 
@@ -329,9 +324,6 @@ COPY ~BonehillEET/items/bhst0108.sto~ ~Override~
 
 COPY ~BonehillEET/items/bhtelvsb.sto~ ~Override~       
   SAY NAME2 @75 
-
-COPY ~BonehillEET/items/bhxspell.sto~ ~Override~       
-  SAY NAME2 @102 
 
 COPY ~BonehillEET/items/bhzahr.sto~ ~Override~
   SAY NAME2 @81
