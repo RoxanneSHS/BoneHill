@@ -2,5 +2,6 @@ IF
   OnCreation()
 THEN
   RESPONSE #100
+  Continue()
 END
 
