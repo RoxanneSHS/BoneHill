@@ -338,11 +338,11 @@ END
 
 IF ~~ THEN BEGIN 58
   SAY @101
-  IF ~~ THEN REPLY @102 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
+  IF ~~ THEN REPLY @102 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1) RevealAreaOnMap("BG2300")
 ~ GOTO 59
-  IF ~~ THEN REPLY @103 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
+  IF ~~ THEN REPLY @103 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1) RevealAreaOnMap("BG2300")
 ~ GOTO 60
-  IF ~~ THEN REPLY @104 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1)
+  IF ~~ THEN REPLY @104 DO ~SetGlobal("BHBardSeeksWilbur","GLOBAL",1) RevealAreaOnMap("BG2300")
 ~ GOTO 61
 END
 

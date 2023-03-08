@@ -76,7 +76,7 @@ END
 
 IF ~~ THEN BEGIN 11
   SAY @23
-  IF ~~ THEN EXIT
+  IF ~~ THEN DO ~RevealAreaOnMap("BG2300")~ EXIT
 END
 
 IF ~~ THEN BEGIN 12
