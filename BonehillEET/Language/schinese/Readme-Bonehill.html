@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+      
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+      }
+      
+      #maindiv ol li {
+        line-height: 150%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>The Secret of Bonehill</title>
+  </head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>The Secret of Bonehill</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate 2: SoA/ToB</strong>
+        <hr />
+        <p class="about">
+          Authors: Sir Billybob, recoded &amp; updated by erebusant
+        </p>
+        <p class="about">
+          <a href="http://www.spellholdstudios.net/ie/bonehill">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/forum/194-secret-of-bonehill/">Mod Forum</a> &#8226;
+          Version: 2.75b
+        </p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#history">History</a> &middot;
+          <a href="#installation">Installation</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#walkthrough">Walkthrough</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#version">Version History</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+          <p>Since Horred the Plague had started merging the larger mods together to create Big Picture (BP), I have found a new reason to play a game that has been sitting on a shelf for several years. I did play TDD when it first came out but that by itself did not keep me hooked on the game.</p>
+          <p>Therefore, as I keep playing and beta testing Horred's work, I then discovered the BGT mod. That really gave me a reason to go back and play the first game. Actually, I had to repurchase the game since I gave away my original copy (and TotSC).</p>
+          <p>With both packages now joined, I wanted to add something to the original game. There are plenty of mods for SOA or SOA/TOB (nothing for just TOB, hum...). I always like the first game but the games and additions in the second game just made BG1 too frustrating to play. Only recently, have other modders added or enhanced the first game.</p>
+          <p>But  the BGT-BP/BGT-NeJ-BP games don't work well with the mods designed for just BG1. So, I figured
+that the BGT-BP series needed a mod NeJ is really an SOA mod). This is my first attempt.</p>
+          <p>As a first attempt, I decided to use a game that some of you may not remember. This is an adaptation of the original D&amp;D game ; L1 - The Secret of Bone Hill. Since then I have added the L2 mod to this package. I have also added a mini mod called The Hand of the Highwayman. You will find all the game information on Wizards of the Coast's website. <a href="http://www.wizards.com/default.asp?x=dnd/downloads">Here is the link</a>.</p>
+          <p>As a special addition, there is a Flaming Sword folder inside the Bonehillv275 folder. These BAM files are from One Pixel Productions. Just copy the files to your override folder. Whichever member of your party is using the Sword of Flame +2 will now have their avatar with a flaming sword. This only works for taller party members, such as elves, humans, and half-orcs. The animations do not exist for short races such as dwarves, gnomes, or halflings.</p>
+          <p>Contact erebusant at the Spellhold Studios forum if you have issues/problems.</p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== H i s t o r y ================== -->
+        <a name="history" id="history"></a>
+        <div class="content">
+          <h2>History</h2>
+          <p>The mod takes place on the Isle of Lendore, near the town of Restenford. To get there, a wizard named Pelltar will show up at the Temple of Lathander in Chapter 4 (anytime after you finish the first mines before heading out for the bandit camp). He will send you there and bring you back once you help his town. Waiting too long to accept this quest will make the quest easier and less challenging. However, you must complete this quest before you enter Candlekeep.</p>
+          <p>The second part of the mod takes place after you exit the crypts of Candlekeep. You will meet Fabio or Pelltar. That person will ask you to go back to Restenford with them. If you decline, he leaves. You will not be able to do this quest later.</p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; History</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation</h2>
+          <p>To install, unzip the .rar archive to your game folder and double-click on Setup-BoneHillv275.exe.</p>
+          <p>To uninstall, double-click on Setup-BoneHillv275.exe again and select the Uninstall option.</p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; Installation</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Frequently Asked Questions</h2>
+          <p>
+          <ol>
+            <li><strong>Yes, you have to have BGT-WeiDU or Tutu installed.</strong></li>
+            <li><strong>The areas outside of Restenford have been revamps utilizing the Tutu style leveled spawns. The more players in your group and the higher the level, the more difficult the spawns will be. A very special thank you to Miloch for creating the spawn-script conversion tool. I used this to cross-reference BGT type CRES to Tutu type CRES and update them. This turned a miserable job of manual cross-referencing into an easy task for the Tutu installation.</strong></li>
+            <li><strong>I am very open to any recommendations on this. I realize there is not much banter to this mod yet. Any help would be greatly appreciated. I am also always seeking other language translations, etc.</strong></li>
+            <li><strong>This will install either the BGT-WeiDU or the Tutu version based on what I find in your data directory. Not having the correct files of either mod will cause a failed install of this mod.</strong></li>
+            <li><strong>Installation of the latest BP-BGT_Worldmap mod is a requirement for this mod.</strong></li>
+            <li><strong>Installation of Worldmap requires you to restart your game. You will not see the changes to your Worldmap otherwise!</strong></li>
+          </ol>
+          </p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; FAQ</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== W a l k t h r o u g h ================== -->
+        <a name="walkthrough" id="walkthrough"></a>
+        <div class="content">
+          <h2>Walkthrough</h2>
+          <p>After you clear out the Naskel mines, go visit the Temple of Lathander. Pelltar will be there and ask you for help. Agree to help him and he will teleport the group to a new town. This is the town of Restenford Explore the town and make sure you talk to people!</p>
+          <p>After talking to people, go exploring. There are several areas outside of town to investigate. The southern area may be the easiest to do. From there, work counter-clockwise around the map.</p>
+          <p>There are several areas around town for you to explore. Make sure you have plenty of healing potions.</p>
+          <p>Talk to Pelltar about what you found and he will send you back to the temple when you are ready. There will be one more quest before you can leave though.</p>
+          <p>After exiting the Candlekeep mines, the second quest begins. You can accept this quest only at this time. Accepting the quest will send you back to Restenford to begin another adventure. This one takes place in the town of Garrotten.</p>
+          <p>A full walkthrough will follow later.</p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; Walkthrough</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+          <p>Where do I begin?</p>
+          <p>Horred the Plague, Hlid, Vlad, Stone Wolf, Avenger, Ken and everyone on the TeamBG and Plague Zone forums that has answered my questions. Thanks also to Exnem for the helm; it saved me from having to build one. Special thanks to Chev for being my master beta tester.</p>
+          <p>Special thanks to King Diamond for fixing my tile sets that were so ugly. I never said I was a graphic artist!</p>
+          <p>Thanks to Yacomo &amp; the Worldmap team for the great map we use in BGT-BP and now in Tutu.</p>
+          <p>I did pull several pictures from somewhere (long ago, do not remember). So if it is copyrighted and you are pissed, let me know, I can always get another picture.</p>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+        <div class="content">
+          <h2>Version History</h2>
+          <h6>13 July 2013 - Version 2.75c :</h6>
+          <ul>
+            <li>Fix for <a href="http://www.shsforums.net/topic/52076-resting-on-bh2103-crashes-game/">crash at rest in BH2103</a>: alternative version (compared to the one already posted) restoring the guard waking you up, as in the Tutu version of the area,</li>
+            <li><a href="http://www.shsforums.net/topic/52076-resting-on-bh2103-crashes-game/#entry528138">Scud's creatures and item fixes</a> included in Big World Fixpack,</li>
+            <li>Fix for potential journal entries not disappearing when quest is done (Graoumf and Isaya): slightly different texts were used when giving or updating the quest and when marking the quest as done, hence preventing the texts from being removed from the quests (a few cases in english, typically more in translations),</li>
+            <li>Tentative fix for <a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page-4#entry546076">a crash in Zahrdahl house, second floor</a>,</li>
+            <li>Fixed a few issues with the spanish translation (wrong file names, shift in text number),</li>
+            <li>Updated to WeiDU v231.</li>
+          </ul>
+          <h6>30 September 2011 - Version 2.75b :</h6>
+          <ul>
+            <li>Added French translation,</li>
+            <li>Inclusion of fixes to BH0107.baf, BH0500.baf and various tra files from the BiG Fixpack v10.1,</li>
+            <li>Additional similar fixes to tra files (wrong key-words mainly),</li>
+            <li>Tentative fix for a few problems: <a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__499664">container with random treasure</a>, <a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__485429">dialog oddity</a> and <a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__522990">missing reply in dialog</a>,</li>
+            <li>Updated to WeiDU v230,</li>
+            <li>Readme rewrite according to current Spellhold model, with recovered history chapter.</li>
+          </ul>
+
+          <h6>17 April 2010 - Version 2.75a :</h6>
+          <ul>
+            <li><a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__484592">Fixed bug for Tutu games</a>,</li>
+            <li><a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__484919">Miscellaneous fixes</a>,</li>
+            <li><a href="http://www.shsforums.net/topic/44739-secret-of-bonehill-v275-bug-reports/page__view__findpost__p__485032">Fixed occasional crashes</a>.</li>
+          </ul>
+
+          <h6>04 April 2010 - Version 2.75 :</h6>
+          <ul>
+            <li>Compiled main Bonehill package, v2.45 Dialog revamp, cont'd dialog revamp into 1 new installation package,</li>
+            <li>Along with many, many bugfixes,</li>
+            <li>Tutu style leveled spawns,</li>
+            <li>Updated to WeiDU v215.</li>
+          </ul>
+
+          <h6>Version 2.41 :</h6>
+          <ul>
+            <li>Fabio will now level up in a manner appropriate for the level of the party. (Thank you, David W).</li>
+          </ul>
+
+          <h6>Version 2.40 :</h6>
+          <ul>
+            <li>Updated to add Italian language,</li>
+            <li>Fixed BHSIRIUS script,</li>
+            <li>Updated to WeiDU v209.</li>
+          </ul>
+
+          <h6>Version 2.31 :</h6>
+          <ul>
+            <li>Bug fix for Tutu/BH0100.ARE not being patched properly causing CTD when first going to Restenford.</li>
+          </ul>
+
+          <h6>Version 2.30 :</h6>
+          <ul>
+            <li>This version incorporates Worldmap support for Worldmap v7,</li>
+            <li>The installer updated to WeiDU v208.</li>
+          </ul>
+
+          <h6>Version 2.20 :</h6>
+          <ul>
+            <li>Mod maintenance transferred to erebusant.</li>
+            <li>This version updates the Worldmap support, and repairs Worldmap support for Tutu.</li>
+          </ul>
+
+          <h6>Version 2.10 :</h6>
+          <ul>
+            <li>Support for WeiDU 1.99 and BGT 1.04. I hope that this is the last version. A special thanks to Erebusant for several of the bug fixes.</li>
+          </ul>
+
+          <h6>Version 2.06 :</h6>
+          <ul>
+            <li>Minor fixes.</li>
+          </ul>
+
+          <h6>Version 2.05 :</h6>
+          <ul>
+            <li>Contains fixes from King Diamond. The mod now supports Worldmap v6.</li>
+          </ul>
+
+          <h6>Version 2.02 :</h6>
+          <ul>
+            <li>Fixed Mind Helm, Berserker,</li>
+            <li>Added new AI scripts from Horred.</li>
+          </ul>
+
+          <h6>Version 2.01 :</h6>
+          <ul>
+            <li>Fixed TP2 file to actually work with Tutu (sorry),</li>
+            <li>Added future language translation support,</li>
+            <li>Fixed doorways in Restenford,</li>
+            <li>Fixed music problems.</li>
+          </ul>
+
+          <h6>Version 2.00 :</h6>
+          <ul>
+            <li>Updated packaging to install either Tutu or BGT versions.</li>
+          </ul>
+
+          <h6>Version 1.95 :</h6>
+          <ul>
+            <li>Updated mod to work with BGT-WeiDU. Does not work with older BGT-BP.</li>
+          </ul>
+
+          <h6>Version 1.92 :</h6>
+          <ul>
+            <li>More script and dialog fixes,</li>
+            <li>Closed several holes in the storyline of L2.</li>
+          </ul>
+
+          <h6>Version 1.9 :</h6>
+          <ul>
+            <li>More dialog fixes,</li>
+            <li>Finished the L2 sequel.</li>
+          </ul>
+
+          <h6>Version 1.8 :</h6>
+          <ul>
+            <li>Cleaned up tile sets,</li>
+            <li>Fixed dialog loops,</li>
+            <li>Started the sequel mod.</li>
+          </ul>
+
+          <h6>Version 1.0 :</h6>
+          <ul>
+            <li>First full version.</li>
+          </ul>
+
+          <h6>Version .7 :</h6>
+          <ul>
+            <li>Additional dialog fixes,</li>
+            <li>Locked down Fabio to leave party when you return to coast.</li>
+          </ul>
+
+          <h6>Version .6 :</h6>
+          <ul>
+            <li>Patches for missing ARE files, dialog typos, usual stuff.</li>
+          </ul>
+
+          <h6>Version .5 :</h6>
+          <ul>
+            <li>The full package. Beta version.</li>
+          </ul>
+
+          <h6>Version .2 :</h6>
+          <ul>
+            <li>Fixed statue, added staff and sword to level 4,</li>
+            <li>Fixed the flaming sword's dialog.</li>
+          </ul>
+
+          <h6>Version .1 :</h6>
+          <ul>
+            <li>Nothing yet. First release.</li>
+          </ul>
+          <address>
+            <span class="footer">The Secret of Bonehill &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
