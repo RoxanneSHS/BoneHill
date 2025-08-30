@@ -64,7 +64,7 @@ END
 
 IF ~~ THEN BEGIN 9
   SAY @31
-  IF ~IfValidForPartyDialogue("Mincs")~ THEN EXTERN ~MINSCJ~ YALTAMINSC
+  IF ~IfValidForPartyDialogue("Minsc")~ THEN EXTERN ~MINSCJ~ YALTAMINSC
   IF ~~ THEN DO ~SetGlobal("BHYaltaPissed","GLOBAL",1) ReputationInc(-1)~ EXIT
 END
 
